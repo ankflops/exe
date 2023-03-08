@@ -40,6 +40,7 @@ const bellsarge = () => {
                 src="/assets/img/1663423410.jpg"
                 loading="lazy"
                 className="transition duration-300 ease-linear align-middle w-full"
+                alt="1"
               />{" "}
             </div>
             <div className="w-full md:mx-16 px-8">

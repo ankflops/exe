@@ -28,7 +28,7 @@ const intership = () => {
   return (
     <MainLayout>
       <div
-        className="top-0 right-0 bottom-0 left-0 w-full h-full overflow-hidden text-center relative overflow-hidden bg-no-repeat bg-cover"
+        className="top-0 right-0 bottom-0 left-0 w-full h-full text-center relative overflow-hidden bg-no-repeat bg-cover"
         style={{
           backgroundImage: 'url("/assets/img/img4.jpg")',
           backgroundColor: "rgba(0, 0, 0, 0)",
@@ -41,7 +41,7 @@ const intership = () => {
               ビジネスインターンシップ
             </h2>
           </div>
-          <div className="grid hidden lg:block">
+          <div className="grid lg:block">
             <p className="font-extrabold text-white text-left text-3xl ml-8">
               変化こそチャンスである。
             </p>
@@ -63,6 +63,7 @@ const intership = () => {
             src="/assets/img/intern.png"
             className="mx-auto w-[1000px]"
             loading="lazy"
+            
           />
         </div>
         <div>
@@ -74,6 +75,7 @@ const intership = () => {
               src="/assets/img/woman1.jpeg"
               className="h-64 border-solid border-2 border-[#92ACDD] rounded-full "
               loading="lazy"
+              
             />
             <p className="col-span-2">
               S.Iさん　立命館アジア太平洋大学　国際経営学科<br></br>
@@ -95,12 +97,14 @@ const intership = () => {
               src="/assets/img/guy1.jpg"
               className="h-64 border-solid border-2 border-[#92ACDD] rounded-full mx-auto mt-20"
               loading="lazy"
+              
             />
 
             <img
               src="/assets/img/woman2.jpeg"
               className="h-64 border-solid border-2 border-[#92ACDD] rounded-full mx-auto mt-20"
               loading="lazy"
+              
             />
             <p className="col-span-2 mt-20">
               1 E・Mさん　上智大学　教育学科<br></br>
@@ -230,26 +234,26 @@ const intership = () => {
         </div> */}
 
         {/* new table */}
-        <div class=" border-collapse border border-1 border-slate-400 text-center bg-darkblue text-white p-4 mx-5">
+        <div className=" border-collapse border border-1 border-slate-400 text-center bg-darkblue text-white p-4 mx-5">
           会社概要
         </div>
-        <table class="text-xl table-fixed border-collapse border border-1 border-slate-400 mx-5 ">
+        <table className="text-xl table-fixed border-collapse border border-1 border-slate-400 mx-5 ">
           <thead>
             <tr>
-              <th class="border border-slate-300">時期</th>
-              <th class="text-left border border-slate-300 p-5">随時</th>
+              <th className="border border-slate-300">時期</th>
+              <th className="text-left border border-slate-300 p-5">随時</th>
             </tr>
           </thead>
           <tbody>
             <tr>
-              <td class="text-center border border-slate-300">参加対象</td>
-              <td class="border border-slate-300 p-5">
+              <td className="text-center border border-slate-300">参加対象</td>
+              <td className="border border-slate-300 p-5">
                 年齢・職歴問わず、学生歓迎。
               </td>
             </tr>
             <tr>
-              <td class="text-center border border-slate-300">応募資格</td>
-              <td class="border border-slate-300 p-5">
+              <td className="text-center border border-slate-300">応募資格</td>
+              <td className="border border-slate-300 p-5">
                 1．アジアに興味がある、アジアが大好きな方。<br></br>
                 2．ホテル運営に興味があるなど好奇心を持ち、また向上心をもった元気のある方。
                 <br></br>3.
@@ -259,8 +263,8 @@ const intership = () => {
               </td>
             </tr>
             <tr>
-              <td class="text-center border border-slate-300">実施場所</td>
-              <td class="border border-slate-300 p-5">
+              <td className="text-center border border-slate-300">実施場所</td>
+              <td className="border border-slate-300 p-5">
                 <a href="http://sakura-tower-yangon.com/">
                   サクラタワー http://sakura-tower-yangon.com/
                 </a>
@@ -273,18 +277,18 @@ const intership = () => {
               </td>
             </tr>
             <tr>
-              <td class="text-center border border-slate-300">職種</td>
-              <td class="border border-slate-300 p-5">
+              <td className="text-center border border-slate-300">職種</td>
+              <td className="border border-slate-300 p-5">
                 ウェイター・ウェイトレス、ハウスキーピング、お土産販売　など
               </td>
             </tr>
             <tr>
-              <td class="text-center border border-slate-300">研修期間</td>
-              <td class="border border-slate-300 p-5">1ヶ月～（要相談）</td>
+              <td className="text-center border border-slate-300">研修期間</td>
+              <td className="border border-slate-300 p-5">1ヶ月～（要相談）</td>
             </tr>
             <tr>
-              <td class="text-center border border-slate-300">自己負担</td>
-              <td class="border border-slate-300 p-5">
+              <td className="text-center border border-slate-300">自己負担</td>
+              <td className="border border-slate-300 p-5">
                 1．ビザ・航空券・保険等費用<br></br>
                 ※ビザ申請は約1カ月程度かかります。<br></br>
                 （日本－ヤンゴン航空券代、ヤンゴン－バガン移動費用、海外旅行保険料等）
@@ -293,14 +297,16 @@ const intership = () => {
               </td>
             </tr>
             <tr>
-              <td class="text-center border border-slate-300">企業負担</td>
-              <td class="border border-slate-300 p-5">
+              <td className="text-center border border-slate-300">企業負担</td>
+              <td className="border border-slate-300 p-5">
                 宿泊・食事等費用、通勤送迎費の一部または全額補助
               </td>
             </tr>
             <tr>
-              <td class="text-center border border-slate-300">その他補足</td>
-              <td class="p-5 border border-slate-300">
+              <td className="text-center border border-slate-300">
+                その他補足
+              </td>
+              <td className="p-5 border border-slate-300">
                 1．給与等の支給はございません。<br></br>
                 2．インターンシップは本採用を前提としたものではありません。
                 <br></br>　
@@ -624,7 +630,7 @@ const intership = () => {
             <div className="md:flex grid grid-cols-1 md:grid-cols-2">
               <img
                 src="/assets/img/7.jpg"
-                alt=""
+                
                 className="ml-12 mt-6 w-96 h-64"
                 loading="lazy"
               />
@@ -635,7 +641,7 @@ const intership = () => {
             <div className="flex">
               <img
                 src="/assets/img/airplane.png"
-                alt=""
+                
                 className="h-20 w-20 m-8 flex-none"
                 loading="lazy"
               />
@@ -655,7 +661,7 @@ const intership = () => {
               <svg
                 xmlns="http://www.w3.org/2000/svg"
                 className="ml-10 mb-8 w-20 h-20 flex-none"
-                enable-background="new 0 0 64 64"
+                enableBackground="new 0 0 64 64"
                 viewBox="0 0 64 64"
               >
                 <path
@@ -698,7 +704,7 @@ const intership = () => {
             </h2>
             <img
               src="/assets/img/border.png"
-              alt=""
+              
               className="mx-auto max-w-2xl"
               loading="lazy"
             />
@@ -706,7 +712,7 @@ const intership = () => {
           <div className="md:flex grid grid-cols-1 md:grid-cols-2">
             <img
               src="/assets/img/team/1660885866.png"
-              alt=""
+              
               className="ml-28 m-5 mt-8 md:ml-12 h-[200px] w-[200px] sm:mx-auto"
               loading="lazy"
             />
@@ -727,7 +733,7 @@ const intership = () => {
           <div className="md:flex grid grid-cols-1 md:grid-cols-2">
             <img
               src="/assets/img/team/1660884961.png"
-              alt=""
+              
               className="ml-28 m-5 mt-8 md:ml-12 h-[200px] w-[200px] sm:mx-auto"
               loading="lazy"
             />
@@ -746,7 +752,7 @@ const intership = () => {
           <div className="md:flex grid grid-cols-1 md:grid-cols-2">
             <img
               src="/assets/img/team/1660884997.png"
-              alt=""
+              
               className="ml-28 m-5 mt-8 md:ml-12  h-[200px] w-[200px] sm:mx-auto"
               loading="lazy"
             />
@@ -768,7 +774,7 @@ const intership = () => {
           <div className="md:flex grid grid-cols-1 md:grid-cols-2">
             <img
               src="/assets/img/team/1660883696.png"
-              alt=""
+              
               className="ml-28 m-5 mt-8 md:ml-12  h-[200px] w-[200px] sm:mx-auto"
               loading="lazy"
             />
@@ -790,7 +796,7 @@ const intership = () => {
           <div className="md:flex grid grid-cols-1 md:grid-cols-2">
             <img
               src="/assets/img/team/1660884986.png"
-              alt=""
+              
               className="ml-28 m-5 mt-8 md:ml-12 h-[200px] w-[200px] sm:mx-auto"
               loading="lazy"
             />
@@ -809,7 +815,7 @@ const intership = () => {
           <div className="md:flex grid grid-cols-1 md:grid-cols-2">
             <img
               src="/assets/img/team/1660884947.png"
-              alt=""
+              
               className="ml-28 m-5 mt-8 md:ml-12  h-[200px] w-[200px] sm:mx-auto"
               loading="lazy"
             />
@@ -831,7 +837,7 @@ const intership = () => {
           <div className="md:flex grid grid-cols-1 md:grid-cols-2">
             <img
               src="/assets/img/team/photo2.png"
-              alt=""
+              
               className="ml-28 m-5 mt-8 md:ml-12  h-[200px] w-[200px] sm:mx-auto"
               loading="lazy"
             />
@@ -854,7 +860,7 @@ const intership = () => {
           <div className="md:flex grid grid-cols-1 md:grid-cols-2">
             <img
               src="/assets/img/team/1660885016.png"
-              alt=""
+              
               className="ml-28 m-5 mt-8 md:ml-12  h-[200px] w-[200px] sm:mx-auto"
               loading="lazy"
             />
@@ -877,7 +883,7 @@ const intership = () => {
           <div className="md:flex grid grid-cols-1 md:grid-cols-2">
             <img
               src="/assets/img/team/photo1.png"
-              alt=""
+              
               className="ml-28 m-5 mt-8 md:ml-12 h-[200px] w-[200px] sm:mx-auto"
               loading="lazy"
             />
