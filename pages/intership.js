@@ -38,7 +38,7 @@ const intership = () => {
         <div className="">
           <div className="flex justify-center items-center h-full ">
             <h2 className="font-bold text-4xl font-sans text-white uppercase mt-52 mb-28">
-            ビジネスインターンシップ
+              ビジネスインターンシップ
             </h2>
           </div>
           <div className="grid hidden lg:block">
@@ -897,37 +897,160 @@ const intership = () => {
             </div>
           </div>
         </div>
-        <div className="flex justify-center mt-7">
-          <div>
-            <h2 className=" font-black text-2xl text-gray-600 text-center m-1">
-              よくある質問　
-            </h2>
-            <div className="grid justify-center">
-              <p className="underline underline-offset-8 font-medium text-xl md:text-2xl text-gray-500 mt-8">
+        <div>
+          <h2 className="font-bold text-2xl text-gray-600 text-center m-1 mb-5">
+            よくある質問
+          </h2>
+          <div className="grid justify-center">
+            <div className="relative" data-te-dropdown-ref>
+              <button
+                className="flex items-center px-6 text-3xl underline font-medium uppercase leading-normal text-gray-600 -mt-0.5 mb-5"
+                type="button"
+                id="dropdownMenuButton1"
+                data-te-dropdown-toggle-ref
+                aria-expanded="false"
+                data-te-ripple-init
+                data-te-ripple-color="light"
+              >
                 Q.ミャンマーってどんな国ですか？
-              </p>
-              <p className="underline underline-offset-8 font-medium text-xl md:text-2xl text-gray-500 mt-8">
+              </button>
+              <ul
+                className="absolute z-[500] hidden overflow-hidden rounded-lg bg-clip-padding [&[data-te-dropdown-show]]:block"
+                aria-labelledby="dropdownMenuButton1"
+                data-te-dropdown-menu-ref
+              >
+                <li>
+                  <div
+                    className="block whitespace-nowrap bg-green-400 p-2 bg-green"
+                    data-te-dropdown-item-ref
+                  >
+                    『アジア最後のフロンティア』と呼ばれるミャンマー。
+                    <br></br>人口は5380万人、135の民族による多民族国 家であり、
+                    <br></br>
+                    イギリスの旧植民地でビルマ語と英語を利用します。
+                    <br></br>国民の約9割が仏教徒で街中には仏塔
+                    （パゴダ）が並びます。<br></br>
+                    素朴で穏やかな優しい人が多く、<br></br>
+                    気質は日本人に似ているとも言われます。
+                  </div>
+                </li>
+              </ul>
+            </div>
+
+            <div className="relative" data-te-dropdown-ref>
+              <button
+                className="flex items-center px-6 text-3xl underline font-medium uppercase leading-normal text-gray-600 -mt-0.5 mb-5"
+                type="button"
+                id="dropdownMenuButton1"
+                data-te-dropdown-toggle-ref
+                aria-expanded="false"
+                data-te-ripple-init
+                data-te-ripple-color="light"
+              >
                 Q.英語はどれくらい利用しますか？
-              </p>
-              <p className="underline underline-offset-8 font-medium text-xl md:text-2xl text-gray-500 mt-8">
+              </button>
+              <ul
+                className="absolute z-[500] hidden overflow-hidden rounded-lg bg-clip-padding [&[data-te-dropdown-show]]:block"
+                aria-labelledby="dropdownMenuButton1"
+                data-te-dropdown-menu-ref
+              >
+                <li>
+                  <div
+                    className="block whitespace-nowrap bg-green-400 p-2 bg-green"
+                    data-te-dropdown-item-ref
+                  >
+                    英語は海外駐在員やローカルスタッフとの接客
+                    <br></br>
+                    やコミュニケーションで利用します。
+                    <br></br>ローカルスタッ フとはビルマ語を話す機会もあります。
+                  </div>
+                </li>
+              </ul>
+            </div>
+
+            <div className="relative" data-te-dropdown-ref>
+              <button
+                className="flex items-center px-6 text-3xl underline font-medium uppercase leading-normal text-gray-600 -mt-0.5 mb-5"
+                type="button"
+                id="dropdownMenuButton1"
+                data-te-dropdown-toggle-ref
+                aria-expanded="false"
+                data-te-ripple-init
+                data-te-ripple-color="light"
+              >
                 Q. TOEICなど応募条件はありますか？
-              </p>
-              <p className="underline underline-offset-8 font-medium text-xl md:text-2xl text-gray-500 mt-8">
+              </button>
+              <ul
+                className="absolute z-[500] hidden overflow-hidden rounded-lg bg-clip-padding [&[data-te-dropdown-show]]:block"
+                aria-labelledby="dropdownMenuButton1"
+                data-te-dropdown-menu-ref
+              >
+                <li>
+                  <div
+                    className="block whitespace-nowrap bg-green-400 p-2 bg-green"
+                    data-te-dropdown-item-ref
+                  >
+                    3ヶ月以内の短期留学の場合、目安としてTOEIC800
+                    <br></br>
+                    点程度の英語力があると幅広い業務への挑戦機会
+                    <br></br>
+                    が提供できると考えています。<br></br>
+                    6カ月など長期留学の場合はインターン当初<br></br>
+                    の英語力は求めませんが、
+                    <br></br>
+                    TOEIC600点はあることが望ましいです。
+                  </div>
+                </li>
+              </ul>
+            </div>
+
+            <div className="relative" data-te-dropdown-ref>
+              <button
+                className="flex items-center px-6 text-3xl underline font-medium uppercase leading-normal text-gray-600 -mt-0.5 mb-5"
+                type="button"
+                id="dropdownMenuButton1"
+                data-te-dropdown-toggle-ref
+                aria-expanded="false"
+                data-te-ripple-init
+                data-te-ripple-color="light"
+              >
                 Q.治安や衛生面に心配はないのでしょうか？
-              </p>
+              </button>
+              <ul
+                className="absolute z-[500] hidden overflow-hidden rounded-lg bg-clip-padding [&[data-te-dropdown-show]]:block"
+                aria-labelledby="dropdownMenuButton1"
+                data-te-dropdown-menu-ref
+              >
+                <li>
+                  <div
+                    className="block whitespace-nowrap bg-green-400 p-2 bg-green"
+                    data-te-dropdown-item-ref
+                  >
+                    2021年以降の軍事政権下で治安が心配されていますが、
+                    <br></br>
+                    駐在員のルールを守り活動いただければ問題なく、
+                    <br></br>
+                    過去40名以上のインターン受け入れにおいてトラブル・事故
+                    <br></br>
+                    が発生したことはございません。<br></br>
+                    衛生面においては外出時の飲食では注意が必<br></br>
+                    要ですので駐在員の指示に従っていただきます。
+                  </div>
+                </li>
+              </ul>
             </div>
-            <div className="items-center text-center">
-              <a href="https://docs.google.com/forms/d/e/1FAIpQLSddgYtieThncUj6lXwjolR6aRRCVLUjdG63GqD7Teo7uwjXvA/viewform?usp=send_form">
-                <button
-                  className="inline-block px-20 py-5 m-10 bg-blue-600 text-white font-extrabold text-2xl rounded-lg leading-snug uppercase focus:outline-none focus:ring-0 transition duration-150 ease-in-out"
-                  role="button"
-                  data-mdb-ripple="true"
-                  data-mdb-ripple-color="light"
-                >
-                  応募する
-                </button>
-              </a>
-            </div>
+          </div>
+          <div className="items-center text-center">
+            <a href="https://docs.google.com/forms/d/e/1FAIpQLSddgYtieThncUj6lXwjolR6aRRCVLUjdG63GqD7Teo7uwjXvA/viewform?usp=send_form">
+              <button
+                className="inline-block px-20 py-5 m-10 bg-blue-600 text-white font-extrabold text-2xl rounded-lg leading-snug uppercase focus:outline-none focus:ring-0 transition duration-150 ease-in-out"
+                role="button"
+                data-mdb-ripple="true"
+                data-mdb-ripple-color="light"
+              >
+                応募する
+              </button>
+            </a>
           </div>
         </div>
       </div>

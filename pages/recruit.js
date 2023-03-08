@@ -20,7 +20,7 @@ const recruit = () => {
                 リクルート
               </h2>
             </div>
-            <div className="grid hidden lg:block">
+            <div className="grid lg:block">
               <p className="font-extrabold text-white text-left text-3xl ml-8">
                 変化こそチャンスである。
               </p>
@@ -190,28 +190,214 @@ const recruit = () => {
           </div>
           <div className="flex justify-center">
             <div>
-              <h2 className="font-bold text-2xl text-gray-600 text-center m-1">
+              <h2 className="font-bold text-2xl text-gray-600 text-center m-1 mb-5">
                 よくある質問
               </h2>
               <div className="grid justify-center">
-                <p className="underline underline-offset-8 font-medium text-xl md:text-2xl text-gray-500 mt-8">
-                  Q.ミャンマーってどんな国ですか？
-                </p>
-                <p className="underline underline-offset-8 font-medium text-xl md:text-2xl text-gray-500 mt-8">
-                  Q.英語はどれくらい利用しますか？
-                </p>
-                <p className="underline underline-offset-8 font-medium text-xl md:text-2xl text-gray-500 mt-8">
-                  Q. TOEICなど応募条件はありますか？
-                </p>
-                <p className="underline underline-offset-8 font-medium text-xl md:text-2xl text-gray-500 mt-8">
-                  Q.治安や衛生面に心配はないのでしょうか？
-                </p>
-                <p className="underline underline-offset-8 font-medium text-xl md:text-2xl text-gray-500 mt-8">
-                  Q.駐在先はどちらになるのでしょうか？
-                </p>
-                <p className="underline underline-offset-8 font-medium text-xl md:text-2xl text-gray-500 mt-8">
-                  Q.インターン参加は必須でしょうか？
-                </p>
+                <div className="relative" data-te-dropdown-ref>
+                  <button
+                    className="flex items-center px-6 text-3xl underline font-medium uppercase leading-normal text-gray-600 -mt-0.5 mb-5"
+                    type="button"
+                    id="dropdownMenuButton1"
+                    data-te-dropdown-toggle-ref
+                    aria-expanded="false"
+                    data-te-ripple-init
+                    data-te-ripple-color="light"
+                  >
+                    Q.ミャンマーってどんな国ですか？
+                  </button>
+                  <ul
+                    className="absolute z-[500] hidden overflow-hidden rounded-lg bg-clip-padding [&[data-te-dropdown-show]]:block"
+                    aria-labelledby="dropdownMenuButton1"
+                    data-te-dropdown-menu-ref
+                  >
+                    <li>
+                      <div
+                        className="block whitespace-nowrap bg-green-400 p-2 bg-green"
+                        data-te-dropdown-item-ref
+                      >
+                        『アジア最後のフロンティア』と呼ばれるミャンマー。
+                        <br></br>人口は5380万人、135の民族による多民族国
+                        家であり、<br></br>
+                        イギリスの旧植民地でビルマ語と英語を利用します。
+                        <br></br>国民の約9割が仏教徒で街中には仏塔
+                        （パゴダ）が並びます。<br></br>
+                        素朴で穏やかな優しい人が多く、<br></br>
+                        気質は日本人に似ているとも言われます。
+                      </div>
+                    </li>
+                  </ul>
+                </div>
+
+                <div className="relative" data-te-dropdown-ref>
+                  <button
+                    className="flex items-center px-6 text-3xl underline font-medium uppercase leading-normal text-gray-600 -mt-0.5 mb-5"
+                    type="button"
+                    id="dropdownMenuButton1"
+                    data-te-dropdown-toggle-ref
+                    aria-expanded="false"
+                    data-te-ripple-init
+                    data-te-ripple-color="light"
+                  >
+                    Q.英語はどれくらい利用しますか？
+                  </button>
+                  <ul
+                    className="absolute z-[500] hidden overflow-hidden rounded-lg bg-clip-padding [&[data-te-dropdown-show]]:block"
+                    aria-labelledby="dropdownMenuButton1"
+                    data-te-dropdown-menu-ref
+                  >
+                    <li>
+                      <div
+                        className="block whitespace-nowrap bg-green-400 p-2 bg-green"
+                        data-te-dropdown-item-ref
+                      >
+                        英語は海外駐在員やローカルスタッフとの接客
+                        <br></br>
+                        やコミュニケーションで利用します。
+                        <br></br>ローカルスタッ
+                        フとはビルマ語を話す機会もあります。
+                      </div>
+                    </li>
+                  </ul>
+                </div>
+
+                <div className="relative" data-te-dropdown-ref>
+                  <button
+                    className="flex items-center px-6 text-3xl underline font-medium uppercase leading-normal text-gray-600 -mt-0.5 mb-5"
+                    type="button"
+                    id="dropdownMenuButton1"
+                    data-te-dropdown-toggle-ref
+                    aria-expanded="false"
+                    data-te-ripple-init
+                    data-te-ripple-color="light"
+                  >
+                    Q. TOEICなど応募条件はありますか？
+                  </button>
+                  <ul
+                    className="absolute z-[500] hidden overflow-hidden rounded-lg bg-clip-padding [&[data-te-dropdown-show]]:block"
+                    aria-labelledby="dropdownMenuButton1"
+                    data-te-dropdown-menu-ref
+                  >
+                    <li>
+                      <div
+                        className="block whitespace-nowrap bg-green-400 p-2 bg-green"
+                        data-te-dropdown-item-ref
+                      >
+                        3ヶ月以内の短期留学の場合、目安としてTOEIC800
+                        <br></br>
+                        点程度の英語力があると幅広い業務への挑戦機会
+                        <br></br>
+                        が提供できると考えています。<br></br>
+                        6カ月など長期留学の場合はインターン当初<br></br>
+                        の英語力は求めませんが、
+                        <br></br>
+                        TOEIC600点はあることが望ましいです。
+                      </div>
+                    </li>
+                  </ul>
+                </div>
+
+                <div className="relative" data-te-dropdown-ref>
+                  <button
+                    className="flex items-center px-6 text-3xl underline font-medium uppercase leading-normal text-gray-600 -mt-0.5 mb-5"
+                    type="button"
+                    id="dropdownMenuButton1"
+                    data-te-dropdown-toggle-ref
+                    aria-expanded="false"
+                    data-te-ripple-init
+                    data-te-ripple-color="light"
+                  >
+                    Q.治安や衛生面に心配はないのでしょうか？
+                  </button>
+                  <ul
+                    className="absolute z-[500] hidden overflow-hidden rounded-lg bg-clip-padding [&[data-te-dropdown-show]]:block"
+                    aria-labelledby="dropdownMenuButton1"
+                    data-te-dropdown-menu-ref
+                  >
+                    <li>
+                      <div
+                        className="block whitespace-nowrap bg-green-400 p-2 bg-green"
+                        data-te-dropdown-item-ref
+                      >
+                        2021年以降の軍事政権下で治安が心配されていますが、
+                        <br></br>
+                        駐在員のルールを守り活動いただければ問題なく、
+                        <br></br>
+                        過去40名以上のインターン受け入れにおいてトラブル・事故
+                        <br></br>
+                        が発生したことはございません。<br></br>
+                        衛生面においては外出時の飲食では注意が必<br></br>
+                        要ですので駐在員の指示に従っていただきます。
+                      </div>
+                    </li>
+                  </ul>
+                </div>
+
+                <div className="relative" data-te-dropdown-ref>
+                  <button
+                    className="flex items-center px-6 text-3xl underline font-medium uppercase leading-normal text-gray-600 -mt-0.5 mb-5"
+                    type="button"
+                    id="dropdownMenuButton1"
+                    data-te-dropdown-toggle-ref
+                    aria-expanded="false"
+                    data-te-ripple-init
+                    data-te-ripple-color="light"
+                  >
+                    Q.駐在先はどちらになるのでしょうか？
+                  </button>
+                  <ul
+                    className="absolute z-[500] hidden overflow-hidden rounded-lg bg-clip-padding [&[data-te-dropdown-show]]:block"
+                    aria-labelledby="dropdownMenuButton1"
+                    data-te-dropdown-menu-ref
+                  >
+                    <li>
+                      <div
+                        className="block whitespace-nowrap bg-green-400 p-2 bg-green"
+                        data-te-dropdown-item-ref
+                      >
+                        エクセが所有するサクラレジデンスに駐在いただきます。
+                        <br></br>日本人駐在員も常駐しておりますので、
+                        <br></br>
+                        困りごとがあればすぐに対応できる体制となっております。
+                      </div>
+                    </li>
+                  </ul>
+                </div>
+
+                <div className="relative" data-te-dropdown-ref>
+                  <button
+                    className="flex items-center px-6 text-3xl underline font-medium uppercase leading-normal text-gray-600 -mt-0.5 mb-5"
+                    type="button"
+                    id="dropdownMenuButton1"
+                    data-te-dropdown-toggle-ref
+                    aria-expanded="false"
+                    data-te-ripple-init
+                    data-te-ripple-color="light"
+                  >
+                    Q.インターン参加は必須でしょうか？
+                  </button>
+                  <ul
+                    className="absolute z-[500] hidden overflow-hidden rounded-lg bg-clip-padding [&[data-te-dropdown-show]]:block"
+                    aria-labelledby="dropdownMenuButton1"
+                    data-te-dropdown-menu-ref
+                  >
+                    <li>
+                      <div
+                        className="block whitespace-nowrap bg-green-400 p-2 bg-green"
+                        data-te-dropdown-item-ref
+                      >
+                        旅行と異なり、ミャンマー現地に駐在する場合、
+                        <br></br>
+                        生活習慣や文化、慣習などへの適用が大切です。
+                        <br></br>インターン参加は必須ではありませんが、
+                        <br></br>
+                        インターンに参加した後に本採用エン<br></br>
+                        トリーをすることをオススメしております。
+                      </div>
+                    </li>
+                  </ul>
+                </div>
+
                 <p className="mt-6 text-gray-500 font-normal text-base md:text-xl ml-2">
                   ※ 応募書類は返却いたしません。
                 </p>
@@ -220,7 +406,7 @@ const recruit = () => {
                 </p>
               </div>
               <div className="items-center text-center">
-                <a href="https://docs.google.com/forms/d/e/1FAIpQLSddgYtieThncUj6lXwjolR6aRRCVLUjdG63GqD7Teo7uwjXvA/viewform">
+                <a href="https://docs.google.com/forms/d/e/1FAIpQLSddgYtieThncUj6lXwjolR6aRRCVLUjdG63GqD7Teo7uwjXvA/viewform?usp=send_form">
                   <button
                     className="inline-block px-20 py-5 m-10 bg-blue-600 text-white font-extrabold text-2xl rounded-lg leading-snug uppercase focus:outline-none focus:ring-0 transition duration-150 ease-in-out"
                     role="button"

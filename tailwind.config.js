@@ -10,6 +10,7 @@ module.exports = {
       // ...
       darkblue: "#0e1448",
       primary: "#4e5152",
+      green: "#4e5",
     },
 
     fontFamily: {

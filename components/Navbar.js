@@ -87,12 +87,61 @@ export default function Navbar({ fixed }) {
               {/* dropdown */}
 
               <li className="nav-item">
-                <Link href="/overseas">
-                  <a className="px-2 py-2 flex items-center text-sm uppercase leading-snug text-white hover:text-sky-300">
-                    {/* <i className="fab fa-twitter text-lg leading-lg text-white opacity-75"></i> */}
-                    <span className="ml-2">海外プロジェクト</span>
-                  </a>
-                </Link>
+                <div className="flex justify-center">
+                  <div>
+                    <div className="relative" data-te-dropdown-ref>
+                      <button
+                        className="flex items-center bg-darkblue px-6 pt-2.5 pb-2 text-sm font-medium uppercase leading-normal text-white -mt-0.5"
+                        type="button"
+                        id="dropdownMenuButton1"
+                        data-te-dropdown-toggle-ref
+                        aria-expanded="false"
+                        data-te-ripple-init
+                        data-te-ripple-color="light"
+                      >
+                        海外プロジェクト
+                        <span className="ml-2 w-2">
+                          <svg
+                            xmlns="http://www.w3.org/2000/svg"
+                            viewBox="0 0 20 20"
+                            fill="currentColor"
+                            className="h-5 w-5"
+                          >
+                            <path
+                              fillRule="evenodd"
+                              d="M5.23 7.21a.75.75 0 011.06.02L10 11.168l3.71-3.938a.75.75 0 111.08 1.04l-4.25 4.5a.75.75 0 01-1.08 0l-4.25-4.5a.75.75 0 01.02-1.06z"
+                              clipRule="evenodd"
+                            />
+                          </svg>
+                        </span>
+                      </button>
+                      <ul
+                        className="absolute z-[1000] float-left m-0 hidden min-w-max list-none overflow-hidden rounded-lg border-none bg-white text-left text-base shadow-lg [&[data-te-dropdown-show]]:block"
+                        aria-labelledby="dropdownMenuButton1"
+                        data-te-dropdown-menu-ref
+                      >
+                        <li>
+                          <a
+                            className="block w-full  bg-transparent py-2 px-4 text-sm"
+                            href="/overseas"
+                            data-te-dropdown-item-ref
+                          >
+                            ミャンマー
+                          </a>
+                        </li>
+                        <li>
+                          <a
+                            className="block w-full bg-transparent py-2 px-4 text-sm"
+                            href="/mongolia"
+                            data-te-dropdown-item-ref
+                          >
+                            モンゴル
+                          </a>
+                        </li>
+                      </ul>
+                    </div>
+                  </div>
+                </div>
               </li>
               <li className="nav-item">
                 <Link href="/domestic">
@@ -102,11 +151,61 @@ export default function Navbar({ fixed }) {
                 </Link>
               </li>
               <li className="nav-item">
-                <Link href="/intership">
-                  <a className="px-2 py-2 flex items-center text-sm uppercase leading-snug text-white hover:text-sky-300">
-                    <span className="ml-2">インターンシップ・採用</span>
-                  </a>
-                </Link>
+                <div className="flex justify-center">
+                  <div>
+                    <div className="relative" data-te-dropdown-ref>
+                      <button
+                        className="flex items-center bg-darkblue px-6 pt-2.5 pb-2 text-sm font-medium uppercase leading-normal text-white -mt-0.5"
+                        type="button"
+                        id="dropdownMenuButton1"
+                        data-te-dropdown-toggle-ref
+                        aria-expanded="false"
+                        data-te-ripple-init
+                        data-te-ripple-color="light"
+                      >
+                        インターンシップ・採用
+                        <span className="ml-2 w-2">
+                          <svg
+                            xmlns="http://www.w3.org/2000/svg"
+                            viewBox="0 0 20 20"
+                            fill="currentColor"
+                            className="h-5 w-5"
+                          >
+                            <path
+                              fillRule="evenodd"
+                              d="M5.23 7.21a.75.75 0 011.06.02L10 11.168l3.71-3.938a.75.75 0 111.08 1.04l-4.25 4.5a.75.75 0 01-1.08 0l-4.25-4.5a.75.75 0 01.02-1.06z"
+                              clipRule="evenodd"
+                            />
+                          </svg>
+                        </span>
+                      </button>
+                      <ul
+                        className="absolute z-[1000] float-left m-0 hidden min-w-max list-none overflow-hidden rounded-lg border-none bg-white bg-clip-padding text-left text-base shadow-lg [&[data-te-dropdown-show]]:block"
+                        aria-labelledby="dropdownMenuButton1"
+                        data-te-dropdown-menu-ref
+                      >
+                        <li>
+                          <a
+                            className="block w-full bg-transparent py-2 px-4 text-sm"
+                            href="/intership"
+                            data-te-dropdown-item-ref
+                          >
+                            インターンシップ
+                          </a>
+                        </li>
+                        <li>
+                          <a
+                            className="block w-full bg-transparent py-2 px-4 text-sm"
+                            href="/recruit"
+                            data-te-dropdown-item-ref
+                          >
+                            リクルート
+                          </a>
+                        </li>
+                      </ul>
+                    </div>
+                  </div>
+                </div>
               </li>
               {/* <li className="nav-item">
                 <Link href="/recruit">
