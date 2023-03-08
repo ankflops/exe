@@ -32,23 +32,21 @@ const images = [
 const overseas = () => {
   return (
     <MainLayout>
-      <div
-        className="top-0 right-0 bottom-0 left-0 w-full h-full text-center relative overflow-hidden bg-no-repeat bg-cover"
-        style={{
-          backgroundImage: 'url("/assets/img/yangon.jpg")',
-          backgroundColor: "rgba(0, 0, 0, 0)",
-          height: 450,
-        }}
-      >
-        <div className="flex justify-center items-center h-full">
-          <div>
-            <h2 className="font-bold text-4xl font-sans text-white uppercase">
-              ミャンマープロジェクト11
-            </h2>
+      <div className="relative w-full lg:h-[560px] xs:-mt-64 overflow-hidden">
+        {/* Single item */}
+        <div className="carousel-item active relative float-left w-full">
+          <img
+            src="/assets/img/yangon.jpg"
+            className="block w-full"
+            alt="1"
+          />
+          <div className="carousel-caption hidden md:block absolute">
+            <h5 className="text-4xl text-white font-bold my-32 sm:mx-32 md:mx-64 lg:mx-96 min-w-[360px]">
+              全てのマーケットには
+            </h5>
           </div>
         </div>
       </div>
-
       <div className="p-8">
         <h1 className="font-bold text-2xl text-gray-700">サクラタワー</h1>
         <div className="lg:flex block">
@@ -68,7 +66,9 @@ const overseas = () => {
               Myanmar<br></br>
               Tel: (95 1) 255 255<br></br>
               E-mail: stowersales@myanmar.com.mm<br></br> Website:
-              http://www.sakura-tower-yangon.com
+              <a href="http://www.sakura-tower-yangon.com">
+                http://www.sakura-tower-yangon.com
+              </a>
             </p>
           </div>
 
@@ -112,7 +112,7 @@ const overseas = () => {
               <br></br>
               Address: 9 Inya Road, Block 10, Kamaryut Township, Yangon, Myanmar
               <br></br>
-              Tel: (95 1) 525 001<br></br>E-mail: rsvn@sakuraresidence.com.mm,
+              Tel: (95 1) 525 001<br></br>E-mail:rsvn@sakuraresidence.com.mm,
               sales@sakuraresidence.com.mm
               <br></br>Website:
               <a href="http://www.sakura-residence-yangon.com/">
