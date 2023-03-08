@@ -107,7 +107,6 @@ active:bg-white active:shadow-lg transition duration-150 ease-in-out"
                   </div>
                 </div> */}
 
-                
                 {/* <div>
                   
                   <Link href="/sharedhouse">
@@ -158,8 +157,6 @@ active:bg-white active:shadow-lg transition duration-150 ease-in-out"
                     </div>
                   </div>
                 </div> */}
-
-                
               </div>
             </div>
             {/*  address */}

@@ -32,7 +32,7 @@ const contact = () => {
                 <i className="fab fa-twitter text-lg leading-lg text-white opacity-75"></i>{" "}
                 <h1 className="text-3xl font-bold">(81) 3 3288 2371</h1>
                 <p>
-                  {/* <i class="fa-solid fa-heart fa-beat"></i>{" "} */}
+                  {/* <i className="fa-solid fa-heart fa-beat"></i>{" "} */}
                   <a
                     href="mailto:mail@exegroup.co.jp"
                     className="hover:text-blue-500"

@@ -41,7 +41,7 @@ const Footer = () => {
                 height="24"
                 xmlns="http://www.w3.org/2000/svg"
                 fill="currentColor"
-                clip-rule="evenodd"
+                clipRule="evenodd"
                 className="mr-2"
               >
                 <path d="M8.26 1.289l-1.564.772c-5.793 3.02 2.798 20.944 9.31 20.944.46 0 .904-.094 1.317-.284l1.542-.755-2.898-5.594-1.54.754c-.181.087-.384.134-.597.134-2.561 0-6.841-8.204-4.241-9.596l1.546-.763-2.875-5.612zm7.746 22.711c-5.68 0-12.221-11.114-12.221-17.832 0-2.419.833-4.146 2.457-4.992l2.382-1.176 3.857 7.347-2.437 1.201c-1.439.772 2.409 8.424 3.956 7.68l2.399-1.179 3.816 7.36s-2.36 1.162-2.476 1.215c-.547.251-1.129.376-1.733.376" />
@@ -54,7 +54,7 @@ const Footer = () => {
                 height="24"
                 xmlns="http://www.w3.org/2000/svg"
                 fill="currentColor"
-                clip-rule="evenodd"
+                clipRule="evenodd"
                 className="mr-2"
               >
                 <path d="M24 21h-24v-18h24v18zm-23-16.477v15.477h22v-15.477l-10.999 10-11.001-10zm21.089-.523h-20.176l10.088 9.171 10.088-9.171z" />
@@ -147,7 +147,7 @@ const Footer = () => {
       </div>
 
       <a
-        className="to-top-button show px-3 py-2 mb-16 mr-8 border text-[12px] bg-gray-300 rounded-lg duration-300 bg-white "
+        className="to-top-button show px-3 py-2 mb-16 mr-8 border text-[12px] bg-gray-300 rounded-lg duration-300 bg-white"
         href="#"
       >
         <i className="fa-sharp fa-solid fa-arrow-up"></i>

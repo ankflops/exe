@@ -121,7 +121,7 @@ const domestic = () => {
         </div>
       </div>
       <div className="p-10 -mt-36">
-        <div class="text-3xl font-bold box-content h-32 w-auto p-10 border-0 bg-[#f6fafd] m-7">
+        <div className="text-3xl font-bold box-content h-32 w-auto p-10 border-0 bg-[#f6fafd] m-7">
           プロジェクト例{" "}
           <div className="font-normal text-base mt-5 ml-5">
             -べルサージュ目白<br></br>
@@ -138,7 +138,7 @@ const domestic = () => {
         </div>
       </div>
       <div className="px-10 mt-5">
-        <div class="text-3xl font-bold box-content lg:h-32 w-auto p-10 border-0 bg-[#f6fafd] m-7">
+        <div className="text-3xl font-bold box-content lg:h-32 w-auto p-10 border-0 bg-[#f6fafd] m-7">
           プロジェクト例{" "}
           <div className="font-normal text-base mt-5 ml-5">
             -金融事業
