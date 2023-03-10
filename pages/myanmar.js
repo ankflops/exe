@@ -45,7 +45,7 @@ const myanmar = () => {
         >
           <div className="flex h-full items-center justify-center text-center text-white">
             <h1 className="mb-6 text-2xl md:text-4xl font-bold">
-              全てのマーケットには
+              ミャンマープロジェクト
             </h1>
           </div>
         </div>

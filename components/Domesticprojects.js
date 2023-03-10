@@ -34,7 +34,7 @@ const Domesticprojects = () => {
               1999年より日本初となるオフィスビル・ホテル事業を展開しています。サクラタワーを所有し、海外駐在員向けアパートメントとなるサクラレジデンスの運営をしています。
             </p>
             <div className="flex justify-center lg:justify-end">
-              <Link href="/overseas">
+              <Link href="/myanmar">
                 <button
                   className="bg-gray-200 px-14 py-3 bg-darkblue text-gray-400 font-extrabold text-base leading-snug uppercase"
                   role="button"

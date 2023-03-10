@@ -31,7 +31,7 @@ const Aboutexe = () => {
               私ども、株式会社エクセは1991年8月6日に生まれました。それから30年、20世紀の最後の10年と21世紀の最初の20年の激動の中をブティックの投資事業会社として、時代の流れとともに前へ前へと進んでまいりました。
             </p>
             <div className="flex justify-center lg:justify-end">
-              <Link href="/greetings">
+              <Link href="/about">
                 <button
                   className="bg-gray-200 px-14 py-3 bg-darkblue text-gray-400 font-extrabold text-base leading-snug uppercase"
                   role="button"

@@ -79,7 +79,7 @@ const Footer = () => {
           </h2>
           <ul className="text-gray-300 font-light pl-6 list-none">
             <li className="nav-item">
-              <Link href="/greetings">
+              <Link href="/about">
                 <a className="font-bold px-2 py-2 flex items-center text-md text-white hover:text-sky-300">
                   <span className="ml-2">会社概要</span>
                 </a>
@@ -103,14 +103,14 @@ const Footer = () => {
             <li className="nav-item">
               <Link href="/myanmar">
                 <a className="font-bold px-2 py-2 flex items-center text-md text-white hover:text-sky-300">
-                  <span className="ml-2">ミャンマー</span>
+                  <span className="ml-2">- ミャンマー</span>
                 </a>
               </Link>
             </li>
             <li className="nav-item">
               <Link href="/mongolia">
                 <a className="font-bold px-2 py-2 flex items-center text-md text-white hover:text-sky-300">
-                  <span className="ml-2">モンゴル</span>
+                  <span className="ml-2">- モンゴル</span>
                 </a>
               </Link>
             </li>

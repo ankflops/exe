@@ -56,7 +56,7 @@ export default function Navbar({ fixed }) {
               <div className="flex justify-start px-2">
                 <div>
                   <div className="dropdown relative">
-                    <Link href="/greetings">
+                    <Link href="/about">
                       <a className="px-0 py-2 flex items-center text-sm uppercase leading-snug text-white hover:text-sky-300">
                         <span className="ml-2">エクセについて</span>
                       </a>
@@ -123,7 +123,7 @@ export default function Navbar({ fixed }) {
                         <li>
                           <a
                             className="block w-full  bg-transparent py-2 px-4 text-sm"
-                            href="/overseas"
+                            href="/myanmar"
                             data-te-dropdown-item-ref
                           >
                             ミャンマー
