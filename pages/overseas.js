@@ -32,18 +32,21 @@ const images = [
 const overseas = () => {
   return (
     <MainLayout>
-      <div className="relative w-full lg:h-[560px] xs:-mt-64 overflow-hidden">
-        {/* Single item */}
-        <div className="carousel-item active relative float-left w-full">
-          <img
-            src="/assets/img/yangon.jpg"
-            className="block w-full"
-            alt="1"
-          />
-          <div className="carousel-caption hidden md:block absolute">
-            <h5 className="text-4xl text-white font-bold my-32 sm:mx-32 md:mx-64 lg:mx-96 min-w-[360px]">
+      <div
+        className="relative overflow-hidden bg-cover bg-no-repeat h-[16rem] md:h-[20rem] lg:h-[28rem]"
+        style={{
+          backgroundPosition: "50%",
+          backgroundImage: 'url("/assets/img/yangon.jpg")',
+        }}
+      >
+        <div
+          className="absolute top-0 right-0 bottom-0 left-0 h-full w-full overflow-hidden bg-fixed"
+          style={{ backgroundColor: "rgba(0, 0, 0, 0)" }}
+        >
+          <div className="flex h-full items-center justify-center text-center text-white">
+            <h1 className="mb-6 text-2xl md:text-4xl font-bold">
               全てのマーケットには
-            </h5>
+            </h1>
           </div>
         </div>
       </div>

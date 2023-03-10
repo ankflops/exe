@@ -5,42 +5,25 @@ import LazyLoad from "react-lazy-load";
 const greetings = () => {
   return (
     <MainLayout>
-      {/* Inner */}
-      {/* <div className="relative w-full lg:h-[560px] xs:-mt-64 mx-auto overflow-hidden">
-      
-        <div className="carousel-item active relative float-left w-full">
-          <img
-            src="/assets/img/2.jpg のコピー.jpg"
-            className="block w-full"
-            alt="1"
-          />
-          <div className="carousel-caption hidden md:block absolute text-left ">
-            <h5 className="text-sm sm:text-2xl md:text-4xl xl:text-5xl md:mb-0 md:pb-4 md:max-w-3xl text-[#0E1447] font-bold">
-              全てのマーケットには<br></br>
-              　最高の投資機会がある
-            </h5>
-            <p className="text-sm md:text-xl md:mb-24 sm:pb-8 md:pb-96"></p>
-          </div>
-        </div>
-      </div> */}
-      {/* Inner */}
-
       <div
-        className="top-0 right-0 bottom-0 left-0 w-full h-full text-center relative overflow-hidden bg-no-repeat bg-cover"
+        className="relative overflow-hidden bg-cover bg-no-repeat h-[16rem] md:h-[20rem] lg:h-[28rem]"
         style={{
+          backgroundPosition: "50%",
           backgroundImage: 'url("/assets/img/mv.jpg")',
-          backgroundColor: "rgba(0, 0, 0, 0)",
-          height: 450,
         }}
       >
-        <div className="flex justify-center items-center h-full">
-          <div>
-            <h2 className="font-bold text-4xl font-sans text-white uppercase">
+        <div
+          className="absolute top-0 right-0 bottom-0 left-0 h-full w-full overflow-hidden bg-fixed"
+          style={{ backgroundColor: "rgba(0, 0, 0, 0)" }}
+        >
+          <div className="flex h-full items-center justify-center text-center text-white">
+            <h1 className="mb-6 text-2xl md:text-4xl font-bold">
               エクセについて
-            </h2>
+            </h1>
           </div>
         </div>
       </div>
+
       <div className="mr-4 ml-4 md:mr-20 md:ml-20">
         <p className="text-center text-lg font-medium text-gray-500 mb-10 mt-10">
           私ども、株式会社エクセは1991年8月6日に生まれました。 <br></br>

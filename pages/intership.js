@@ -28,26 +28,24 @@ const intership = () => {
   return (
     <MainLayout>
       <div
-        className="top-0 right-0 bottom-0 left-0 w-full h-full text-center relative overflow-hidden bg-no-repeat bg-cover"
+        className="relative overflow-hidden bg-cover bg-no-repeat h-[16rem] md:h-[20rem] lg:h-[28rem]"
         style={{
+          backgroundPosition: "50%",
           backgroundImage: 'url("/assets/img/img4.jpg")',
-          backgroundColor: "rgba(0, 0, 0, 0)",
-          height: 450,
         }}
       >
-        <div className="">
-          <div className="flex justify-center items-center h-full ">
-            <h2 className="font-bold text-4xl font-sans text-white uppercase mt-52 mb-28">
+        <div
+          className="absolute top-0 right-0 bottom-0 left-0 h-full w-full overflow-hidden bg-fixed"
+          style={{ backgroundColor: "rgba(0, 0, 0, 0)" }}
+        >
+          <div className="pt-24 md:pt-36 text-center text-white py-8 md:py-10">
+            <h1 className="mb-6 text-2xl md:text-4xl font-bold items-center">
               ビジネスインターンシップ
-            </h2>
+            </h1>
           </div>
-          <div className="grid lg:block">
-            <p className="font-extrabold text-white text-left text-3xl ml-8">
-              変化こそチャンスである。
-            </p>
-            <p className=" font-extrabold text-white text-left text-3xl ml-20">
-              人と同じではなく自分なりの価値観を信じよう。
-            </p>
+          <div class="text-lg pl-8 md:pl-16 md:text-2xl font-bold justify-start text-white">
+            <h3>変化こそチャンスである。</h3>
+            <h3 className="ml-4">人と同じではなく自分なりの価値観を信じよう。</h3>
           </div>
         </div>
       </div>
@@ -63,7 +61,6 @@ const intership = () => {
             src="/assets/img/intern.png"
             className="mx-auto w-[1000px]"
             loading="lazy"
-            
           />
         </div>
         <div>
@@ -75,7 +72,6 @@ const intership = () => {
               src="/assets/img/woman1.jpeg"
               className="h-64 border-solid border-2 border-[#92ACDD] rounded-full "
               loading="lazy"
-              
             />
             <p className="col-span-2">
               S.Iさん　立命館アジア太平洋大学　国際経営学科<br></br>
@@ -97,14 +93,12 @@ const intership = () => {
               src="/assets/img/guy1.jpg"
               className="h-64 border-solid border-2 border-[#92ACDD] rounded-full mx-auto mt-20"
               loading="lazy"
-              
             />
 
             <img
               src="/assets/img/woman2.jpeg"
               className="h-64 border-solid border-2 border-[#92ACDD] rounded-full mx-auto mt-20"
               loading="lazy"
-              
             />
             <p className="col-span-2 mt-20">
               1 E・Mさん　上智大学　教育学科<br></br>
@@ -630,7 +624,6 @@ const intership = () => {
             <div className="md:flex grid grid-cols-1 md:grid-cols-2">
               <img
                 src="/assets/img/7.jpg"
-                
                 className="ml-12 mt-6 w-96 h-64"
                 loading="lazy"
               />
@@ -641,7 +634,6 @@ const intership = () => {
             <div className="flex">
               <img
                 src="/assets/img/airplane.png"
-                
                 className="h-20 w-20 m-8 flex-none"
                 loading="lazy"
               />
@@ -704,7 +696,6 @@ const intership = () => {
             </h2>
             <img
               src="/assets/img/border.png"
-              
               className="mx-auto max-w-2xl"
               loading="lazy"
             />
@@ -712,7 +703,6 @@ const intership = () => {
           <div className="md:flex grid grid-cols-1 md:grid-cols-2">
             <img
               src="/assets/img/team/1660885866.png"
-              
               className="ml-28 m-5 mt-8 md:ml-12 h-[200px] w-[200px] sm:mx-auto"
               loading="lazy"
             />
@@ -733,7 +723,6 @@ const intership = () => {
           <div className="md:flex grid grid-cols-1 md:grid-cols-2">
             <img
               src="/assets/img/team/1660884961.png"
-              
               className="ml-28 m-5 mt-8 md:ml-12 h-[200px] w-[200px] sm:mx-auto"
               loading="lazy"
             />
@@ -752,7 +741,6 @@ const intership = () => {
           <div className="md:flex grid grid-cols-1 md:grid-cols-2">
             <img
               src="/assets/img/team/1660884997.png"
-              
               className="ml-28 m-5 mt-8 md:ml-12  h-[200px] w-[200px] sm:mx-auto"
               loading="lazy"
             />
@@ -774,7 +762,6 @@ const intership = () => {
           <div className="md:flex grid grid-cols-1 md:grid-cols-2">
             <img
               src="/assets/img/team/1660883696.png"
-              
               className="ml-28 m-5 mt-8 md:ml-12  h-[200px] w-[200px] sm:mx-auto"
               loading="lazy"
             />
@@ -796,7 +783,6 @@ const intership = () => {
           <div className="md:flex grid grid-cols-1 md:grid-cols-2">
             <img
               src="/assets/img/team/1660884986.png"
-              
               className="ml-28 m-5 mt-8 md:ml-12 h-[200px] w-[200px] sm:mx-auto"
               loading="lazy"
             />
@@ -815,7 +801,6 @@ const intership = () => {
           <div className="md:flex grid grid-cols-1 md:grid-cols-2">
             <img
               src="/assets/img/team/1660884947.png"
-              
               className="ml-28 m-5 mt-8 md:ml-12  h-[200px] w-[200px] sm:mx-auto"
               loading="lazy"
             />
@@ -837,7 +822,6 @@ const intership = () => {
           <div className="md:flex grid grid-cols-1 md:grid-cols-2">
             <img
               src="/assets/img/team/photo2.png"
-              
               className="ml-28 m-5 mt-8 md:ml-12  h-[200px] w-[200px] sm:mx-auto"
               loading="lazy"
             />
@@ -860,7 +844,6 @@ const intership = () => {
           <div className="md:flex grid grid-cols-1 md:grid-cols-2">
             <img
               src="/assets/img/team/1660885016.png"
-              
               className="ml-28 m-5 mt-8 md:ml-12  h-[200px] w-[200px] sm:mx-auto"
               loading="lazy"
             />
@@ -883,7 +866,6 @@ const intership = () => {
           <div className="md:flex grid grid-cols-1 md:grid-cols-2">
             <img
               src="/assets/img/team/photo1.png"
-              
               className="ml-28 m-5 mt-8 md:ml-12 h-[200px] w-[200px] sm:mx-auto"
               loading="lazy"
             />

@@ -11,46 +11,25 @@ const domestic = () => {
   return (
     <MainLayout>
       <div
-        className="top-0 right-0 bottom-0 left-0 w-full h-full overflow-hidden text-center relative overflow-hidden bg-no-repeat bg-cover"
+        className="relative overflow-hidden bg-cover bg-no-repeat h-[16rem] md:h-[20rem] lg:h-[28rem]"
         style={{
+          backgroundPosition: "50%",
           backgroundImage: 'url("/assets/img/japan.jpg")',
-          backgroundColor: "rgba(0, 0, 0, 0)",
-          height: 450,
         }}
       >
-        <div className="flex justify-center items-center h-full">
-          <div>
-            <h2 className="font-bold text-3xl font-sans text-white uppercase">
+        <div
+          className="absolute top-0 right-0 bottom-0 left-0 h-full w-full overflow-hidden bg-fixed"
+          style={{ backgroundColor: "rgba(0, 0, 0, 0)" }}
+        >
+          <div className="flex h-full items-center justify-center text-center text-white">
+            <h1 className="mb-6 text-2xl md:text-4xl font-bold">
               不動産・インベストメント事業
-            </h2>
+            </h1>
           </div>
         </div>
       </div>
 
       <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-2 mx-auto bg-white max-w-8xl md:py-16">
-        {/* <div className="w-full p-4 md:col-span-2 md:px-16 lg:col-span-3 ">
-          <h1 className="font-serif text-3xl font-bold">不動産事業</h1>
-          <h2 className="font-serif text-2xl font-bold py-4">
-            <em>不動産流動化事業</em>
-          </h2>
-          <p className="font-sans font-light leading-7 mt-4 ">
-            主に都心エリアを対象に、エリアマーケットやニーズに合わせてバリューアップを行うことで、その不動産の価値を最大限まで引き上げる事業を行っています。取得から、リノベーション、リーシング、プロパティマネジメント、売却までをトータルに行います。
-          </p>
-          <h2 className="font-serif text-2xl font-bold py-4">
-            <em>不動産賃貸事業</em>
-          </h2>
-          <p className="font-sans font-light leading-7 mt-4 ">
-            都心を中心にレジデンスビル、商業ビル、パーキングなどを保有し、様々なノウハウで高稼働を維持しながら賃貸を行うことで、安定的な収益をあげています。
-            また、デザイン性に優れたリノベーションを行ったシェアハウス、ゲストハウス事業にも力を入れており、国内外の学生、単身者向けに新たなライフスタイルの空間提供を行っています。
-          </p>
-          <h2 className="font-serif text-2xl font-bold py-4">
-            <em>インベストメント事業</em>
-          </h2>
-          <p className="font-sans font-light leading-7 mt-4 ">
-            不動産担保付債券の取得や不動産保有会社のM&Aなどを行っています。マーケットの変化を見逃すことなく、不動産と金融を融合させた新たな投資事業にも積極的に取り組んでいます。
-          </p>
-        </div> */}
-
         <div className="flex justify-center pt-4 col-span-2">
           <div className="sm:grid grid-cols-1 md:grid-cols-2 lg:grid-cols-2 lg:mx-4 -mt-4">
             <div>

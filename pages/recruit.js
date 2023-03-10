@@ -7,6 +7,30 @@ const recruit = () => {
     <div>
       <MainLayout>
         <div
+          className="relative overflow-hidden bg-cover bg-no-repeat h-[16rem] md:h-[20rem] lg:h-[30rem]"
+          style={{
+            backgroundPosition: "50%",
+            backgroundImage: 'url("/assets/img/grand.jpg")',
+          }}
+        >
+          <div
+            className="absolute top-0 right-0 bottom-0 left-0 h-full w-full overflow-hidden bg-fixed"
+            style={{ backgroundColor: "rgba(0, 0, 0, 0)" }}
+          >
+            <div className="pt-24 md:pt-40 text-center text-white py-8 md:py-9">
+              <h1 className="mb-6 text-2xl md:text-4xl font-bold items-center">
+                リクルート
+              </h1>
+            </div>
+            <div class="text-lg pl-8 md:pl-16 md:text-2xl font-bold justify-start text-white">
+              <h3>変化こそチャンスである。</h3>
+              <h3 className="ml-4">
+                人と同じではなく自分なりの価値観を信じよう。
+              </h3>
+            </div>
+          </div>
+        </div>
+        {/* <div
           className="top-0 right-0 bottom-0 left-0 w-full h-full text-center relative overflow-hidden bg-no-repeat bg-cover"
           style={{
             backgroundImage: 'url("/assets/img/mv-sm.jpg")',
@@ -29,7 +53,7 @@ const recruit = () => {
               </p>
             </div>
           </div>
-        </div>
+        </div> */}
 
         <div className="mx-auto text-center font-sans">
           <p className="mx-auto text-center text-lg text-gray-500 font-sans mt-12 ml-16 mr-16">
