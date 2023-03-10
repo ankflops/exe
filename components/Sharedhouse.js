@@ -7,7 +7,7 @@ const Sharedhouse = () => {
     <div className="pb-8">
       <div className="flex justify-center">
         <div className="grid md:grid-cols-2">
-          <div className=" p-4 my-4 md:p-8">
+          <div className=" p-4 m-4 md:p-4">
             <h2 className=" text-3xl font-bold text-gray-800">
             モンゴルプロジェクト
             </h2>
@@ -28,7 +28,7 @@ const Sharedhouse = () => {
               </Link>
             </div>
           </div>
-          <div className="p-10">
+          <div className="p-4">
             <img
               src="/assets/img/1659582198.jpg"
               loading="lazy"

@@ -8,18 +8,20 @@ const contact = () => {
     <div>
       <MainLayout>
         <div
-          className="top-0 right-0 bottom-0 left-0 w-full h-full overflow-hidden text-center relative overflow-hidden bg-no-repeat bg-cover"
+          className="relative overflow-hidden bg-cover bg-no-repeat h-[16rem] md:h-[20rem] lg:h-[28rem]"
           style={{
+            backgroundPosition: "50%",
             backgroundImage: 'url("/assets/img/mv.jpg")',
-            backgroundColor: "rgba(0, 0, 0, 0)",
-            height: 450,
           }}
         >
-          <div className="flex justify-center items-center h-full">
-            <div>
-              <h2 className="font-bold text-4xl font-sans text-white uppercase">
+          <div
+            className="absolute top-0 right-0 bottom-0 left-0 h-full w-full overflow-hidden bg-fixed"
+            style={{ backgroundColor: "rgba(0, 0, 0, 0)" }}
+          >
+            <div className="flex h-full items-center justify-center text-center text-white">
+              <h1 className="mb-6 text-2xl md:text-4xl font-bold">
                 お問い合わせ
-              </h2>
+              </h1>
             </div>
           </div>
         </div>

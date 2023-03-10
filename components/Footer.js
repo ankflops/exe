@@ -101,7 +101,7 @@ const Footer = () => {
               </Link>
             </li>
             <li className="nav-item">
-              <Link href="/overseas">
+              <Link href="/myanmar">
                 <a className="font-bold px-2 py-2 flex items-center text-md text-white hover:text-sky-300">
                   <span className="ml-2">ミャンマー</span>
                 </a>

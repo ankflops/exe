@@ -18,7 +18,7 @@ const Domesticprojects = () => {
 
       <div className="flex justify-center">
         <div className="grid md:grid-cols-2">
-          <div className="p-10">
+          <div className="p-4 md:p-8">
             <img
               src="/assets/img/i.jpg"
               loading="lazy"
@@ -26,11 +26,11 @@ const Domesticprojects = () => {
             />
           </div>
 
-          <div className=" p-4 my-4 md:p-8">
+          <div className="p-4 my-4 md:p-8 mx-4">
             <h2 className=" text-3xl font-bold text-gray-800">
               ミャンマープロジェクト
             </h2>
-            <p className="my-8 text-xl font-medium text-gray-500">
+            <p className="my-4 text-xl font-medium text-gray-500">
               1999年より日本初となるオフィスビル・ホテル事業を展開しています。サクラタワーを所有し、海外駐在員向けアパートメントとなるサクラレジデンスの運営をしています。
             </p>
             <div className="flex justify-center lg:justify-end">

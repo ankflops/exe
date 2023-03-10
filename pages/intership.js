@@ -45,7 +45,9 @@ const intership = () => {
           </div>
           <div class="text-lg pl-8 md:pl-16 md:text-2xl font-bold justify-start text-white">
             <h3>変化こそチャンスである。</h3>
-            <h3 className="ml-4">人と同じではなく自分なりの価値観を信じよう。</h3>
+            <h3 className="ml-4">
+              人と同じではなく自分なりの価値観を信じよう。
+            </h3>
           </div>
         </div>
       </div>
@@ -109,7 +111,7 @@ const intership = () => {
               インターン期間は、2週間でした。主な仕事内容は、日本人としてのクリンネスの感覚を、現地のスタッフに共有するということでした。ホテル業を何も知らない私が、自分なりの改善案を共有するということは重圧でしたが日本人マネージャーの方々が最大限にサポートしてくれました。苦戦しながらも目標達成に向けて努力するという工程は自分の糧になったと感じております。私にとって、チャレンジングなインターンでしたがとても濃い2週間となりました。ぜひ半年以上の参加をおすすめします！
             </p>
           </div>
-          <div>
+          <div className="bg-[#f6fafd] p-5">
             <div className="text-4xl text-primary mt-10">
               インターン実績大学
             </div>
@@ -344,7 +346,7 @@ const intership = () => {
           </p>
         </div>
         <div className="grid grid-cols-1 md:grid-cols-2 p-5">
-          <div className="flex basis-1/3">
+          <div className="flex col-sapn-1">
             <div className="grid md:ml-0 m-5">
               <div className="divide-gray-600 grid grid-cols-5 divide-x-2 md:ml-5 border-t-2 border-r-2 border-l-2 bg-darkblue">
                 <div className="text-center font-bold text-gray-400 m-3">
@@ -443,7 +445,7 @@ const intership = () => {
             </div>
           </div>
           {/* small table 2 and slider */}
-          <div className="mt-8">
+          <div className="mt-8 col-span-1">
             <div className="mb-5">
               <div className="items-center divide-gray-600 grid grid-cols-3 divide-x-2 md:mr-5 border-t-2 border-r-2 border-l-2 border-gray-500">
                 <div className="text-center font-medium m-3">カフェ研修</div>
@@ -476,7 +478,7 @@ const intership = () => {
         <h1 className="font-bold text-2xl text-gray-600 ml-8 mt-5 mb-2">
           サクラレジデンス研修プログラム（例）
         </h1>
-        <div className="grid grid-cols-1 md:grid-cols-2 p-5">
+        <div className="grid grid-cols-1 md:grid-cols-2 p-5 ">
           <div className="flex basis-1/3">
             <div className="grid md:ml-0 m-5">
               <div className="divide-gray-600 grid grid-cols-5 divide-x-2 md:ml-5 border-t-2 border-r-2 border-l-2 bg-darkblue">

@@ -30,7 +30,7 @@ export default function Navbar({ fixed }) {
             </Link>
 
             <button
-              className="flex flex-grow justify-end items-center text-white font-light cursor-pointer text-4xl lg:hidden outline-none focus:outline-none -mr-20 sm:mr-20"
+              className="flex flex-grow justify-end items-center text-white font-light cursor-pointer text-4xl lg:hidden outline-none focus:outline-none"
               type="button"
               onClick={() => setNavbarOpen(!navbarOpen)}
             >
@@ -225,10 +225,10 @@ export default function Navbar({ fixed }) {
           </div>
 
           {/* Language */}
-          <div className="flex flex-grow justify-end -mt-20 r4">
+          <div className="flex flex-grow justify-center sm:justify-end -mt-20 r4">
             <div className="dropdown relative">
               <button
-                className="flex text-left py-2 text-sm uppercase leading-snug text-white font-light cursor-pointer"
+                className="flex text-left py-2 text-sm uppercase leading-snug text-white font-light cursor-pointer -ml-32 -mt-32 md:m-0 md:p-0 "
                 type="button"
                 id="dropdownMenuButton1tx"
                 onClick={() => setNavbarOpen(!navbarOpen)}
