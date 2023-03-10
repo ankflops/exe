@@ -74,7 +74,7 @@ const Footer = () => {
         </div>
 
         <div className="font-bold max-w-lg mt-8 sm:col-span-1 md:col-span-2 lg:col-span-2">
-          <h2 className="ml-9 mb-5 text-white text-md underline ">
+          <h2 className="ml-9 mb-5 text-white text-md underline">
             エクセについて
           </h2>
           <ul className="text-gray-300 font-light pl-6 list-none">

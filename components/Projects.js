@@ -4,9 +4,9 @@ import LazyLoad from "react-lazy-load";
 
 const Projects = () => {
   return (
-    <div className="">
+    <div className=" bg-[#f6fafd]">
       <div>
-        <h2 className="font-bold flex text-3xl mb-5 mt-5 text-gray-600 justify-center">
+        <h2 className="font-bold flex text-3xl mb-5 mt-5 lg:p-6 text-gray-600 justify-center">
           お知らせ
         </h2>
         <div className="flex justify-center pt-4">

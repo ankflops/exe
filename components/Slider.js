@@ -38,14 +38,13 @@ const Slider = () => {
               alt="1"
             />
             <div className="carousel-caption hidden md:block absolute text-left ">
-              <h5 className="text-sm sm:text-2xl md:text-4xl xl:text-5xl md:mb-0 md:pb-4 md:max-w-3xl text-black font-bold">
+              <h5 className="text-sm sm:text-2xl md:text-4xl xl:text-5xl md:mb-0 md:pb-4 md:max-w-3xl text-[#0E1447] font-bold">
                 全てのマーケットには<br></br>
                 　最高の投資機会がある
               </h5>
               <p className="text-sm md:text-xl md:mb-24 sm:pb-8 md:pb-96"></p>
             </div>
           </div>
-         
         </div>
         {/* Inner */}
         {/* Controls */}

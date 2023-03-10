@@ -225,16 +225,16 @@ export default function Navbar({ fixed }) {
           </div>
 
           {/* Language */}
-          <div className="flex flex-grow justify-end items-center">
+          <div className="flex flex-grow justify-end -mt-20 r4">
             <div className="dropdown relative">
               <button
-                className="mr-30 text-left py-2 flex text-sm uppercase leading-snug text-white hover:text-sky-300 items-center text-white font-light cursor-pointer outline-none focus:outline-none"
+                className="flex text-left py-2 text-sm uppercase leading-snug text-white font-light cursor-pointer"
                 type="button"
                 id="dropdownMenuButton1tx"
                 onClick={() => setNavbarOpen(!navbarOpen)}
               >
-                🌐LANGUAGE | 言語
-                <svg
+                🌐 言語
+                {/* <svg
                   aria-hidden="true"
                   focusable="false"
                   data-prefix="fas"
@@ -248,7 +248,7 @@ export default function Navbar({ fixed }) {
                     fill="currentColor"
                     d="M31.3 192h257.3c17.8 0 26.7 21.5 14.1 34.1L174.1 354.8c-7.8 7.8-20.5 7.8-28.3 0L17.2 226.1C4.6 213.5 13.5 192 31.3 192z"
                   />
-                </svg>
+                </svg> */}
               </button>
 
               <ul
