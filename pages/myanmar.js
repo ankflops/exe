@@ -54,7 +54,7 @@ const myanmar = () => {
         <h1 className="font-bold text-2xl text-gray-700">サクラタワー</h1>
         <div className="lg:flex block">
           <div className="flex text-justify">
-            <p className="basis-128 text-lg font-medium w-auto lg:h-[563px] ml-10 mr-5 mt-4 text-gray-600 max-w-4xl ">
+            <p className="basis-128 text-lg font-medium w-auto lg:h-[563px] md:p-5 mr-5 py-4 text-gray-500 max-w-4xl ">
               サクラタワーは（株）日本設計、（株）鴻池組と、日本企業の手で1999年に完成しました。ヤンゴンのビジネス及び政治のまさに中心地区に位置し、総貸室面積12,425㎡、高さは地上約100mの20階建て耐震設計オフィスビルです。
               <br></br>
               <br></br>
@@ -80,17 +80,17 @@ const myanmar = () => {
         </div>
       </div>
       <div className="p-0 md:p-8 xl:p-12 -mt-10">
-        <div class="text-3xl font-bold box-content h-128 lg:h-64 w-auto p-10 border-0 bg-[#f6fafd] m-7">
+        <div class="text-3xl font-bold box-content h-128 lg:h-72 w-auto p-10 border-0 bg-[#f6fafd] m-7 text-gray-700">
           設備
           <div className="block sm:flex">
-            <div className="font-normal text-base mt-8 sm:ml-5 block">
+            <div className="font-normal text-base mt-8 sm:ml-5 block text-gray-500">
               - 24時間フルバックアップの自家発電システム<br></br>-
               24時間体制の監視カメラと警備員による24時間保守警備<br></br>-
               OA機器用床下配線<br></br>- 高い国際基準に合わせて設計された耐震性
               <br></br>- 火災報知機、スプリンクラー、避難口を各階に設置<br></br>
               - 専用インターネットアクセス
             </div>
-            <div className="font-normal text-base mt-10 sm:ml-20 md:ml-64 block">
+            <div className="font-normal text-base mt-10 sm:ml-20 md:ml-64 block text-gray-500">
               - 4基のハイスピードエレベーター（日立製、三菱電機製）<br></br>-
               貨物専用エレベーター<br></br>-
               44台収容可能な機械式パーキングシステム<br></br>- IDD電話
@@ -103,7 +103,7 @@ const myanmar = () => {
         <h1 className="font-bold text-2xl text-gray-700">サクラレジデンス</h1>
         <div className="lg:flex block">
           <div className="flex text-justify">
-            <p className="basis-128 text-lg font-medium w-auto lg:h-[563px] ml-10 mr-5 mt-4 text-gray-600 max-w-4xl ">
+            <p className="basis-128 text-lg font-medium w-auto lg:h-[563px] md:p-5 py-4 mr-5 mt-4 text-gray-500 max-w-4xl ">
               サクラレジデンスは、1998年にヤンゴンで最初に作られた海外駐在員向けの世界水準のサービスを備えた高級サービスアパートメントであり、1泊からもご利用いただける高級ホテルでもあります。閑静な住宅地やインヤ通りのヤシ並木に程近い場所に位置し、ヤンゴン国際空港やビジネス街からほんの数分という好立地にあります。
               <br></br>
               <br></br>
@@ -128,23 +128,26 @@ const myanmar = () => {
           <ImageGallery items={images} />
         </div>
       </div>
-      <div className="p-0 md:p-8 xl:p-12 mt-10">
-        <div class="text-3xl font-bold box-content h-144 lg:h-96 w-auto p-10 border-0 bg-[#f6fafd] m-7">
-          設備
-          <div className="block sm:flex">
-            <div className="font-normal text-base mt-8 sm:ml-5 block">
-              24時間体制のセキュリティとメンテナンス<br></br>- -
-              コンシェルジュサービス<br></br>- 毎日のハウスキーピングサービス
-              <br></br>- スイミングプール、フィットネスセンター
-              <br></br>- レストラン、バー、バーベキューテラス<br></br>-
-              キッズルーム<br></br>- ルームサービス<br></br>- 小会議室<br></br>-
-              ビジネスセンター<br></br>
-              （各部屋からのインターネットアクセスも可能　※要契約）<br></br>-
-              屋根付き駐車場完備<br></br>- 車での送迎サービス<br></br>-
-              コンビニエンスストア
+      <div className="p-0 md:p-8 xl:p-12 md:mt-44 lg:block mb-32 md:block">
+        <div class="text-3xl font-bold box-content h-[800px] lg:h-128 w-auto p-10 border-0 bg-[#f6fafd] m-7 text-gray-700">
+          <div className="block sm:flex text-gray-500">
+            <div>
+              設備
+              <div className="font-normal text-base mt-8 sm:ml-5 block">
+                24時間体制のセキュリティとメンテナンス<br></br>- -
+                コンシェルジュサービス<br></br>- 毎日のハウスキーピングサービス
+                <br></br>- スイミングプール、フィットネスセンター
+                <br></br>- レストラン、バー、バーベキューテラス<br></br>-
+                キッズルーム<br></br>- ルームサービス<br></br>- 小会議室
+                <br></br>- ビジネスセンター<br></br>
+                （各部屋からのインターネットアクセスも可能　※要契約）<br></br>-
+                屋根付き駐車場完備<br></br>- 車での送迎サービス<br></br>-
+                コンビニエンスストア
+              </div>
             </div>
-            <div className="font-bold text-3xl m-7">
-              <div className="font-normal text-base mt-10 sm:ml-20 md:ml-64 block">
+            <div className="sm:ml-20 md:ml-64 block mt-4 md:mt-0">
+              調度品
+              <div className="font-normal text-base mt-10">
                 - 個別操作可能な空調設備<br></br>- IDD電話<br></br>-
                 専用インターネットアクセス<br></br>- 多チャンネル衛星放送
                 <br></br>- 金庫<br></br>- 4口調理台、電動湯沸かし器<br></br>-

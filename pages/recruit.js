@@ -18,7 +18,7 @@ const recruit = () => {
             style={{ backgroundColor: "rgba(0, 0, 0, 0)" }}
           >
             <div className="pt-24 md:pt-40 text-center text-white py-8 md:py-9">
-              <h1 className="mb-6 text-2xl md:text-4xl font-bold items-center">
+              <h1 className="mb-6 text-2xl md:text-3xl font-bold items-center">
                 リクルート
               </h1>
             </div>
@@ -31,7 +31,7 @@ const recruit = () => {
           </div>
         </div>
 
-        <div className="mx-auto text-center text-lg font-sans p-4 md:p-8 text-primary">
+        <div className="mx-auto text-center text-lg p-4 md:p-8 text-gray-500">
           <p className="mt-4">
             当社が常に掲げてきた信念は、「変化こそチャンスである」ということです。時代の変化にたじろぐことなく、不安定化をむしろビジネスチャンスと捉えていくのが当社のスピリットです。
           </p>
@@ -149,7 +149,7 @@ const recruit = () => {
 
         <div>
           <div>
-            <h2 className="font-bold text-2xl text-gray-600 text-center mt-5">
+            <h2 className="font-bold text-2xl text-gray-700 text-center mt-5">
               採用担当からのメッセージ
             </h2>
             <img
@@ -179,28 +179,9 @@ const recruit = () => {
               </div>
             </div>
           </div>
-          {/* <div className="md:flex grid grid-cols-1 md:grid-cols-2">
-            <img
-              src="/assets/img/img3.png"
-              className="md:ml-8 h-[200px] w-[200px] m-auto"
-              loading="lazy"
-            />
-            <div className="grid">
-              <h3 className="m-5 font-bold text-gray-600">
-                中塚翔大（Shota Nakatsuka）　Recruiter
-              </h3>
-              <div className="mt-10">
-                <p className="-mt-10 lg:-mt-44 m-5 md:mr-28 text-gray-500">
-                  日本人事としてインターン生、新卒・中途採用を担当しています。大学卒業後、外資系大手人材会社にて10年在籍し
-                  現在は株式会社エクセの人事を担当。「変化こそチャンスである」は、創業当初からの弊社の信念となります。
-                  自分なりの価値の確立を目指し、未来を切り開こうとする姿勢を全力で応援しています。興味のある方はお気軽にお問い合わせください！！
-                </p>
-              </div>
-            </div>
-          </div> */}
           <div className="flex justify-center">
             <div>
-              <h2 className="font-bold text-2xl text-gray-600 text-center m-1 mb-5">
+              <h2 className="font-bold text-2xl text-gray-700 text-center m-1 mb-5">
                 よくある質問
               </h2>
               <div className="grid justify-center">
@@ -407,13 +388,14 @@ const recruit = () => {
                     </li>
                   </ul>
                 </div>
-
-                <p className="mt-6 text-gray-500 font-normal text-base md:text-xl ml-2">
-                  ※ 応募書類は返却いたしません。
-                </p>
-                <p className="text-gray-500 font-normal text-base md:text-xl ml-2">
-                  ※ ご不明な点がございましたら、お問い合わせください。
-                </p>
+                <div>
+                  <p className="mt-6 text-gray-500 font-normal text-base md:text-xl ml-2">
+                    ※ 応募書類は返却いたしません。
+                  </p>
+                  <p className="text-gray-500 font-normal text-base md:text-xl ml-2">
+                    ※ ご不明な点がございましたら、お問い合わせください。
+                  </p>
+                </div>
               </div>
               <div className="items-center text-center">
                 <a href="https://docs.google.com/forms/d/e/1FAIpQLSddgYtieThncUj6lXwjolR6aRRCVLUjdG63GqD7Teo7uwjXvA/viewform?usp=send_form">

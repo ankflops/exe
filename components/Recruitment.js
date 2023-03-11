@@ -16,13 +16,11 @@ const Recruitment = () => {
         <div className="flex justify-center items-center h-full ">
           <div className="text-gray-700 p-16 opacity-80 text-gray-800 max-w-2xl bg-gray-50">
             <div className="flex justify-center">
-              <h2 className="font-semibold text-3xl font-serif text-gray-800 pb-8 ">
-              インターンシップ・採用情報
+              <h2 className="font-semibold text-3xl text-gray-800 pb-8 ">
+                インターンシップ・採用情報
               </h2>
             </div>
-            <h4 className="font-normal text-md mb-2 text-black">
-              
-            </h4>
+            <h4 className="font-normal text-md mb-2 text-black"></h4>
             <p className="font-light text-black text-xl">
               エクセはミャンマー、モンゴルでプロジェクトを運営しており、インターンシップ、新卒・中途採用も随時行っております。
             </p>

@@ -3,7 +3,7 @@ import React from "react";
 const Overseasprojects = () => {
   return (
     <div className="my-8 pt-8">
-      <h2 className="font-serif text-3xl text-gray-600 text-center mb-8 font-semibold">
+      <h2 className="font-serif text-3xl text-gray-700 text-center mb-8 font-semibold">
         海外プロジェクト
       </h2>
       <div className="text-center text-gray-500 font-medium text-lg p-4">

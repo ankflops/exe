@@ -4,7 +4,7 @@ import LazyLoad from "react-lazy-load";
 const Announcements = () => {
   return (
     <div className="bg-slate-100 p-12">
-      <h2 className="flex justify-center m-0 pt-4 font-serif text-3xl text-gray-800 text-center font-semibold">
+      <h2 className="flex justify-center m-0 pt-4 font-serif text-3xl text-gray-700 text-center font-semibold">
         お知らせ
       </h2>
 
@@ -19,10 +19,10 @@ const Announcements = () => {
 
         <div className="ml-4 pt-4">
           <div className="md:mt-4">
-            <p className="font-sans text-xs text-gray-600 font-normal">
+            <p className="font-sans text-xs text-gray-500 font-normal">
               August 21, 2022
             </p>
-            <h2 className="font-serif text-lg underline text-gray-900 font-semibold mt-2">
+            <h2 className="font-serif text-lg underline text-gray-700 font-semibold mt-2">
               お知らせです！
             </h2>
             <p className="font-light font-sans text-gray-800 max-w-2xl">

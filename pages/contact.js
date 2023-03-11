@@ -19,7 +19,7 @@ const contact = () => {
             style={{ backgroundColor: "rgba(0, 0, 0, 0)" }}
           >
             <div className="flex h-full items-center justify-center text-center text-white">
-              <h1 className="mb-6 text-2xl md:text-4xl font-bold">
+              <h1 className="mb-6 text-2xl md:text-3xl font-bold">
                 お問い合わせ
               </h1>
             </div>

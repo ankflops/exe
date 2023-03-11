@@ -29,7 +29,7 @@ const about = () => {
           私ども、株式会社エクセは1991年8月6日に生まれました。 <br></br>
           それから20年、20世紀の最後の10年と21世紀の最初の10年の激動の中をブティックの投資事業会社として、時代の流れとともに前へ前へと進んでまいりました。
         </p>
-        <h2 className="text-center underline underline-offset-4 font-bold text-2xl text-gray-600 mb-5">
+        <h2 className="text-center underline underline-offset-4 font-bold text-2xl text-gray-700 mb-5">
           変化こそチャンスである
         </h2>
         <p className="text-center text-lg font-medium text-gray-500 mb-16">
@@ -44,7 +44,7 @@ const about = () => {
           <br></br>{" "}
           当社は、ミャンマー、モンゴル、イスラエルなどで数多くのプロジェクトを完成・運営し、雇用を通じてこれらの国々のお手伝いをさせていただいております。
         </p>
-        <h2 className="text-center underline underline-offset-4 font-bold text-2xl text-gray-600 mb-5">
+        <h2 className="text-center underline underline-offset-4 font-bold text-2xl text-gray-700 mb-5">
           人材へのこだわり
         </h2>
         <p className="text-center text-lg font-medium text-gray-500 mb-10">

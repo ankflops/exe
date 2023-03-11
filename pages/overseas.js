@@ -6,7 +6,7 @@ const overseas = () => {
   return (
     <MainLayout>
       <div className="my-8 pt-8">
-        <h2 className="font-serif text-3xl text-gray-600 text-center mb-8 font-semibold">
+        <h2 className="font-serif text-3xl text-gray-700 text-center mb-8 font-semibold">
           海外プロジェクト
         </h2>
         <div className="text-center text-gray-500 font-medium text-lg p-4">
@@ -31,10 +31,10 @@ const overseas = () => {
             </div>
 
             <div className="p-4 my-4 md:p-8 mx-4">
-              <h2 className=" text-3xl font-bold text-gray-800">
+              <h2 className=" text-3xl font-semibold text-gray-700">
                 ミャンマープロジェクト
               </h2>
-              <p className="my-4 text-xl font-medium text-gray-500">
+              <p className="my-4 text-lg font-medium text-gray-500">
                 1999年より日本初となるオフィスビル・ホテル事業を展開しています。サクラタワーを所有し、海外駐在員向けアパートメントとなるサクラレジデンスの運営をしています。
               </p>
               <div className="flex justify-center lg:justify-end">
@@ -57,10 +57,10 @@ const overseas = () => {
       <div className="flex justify-center">
         <div className="grid md:grid-cols-2">
           <div className=" p-4 m-4 md:p-4">
-            <h2 className=" text-3xl font-bold text-gray-800">
+            <h2 className="text-3xl font-semibold text-gray-700">
             モンゴルプロジェクト
             </h2>
-            <p className="my-8 text-xl font-medium text-gray-500">
+            <p className="my-8 text-lg font-medium text-gray-500">
             2010年に日本初の投資事業会社Sanaa EXE LLCを設立し、不動産投資事業、金融事業、教育事業を展開しています。エクセプラザ、Olonglong」スクールを運営しています。
 
             </p>
