@@ -7,7 +7,7 @@ const recruit = () => {
     <div>
       <MainLayout>
         <div
-          className="relative overflow-hidden bg-cover bg-no-repeat h-[16rem] md:h-[20rem] lg:h-[30rem]"
+          className="relative overflow-hidden bg-cover bg-no-repeat h-[16rem] md:h-[20rem] lg:h-[28rem]"
           style={{
             backgroundPosition: "50%",
             backgroundImage: 'url("/assets/img/grand.jpg")',
@@ -22,7 +22,7 @@ const recruit = () => {
                 リクルート
               </h1>
             </div>
-            <div class="text-lg pl-8 md:pl-16 md:text-2xl font-bold justify-start text-white">
+            <div class="pl-8 md:pl-16 text-sm md:text-xl font-bold justify-start text-white">
               <h3>変化こそチャンスである。</h3>
               <h3 className="ml-4">
                 人と同じではなく自分なりの価値観を信じよう。
@@ -30,52 +30,21 @@ const recruit = () => {
             </div>
           </div>
         </div>
-        {/* <div
-          className="top-0 right-0 bottom-0 left-0 w-full h-full text-center relative overflow-hidden bg-no-repeat bg-cover"
-          style={{
-            backgroundImage: 'url("/assets/img/mv-sm.jpg")',
-            backgroundColor: "rgba(0, 0, 0, 0)",
-            height: 450,
-          }}
-        >
-          <div className="">
-            <div className="flex justify-center items-center h-full ">
-              <h2 className="font-bold text-4xl font-sans text-white uppercase mt-52 mb-28">
-                リクルート
-              </h2>
-            </div>
-            <div className="grid lg:block">
-              <p className="font-extrabold text-white text-left text-3xl ml-8">
-                変化こそチャンスである。
-              </p>
-              <p className=" font-extrabold text-white text-left text-3xl ml-20">
-                人と同じではなく自分なりの価値観を信じよう。
-              </p>
-            </div>
-          </div>
-        </div> */}
 
-        <div className="mx-auto text-center font-sans">
-          <p className="mx-auto text-center text-lg text-gray-500 font-sans mt-12 ml-16 mr-16">
+        <div className="mx-auto text-center text-lg font-sans p-4 md:p-8 text-primary">
+          <p className="mt-4">
             当社が常に掲げてきた信念は、「変化こそチャンスである」ということです。時代の変化にたじろぐことなく、不安定化をむしろビジネスチャンスと捉えていくのが当社のスピリットです。
           </p>
-          <p className="mt-8 text-lg text-gray-500 gont-sans ml-16 mr-16">
+          <h1 className="mt-4">
             投資に関する信念は、「人」に対する信念にもつながります。
-            <br></br>{" "}
+          </h1>
+          <p className="mt-4">
             当社は人材への投資こそ最高の投資であると考えて、「自ら変化を求める人材」、「人と同じではなく自分なりの価値観を持っている人材」を常に求めております。
           </p>
         </div>
-        <div className="grid grid-cols-1 md:grid-cols-2">
-          <img
-            src="/assets/img/youtube.png"
-            alt=""
-            className="mt-16 lg:ml-80"
-            loading="lazy"
-          />
-        </div>
 
         {/* table */}
-        <div>
+        <div className="p-4 md:p-8">
           <div className="md:mt-20 md:mr-20 md:ml-20 border-2 border-darkblue bg-darkblue h-14">
             <p className=" text-center text-lg font-medium text-gray-400 mt-3">
               求人票
@@ -186,18 +155,35 @@ const recruit = () => {
             <img
               src="/assets/img/border.png"
               alt=""
-              className="mx-auto max-w-2xl max-h-full"
+              className="mx-auto max-w-2xl w-[95%]"
               loading="lazy
               "
             />
           </div>
-          <div className="md:flex grid grid-cols-1 md:grid-cols-2">
+          <div className="md:flex grid grid-cols-1 md:grid-cols-2 mt-4 md:ml-16">
             <img
               src="/assets/img/img3.png"
-              alt=""
-              className="ml-28 m-5 md:ml-20 h-[294px] w-[279px] sm:mx-auto"
-              loading="lazy
-              "
+              className="md:ml-8 h-[250px] w-[250px] m-auto"
+              loading="lazy"
+            />
+            <div className="grid">
+              <h3 className="m-8  font-bold text-gray-600">
+                中塚翔大（Shota Nakatsuka）　Recruiter
+              </h3>
+              <div className="mt-32">
+                <p className="lg:-mt-40 m-5 md:mr-28 sm:-mt-32 -mt-32 text-gray-500">
+                  日本人事としてインターン生、新卒・中途採用を担当しています。大学卒業後、外資系大手人材会社にて10年在籍し
+                  現在は株式会社エクセの人事を担当。「変化こそチャンスである」は、創業当初からの弊社の信念となります。
+                  自分なりの価値の確立を目指し、未来を切り開こうとする姿勢を全力で応援しています。興味のある方はお気軽にお問い合わせください！！
+                </p>
+              </div>
+            </div>
+          </div>
+          {/* <div className="md:flex grid grid-cols-1 md:grid-cols-2">
+            <img
+              src="/assets/img/img3.png"
+              className="md:ml-8 h-[200px] w-[200px] m-auto"
+              loading="lazy"
             />
             <div className="grid">
               <h3 className="m-5 font-bold text-gray-600">
@@ -211,7 +197,7 @@ const recruit = () => {
                 </p>
               </div>
             </div>
-          </div>
+          </div> */}
           <div className="flex justify-center">
             <div>
               <h2 className="font-bold text-2xl text-gray-600 text-center m-1 mb-5">
@@ -220,7 +206,7 @@ const recruit = () => {
               <div className="grid justify-center">
                 <div className="relative" data-te-dropdown-ref>
                   <button
-                    className="flex items-center px-6 text-3xl underline font-medium uppercase leading-normal text-gray-600 -mt-0.5 mb-5"
+                    className="flex items-center px-6 text-md md:text-2xl underline font-medium uppercase leading-normal text-gray-600 -mt-0.5 mb-5"
                     type="button"
                     id="dropdownMenuButton1"
                     data-te-dropdown-toggle-ref
@@ -237,7 +223,7 @@ const recruit = () => {
                   >
                     <li>
                       <div
-                        className="block whitespace-nowrap bg-green-400 p-2 bg-green"
+                        className="block whitespace-nowrap bg-green-400 p-2 bg-[#a2d2f6]"
                         data-te-dropdown-item-ref
                       >
                         『アジア最後のフロンティア』と呼ばれるミャンマー。
@@ -255,7 +241,7 @@ const recruit = () => {
 
                 <div className="relative" data-te-dropdown-ref>
                   <button
-                    className="flex items-center px-6 text-3xl underline font-medium uppercase leading-normal text-gray-600 -mt-0.5 mb-5"
+                    className="flex items-center px-6 text-md md:text-2xl underline font-medium uppercase leading-normal text-gray-600 -mt-0.5 mb-5"
                     type="button"
                     id="dropdownMenuButton1"
                     data-te-dropdown-toggle-ref
@@ -272,7 +258,7 @@ const recruit = () => {
                   >
                     <li>
                       <div
-                        className="block whitespace-nowrap bg-green-400 p-2 bg-green"
+                        className="block whitespace-nowrap bg-green-400 p-2 bg-[#a2d2f6]"
                         data-te-dropdown-item-ref
                       >
                         英語は海外駐在員やローカルスタッフとの接客
@@ -287,7 +273,7 @@ const recruit = () => {
 
                 <div className="relative" data-te-dropdown-ref>
                   <button
-                    className="flex items-center px-6 text-3xl underline font-medium uppercase leading-normal text-gray-600 -mt-0.5 mb-5"
+                    className="flex items-center px-6 text-md md:text-2xl underline font-medium uppercase leading-normal text-gray-600 -mt-0.5 mb-5"
                     type="button"
                     id="dropdownMenuButton1"
                     data-te-dropdown-toggle-ref
@@ -304,7 +290,7 @@ const recruit = () => {
                   >
                     <li>
                       <div
-                        className="block whitespace-nowrap bg-green-400 p-2 bg-green"
+                        className="block whitespace-nowrap bg-green-400 p-2 bg-[#a2d2f6]"
                         data-te-dropdown-item-ref
                       >
                         3ヶ月以内の短期留学の場合、目安としてTOEIC800
@@ -323,7 +309,7 @@ const recruit = () => {
 
                 <div className="relative" data-te-dropdown-ref>
                   <button
-                    className="flex items-center px-6 text-3xl underline font-medium uppercase leading-normal text-gray-600 -mt-0.5 mb-5"
+                    className="flex items-center px-6 text-md md:text-2xl underline font-medium uppercase leading-normal text-gray-600 -mt-0.5 mb-5"
                     type="button"
                     id="dropdownMenuButton1"
                     data-te-dropdown-toggle-ref
@@ -340,7 +326,7 @@ const recruit = () => {
                   >
                     <li>
                       <div
-                        className="block whitespace-nowrap bg-green-400 p-2 bg-green"
+                        className="block whitespace-nowrap bg-green-400 p-2 bg-[#a2d2f6]"
                         data-te-dropdown-item-ref
                       >
                         2021年以降の軍事政権下で治安が心配されていますが、
@@ -359,7 +345,7 @@ const recruit = () => {
 
                 <div className="relative" data-te-dropdown-ref>
                   <button
-                    className="flex items-center px-6 text-3xl underline font-medium uppercase leading-normal text-gray-600 -mt-0.5 mb-5"
+                    className="flex items-center px-6 text-md md:text-2xl underline font-medium uppercase leading-normal text-gray-600 -mt-0.5 mb-5"
                     type="button"
                     id="dropdownMenuButton1"
                     data-te-dropdown-toggle-ref
@@ -376,7 +362,7 @@ const recruit = () => {
                   >
                     <li>
                       <div
-                        className="block whitespace-nowrap bg-green-400 p-2 bg-green"
+                        className="block whitespace-nowrap bg-green-400 p-2 bg-[#a2d2f6]"
                         data-te-dropdown-item-ref
                       >
                         エクセが所有するサクラレジデンスに駐在いただきます。
@@ -390,7 +376,7 @@ const recruit = () => {
 
                 <div className="relative" data-te-dropdown-ref>
                   <button
-                    className="flex items-center px-6 text-3xl underline font-medium uppercase leading-normal text-gray-600 -mt-0.5 mb-5"
+                    className="flex items-center px-6 text-md md:text-2xl underline font-medium uppercase leading-normal text-gray-600 -mt-0.5 mb-5"
                     type="button"
                     id="dropdownMenuButton1"
                     data-te-dropdown-toggle-ref
@@ -407,7 +393,7 @@ const recruit = () => {
                   >
                     <li>
                       <div
-                        className="block whitespace-nowrap bg-green-400 p-2 bg-green"
+                        className="block whitespace-nowrap bg-green-400 p-2 bg-[#a2d2f6]"
                         data-te-dropdown-item-ref
                       >
                         旅行と異なり、ミャンマー現地に駐在する場合、
@@ -432,7 +418,7 @@ const recruit = () => {
               <div className="items-center text-center">
                 <a href="https://docs.google.com/forms/d/e/1FAIpQLSddgYtieThncUj6lXwjolR6aRRCVLUjdG63GqD7Teo7uwjXvA/viewform?usp=send_form">
                   <button
-                    className="inline-block px-20 py-5 m-10 bg-blue-600 text-white font-extrabold text-2xl rounded-lg leading-snug uppercase focus:outline-none focus:ring-0 transition duration-150 ease-in-out"
+                    className="inline-block px-20 py-5 m-10 bg-[#4473CA] text-white font-extrabold text-2xl rounded-lg leading-snug uppercase focus:outline-none focus:ring-0 transition duration-150 ease-in-out"
                     role="button"
                     data-mdb-ripple="true"
                     data-mdb-ripple-color="light"

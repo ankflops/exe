@@ -88,13 +88,13 @@ const Footer = () => {
           </ul>
         </div>
 
-        <div className="font-bold max-w-lg pl-4 pb-4 mt-4 md:p-4 md:-ml-4 sm:col-span-1 md:col-span-2 lg:col-span-2">
+        <div className="font-bold max-w-lg pl-4 pb-4 mt-4 md:p-4 md:-ml-4 sm:col-span-1 md:col-span-2 lg:col-span-2 -ml-3 ">
           <h2 className="ml-9 underline mb-5 text-white text-md ">
             プロジェクト
           </h2>
           <ul className="text-gray-300 font-light pl-6 list-none">
             <li className="nav-item">
-              <Link href="#">
+              <Link href="/overseas">
                 <a className="font-bold px-2 py-2 flex items-center text-md text-white hover:text-sky-300">
                   <span className="ml-2">海外プロジェクト</span>
                 </a>
@@ -123,7 +123,7 @@ const Footer = () => {
             </li>
           </ul>
         </div>
-        <div className="font-bold max-w-lg pl-4 mt-4 md:p-4 md:ml-4 sm:col-span-1 md:col-span-2 lg:col-span-2">
+        <div className="font-bold max-w-lg pl-4 mt-4 md:p-4 md:ml-4 sm:col-span-1 md:col-span-2 lg:col-span-2 -ml-3">
           <h2 className="ml-9 mb-5 text-white text-md underline ">
             インターンシップ・採用
           </h2>

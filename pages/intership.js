@@ -128,108 +128,7 @@ const intership = () => {
             </p>
           </div>
         </div>
-        {/* old table */}
 
-        {/* <div className="grid justify-center items-center p-5">
-          <div className="md:mt-20 border-2 border-black bg-darkblue h-14">
-            <p className="mt-3 text-center text-lg font-medium text-gray-400 ">
-              会社概要
-            </p>
-          </div>
-
-          <div className="items-center divide-black grid grid-cols-3 justify-center divide-x border-t-2 border-r-2 border-l-2 border-t-black border-r-black border-l-black">
-            <div className="text-center font-medium m-3">時期</div>
-            <div className="col-span-2 p-4">随時</div>
-          </div>
-
-          <div className="items-center divide-black grid grid-cols-3 divide-x border-t-2 border-r-2 border-l-2 border-t-black border-r-black border-l-black">
-            <div className="text-center font-medium m-3">参加対象</div>
-            <div className="col-span-2 p-4">年齢・職歴問わず、学生歓迎。</div>
-          </div>
-
-          <div className="items-center divide-black grid grid-cols-3 divide-x border-t-2 border-r-2 border-l-2 border-t-black border-r-black border-l-black">
-            <div className="text-center font-medium md:m-6">応募資格</div>
-            <div className="col-span-2 p-4">
-              1．アジアに興味がある、アジアが大好きな方。<br></br>
-              2．ホテル運営に興味があるなど好奇心を持ち、また向上心をもった元気のある方。
-              <br></br>
-              3.
-              リゾートホテルにおけるサービス、国際的な感覚、英語力等を身につけたい方
-              <br></br>
-              4．自分の英語力、その他の言語力を試したい方。<br></br>
-              5．旅行ではなく、人とは違った海外経験をしたい方。
-            </div>
-          </div>
-
-          <div className="items-center divide-black grid grid-cols-3 divide-x border-t-2 border-r-2 border-l-2 border-t-black border-r-black border-l-black">
-            <div className="text-center font-medium mt-10 md:mt-2">
-              実施場所
-            </div>
-            <div className="col-span-2 p-4">
-              サクラタワー
-              <a href="http://sakura-tower-yangon.com/">
-                {" "}
-                http://sakura-tower-yangon.com/
-              </a>
-              <br></br>
-              サクラレジデンスー
-              <a href="　http://sakura-residence-yangon.com/">
-                {" "}
-                http://sakura-residence-yangon.com/
-              </a>
-              <br></br>（ミャンマー：ヤンゴン）
-              <br></br>※日本人が常に駐在しています。
-            </div>
-          </div>
-
-          <div className="items-center divide-black grid grid-cols-3 divide-x border-t-2 border-r-2 border-l-2 border-t-black border-r-black border-l-black">
-            <div className="text-center font-medium md:m-6">職種</div>
-            <div className="col-span-2 p-4">
-              ウェイター・ウェイトレス、ハウスキーピング、お土産販売　など
-            </div>
-          </div>
-
-          <div className="items-center divide-black grid grid-cols-3 divide-x border-t-2 border-r-2 border-l-2 border-t-black border-r-black border-l-black">
-            <div className="text-center font-medium m-3">研修期間</div>
-            <div className="col-span-2 p-4">1ヶ月～（要相談）</div>
-          </div>
-
-          <div className="items-center divide-black grid grid-cols-3 divide-x border-t-2 border-r-2 border-l-2 border-t-black border-r-black border-l-black">
-            <div className="text-center font-medium m-6 md:m-3">自己負担</div>
-            <div className="col-span-2 p-4">
-              1．ビザ・航空券・保険等費用<br></br>
-              ※ビザ申請は約1カ月程度かかります。<br></br>
-              （日本－ヤンゴン航空券代、ヤンゴン－バガン移動費用、海外旅行保険料等）
-              <br></br>2．食費を含む生活費用<br></br>{" "}
-              ※研修は現地集合（ヤンゴン）となります。
-            </div>
-          </div>
-          <div className="items-center divide-black grid grid-cols-3 divide-x border-t-2 border-r-2 border-l-2 border-t-black border-r-black border-l-black">
-            <div className="text-center font-medium m-6 md:m-3">企業負担</div>
-            <div className="col-span-2 p-4">
-              宿泊・食事等費用、通勤送迎費の一部または全額補助
-            </div>
-          </div>
-
-          <div className="items-center divide-black grid grid-cols-3 divide-x border-t-2 border-r-2 border-l-2 border-t-black border-r-black border-l-black border-b-2 border-b-black">
-            <div className="text-center font-medium">その他補足</div>
-            <div className="col-span-2 p-4 ">
-              1．給与等の支給はございません。
-              <br></br>
-              2．インターンシップは本採用を前提としたものではありません。
-              <br></br> 　
-              本採用を希望される方は別途選考を受けて頂く必要があります。
-              <br></br>　 ※インターン生から本採用の実績あり。
-              <br></br>3．渡航前にB型肝炎の検査、海外保険の加入をお願します。
-              <br></br>
-              4．インターンの参加には誓約書へ同意いただく必要があります。
-              <br></br>
-              5．渡航時は最低限の所持金として約1000ドルをご用意いただきます。
-            </div>
-          </div>
-        </div> */}
-
-        {/* new table */}
         <div className=" border-collapse border border-1 border-slate-400 text-center bg-darkblue text-white p-4 mx-5">
           会社概要
         </div>
@@ -328,7 +227,7 @@ const intership = () => {
         <div className="items-center text-center">
           <a href="https://docs.google.com/forms/d/e/1FAIpQLSddgYtieThncUj6lXwjolR6aRRCVLUjdG63GqD7Teo7uwjXvA/viewform">
             <button
-              className="inline-block px-20 py-5 m-10 bg-blue-600 text-white font-extrabold text-2xl rounded-lg leading-snug uppercase focus:outline-none focus:ring-0 transition duration-150 ease-in-out"
+              className="inline-block px-20 py-5 m-10 bg-[#4473CA] text-white font-extrabold text-2xl rounded-lg leading-snug uppercase focus:outline-none focus:ring-0 transition duration-150 ease-in-out"
               role="button"
               data-mdb-ripple="true"
               data-mdb-ripple-color="light"
@@ -626,7 +525,7 @@ const intership = () => {
             <div className="md:flex grid grid-cols-1 md:grid-cols-2">
               <img
                 src="/assets/img/7.jpg"
-                className="ml-12 mt-6 w-96 h-64"
+                className="w-[90%] md:w-[40%] h-auto mx-auto p-4"
                 loading="lazy"
               />
               <p className="m-6 font-medium text-lg text-gray-500">
@@ -693,27 +592,27 @@ const intership = () => {
         </div>
         <div>
           <div>
-            <h2 className="font-bold text-3xl text-gray-600 text-center mt-5">
+            <h2 className="font-bold text-2xl text-gray-600 text-center my-6">
               　留学費用はどれくらい必要なの？　
             </h2>
             <img
               src="/assets/img/border.png"
-              className="mx-auto max-w-2xl"
+              className="mx-auto "
               loading="lazy"
             />
           </div>
           <div className="md:flex grid grid-cols-1 md:grid-cols-2">
             <img
               src="/assets/img/team/1660885866.png"
-              className="ml-28 m-5 mt-8 md:ml-12 h-[200px] w-[200px] sm:mx-auto"
+              className="h-[200px] w-[200px] m-auto md:ml-8"
               loading="lazy"
             />
             <div className="grid">
-              <h3 className="m-6 font-bold text-gray-600">
+              <h3 className="m-8 font-bold text-gray-600">
                 関原夕希子（Yukiko Sekihara）　Sales Director
               </h3>
               <div className="mt-32">
-                <p className="lg:-mt-40 m-5 md:mr-28 sm:-mt-32 -mt-32 text-gray-500">
+                <p className="lg:-mt-40 m-5 sm:-mt-32 -mt-32 text-gray-500">
                   大学卒業後、ファーストリテイリング株式会社にて1年間店長補佐を経験した後、株式会社エクセへ転職。2012年よりミャンマーに駐在し、
                   現在はサクラタワーとヤンゴンヤンゴンルーフトップバーの営業・販促を担当。弊社は若手に責任あるプロジェクトを任せる文化があり、
                   海外で活躍するチャンスがあります。特にミャンマーではマネジメントの部分を任されており、
@@ -722,14 +621,14 @@ const intership = () => {
               </div>
             </div>
           </div>
-          <div className="md:flex grid grid-cols-1 md:grid-cols-2">
+          <div className="md:flex grid grid-cols-1 md:grid-cols-2 mt-4">
             <img
               src="/assets/img/team/1660884961.png"
-              className="ml-28 m-5 mt-8 md:ml-12 h-[200px] w-[200px] sm:mx-auto"
+              className="md:ml-8 h-[200px] w-[200px] m-auto"
               loading="lazy"
             />
             <div className="grid">
-              <h3 className="m-6 font-bold text-gray-600">
+              <h3 className="m-8 font-bold text-gray-600">
                 Cherry Aung　General Manager
               </h3>
               <div className="mt-32">
@@ -740,14 +639,14 @@ const intership = () => {
             </div>
           </div>
 
-          <div className="md:flex grid grid-cols-1 md:grid-cols-2">
+          <div className="md:flex grid grid-cols-1 md:grid-cols-2 mt-4">
             <img
               src="/assets/img/team/1660884997.png"
-              className="ml-28 m-5 mt-8 md:ml-12  h-[200px] w-[200px] sm:mx-auto"
+              className="md:ml-8 h-[200px] w-[200px] m-auto"
               loading="lazy"
             />
             <div className="grid">
-              <h3 className="m-6 font-bold text-gray-600">
+              <h3 className="m-8 font-bold text-gray-600">
                 Zar Ni Lwin　Residence Manager
               </h3>
               <div className="mt-32">
@@ -761,14 +660,14 @@ const intership = () => {
             </div>
           </div>
 
-          <div className="md:flex grid grid-cols-1 md:grid-cols-2">
+          <div className="md:flex grid grid-cols-1 md:grid-cols-2 mt-4">
             <img
               src="/assets/img/team/1660883696.png"
-              className="ml-28 m-5 mt-8 md:ml-12  h-[200px] w-[200px] sm:mx-auto"
+              className="md:ml-8 h-[200px] w-[200px] m-auto"
               loading="lazy"
             />
             <div className="grid">
-              <h3 className="m-6 font-bold text-gray-600">
+              <h3 className="m-8 font-bold text-gray-600">
                 堀越美緒（Mio Horikoshi）　Sales Director
               </h3>
               <div className="mt-32">
@@ -782,14 +681,14 @@ const intership = () => {
             </div>
           </div>
 
-          <div className="md:flex grid grid-cols-1 md:grid-cols-2">
+          <div className="md:flex grid grid-cols-1 md:grid-cols-2 mt-4">
             <img
               src="/assets/img/team/1660884986.png"
-              className="ml-28 m-5 mt-8 md:ml-12 h-[200px] w-[200px] sm:mx-auto"
+              className="md:ml-8 h-[200px] w-[200px] m-auto"
               loading="lazy"
             />
             <div className="grid">
-              <h3 className="m-6 font-bold text-gray-600">
+              <h3 className="m-8 font-bold text-gray-600">
                 Phyoe Wai Moe　YangonYangon Bar Manager
               </h3>
               <div className="mt-32">
@@ -800,14 +699,14 @@ const intership = () => {
             </div>
           </div>
 
-          <div className="md:flex grid grid-cols-1 md:grid-cols-2">
+          <div className="md:flex grid grid-cols-1 md:grid-cols-2 mt-4">
             <img
               src="/assets/img/team/1660884947.png"
-              className="ml-28 m-5 mt-8 md:ml-12  h-[200px] w-[200px] sm:mx-auto"
+              className="md:ml-8 h-[200px] w-[200px] m-auto"
               loading="lazy"
             />
             <div className="grid">
-              <h3 className="m-6 font-bold text-gray-600">
+              <h3 className="m-8 font-bold text-gray-600">
                 白井竜太（Ryuta Shirai）　Deputy Manager
               </h3>
               <div className="mt-32">
@@ -821,14 +720,14 @@ const intership = () => {
             </div>
           </div>
 
-          <div className="md:flex grid grid-cols-1 md:grid-cols-2">
+          <div className="md:flex grid grid-cols-1 md:grid-cols-2 mt-4">
             <img
               src="/assets/img/team/photo2.png"
-              className="ml-28 m-5 mt-8 md:ml-12  h-[200px] w-[200px] sm:mx-auto"
+              className="md:ml-8 h-[200px] w-[200px] m-auto"
               loading="lazy"
             />
             <div className="grid">
-              <h3 className="m-6  font-bold text-gray-600">
+              <h3 className="m-8  font-bold text-gray-600">
                 下山徹（Toru Shimoyama）　Sales Manager
               </h3>
               <div className="mt-32">
@@ -843,14 +742,14 @@ const intership = () => {
             </div>
           </div>
 
-          <div className="md:flex grid grid-cols-1 md:grid-cols-2">
+          <div className="md:flex grid grid-cols-1 md:grid-cols-2 mt-4">
             <img
               src="/assets/img/team/1660885016.png"
-              className="ml-28 m-5 mt-8 md:ml-12  h-[200px] w-[200px] sm:mx-auto"
+              className="md:ml-8 h-[200px] w-[200px] m-auto"
               loading="lazy"
             />
             <div className="grid">
-              <h3 className="m-6 font-bold text-gray-600">
+              <h3 className="m-8 font-bold text-gray-600">
                 Myo Zaw Oo　Residence Assistant Manager
               </h3>
               <div className="mt-32">
@@ -865,14 +764,14 @@ const intership = () => {
             </div>
           </div>
 
-          <div className="md:flex grid grid-cols-1 md:grid-cols-2">
+          <div className="md:flex grid grid-cols-1 md:grid-cols-2 mt-4">
             <img
               src="/assets/img/team/photo1.png"
-              className="ml-28 m-5 mt-8 md:ml-12 h-[200px] w-[200px] sm:mx-auto"
+              className="md:ml-8 h-[200px] w-[200px] m-auto"
               loading="lazy"
             />
             <div className="grid">
-              <h3 className="m-6 font-bold text-gray-600">
+              <h3 className="m-8 font-bold text-gray-600">
                 寺田 敏秀（Toshihide Terada）　Myanmar Director
               </h3>
               <div className="mt-32">
@@ -894,7 +793,7 @@ const intership = () => {
           <div className="grid justify-center">
             <div className="relative" data-te-dropdown-ref>
               <button
-                className="flex items-center px-6 text-3xl underline font-medium uppercase leading-normal text-gray-600 -mt-0.5 mb-5"
+                className="flex items-center px-6 text-lg md:text-2xl underline font-medium uppercase leading-normal text-gray-600 -mt-0.5 mb-5"
                 type="button"
                 id="dropdownMenuButton1"
                 data-te-dropdown-toggle-ref
@@ -911,7 +810,7 @@ const intership = () => {
               >
                 <li>
                   <div
-                    className="block whitespace-nowrap bg-green-400 p-2 bg-green"
+                    className="block whitespace-nowrap bg-green-400 p-2 bg-[#a2d2f6]"
                     data-te-dropdown-item-ref
                   >
                     『アジア最後のフロンティア』と呼ばれるミャンマー。
@@ -929,7 +828,7 @@ const intership = () => {
 
             <div className="relative" data-te-dropdown-ref>
               <button
-                className="flex items-center px-6 text-3xl underline font-medium uppercase leading-normal text-gray-600 -mt-0.5 mb-5"
+                className="flex items-center px-6 text-lg md:text-2xl underline font-medium uppercase leading-normal text-gray-600 -mt-0.5 mb-5"
                 type="button"
                 id="dropdownMenuButton1"
                 data-te-dropdown-toggle-ref
@@ -946,7 +845,7 @@ const intership = () => {
               >
                 <li>
                   <div
-                    className="block whitespace-nowrap bg-green-400 p-2 bg-green"
+                    className="block whitespace-nowrap bg-green-400 p-2 bg-[#a2d2f6]"
                     data-te-dropdown-item-ref
                   >
                     英語は海外駐在員やローカルスタッフとの接客
@@ -960,7 +859,7 @@ const intership = () => {
 
             <div className="relative" data-te-dropdown-ref>
               <button
-                className="flex items-center px-6 text-3xl underline font-medium uppercase leading-normal text-gray-600 -mt-0.5 mb-5"
+                className="flex items-center px-6 text-lg md:text-2xl underline font-medium uppercase leading-normal text-gray-600 -mt-0.5 mb-5"
                 type="button"
                 id="dropdownMenuButton1"
                 data-te-dropdown-toggle-ref
@@ -977,7 +876,7 @@ const intership = () => {
               >
                 <li>
                   <div
-                    className="block whitespace-nowrap bg-green-400 p-2 bg-green"
+                    className="block whitespace-nowrap bg-green-400 p-2 bg-[#a2d2f6]"
                     data-te-dropdown-item-ref
                   >
                     3ヶ月以内の短期留学の場合、目安としてTOEIC800
@@ -996,7 +895,7 @@ const intership = () => {
 
             <div className="relative" data-te-dropdown-ref>
               <button
-                className="flex items-center px-6 text-3xl underline font-medium uppercase leading-normal text-gray-600 -mt-0.5 mb-5"
+                className="flex items-center px-6 text-lg md:text-2xl underline font-medium uppercase leading-normal text-gray-600 -mt-0.5 mb-5"
                 type="button"
                 id="dropdownMenuButton1"
                 data-te-dropdown-toggle-ref
@@ -1013,7 +912,7 @@ const intership = () => {
               >
                 <li>
                   <div
-                    className="block whitespace-nowrap bg-green-400 p-2 bg-green"
+                    className="block whitespace-nowrap bg-green-400 p-2 bg-[#a2d2f6]"
                     data-te-dropdown-item-ref
                   >
                     2021年以降の軍事政権下で治安が心配されていますが、
@@ -1033,7 +932,7 @@ const intership = () => {
           <div className="items-center text-center">
             <a href="https://docs.google.com/forms/d/e/1FAIpQLSddgYtieThncUj6lXwjolR6aRRCVLUjdG63GqD7Teo7uwjXvA/viewform?usp=send_form">
               <button
-                className="inline-block px-20 py-5 m-10 bg-blue-600 text-white font-extrabold text-2xl rounded-lg leading-snug uppercase focus:outline-none focus:ring-0 transition duration-150 ease-in-out"
+                className="inline-block px-20 py-5 m-10 bg-[#4473CA] text-white font-extrabold text-2xl rounded-lg leading-snug uppercase focus:outline-none focus:ring-0 transition duration-150 ease-in-out"
                 role="button"
                 data-mdb-ripple="true"
                 data-mdb-ripple-color="light"

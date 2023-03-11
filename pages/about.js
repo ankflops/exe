@@ -98,9 +98,9 @@ const about = () => {
             <div className="col-span-2 p-4">
               ヤンゴン・オフィス（ミャンマー）<br></br>#0505 Sakura Tower, 339
               Bogyoke Aung San Road, Kyauktada Township, Yangon, Myanmar
-              <br></br>Tel: (951) 255 255 / Fax: (951) 255 258 / E-mail:
-              stowersales@myanmar.com.mm
-              <br></br>
+              <br></br>Tel: (951) 255 255 / <br></br>Fax: (951) 255 258 /
+              <br></br>E-mail:{" "}
+              <a className="text-xs md:text-lg">stowersales@myanmar.com.mm</a>
               <br></br>ウランバートル・オフィス～サナ・エクセ内～（モンゴル）
               <br></br>EXE Plaza, Tumurchnii Sreet 7/1, Chingeltei District,
               Ulaanbaatar 15171 Mongolia
