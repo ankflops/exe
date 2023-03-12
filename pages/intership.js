@@ -4,24 +4,24 @@ import ImageGallery from "react-image-gallery";
 
 const images = [
   {
-    original: "/assets/img/slider1.jpg",
-    thumbnail: "/assets/img/slider1.jpg",
+    original: "../assets/img/slider1.jpg",
+    thumbnail: "../assets/img/slider1.jpg",
   },
   {
-    original: "./assets/img/27.JPG のコピー.jpg",
-    thumbnail: "./assets/img/27.JPG のコピー.jpg",
+    original: "../assets/img/27.JPG のコピー.jpg",
+    thumbnail: "../assets/img/27.JPG のコピー.jpg",
   },
   {
-    original: "/assets/img/22.JPG のコピー.jpg",
-    thumbnail: "/assets/img/22.JPG のコピー.jpg",
+    original: "../assets/img/22.JPG のコピー.jpg",
+    thumbnail: "../assets/img/22.JPG のコピー.jpg",
   },
   {
-    original: "/assets/img/21.jpg",
-    thumbnail: "/assets/img/21.jpg",
+    original: "../assets/img/21.jpg",
+    thumbnail: "../assets/img/21.jpg",
   },
   {
-    original: "/assets/img/25.JPG のコピー.jpg",
-    thumbnail: "/assets/img/25.JPG のコピー.jpg",
+    original: "../assets/img/25.JPG のコピー.jpg",
+    thumbnail: "../assets/img/25.JPG のコピー.jpg",
   },
 ];
 const intership = () => {
