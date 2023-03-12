@@ -66,7 +66,7 @@ const intership = () => {
           />
         </div>
         <div className="max-w-10xl">
-          <div className="text-gray-700 text-center p-10 font-bold text-3xl">
+          <div className="text-gray-700 text-center p-10 font-bold md:text-2xl">
             ～インターンシップ体験者の声～
           </div>
 
@@ -87,12 +87,12 @@ const intership = () => {
           </div>
           <div className="flex flex-col-reverse md:flex-row">
             <p className="p-4 text-gray-500">
-              S.Iさん　立命館アジア太平洋大学　国際経営学科<br></br>
-              ▶国籍の異なる人との出会い
-              ３か月という短い期間でしたが、国籍を問わない多くの人との出会いは、日本では得難く、とても刺激的で、価値観が変わるような経験でした。実際に社会で働く方々との交流の機会は大変貴重で、就職活動のアドバイスや海外で働くこと、女性が働くということについて多くの立場の方から意見を聞くことができました。
+              T.Mさん　東京外国語大学　ビルマ語学科<br></br>
+              ▶現地スタッフとのコミュニケーション
+              日本とは全く違うミャンマーで暮らすことに対する不安もありました。しかし毎日、ホテルのスタッフと触れ合う中ですぐにその不安も消えてしまいました。また、ビジネスを学ぶだけでなく、ホテルスタッフとの会話を通してビルマ語の習得もできたことが本当によかったです。
               <br></br>
-              ▶不安定な情勢下でも安心な留学体制
-              軍事政権下で不安もありましたが、ビザ手配から帰国まで手厚いサポートがあり何一つ不自由もなくインターンに集中して望めました。また、生活面から業務面でも私が成長できるようなアドバイスがあっただけでなく、就職活動に関しても定期的に相談する機会があり、自分の将来を真剣に考える大変有意義な期間となりました。
+              ▶人々の温かさに触れる充実したインターン生活
+              このインターンシップで、何よりも一番心に残ったのは、人々の温かさです。ホテルのスタッフは、最初から最後まで、わがままな私に親切にしてくれ、本当の家族のように接してくれました。毎日が本当に充実しており、あっという間に過ぎ去ってしまいました。この経験は絶対に忘れることはありませんし、私自身、インターンシップを終えて、以前より成長できたと思います。
             </p>
             <img
               src="/assets/img/guy1.jpg"
@@ -107,12 +107,12 @@ const intership = () => {
               loading="lazy"
             />
             <p className="p-4 text-gray-500">
-              S.Iさん　立命館アジア太平洋大学　国際経営学科<br></br>
-              ▶国籍の異なる人との出会い
-              ３か月という短い期間でしたが、国籍を問わない多くの人との出会いは、日本では得難く、とても刺激的で、価値観が変わるような経験でした。実際に社会で働く方々との交流の機会は大変貴重で、就職活動のアドバイスや海外で働くこと、女性が働くということについて多くの立場の方から意見を聞くことができました。
+              E・Mさん　上智大学　教育学科<br></br>
+              ▶今、ミャンマーいくということ
+              インターンシップに参加して、まず驚いたことは、ミャンマーの治安の良さと人の温厚さです。ミャンマーは熱心な仏教徒の国で通信や流通が安定していないからこそ、情報が溢れておらず、人々の生活は穏やかで豊かであるように感じました。10年も経てばミャンマーも変わります。このタイミングで参加できたことにとても感謝しています。
               <br></br>
-              ▶不安定な情勢下でも安心な留学体制
-              軍事政権下で不安もありましたが、ビザ手配から帰国まで手厚いサポートがあり何一つ不自由もなくインターンに集中して望めました。また、生活面から業務面でも私が成長できるようなアドバイスがあっただけでなく、就職活動に関しても定期的に相談する機会があり、自分の将来を真剣に考える大変有意義な期間となりました。
+              ▶チャレンジングなインターン内容
+              インターン期間は、2週間でした。主な仕事内容は、日本人としてのクリンネスの感覚を、現地のスタッフに共有するということでした。ホテル業を何も知らない私が、自分なりの改善案を共有するということは重圧でしたが日本人マネージャーの方々が最大限にサポートしてくれました。苦戦しながらも目標達成に向けて努力するという工程は自分の糧になったと感じております。私にとって、チャレンジングなインターンでしたがとても濃い2週間となりました。ぜひ半年以上の参加をおすすめします！
             </p>
           </div>
 
@@ -141,7 +141,9 @@ const intership = () => {
           <thead>
             <tr>
               <th className="border border-slate-300 font-normal">時期</th>
-              <th className="text-left border border-slate-300 p-5 font-normal">随時</th>
+              <th className="text-left border border-slate-300 p-5 font-normal">
+                随時
+              </th>
             </tr>
           </thead>
           <tbody>
@@ -241,11 +243,11 @@ const intership = () => {
             </button>
           </a>
         </div>
-        <div className="text-3xl text-primary font-semibold p-5">
-          <p className="mt-10 text-3xl text-primary text-center font-semibold">
+        <div className="md:text-3xl text-gray-700 font-semibold p-5">
+          <p className="mt-10 text-primary text-center font-semibold">
             ～インターンシップの内容（例）～
           </p>
-          <p className="mt-10 text-3xl text-primary font-semibold">
+          <p className="mt-10 text-primary font-semibold text-center">
             サクラタワー研修プログラム（例）
           </p>
         </div>
@@ -379,7 +381,7 @@ const intership = () => {
           ヤンゴンのランドマークとなったサクラタワーにはICA、三菱商事、日経、NHK等、
           グローバルに活躍する企業や団体が入居しており、ヨーロッパ、アジアなどの海外からの駐在員や観光客が多く訪れています。
         </p>
-        <h1 className="font-bold text-2xl text-gray-600 ml-8 mt-5 mb-2">
+        <h1 className="font-bold md:text-2xl text-gray-600 ml-8 mt-5 mb-2">
           サクラレジデンス研修プログラム（例）
         </h1>
         <div className="grid grid-cols-1 md:grid-cols-2 p-5 ">
@@ -510,7 +512,7 @@ const intership = () => {
         </p>
         <div className="">
           <div className="border-2 border-gray-300 rounded-xl mt-5 ">
-            <h2 className="text-center text-gray-600 text-xl font-bold mt-5">
+            <h2 className="text-center text-gray-600 text-xl font-bold m-4">
               留学費用はどれくらい必要なの？　
             </h2>
             <div className="flex">
@@ -523,7 +525,7 @@ const intership = () => {
                 <path d="M16.4 13.2h-.8a2.613 2.613 0 0 1-2.493-1.864 1 1 0 1 1 1.918-.565c.075.253.312.43.575.43h.8a.6.6 0 0 0 0-1.201h-.8C14.166 10 13 8.833 13 7.4s1.166-2.6 2.6-2.6h.8c1.121 0 2.111.714 2.466 1.778a1 1 0 1 1-1.897.633.598.598 0 0 0-.569-.411h-.8a.6.6 0 0 0 0 1.2h.8c1.434 0 2.6 1.167 2.6 2.6s-1.166 2.6-2.6 2.6z" />
                 <path d="M16 6c-.271 0-.521-.11-.71-.29-.04-.05-.09-.1-.12-.16a.556.556 0 0 1-.09-.17.672.672 0 0 1-.061-.18C15.01 5.13 15 5.07 15 5c0-.26.109-.52.29-.71.37-.37 1.04-.37 1.42 0 .18.19.29.45.29.71 0 .07-.01.13-.021.2a.606.606 0 0 1-.06.18.578.578 0 0 1-.09.17c-.04.06-.08.11-.12.16-.189.18-.449.29-.709.29zm0 8c-.271 0-.521-.11-.71-.29-.04-.05-.09-.1-.12-.16a.556.556 0 0 1-.09-.17.672.672 0 0 1-.061-.18c-.009-.07-.019-.13-.019-.2 0-.26.109-.52.29-.71.37-.37 1.04-.37 1.42 0 .18.19.29.45.29.71 0 .07-.01.13-.021.2a.606.606 0 0 1-.06.18.578.578 0 0 1-.09.17c-.04.06-.08.11-.12.16-.189.18-.449.29-.709.29zm2 17H2a1 1 0 0 1-1-1v-9c0-.265.105-.52.293-.707C1.527 20.058 3.653 18 6 18c1.944 0 4.452 1.469 5.295 2H16a3.004 3.004 0 0 1 2.955 3.519l7.891-3.288a2.995 2.995 0 0 1 2.818.273A2.993 2.993 0 0 1 31 23a1 1 0 0 1-.496.864l-12 7A1.003 1.003 0 0 1 18 31zM3 29h14.729l11.14-6.498a1.01 1.01 0 0 0-.314-.334.984.984 0 0 0-.939-.091l-9.23 3.846A1.007 1.007 0 0 1 18 26h-8a1 1 0 1 1 0-2h6a1.001 1.001 0 0 0 0-2h-5c-.197 0-.391-.059-.555-.167C9.68 21.323 7.387 20 6 20c-1.09 0-2.347.88-3 1.439V29z" />
               </svg>
-              <p className="flex-1 text-gray-600 font-bold text-xl m-8">
+              <p className="flex-1 text-gray-700 font-bold text-sm md:text-lg m-8">
                 宿泊費用は無料、負担は渡航費（保険含む）と食費・生活費のみ
               </p>
             </div>
@@ -543,15 +545,15 @@ const intership = () => {
                 className="h-20 w-20 m-8 flex-none"
                 loading="lazy"
               />
-              <p className="flex-1 text-gray-600 font-bold text-xl m-2 mt-14">
+              <p className="flex-1 text-gray-700 font-bold text-sm md:text-xl m-2 mt-14">
                 平均飛行時間10時間38分、最安値63,720円　
               </p>
             </div>
             <div>
-              <p className="text-center text-gray-700 font-bold text-xl">
+              <p className="text-center text-gray-700 font-bold text-sm md:text-lg">
                 NRT（成田空港）⇒BKK（タイ・バンコク経由）⇒RGN（ヤンゴン国際空港）
               </p>
-              <p className="text-center m-10 font-medium text-lg text-gray-500">
+              <p className="text-center m-4 font-medium text-lg text-gray-500">
                 時期により日本↔ヤンゴンの直行便もあります。ヤンゴン国際空港まで現地スタッフが送迎いたしますのでご安心ください。
               </p>
             </div>
@@ -579,17 +581,15 @@ const intership = () => {
                   C64,12.99,63.57,12.55,63.03,12.55z M62.06,49.51H1.94V14.49h60.12V49.51z"
                 />
               </svg>
-              <p className="flex-1 text-gray-600 font-bold text-xl m-6">
+              <p className="flex-1 text-gray-700 font-bold text-sm md:text-lg m-6">
                 通貨はドルとチャット（MMK)、1ヶ月の食費は約〇〇円　
               </p>
             </div>
-            <p className="text-right font-medium text-lg text-gray-500 md:mr-80 -mt-12 mb-6">
-              {" "}
+            <p className="text-right font-medium text-lg text-gray-500 md:mr-80 md:-mt-10 mb-6">
               ※時期により変動します。
             </p>
             <div>
-              <p className="text-center font-medium text-lg text-gray-500 mb-6">
-                {" "}
+              <p className="text-center font-medium md:text-lg text-gray-500 m-4">
                 1886年にイギリスの植民地なったことから通貨はドルとチャットが利用できます。
               </p>
             </div>
@@ -597,12 +597,12 @@ const intership = () => {
         </div>
         <div>
           <div>
-            <h2 className="font-bold text-2xl text-gray-600 text-center my-6">
+            <h2 className="font-bold md:text-2xl text-gray-700 text-center my-6">
               　留学費用はどれくらい必要なの？　
             </h2>
             <img
               src="/assets/img/border.png"
-              className="mx-auto "
+              className="mx-auto m-4"
               loading="lazy"
             />
           </div>
