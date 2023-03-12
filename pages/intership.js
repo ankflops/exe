@@ -65,17 +65,18 @@ const intership = () => {
             loading="lazy"
           />
         </div>
-        <div>
-          <div className="text-primary text-center p-10 font-bold text-3xl">
+        <div className="max-w-10xl">
+          <div className="text-gray-700 text-center p-10 font-bold text-3xl">
             ～インターンシップ体験者の声～
           </div>
-          <div className="text-xl p-5 grid lg:grid-cols-3 gap-4">
+
+          <div className="flex flex-col md:flex-row">
             <img
               src="/assets/img/woman1.jpeg"
-              className="h-64 border-solid border-2 border-[#92ACDD] rounded-full "
+              className="h-64 w-64 mx-auto border-solid border-2 border-[#92ACDD] rounded-full md:m-4"
               loading="lazy"
             />
-            <p className="col-span-2">
+            <p className="p-4 text-gray-500">
               S.Iさん　立命館アジア太平洋大学　国際経営学科<br></br>
               ▶国籍の異なる人との出会い
               ３か月という短い期間でしたが、国籍を問わない多くの人との出会いは、日本では得難く、とても刺激的で、価値観が変わるような経験でした。実際に社会で働く方々との交流の機会は大変貴重で、就職活動のアドバイスや海外で働くこと、女性が働くということについて多くの立場の方から意見を聞くことができました。
@@ -83,36 +84,40 @@ const intership = () => {
               ▶不安定な情勢下でも安心な留学体制
               軍事政権下で不安もありましたが、ビザ手配から帰国まで手厚いサポートがあり何一つ不自由もなくインターンに集中して望めました。また、生活面から業務面でも私が成長できるようなアドバイスがあっただけでなく、就職活動に関しても定期的に相談する機会があり、自分の将来を真剣に考える大変有意義な期間となりました。
             </p>
-            <p className="col-span-2 mt-20">
-              T.Mさん　東京外国語大学　ビルマ語学科<br></br>
-              ▶現地スタッフとのコミュニケーション
-              日本とは全く違うミャンマーで暮らすことに対する不安もありました。しかし毎日、ホテルのスタッフと触れ合う中ですぐにその不安も消えてしまいました。また、ビジネスを学ぶだけでなく、ホテルスタッフとの会話を通してビルマ語の習得もできたことが本当によかったです。
+          </div>
+          <div className="flex flex-col-reverse md:flex-row">
+            <p className="p-4 text-gray-500">
+              S.Iさん　立命館アジア太平洋大学　国際経営学科<br></br>
+              ▶国籍の異なる人との出会い
+              ３か月という短い期間でしたが、国籍を問わない多くの人との出会いは、日本では得難く、とても刺激的で、価値観が変わるような経験でした。実際に社会で働く方々との交流の機会は大変貴重で、就職活動のアドバイスや海外で働くこと、女性が働くということについて多くの立場の方から意見を聞くことができました。
               <br></br>
-              ▶人々の温かさに触れる充実したインターン生活
-              このインターンシップで、何よりも一番心に残ったのは、人々の温かさです。ホテルのスタッフは、最初から最後まで、わがままな私に親切にしてくれ、本当の家族のように接してくれました。毎日が本当に充実しており、あっという間に過ぎ去ってしまいました。この経験は絶対に忘れることはありませんし、私自身、インターンシップを終えて、以前より成長できたと思います。
+              ▶不安定な情勢下でも安心な留学体制
+              軍事政権下で不安もありましたが、ビザ手配から帰国まで手厚いサポートがあり何一つ不自由もなくインターンに集中して望めました。また、生活面から業務面でも私が成長できるようなアドバイスがあっただけでなく、就職活動に関しても定期的に相談する機会があり、自分の将来を真剣に考える大変有意義な期間となりました。
             </p>
             <img
               src="/assets/img/guy1.jpg"
-              className="h-64 border-solid border-2 border-[#92ACDD] rounded-full mx-auto mt-20"
+              className="h-64 w-64 mx-auto border-solid border-2 border-[#92ACDD] rounded-full md:m-4"
               loading="lazy"
             />
-
+          </div>
+          <div className="flex flex-col md:flex-row">
             <img
               src="/assets/img/woman2.jpeg"
-              className="h-64 border-solid border-2 border-[#92ACDD] rounded-full mx-auto mt-20"
+              className="h-64 w-64 mx-auto border-solid border-2 border-[#92ACDD] rounded-full md:m-4"
               loading="lazy"
             />
-            <p className="col-span-2 mt-20">
-              1 E・Mさん　上智大学　教育学科<br></br>
-              ▶今、ミャンマーいくということ
-              インターンシップに参加して、まず驚いたことは、ミャンマーの治安の良さと人の温厚さです。ミャンマーは熱心な仏教徒の国で通信や流通が安定していないからこそ、情報が溢れておらず、人々の生活は穏やかで豊かであるように感じました。10年も経てばミャンマーも変わります。このタイミングで参加できたことにとても感謝しています。
+            <p className="p-4 text-gray-500">
+              S.Iさん　立命館アジア太平洋大学　国際経営学科<br></br>
+              ▶国籍の異なる人との出会い
+              ３か月という短い期間でしたが、国籍を問わない多くの人との出会いは、日本では得難く、とても刺激的で、価値観が変わるような経験でした。実際に社会で働く方々との交流の機会は大変貴重で、就職活動のアドバイスや海外で働くこと、女性が働くということについて多くの立場の方から意見を聞くことができました。
               <br></br>
-              ▶チャレンジングなインターン内容
-              インターン期間は、2週間でした。主な仕事内容は、日本人としてのクリンネスの感覚を、現地のスタッフに共有するということでした。ホテル業を何も知らない私が、自分なりの改善案を共有するということは重圧でしたが日本人マネージャーの方々が最大限にサポートしてくれました。苦戦しながらも目標達成に向けて努力するという工程は自分の糧になったと感じております。私にとって、チャレンジングなインターンでしたがとても濃い2週間となりました。ぜひ半年以上の参加をおすすめします！
+              ▶不安定な情勢下でも安心な留学体制
+              軍事政権下で不安もありましたが、ビザ手配から帰国まで手厚いサポートがあり何一つ不自由もなくインターンに集中して望めました。また、生活面から業務面でも私が成長できるようなアドバイスがあっただけでなく、就職活動に関しても定期的に相談する機会があり、自分の将来を真剣に考える大変有意義な期間となりました。
             </p>
           </div>
+
           <div className="bg-[#f6fafd] p-5">
-            <div className="text-4xl text-primary mt-10">
+            <div className="text-3xl md:text-4xl text-gray-700 mt-10">
               インターン実績大学
             </div>
             <p className="text-primary text-xl break-words p-10">
@@ -135,8 +140,8 @@ const intership = () => {
         <table className="text-xl table-fixed border-collapse border border-1 border-slate-400 mx-5 ">
           <thead>
             <tr>
-              <th className="border border-slate-300">時期</th>
-              <th className="text-left border border-slate-300 p-5">随時</th>
+              <th className="border border-slate-300 font-normal">時期</th>
+              <th className="text-left border border-slate-300 p-5 font-normal">随時</th>
             </tr>
           </thead>
           <tbody>

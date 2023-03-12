@@ -32,7 +32,9 @@ const contact = () => {
             <section className="mb-32 text-center text-gray-800">
               <div className="max-w-[700px] mx-auto px-3 lg:px-6">
                 <i className="fab fa-twitter text-lg leading-lg text-white opacity-75"></i>{" "}
-                <h1 className="text-3xl font-bold">(81) 3 3288 2371</h1>
+                <h1 className="text-xl md:text-3xl font-bold">
+                  (81) 3 3288 2371
+                </h1>
                 <p>
                   {/* <i className="fa-solid fa-heart fa-beat"></i>{" "} */}
                   <a
@@ -42,10 +44,10 @@ const contact = () => {
                     mail@exegroup.co.jp
                   </a>
                 </p>
-                <p className="text-2xl font-bold font-serif text-left my-4 pt-4">
+                <p className="text-xl md:text-2xl font-bold font-serif md:text-left my-4 pt-4">
                   お問い合わせください。
                 </p>
-                <h2 className="text-3xl font-bold mb-12">お問い合わせ</h2>
+                <h2 className="text-xl md:text-3xl font-bold mb-12">お問い合わせ</h2>
                 <form>
                   <div className="form-group mb-6">
                     <input
@@ -114,27 +116,14 @@ const contact = () => {
                       defaultValue={""}
                     />
                   </div>
-                  {/* <div className="form-group form-check text-center mb-6">
-                     <input
-                      type="checkbox"
-                      className="form-check-input appearance-none h-4 w-4 border border-gray-300 rounded-sm bg-white checked:bg-blue-600 checked:border-blue-600 focus:outline-none transition duration-200 mt-1 align-top bg-no-repeat bg-center bg-contain mr-2 cursor-pointer"
-                      id="exampleCheck87"
-                      defaultChecked
-                    />
-                    <label
-                      className="form-check-label inline-block text-gray-800"
-                      htmlFor="exampleCheck87"
-                    >
-                      Send me a copy of this message
-                    </label> 
-                  </div> */}
+
                   <button
                     type="submit"
                     className="
   w-full
   px-6
   py-2.5
-  bg-blue-600
+  bg-darkblue
   text-white
   font-medium
   text-xs
