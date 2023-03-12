@@ -3,7 +3,6 @@
 @tailwind utilities;
 @import "~react-image-gallery/styles/css/image-gallery.css";
 
-
 .sticky {
   background: #f4336d;
   position: fixed;
