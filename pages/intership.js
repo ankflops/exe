@@ -1,7 +1,6 @@
 import React from "react";
 import MainLayout from "../layout/MainLayout";
 import ImageGallery from "react-image-gallery";
-// hi
 
 const images = [
   {
@@ -9,8 +8,8 @@ const images = [
     thumbnail: "/assets/img/slider1.jpg",
   },
   {
-    original: "/assets/img/27.JPG のコピー.jpg",
-    thumbnail: "/assets/img/27.JPG のコピー.jpg",
+    original: "./assets/img/27.JPG のコピー.jpg",
+    thumbnail: "./assets/img/27.JPG のコピー.jpg",
   },
   {
     original: "/assets/img/22.JPG のコピー.jpg",
