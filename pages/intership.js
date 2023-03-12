@@ -1,6 +1,7 @@
 import React from "react";
 import MainLayout from "../layout/MainLayout";
 import ImageGallery from "react-image-gallery";
+// hi
 
 const images = [
   {
