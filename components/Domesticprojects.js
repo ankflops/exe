@@ -4,7 +4,7 @@ import LazyLoad from "react-lazy-load";
 
 const Domesticprojects = () => {
   return (
-    <div className="pb-8">
+    <div className="pb-0">
       <div className="flex justify-center">
         <div className="grid md:grid-cols-2">
           <div className="md:p-8">
@@ -15,8 +15,8 @@ const Domesticprojects = () => {
             />
           </div>
 
-          <div className="p-4 my-4 md:p-8">
-            <h2 className=" text-3xl font-bold text-gray-700">
+          <div className="p-4 md:p-8">
+            <h2 className="text-lg md:text-3xl font-semibold text-gray-700 text-center md:text-left">
               ミャンマープロジェクト
             </h2>
             <p className="my-4 text-lg font-medium text-gray-500 text-justify">

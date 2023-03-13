@@ -23,16 +23,15 @@ const about = () => {
           </div>
         </div>
       </div>
-
-      <div className="mr-4 ml-4 md:mr-20 md:ml-20">
-        <p className="text-center text-lg font-medium text-gray-500 mb-10 mt-10">
+      <div className="mx-4 md:mx-20">
+        <p className="text-justify text-lg font-medium text-gray-500 mt-4">
           私ども、株式会社エクセは1991年8月6日に生まれました。 <br></br>
           それから20年、20世紀の最後の10年と21世紀の最初の10年の激動の中をブティックの投資事業会社として、時代の流れとともに前へ前へと進んでまいりました。
         </p>
-        <h2 className="text-center underline underline-offset-4 font-bold text-2xl text-gray-700 mb-5">
+        <h2 className="text-center underline underline-offset-4 font-bold text-2xl text-gray-700 my-8">
           変化こそチャンスである
         </h2>
-        <p className="text-center text-lg font-medium text-gray-500 mb-16">
+        <p className="text-justify text-lg font-medium text-gray-500 mb-8">
           当社が常に掲げてきた信念は、「変化こそチャンスである」ということです。
           <br></br>
           <br></br>
@@ -44,10 +43,10 @@ const about = () => {
           <br></br>{" "}
           当社は、ミャンマー、モンゴル、イスラエルなどで数多くのプロジェクトを完成・運営し、雇用を通じてこれらの国々のお手伝いをさせていただいております。
         </p>
-        <h2 className="text-center underline underline-offset-4 font-bold text-2xl text-gray-700 mb-5">
+        <h2 className="text-center underline underline-offset-4 font-bold text-2xl text-gray-700 mb-8">
           人材へのこだわり
         </h2>
-        <p className="text-center text-lg font-medium text-gray-500 mb-10">
+        <p className="text-justify text-lg font-medium text-gray-500 mb-8">
           当社が常に掲げてきた信念は、「変化こそチャンスである」ということです。
           <br></br>
           <br></br>
@@ -62,10 +61,9 @@ const about = () => {
         <p className="text-right text-lg font-medium text-gray-500">
           2017年9月吉日
         </p>
-        <p className="text-right text-lg font-medium text-gray-500 mb-10">
+        <p className="text-right text-lg font-medium text-gray-500 mb-8">
           代表取締役社長　谷　均
         </p>
-
         {/* table1 */}
         <div className="grid justify-center">
           <div className="md:mt-20 border-2 border-black bg-darkblue h-14">
@@ -73,28 +71,22 @@ const about = () => {
               会社概要
             </p>
           </div>
-
-          <div className="divide-black grid grid-cols-3 justify-center divide-x border-t-2 border-r-2 border-l-2 border-t-black border-r-black border-l-black">
+          <div className="items-center divide-black grid grid-cols-3 justify-center divide-x border-t-2 border-r-2 border-l-2 border-t-black border-r-black border-l-black">
             <div className="text-center font-medium m-3">企業名</div>
             <div className="col-span-2 p-4">
               株式会社エクセ（英文表記：EXE Corporation)
             </div>
           </div>
-
-          <div className="divide-black grid grid-cols-3 divide-x border-t-2 border-r-2 border-l-2 border-t-black border-r-black border-l-black">
+          <div className="items-center divide-black grid grid-cols-3 divide-x border-t-2 border-r-2 border-l-2 border-t-black border-r-black border-l-black">
             <div className="text-center font-medium m-3">代表取締役社長</div>
             <div className="col-span-2 p-4">谷　均</div>
           </div>
-
-          <div className="divide-black grid grid-cols-3 divide-x border-t-2 border-r-2 border-l-2 border-t-black border-r-black border-l-black">
+          <div className="items-center divide-black grid grid-cols-3 divide-x border-t-2 border-r-2 border-l-2 border-t-black border-r-black border-l-black">
             <div className="text-center font-medium md:m-6">所在地</div>
             <div className="col-span-2 p-4">東京都千代田区麹町1－10－5</div>
           </div>
-
-          <div className="divide-black grid grid-cols-3 divide-x border-t-2 border-r-2 border-l-2 border-t-black border-r-black border-l-black">
-            <div className="text-center font-medium mt-44 md:mt-20">
-              海外事業所
-            </div>
+          <div className="items-center divide-black grid grid-cols-3 divide-x border-t-2 border-r-2 border-l-2 border-t-black border-r-black border-l-black">
+            <div className="text-center font-medium">海外事業所</div>
             <div className="col-span-2 p-4">
               ヤンゴン・オフィス（ミャンマー）<br></br>#0505 Sakura Tower, 339
               Bogyoke Aung San Road, Kyauktada Township, Yangon, Myanmar
@@ -108,30 +100,24 @@ const about = () => {
               info@exeplaza.mn
             </div>
           </div>
-
-          <div className="divide-black grid grid-cols-3 divide-x border-t-2 border-r-2 border-l-2 border-t-black border-r-black border-l-black">
-            <div className="text-center font-medium mt-4 md:mt-3">資本金</div>
+          <div className="items-center divide-black grid grid-cols-3 divide-x border-t-2 border-r-2 border-l-2 border-t-black border-r-black border-l-black">
+            <div className="text-center font-medium">資本金</div>
             <div className="col-span-2 p-4">99,000,000円</div>
           </div>
-
-          <div className="divide-black grid grid-cols-3 divide-x border-t-2 border-r-2 border-l-2 border-t-black border-r-black border-l-black">
-            <div className="text-center font-medium mt-6 md:mt-3">事業内容</div>
+          <div className="items-center divide-black grid grid-cols-3 divide-x border-t-2 border-r-2 border-l-2 border-t-black border-r-black border-l-black">
+            <div className="text-center font-medium">事業内容</div>
             <div className="col-span-2 p-4">
               日本を含むアジアを中心とする投資および事業
             </div>
           </div>
-
-          <div className="divide-black grid grid-cols-3 divide-x border-t-2 border-r-2 border-l-2 border-t-black border-r-black border-l-black">
-            <div className="text-center font-medium m-6 md:m-3">従業員</div>
+          <div className="items-center divide-black grid grid-cols-3 divide-x border-t-2 border-r-2 border-l-2 border-t-black border-r-black border-l-black">
+            <div className="text-center font-medium">従業員</div>
             <div className="col-span-2 p-4">
               約10人（本社）、約300人（海外グループ会社）
             </div>
           </div>
-
-          <div className="divide-black grid grid-cols-3 divide-x border-t-2 border-r-2 border-l-2 border-b-2 border-t-black border-r-black border-l-black border-b-black">
-            <div className="text-center font-medium mt-44 md:mt-28">
-              関連会社
-            </div>
+          <div className="items-center divide-black grid grid-cols-3 divide-x border-t-2 border-r-2 border-l-2 border-b-2 border-t-black border-r-black border-l-black border-b-black">
+            <div className="text-center font-medium">関連会社</div>
             <div className="col-span-2 p-4">
               EXE Sakura
               tower(シンガポール）：ミャンマー（ヤンゴン）におけるサクラタワーの経営
@@ -146,7 +132,6 @@ const about = () => {
             </div>
           </div>
         </div>
-
         {/* table2 */}
         <div className="grid justify-center mt-10 mb-10">
           <div className="md:mt-20 border-2 border-black bg-darkblue h-14">
@@ -154,45 +139,39 @@ const about = () => {
               沿革
             </p>
           </div>
-
-          <div className="divide-black grid grid-cols-3 justify-center divide-x border-t-2 border-r-2 border-l-2 border-t-black border-r-black border-l-black">
-            <div className="text-center font-medium m-3">1991年</div>
+          <div className="items-center divide-black grid grid-cols-3 justify-center divide-x border-t-2 border-r-2 border-l-2 border-t-black border-r-black border-l-black">
+            <div className="text-center font-medium">1991年</div>
             <div className="col-span-2 p-4">
               三菱商事㈱を退社後、投資事業会社の株式会社エクセを設立日本テレコムと共同で日本初の携帯電話事業会社を設立{" "}
             </div>
           </div>
-
-          <div className="divide-black grid grid-cols-3 divide-x border-t-2 border-r-2 border-l-2 border-t-black border-r-black border-l-black">
-            <div className="text-center font-medium m-3">1998年</div>
+          <div className="items-center divide-black grid grid-cols-3 divide-x border-t-2 border-r-2 border-l-2 border-t-black border-r-black border-l-black">
+            <div className="text-center font-medium">1998年</div>
             <div className="col-span-2 p-4">
               ベトナムにて日本初のホテル事業を展開（現ホテル・ニッコー・ハノイ）
             </div>
           </div>
-
-          <div className="divide-black grid grid-cols-3 divide-x border-t-2 border-r-2 border-l-2 border-t-black border-r-black border-l-black">
-            <div className="text-center font-medium md:m-6">1999年</div>
+          <div className="items-center divide-black grid grid-cols-3 divide-x border-t-2 border-r-2 border-l-2 border-t-black border-r-black border-l-black">
+            <div className="text-center font-medium">1999年</div>
             <div className="col-span-2 p-4">
               ミャンマーにて日本初のオフィスビル・ホテル事業を展開（現サクラタワー、ティリピセヤ・サンクチュアリ・リゾート）
             </div>
           </div>
-
-          <div className="divide-black grid grid-cols-3 divide-x border-t-2 border-r-2 border-l-2 border-t-black border-r-black border-l-black">
-            <div className="text-center font-medium mt-4 md:mt-3">2010年</div>
+          <div className="items-center divide-black grid grid-cols-3 divide-x border-t-2 border-r-2 border-l-2 border-t-black border-r-black border-l-black">
+            <div className="text-center font-medium">2010年</div>
             <div className="col-span-2 p-4">
               モンゴルにて日本初の投資事業会社Sanaa EXE LLCを設立
             </div>
           </div>
-
-          <div className="divide-black grid grid-cols-3 divide-x border-t-2 border-r-2 border-l-2 border-t-black border-r-black border-l-black">
-            <div className="text-center font-medium mt-6 md:mt-3">2014年</div>
+          <div className="items-center divide-black grid grid-cols-3 divide-x border-t-2 border-r-2 border-l-2 border-t-black border-r-black border-l-black">
+            <div className="text-center font-medium">2014年</div>
             <div className="col-span-2 p-4">
               イスラエルにて日本初の投資・不動産事業会社Cardboard
               Technologiesを設立
             </div>
           </div>
-
-          <div className="divide-black grid grid-cols-3 divide-x border-t-2 border-r-2 border-l-2 border-t-black border-b-2 border-b-black border-r-black border-l-black">
-            <div className="text-center font-medium m-6 md:m-3">2016年</div>
+          <div className="items-center divide-black grid grid-cols-3 divide-x border-t-2 border-r-2 border-l-2 border-t-black border-b-2 border-b-black border-r-black border-l-black">
+            <div className="text-center font-medium">2016年</div>
             <div className="col-span-2 p-4">
               モンゴルにて教育事業会社Olonlog EXEを設立金融事業へと展開を広げる
             </div>

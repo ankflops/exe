@@ -24,9 +24,13 @@ const mongolia = () => {
           </div>
         </div>
       </div>
-
-      <div className="font-bold text-lg md:text-3xl px-4 mt-8 text-gray-700">
-        Olonlog EXE IT学校（オロンログ・エグゼ）
+      <div className="text-center md:text-left md:px-4">
+        <div className="font-bold text-lg md:text-3xl mt-8 md:px-4 text-gray-700 ">
+          Olonlog EXE IT学校
+        </div>
+        <div className="font-bold text-lg md:text-3xl md:px-4 text-gray-700">
+          オロンログ・エグゼ
+        </div>
       </div>
       <div className="flex justify-center">
         <div className="grid md:grid-cols-2">
@@ -39,7 +43,7 @@ const mongolia = () => {
             <p className="my-8 text-xl font-medium text-gray-500">
               設立以来、IT、数学、英語の全国大会やウランバートル市の大会などで毎年数多くのメダルを獲得しており、教育機関からの全額奨学金を受け米国、カナダ、日本へ留学する生徒も輩出しています。本校の生徒たちは、モンゴルだけでなく、世界をリードする国際的にトップ・レベルのプロフェッショナルになれると信じています。
             </p>
-            <p className="my-8 text-xl font-medium text-gray-500">
+            <p className="my-4 text-xl font-medium text-gray-500">
               Sanaa EXE LLC<br></br> EXE Plaza, Tumurchnii street 7/1,
               Chingeltei district, Ulaanbaatar 15171, Mongolia <br></br>Tel:
               (976) 11 325 552 / Fax: (976) 11 325 552 / <br></br>{" "}
@@ -62,7 +66,7 @@ const mongolia = () => {
           </div>
         </div>
       </div>
-      <div className="font-bold text-lg md:text-3xl px-4 mt-8 text-gray-700">
+      <div className="font-bold text-lg md:text-3xl px-4 md:px-8 mt-8 text-gray-700 text-center md:text-left">
         ターコイズ・ファイナンス
       </div>
       <div className="flex justify-center mb-10">

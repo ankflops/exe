@@ -6,7 +6,7 @@ const Aboutexe = () => {
     <div className="pb-8">
       <div className="flex justify-center">
         <div className="grid md:grid-cols-2">
-          <div className="pt-4 md:p-8">
+          <div className="py-2 md:p-8">
             <img
               src="/assets/img/2.JPG"
               loading="lazy"
@@ -15,7 +15,9 @@ const Aboutexe = () => {
           </div>
 
           <div className="p-4 md:pr-8 md:pt-8">
-            <h2 className="text-3xl font-bold text-gray-700">エクセについて</h2>
+            <h2 className="text-3xl font-bold text-gray-700 text-center md:text-left">
+              エクセについて
+            </h2>
             <p className="my-4 text-lg font-medium text-gray-500 text-justify">
               私ども、株式会社エクセは1991年8月6日に生まれました。それから30年、20世紀の最後の10年と21世紀の最初の20年の激動の中をブティックの投資事業会社として、時代の流れとともに前へ前へと進んでまいりました。
             </p>

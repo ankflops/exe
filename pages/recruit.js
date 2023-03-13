@@ -31,21 +31,21 @@ const recruit = () => {
           </div>
         </div>
 
-        <div className="mx-auto text-center text-lg p-4 md:p-8 text-gray-500">
+        <div className="mx-auto text-left text-lg p-4 md:px-24 text-gray-500">
           <p className="mt-4">
             当社が常に掲げてきた信念は、「変化こそチャンスである」ということです。時代の変化にたじろぐことなく、不安定化をむしろビジネスチャンスと捉えていくのが当社のスピリットです。
           </p>
-          <h1 className="mt-4">
+          <h1 className="mt-2">
             投資に関する信念は、「人」に対する信念にもつながります。
           </h1>
-          <p className="mt-4">
+          <p className="mt-2">
             当社は人材への投資こそ最高の投資であると考えて、「自ら変化を求める人材」、「人と同じではなく自分なりの価値観を持っている人材」を常に求めております。
           </p>
         </div>
 
         {/* table */}
-        <div className="p-4 md:p-8">
-          <div className="md:mt-20 md:mr-20 md:ml-20 border-2 border-darkblue bg-darkblue h-14">
+        <div className="md:py-4 p-4">
+          <div className="md:mt-4 md:mx-20 border-2 border-darkblue bg-darkblue h-14">
             <p className=" text-center text-lg font-medium text-gray-400 mt-3">
               求人票
             </p>
@@ -141,7 +141,7 @@ const recruit = () => {
               ※担当業務やイベント時期により変動、ミャンマー暦に準ずる
             </div>
           </div>
-          <div className="divide-darkblue grid grid-cols-3 divide-x md:mb-20 md:mr-20 md:ml-20 border-2 border-t-darkblue border-r-darkblue border-l-darkblue">
+          <div className="divide-darkblue grid grid-cols-3 divide-x md:mb-12 md:mx-20 border-2 border-t-darkblue border-r-darkblue border-l-darkblue">
             <div className="text-center font-medium m-3">教育研修</div>
             <div className="p-2 col-span-2">必要に応じ支援制度あり</div>
           </div>
@@ -167,11 +167,11 @@ const recruit = () => {
               loading="lazy"
             />
             <div className="grid">
-              <h3 className="m-8  font-bold text-gray-600">
-                中塚翔大（Shota Nakatsuka）　Recruiter
+              <h3 className="text-center md:text-left md:ml-5 my-2 font-bold text-gray-600">
+                中塚翔大（Shota Nakatsuka）　<br></br>Recruiter
               </h3>
               <div className="mt-32">
-                <p className="lg:-mt-40 m-5 md:mr-28 sm:-mt-32 -mt-32 text-gray-500">
+                <p className="lg:-mt-40 m-5 md:mr-20 sm:-mt-32 -mt-32 text-gray-500">
                   日本人事としてインターン生、新卒・中途採用を担当しています。大学卒業後、外資系大手人材会社にて10年在籍し
                   現在は株式会社エクセの人事を担当。「変化こそチャンスである」は、創業当初からの弊社の信念となります。
                   自分なりの価値の確立を目指し、未来を切り開こうとする姿勢を全力で応援しています。興味のある方はお気軽にお問い合わせください！！
@@ -181,7 +181,7 @@ const recruit = () => {
           </div>
           <div className="flex justify-center">
             <div>
-              <h2 className="font-bold text-2xl text-gray-700 text-center m-1 mb-5">
+              <h2 className="font-bold text-2xl text-gray-700 text-center  md:m-5">
                 よくある質問
               </h2>
               <div className="grid justify-center">

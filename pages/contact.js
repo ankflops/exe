@@ -27,7 +27,7 @@ const contact = () => {
         </div>
 
         <div>
-          <div className="container my-24 px-6 mx-auto">
+          <div className="container my-12 px-6 mx-auto">
             {/* Section: Design Block */}
             <section className="mb-32 text-center text-gray-800">
               <div className="max-w-[700px] mx-auto px-3 lg:px-6">
@@ -39,15 +39,15 @@ const contact = () => {
                   {/* <i className="fa-solid fa-heart fa-beat"></i>{" "} */}
                   <a
                     href="mailto:mail@exegroup.co.jp"
-                    className="hover:text-blue-500"
+                    className="text-xl md:text-2xl font-bold"
                   >
                     mail@exegroup.co.jp
                   </a>
                 </p>
-                <p className="text-xl md:text-2xl font-bold font-serif md:text-left my-4 pt-4">
+                {/* <p className="text-xl md:text-2xl font-bold font-serif md:text-left my-4 pt-4">
                   お問い合わせください。
-                </p>
-                <h2 className="text-xl md:text-3xl font-bold mb-12">お問い合わせ</h2>
+                </p> */}
+                <h2 className="text-xl md:text-3xl font-bold m-8">お問い合わせ</h2>
                 <form>
                   <div className="form-group mb-6">
                     <input

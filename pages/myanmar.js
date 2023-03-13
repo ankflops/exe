@@ -52,13 +52,11 @@ const myanmar = () => {
       </div>
       {/* DIV ZASAKH */}
 
-      <div className="p-4">
-        <h1 className="font-bold text-2xl text-gray-700 mt-8 text-center">
-          サクラタワー
-        </h1>
+      <div className="p-0">
+        <h1 className="font-bold text-2xl text-gray-700 mt-8 text-center md:text-left">サクラタワー</h1>
         <div className="lg:flex block">
           <div className="flex text-justify">
-            <p className="text-lg font-medium w-auto lg:h-auto md:p-5 py-4 text-gray-500 max-w-4xl">
+            <p className="text-lg font-medium w-auto lg:h-auto md:p-5 pb-8 text-gray-500 max-w-4xl p-4">
               サクラタワーは（株）日本設計、（株）鴻池組と、日本企業の手で1999年に完成しました。ヤンゴンのビジネス及び政治のまさに中心地区に位置し、総貸室面積12,425㎡、高さは地上約100mの20階建て耐震設計オフィスビルです。
               <br></br>
               <br></br>
@@ -84,7 +82,7 @@ const myanmar = () => {
         </div>
       </div>
       <div className="p-0">
-        <div class="text-3xl font-bold box-content lg:h-72 w-auto p-8 border-0 bg-[#f6fafd] my-4 text-gray-700">
+        <div class="text-3xl font-bold box-content w-auto p-8 border-0 bg-[#f6fafd] my-4 text-gray-700">
           設備
           <div className="block sm:flex">
             <div className="font-normal text-base mt-8 sm:ml-5 block text-gray-500">
@@ -103,11 +101,11 @@ const myanmar = () => {
           </div>
         </div>
       </div>
-      <div className="p-4">
-        <h1 className="font-bold text-2xl text-gray-700">サクラレジデンス</h1>
+      <div className="p-0">
+        <h1 className="font-bold text-2xl text-gray-700 text-center md:text-left py-2">サクラレジデンス</h1>
         <div className="lg:flex block">
           <div className="flex text-justify">
-            <p className="text-lg font-medium w-auto lg:h-auto md:p-4 pt-4 text-gray-500 max-w-4xl">
+            <p className="text-lg font-medium w-auto lg:h-auto md:p-4 pt-4 text-gray-500 max-w-4xl p-4 pb-8">
               サクラレジデンスは、1998年にヤンゴンで最初に作られた海外駐在員向けの世界水準のサービスを備えた高級サービスアパートメントであり、1泊からもご利用いただける高級ホテルでもあります。閑静な住宅地やインヤ通りのヤシ並木に程近い場所に位置し、ヤンゴン国際空港やビジネス街からほんの数分という好立地にあります。
               <br></br>
               <br></br>
@@ -129,12 +127,12 @@ const myanmar = () => {
             </p>
           </div>
 
-          <ImageGallery items={images} />
+          <ImageGallery items={images}/>
         </div>
       </div>
 
       <div className="p-0">
-        <div class="text-3xl font-bold box-content lg:h-128 w-auto p-10 border-0 bg-[#f6fafd] my-4 text-gray-700">
+        <div class="text-3xl font-bold box-content w-auto p-10 border-0 bg-[#f6fafd] my-4 text-gray-700">
           <div className="block sm:flex text-gray-500">
             <div>
               設備
@@ -152,7 +150,7 @@ const myanmar = () => {
             </div>
             <div className="sm:ml-20 md:ml-64 block mt-4 md:mt-0">
               調度品
-              <div className="font-normal text-base mt-10">
+              <div className="font-normal text-base mt-8">
                 - 個別操作可能な空調設備<br></br>- IDD電話<br></br>-
                 専用インターネットアクセス<br></br>- 多チャンネル衛星放送
                 <br></br>- 金庫<br></br>- 4口調理台、電動湯沸かし器<br></br>-
