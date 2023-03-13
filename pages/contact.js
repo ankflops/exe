@@ -30,24 +30,48 @@ const contact = () => {
           <div className="container my-12 px-6 mx-auto">
             {/* Section: Design Block */}
             <section className="mb-32 text-center text-gray-800">
-              <div className="max-w-[700px] mx-auto px-3 lg:px-6">
-                <i className="fab fa-twitter text-lg leading-lg text-white opacity-75"></i>{" "}
-                <h1 className="text-xl md:text-3xl font-bold">
-                  (81) 3 3288 2371
-                </h1>
-                <p>
-                  {/* <i className="fa-solid fa-heart fa-beat"></i>{" "} */}
-                  <a
-                    href="mailto:mail@exegroup.co.jp"
-                    className="text-xl md:text-2xl font-bold"
+              <div className="max-w-[400px] mx-auto px-3">
+                <div className="flex mt-4 justify-left">
+                  <svg
+                    width="24"
+                    height="24"
+                    xmlns="http://www.w3.org/2000/svg"
+                    fill="currentColor"
+                    clipRule="evenodd"
+                    className=""
                   >
-                    mail@exegroup.co.jp
-                  </a>
-                </p>
+                    <path d="M8.26 1.289l-1.564.772c-5.793 3.02 2.798 20.944 9.31 20.944.46 0 .904-.094 1.317-.284l1.542-.755-2.898-5.594-1.54.754c-.181.087-.384.134-.597.134-2.561 0-6.841-8.204-4.241-9.596l1.546-.763-2.875-5.612zm7.746 22.711c-5.68 0-12.221-11.114-12.221-17.832 0-2.419.833-4.146 2.457-4.992l2.382-1.176 3.857 7.347-2.437 1.201c-1.439.772 2.409 8.424 3.956 7.68l2.399-1.179 3.816 7.36s-2.36 1.162-2.476 1.215c-.547.251-1.129.376-1.733.376" />
+                  </svg>
+                  <li className="font-bold">(81) 3-3288-2371</li>
+                </div>
+                <div className="flex mt-4 justify-left">
+                  <svg
+                    width="24"
+                    height="24"
+                    xmlns="http://www.w3.org/2000/svg"
+                    fill="currentColor"
+                    clipRule="evenodd"
+                    className="mr-2"
+                  >
+                    <path d="M24 21h-24v-18h24v18zm-23-16.477v15.477h22v-15.477l-10.999 10-11.001-10zm21.089-.523h-20.176l10.088 9.171 10.088-9.171z" />
+                  </svg>
+                  <li>
+                    {" "}
+                    <a
+                      href="mailto:info@exegroup.co.jp"
+                      className="font-bold hover:text-blue-500"
+                    >
+                      {" "}
+                      info@exegroup.co.jp{" "}
+                    </a>
+                  </li>
+                </div>
                 {/* <p className="text-xl md:text-2xl font-bold font-serif md:text-left my-4 pt-4">
                   お問い合わせください。
                 </p> */}
-                <h2 className="text-xl md:text-3xl font-bold m-8">お問い合わせ</h2>
+                <h2 className="text-xl md:text-3xl font-bold m-8">
+                  お問い合わせ
+                </h2>
                 <form>
                   <div className="form-group mb-6">
                     <input

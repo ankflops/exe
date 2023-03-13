@@ -85,7 +85,7 @@ export default function Navbar({ fixed }) {
               </div>
 
               {/* dropdown */}
-{/* 
+
               <li className="nav-item">
                 <div className="flex justify-center">
                   <div>
@@ -142,14 +142,14 @@ export default function Navbar({ fixed }) {
                     </div>
                   </div>
                 </div>
-              </li> */}
-              <li className="nav-item">
+              </li>
+              {/* <li className="nav-item">
                 <Link href="/overseas">
                   <a className="px-2 py-2 flex items-center text-sm uppercase leading-snug text-white hover:text-sky-300">
                     <span className="ml-2">海外プロジェクト</span>
                   </a>
                 </Link>
-              </li>
+              </li> */}
               <li className="nav-item">
                 <Link href="/domestic">
                   <a className="px-2 py-2 flex items-center text-sm uppercase leading-snug text-white hover:text-sky-300">
