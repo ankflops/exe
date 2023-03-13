@@ -25,13 +25,13 @@ const mongolia = () => {
         </div>
       </div>
 
-      <div className="font-bold text-3xl px-5 mt-8">
+      <div className="font-bold text-lg md:text-3xl px-4 mt-8 text-gray-700">
         Olonlog EXE IT学校（オロンログ・エグゼ）
       </div>
       <div className="flex justify-center">
         <div className="grid md:grid-cols-2">
-          <div className="px-8">
-            <p className="my-8 text-xl font-medium text-gray-500">
+          <div className="p-4 md:p-8 text-justify">
+            <p className="text-xl font-medium text-gray-500">
               2010年からモンゴルの教育現場を支援し、総生徒数3,500人の校舎ビル建設プロジェクトを実行し、2018年にモンゴル初のITカリキュラムを小学生から教えるOlonlog
               EXE
               IT学校（オロンログ・エグゼ）を設立し現在運営をしています。小学校1年生から高校生まで500人近くの優秀な生徒が通い、デジタル時代のモンゴルのパワーになるために勤勉に勉強をしています。
@@ -53,7 +53,7 @@ const mongolia = () => {
             </p>
             <div className="flex justify-center lg:justify-start"></div>
           </div>
-          <div className="p-10">
+          <div className="md:p-8">
             <img
               src="/assets/img/1659508110.jpg"
               loading="lazy"
@@ -62,13 +62,13 @@ const mongolia = () => {
           </div>
         </div>
       </div>
-      <div className="font-bold text-3xl px-5 mt-8">
+      <div className="font-bold text-lg md:text-3xl px-4 mt-8 text-gray-700">
         ターコイズ・ファイナンス
       </div>
       <div className="flex justify-center mb-10">
         <div className="grid md:grid-cols-2">
-          <div className="px-8">
-            <p className="my-8 text-xl font-medium text-gray-500">
+          <div className="md:p-8 p-4 text-justify">
+            <p className="text-xl font-medium text-gray-500">
               株式会社エクセは、モンゴル最大手証券会社であるBDSec
               JSCの機関投資家大株主の一つであり、役員会に取締役も務めています。
             </p>
@@ -80,7 +80,7 @@ const mongolia = () => {
             </p>
             <div className="flex justify-center lg:justify-start"></div>
           </div>
-          <div className="p-10">
+          <div className="md:p-10">
             <img
               src="/assets/img/1659582198.jpg"
               loading="lazy"
