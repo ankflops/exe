@@ -43,7 +43,7 @@ const intership = () => {
               ビジネスインターンシップ
             </h1>
           </div>
-          <div class="text-sm pl-8 md:pl-16 md:text-2xl font-bold justify-start text-white">
+          <div className="text-sm pl-8 md:pl-16 md:text-2xl font-bold justify-start text-white">
             <h3>変化こそチャンスである。</h3>
             <h3 className="ml-4">
               人と同じではなく自分なりの価値観を信じよう。
@@ -515,8 +515,8 @@ const intership = () => {
         <div className="mx-4">
           <div className="border-2 border-gray-300 rounded-xl mt-5">
             <h2 className="text-center text-gray-600 md:text-xl font-bold m-4">
-              <a className="text-3xl">\ </a> 留学費用はどれくらい必要なの?{" "}
-              <a className="text-3xl">/ </a>
+              <a className="md:text-3xl">\ </a> 留学費用はどれくらい必要なの?{" "}
+              <a className="md:text-3xl">/ </a>
             </h2>
             <div className="flex">
               <svg
@@ -598,7 +598,6 @@ const intership = () => {
             </div>
           </div>
         </div>
-
         <div>
           <div>
             <h2 className="font-bold md:text-2xl text-gray-700 text-center my-6">
@@ -616,18 +615,16 @@ const intership = () => {
               className="h-[200px] w-[200px] m-auto md:ml-8"
               loading="lazy"
             />
-            <div className="grid">
-              <h3 className="mt-8 md:m-8 md:ml-5 font-bold text-gray-600 text-center md:text-left">
+            <div>
+              <h3 className="font-bold text-gray-600 text-center md:text-left mx-4 mt-4">
                 関原夕希子（Yukiko Sekihara）<br></br>Sales Director
               </h3>
-              <div className="mt-32">
-                <p className="lg:-mt-40 m-5 sm:-mt-32 -mt-32 text-gray-500">
-                  大学卒業後、ファーストリテイリング株式会社にて1年間店長補佐を経験した後、株式会社エクセへ転職。2012年よりミャンマーに駐在し、
-                  現在はサクラタワーとヤンゴンヤンゴンルーフトップバーの営業・販促を担当。弊社は若手に責任あるプロジェクトを任せる文化があり、
-                  海外で活躍するチャンスがあります。特にミャンマーではマネジメントの部分を任されており、
-                  バックグラウンドの異なるミャンマー人の仲間と協力するのは大変ですが、とてもやりがいがあり、日々勉強になっています。
-                </p>
-              </div>
+              <p className="text-gray-500 text-justify mx-4 my-2">
+                大学卒業後、ファーストリテイリング株式会社にて1年間店長補佐を経験した後、株式会社エクセへ転職。2012年よりミャンマーに駐在し、
+                現在はサクラタワーとヤンゴンヤンゴンルーフトップバーの営業・販促を担当。弊社は若手に責任あるプロジェクトを任せる文化があり、
+                海外で活躍するチャンスがあります。特にミャンマーではマネジメントの部分を任されており、
+                バックグラウンドの異なるミャンマー人の仲間と協力するのは大変ですが、とてもやりがいがあり、日々勉強になっています。
+              </p>
             </div>
           </div>
           <div className="md:flex grid grid-cols-1 md:grid-cols-2 mt-4">
@@ -636,18 +633,15 @@ const intership = () => {
               className="md:ml-8 h-[200px] w-[200px] m-auto"
               loading="lazy"
             />
-            <div className="grid">
-              <h3 className="mt-8 md:m-8 md:ml-5 font-bold text-gray-600 text-center md:text-left">
+            <div>
+              <h3 className="font-bold text-gray-600 text-center md:text-left mx-4 mt-4">
                 Cherry Aung　<br></br>General Manager
               </h3>
-              <div className="mt-32">
-                <p className="lg:-mt-40 m-5 md:mr-28 sm:-mt-32 -mt-32 text-gray-500">
-                  ミャンマー人でありながら、セールスエグゼクティブからゼネラルマネージャーになるまでキャリア開発を得る絶好の機会がありました。
-                </p>
-              </div>
+              <p className="text-gray-500 text-justify mx-4 my-2">
+                ミャンマー人でありながら、セールスエグゼクティブからゼネラルマネージャーになるまでキャリア開発を得る絶好の機会がありました。
+              </p>
             </div>
           </div>
-
           <div className="md:flex grid grid-cols-1 md:grid-cols-2 mt-4">
             <img
               src="/assets/img/team/1660884997.png"
@@ -655,143 +649,124 @@ const intership = () => {
               loading="lazy"
             />
             <div className="grid">
-              <h3 className="mt-8 md:m-8 md:ml-5 font-bold text-gray-600 text-center md:text-left">
+              <h3 className="font-bold text-gray-600 text-center md:text-left mx-4 mt-4">
                 Zar Ni Lwin　<br></br>Residence Manager
               </h3>
-              <div className="mt-32">
-                <p className="lg:-mt-40 m-5 md:mr-28 sm:-mt-32 -mt-32 text-gray-500">
-                  2008年に株式会社エクセ（サクラレジデンス）へ営業担当として入社。2012年にレジデンスマネージャーに昇格し、
-                  サービスアパートメントであるサクラレジデンスの業務を統括しています。株式会社エクセは、多くの動機付け方略を試すことができ、
-                  同僚とオープンな議論を交わすこともでき、社員がハッピーでいられる職場であります。
-                  ここではプロフェショナル面もプライベート面も両面同様に充実させることが可能だと感じています。
-                </p>
-              </div>
+
+              <p className="text-gray-500 text-justify mx-4 my-2">
+                2008年に株式会社エクセ（サクラレジデンス）へ営業担当として入社。2012年にレジデンスマネージャーに昇格し、
+                サービスアパートメントであるサクラレジデンスの業務を統括しています。株式会社エクセは、多くの動機付け方略を試すことができ、
+                同僚とオープンな議論を交わすこともでき、社員がハッピーでいられる職場であります。
+                ここではプロフェショナル面もプライベート面も両面同様に充実させることが可能だと感じています。
+              </p>
             </div>
           </div>
-
           <div className="md:flex grid grid-cols-1 md:grid-cols-2 mt-4">
             <img
               src="/assets/img/team/1660883696.png"
               className="md:ml-8 h-[200px] w-[200px] m-auto"
               loading="lazy"
             />
-            <div className="grid">
-              <h3 className="mt-8 md:m-8 md:ml-5 font-bold text-gray-600 text-center md:text-left">
+            <div>
+              <h3 className="font-bold text-gray-600 text-center md:text-left mx-4 mt-4">
                 堀越美緒（Mio Horikoshi）　<br></br>Sales Director
               </h3>
-              <div className="mt-32">
-                <p className="lg:-mt-40 m-5 md:mr-28 sm:-mt-32 -mt-32 text-gray-500">
-                  大学卒業後すぐに海外に行きたいという思いが強く、株式会社エクセに入社してミャンマーに駐在9年目。
-                  ホテルやレストラン、サービスアパートメントの運営に加え、セレクトショップやルーフトップバー、朝市などの立ち上げも経験。
-                  ヤンゴンは日本人だけでなく多くの外国人が集まる場所なので、様々な文化や言語の中で様々な体験ができ、刺激的な日々を過ごすことができます。
-                  好奇心旺盛で刺激を求めている方にぴったりの職場です。一緒に外国で明るく楽しく働きましょう！
-                </p>
-              </div>
+              <p className="text-gray-500 text-justify mx-4 my-2">
+                大学卒業後すぐに海外に行きたいという思いが強く、株式会社エクセに入社してミャンマーに駐在9年目。
+                ホテルやレストラン、サービスアパートメントの運営に加え、セレクトショップやルーフトップバー、朝市などの立ち上げも経験。
+                ヤンゴンは日本人だけでなく多くの外国人が集まる場所なので、様々な文化や言語の中で様々な体験ができ、刺激的な日々を過ごすことができます。
+                好奇心旺盛で刺激を求めている方にぴったりの職場です。一緒に外国で明るく楽しく働きましょう！
+              </p>
             </div>
           </div>
-
           <div className="md:flex grid grid-cols-1 md:grid-cols-2 mt-4">
             <img
               src="/assets/img/team/1660884986.png"
               className="md:ml-8 h-[200px] w-[200px] m-auto"
               loading="lazy"
             />
-            <div className="grid">
-              <h3 className="mt-8 md:m-8 md:ml-5 font-bold text-gray-600 text-center md:text-left">
+            <div>
+              <h3 className="font-bold text-gray-600 text-center md:text-left mx-4 mt-4">
                 Phyoe Wai Moe　<br></br>YangonYangon Bar Manager
               </h3>
-              <div className="mt-32">
-                <p className="lg:-mt-40 m-5 md:mr-28 sm:-mt-32 -mt-32 text-gray-500">
-                  ヤンゴンの最も高いルーフトップバーであるヤンゴンヤンゴンで、素晴らしい経営陣・協力的な同僚と一緒に日々楽しく仕事をしています。
-                </p>
-              </div>
+              <p className="text-gray-500 text-justify mx-4 my-2">
+                ヤンゴンの最も高いルーフトップバーであるヤンゴンヤンゴンで、素晴らしい経営陣・協力的な同僚と一緒に日々楽しく仕事をしています。
+              </p>
             </div>
           </div>
-
           <div className="md:flex grid grid-cols-1 md:grid-cols-2 mt-4">
             <img
               src="/assets/img/team/1660884947.png"
               className="md:ml-8 h-[200px] w-[200px] m-auto"
               loading="lazy"
             />
-            <div className="grid">
-              <h3 className="mt-8 md:m-8 md:ml-5 font-bold text-gray-600 text-center md:text-left">
+            <div>
+              <h3 className="font-bold text-gray-600 text-center md:text-left mx-4 mt-4">
                 白井竜太（Ryuta Shirai）　<br></br>Deputy Manager
               </h3>
-              <div className="mt-32">
-                <p className="lg:-mt-40 m-5 md:mr-28 sm:-mt-32 -mt-32 text-gray-500">
-                  2014年にインターンシップに参加し、バガンとヤンゴンで1年間勤務した後、新卒で株式会社エクセに入社。
-                  レストラン部門を中心に運営部門を担当。ミャンマーは日本とはかなり違いますが、仕事の本質は変わりません。
-                  しかし、文化や言語、習慣が異なるため、より密なコミュニケーションが求められ、それが人間の成長につながると思います。
-                  近年の社会情勢の中に私の年齢から参加できることは非常に重要で貴重な経験になっています。
-                </p>
-              </div>
+              <p className="text-gray-500 text-justify mx-4 my-2">
+                2014年にインターンシップに参加し、バガンとヤンゴンで1年間勤務した後、新卒で株式会社エクセに入社。
+                レストラン部門を中心に運営部門を担当。ミャンマーは日本とはかなり違いますが、仕事の本質は変わりません。
+                しかし、文化や言語、習慣が異なるため、より密なコミュニケーションが求められ、それが人間の成長につながると思います。
+                近年の社会情勢の中に私の年齢から参加できることは非常に重要で貴重な経験になっています。
+              </p>
             </div>
           </div>
-
           <div className="md:flex grid grid-cols-1 md:grid-cols-2 mt-4">
             <img
               src="/assets/img/team/photo2.png"
               className="md:ml-8 h-[205px] w-[205px] m-auto"
               loading="lazy"
             />
-            <div className="grid">
-              <h3 className="mt-8 md:m-8 md:ml-5 font-bold text-gray-600 text-center md:text-left">
+            <div>
+              <h3 className="font-bold text-gray-600 text-center md:text-left mx-4 mt-4">
                 下山徹（Toru Shimoyama）　<br></br>Sales Manager
               </h3>
-              <div className="mt-32">
-                <p className="lg:-mt-40 m-5 md:mr-28 sm:-mt-32 -mt-32 text-gray-500">
-                  現地の日系メディアで4年間勤務した後、2020年に株式会社エクセに入社。
-                  現在はサクラタワー、サクラレジデンス、ヤンゴンヤンゴンルーフトップバーの営業管理、運営、販促に携わっており、
-                  商工会の事務局なども兼任しています。現在のミャンマーは正に「激動」です。しかし、こちらにいるからこそ得られる成長機会、
-                  刺激、チャンスがあります。世界から注目を集めるミャンマーで自分を試してみませんか。思い立ったが吉日、即行動してください。
-                  度胸と愛嬌と熱意のある方、大歓迎です。
-                </p>
-              </div>
+              <p className="text-gray-500 text-justify mx-4 my-2">
+                現地の日系メディアで4年間勤務した後、2020年に株式会社エクセに入社。
+                現在はサクラタワー、サクラレジデンス、ヤンゴンヤンゴンルーフトップバーの営業管理、運営、販促に携わっており、
+                商工会の事務局なども兼任しています。現在のミャンマーは正に「激動」です。しかし、こちらにいるからこそ得られる成長機会、
+                刺激、チャンスがあります。世界から注目を集めるミャンマーで自分を試してみませんか。思い立ったが吉日、即行動してください。
+                度胸と愛嬌と熱意のある方、大歓迎です。
+              </p>
             </div>
           </div>
-
           <div className="md:flex grid grid-cols-1 md:grid-cols-2 mt-4">
             <img
               src="/assets/img/team/1660885016.png"
               className="md:ml-8 h-[200px] w-[200px] m-auto"
               loading="lazy"
             />
-            <div className="grid">
-              <h3 className="mt-8 md:m-8 md:ml-5 font-bold text-gray-600 text-center md:text-left">
+            <div>
+              <h3 className="font-bold text-gray-600 text-center md:text-left mx-4 mt-4">
                 Myo Zaw Oo　<br></br>Residence Assistant Manager
               </h3>
-              <div className="mt-32">
-                <p className="lg:-mt-40 m-5 md:mr-28 sm:-mt-32 -mt-32 text-gray-500">
-                  2011年から株式会社エクセ（サクラレジデンス）に所属。ホスピタリティ業界での経験は16年以上になります。
-                  フロントオフィスとセールス部門を経て、現在のアシスタント・レジデンスマネージャーのポジションに至ります。
-                  エクセで働くにあたってリーダーシップスキルを向上させることができ、
-                  日本やミャンマーのみならず多国籍のお客様や文化や従業員と深く接する機会が増えました。
-                  ミャンマーでのキャリアを向上させたい熱心な若者には最高の環境であると思います。
-                </p>
-              </div>
+              <p className="text-gray-500 text-justify mx-4 my-2">
+                2011年から株式会社エクセ（サクラレジデンス）に所属。ホスピタリティ業界での経験は16年以上になります。
+                フロントオフィスとセールス部門を経て、現在のアシスタント・レジデンスマネージャーのポジションに至ります。
+                エクセで働くにあたってリーダーシップスキルを向上させることができ、
+                日本やミャンマーのみならず多国籍のお客様や文化や従業員と深く接する機会が増えました。
+                ミャンマーでのキャリアを向上させたい熱心な若者には最高の環境であると思います。
+              </p>
             </div>
           </div>
-
           <div className="md:flex grid grid-cols-1 md:grid-cols-2 mt-4">
             <img
               src="/assets/img/team/photo1.png"
               className="md:ml-8 h-[215px] w-[215px] m-auto"
               loading="lazy"
             />
-            <div className="grid">
-              <h3 className="mt-8 md:m-8 md:ml-5 font-bold text-gray-600 text-center md:text-left">
+            <div>
+              <h3 className="font-bold text-gray-600 text-center md:text-left mx-4 mt-4">
                 寺田 敏秀（Toshihide Terada）　<br></br>Myanmar Director
               </h3>
-              <div className="mt-32">
-                <p className="lg:-mt-40 m-5 md:mr-28 sm:-mt-32 -mt-32 text-gray-500">
-                  大学卒業後、日系銀行で海外融資審査に携わり、その後、株式会社エクセに入社。
-                  2011年からミャンマーの責任者として駐在。以前は欧米関係の仕事が多く、アジアの国は初めてでしたが、
-                  大変活気があって国・都市の発展への意気込みに溢れています。また、企業の駐在員だけでなく、若い事業家など世界中の人々で賑わい、
-                  競い合い、頼もしい限りです。大事なのは言葉や知識ではなくて、やる気と熱意、そして人の輪に飛び込んでいく度胸です。
-                  是非チャレンジしてみてください。
-                </p>
-              </div>
+              <p className="text-gray-500 text-justify mx-4 my-2">
+                大学卒業後、日系銀行で海外融資審査に携わり、その後、株式会社エクセに入社。
+                2011年からミャンマーの責任者として駐在。以前は欧米関係の仕事が多く、アジアの国は初めてでしたが、
+                大変活気があって国・都市の発展への意気込みに溢れています。また、企業の駐在員だけでなく、若い事業家など世界中の人々で賑わい、
+                競い合い、頼もしい限りです。大事なのは言葉や知識ではなくて、やる気と熱意、そして人の輪に飛び込んでいく度胸です。
+                是非チャレンジしてみてください。
+              </p>
             </div>
           </div>
         </div>
