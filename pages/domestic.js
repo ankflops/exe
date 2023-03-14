@@ -36,7 +36,7 @@ const domestic = () => {
               <img
                 src="/assets/img/img2.jpg"
                 loading="lazy"
-                className="h-auto w-auto mt-2"
+                className="h-auto w-auto mt-2 md:ml-8"
                 alt="1"
               />
             </div>
