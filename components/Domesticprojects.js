@@ -15,7 +15,7 @@ const Domesticprojects = () => {
             />
           </div>
 
-          <div className="p-4 md:p-8">
+          <div className="p-4 md:py-8 md:pr-10">
             <h2 className="text-lg md:text-3xl font-semibold text-gray-700 text-center md:text-left">
               ミャンマープロジェクト
             </h2>

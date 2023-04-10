@@ -70,7 +70,7 @@ const domestic = () => {
           </div>
         </div>
       </div>
-      <div className="">
+      <div className="px-4">
         <div className="text-xl md:text-3xl font-bold box-content h-32 w-auto p-10 border-0 bg-[#f6fafd] mb-4">
           プロジェクト例{" "}
           <div className="font-normal text-base mt-4 md:ml-5">
@@ -78,16 +78,16 @@ const domestic = () => {
             -早稲田ハウス <br></br>-四谷ハウス
           </div>
         </div>
-        <div className="md:py-8 py-2">
+        <div className="pt-2">
           <div className="text-center text-3xl font-bold my-4 mt-4">
             その他投資事業
           </div>
-          <p className="text-xl p-4 md:py-8">
+          <p className="text-xl py-2">
             不動産投資事業の他に、ユニークな投資対象として教育、アート、投資家向けサービスなどにも力を入れています。いずれも、お客様のニーズを丹念にお聞きし、十分に相談した上でお一人お一人に合った形でご提案をさせて頂きます。
           </p>
         </div>
       </div>
-      <div className="md:mt-4">
+      <div className="p-4">
         <div className="text-xl md:text-3xl font-bold box-content lg:h-32 w-auto p-10 border-0 bg-[#f6fafd]">
           プロジェクト例{" "}
           <div className="font-normal text-base mt-5 md:ml-5">

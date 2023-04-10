@@ -116,13 +116,13 @@ export default function Navbar({ fixed }) {
                         </span>
                       </button>
                       <ul
-                        className="absolute z-[1000] float-left m-0 hidden min-w-max list-none overflow-hidden rounded-lg border-none bg-white text-left text-base shadow-lg [&[data-te-dropdown-show]]:block"
+                        className="absolute z-[1000] float-left m-0 hidden min-w-max list-none overflow-hidden border-none bg-white text-left text-base shadow-lg [&[data-te-dropdown-show]]:block"
                         aria-labelledby="dropdownMenuButton1"
                         data-te-dropdown-menu-ref
                       >
                         <li>
                           <a
-                            className="block w-full  bg-transparent py-2 px-4 text-sm"
+                            className="block w-full bg-transparent py-1 px-4 text-sm bg-darkblue text-white border"
                             href="/myanmar"
                             data-te-dropdown-item-ref
                           >
@@ -131,7 +131,7 @@ export default function Navbar({ fixed }) {
                         </li>
                         <li>
                           <a
-                            className="block w-full bg-transparent py-2 px-4 text-sm"
+                            className="block w-full bg-transparent py-1 px-4 text-sm bg-darkblue text-white border"
                             href="/mongolia"
                             data-te-dropdown-item-ref
                           >
@@ -187,13 +187,13 @@ export default function Navbar({ fixed }) {
                         </span>
                       </button>
                       <ul
-                        className="absolute z-[1000] float-left m-0 hidden min-w-max list-none overflow-hidden rounded-lg border-none bg-white bg-clip-padding text-left text-base shadow-lg [&[data-te-dropdown-show]]:block"
+                        className="absolute z-[1000] float-left m-0 hidden min-w-max list-none overflow-hidden border-none bg-white bg-clip-padding text-left text-base shadow-lg [&[data-te-dropdown-show]]:block"
                         aria-labelledby="dropdownMenuButton1"
                         data-te-dropdown-menu-ref
                       >
                         <li>
                           <a
-                            className="block w-full bg-transparent py-2 px-4 text-sm"
+                            className="block w-full bg-transparent py-1 px-4 text-sm bg-darkblue text-white border"
                             href="/intership"
                             data-te-dropdown-item-ref
                           >
@@ -202,7 +202,7 @@ export default function Navbar({ fixed }) {
                         </li>
                         <li>
                           <a
-                            className="block w-full bg-transparent py-2 px-4 text-sm"
+                            className="block w-full bg-transparent py-1 px-4 text-sm bg-darkblue text-white border"
                             href="/recruit"
                             data-te-dropdown-item-ref
                           >

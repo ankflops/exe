@@ -24,14 +24,15 @@ const about = () => {
         </div>
       </div>
       <div className="mx-4 md:mx-20">
-        <p className="text-justify text-lg font-medium text-gray-500 mt-4">
+        <p className="text-center text-lg font-medium text-gray-500 mt-4">
           私ども、株式会社エクセは1991年8月6日に生まれました。 <br></br>
-          それから20年、20世紀の最後の10年と21世紀の最初の10年の激動の中をブティックの投資事業会社として、時代の流れとともに前へ前へと進んでまいりました。
+          それから20年、20世紀の最後の10年と21世紀の最初の10年の激動の中をブティックの投資事業会社として、
+          <br></br>時代の流れとともに前へ前へと進んでまいりました。
         </p>
-        <h2 className="text-center underline underline-offset-4 font-bold text-2xl text-gray-700 my-8">
+        <h2 className="text-center underline underline-offset-4 font-bold text-2xl text-gray-700 my-4">
           変化こそチャンスである
         </h2>
-        <p className="text-justify text-lg font-medium text-gray-500 mb-8">
+        <p className="text-center text-lg font-medium text-gray-500 mb-8 mt-4">
           当社が常に掲げてきた信念は、「変化こそチャンスである」ということです。
           <br></br>
           <br></br>
@@ -40,13 +41,12 @@ const about = () => {
           <br></br>{" "}
           この信念が結実したものが、ここでご紹介する国内及びアジアを中心とするプロジェクトです。
           <br></br>
-          <br></br>{" "}
           当社は、ミャンマー、モンゴル、イスラエルなどで数多くのプロジェクトを完成・運営し、雇用を通じてこれらの国々のお手伝いをさせていただいております。
         </p>
         <h2 className="text-center underline underline-offset-4 font-bold text-2xl text-gray-700 mb-8">
           人材へのこだわり
         </h2>
-        <p className="text-justify text-lg font-medium text-gray-500 mb-8">
+        <p className="text-center text-lg font-medium text-gray-500 mb-8">
           当社が常に掲げてきた信念は、「変化こそチャンスである」ということです。
           <br></br>
           <br></br>
@@ -58,10 +58,10 @@ const about = () => {
           <br></br>{" "}
           ユニークな投資事業会社として常に前進を続ける当社のことを是非知っていただき、応援していただきますようお願いいたします。
         </p>
-        <p className="text-right text-lg font-medium text-gray-500">
+        <p className="text-end text-lg font-medium text-gray-500">
           2017年9月吉日
         </p>
-        <p className="text-right text-lg font-medium text-gray-500 mb-8">
+        <p className="text-end text-lg font-medium text-gray-500 mb-8 md:mb-0">
           代表取締役社長　谷　均
         </p>
         {/* table1 */}

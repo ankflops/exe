@@ -7,7 +7,7 @@ const Sharedhouse = () => {
     <div className="pb-8">
       <div className="flex justify-center">
         <div className="grid md:grid-cols-2">
-          <div className=" p-4 md:p-4">
+          <div className="p-4 md:px-8">
             <h2 className="text-lg md:text-3xl font-semibold text-gray-700 text-center md:text-left">
               モンゴルプロジェクト
             </h2>

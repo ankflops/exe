@@ -3,7 +3,7 @@ import Link from "next/link";
 
 const Aboutexe = () => {
   return (
-    <div className="pb-8">
+    <div className="pb-4">
       <div className="flex justify-center">
         <div className="grid md:grid-cols-2">
           <div className="py-2 md:p-8">

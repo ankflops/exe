@@ -52,8 +52,10 @@ const myanmar = () => {
       </div>
       {/* DIV ZASAKH */}
 
-      <div className="p-0">
-        <h1 className="font-bold text-2xl text-gray-700 mt-8 text-center md:text-left">サクラタワー</h1>
+      <div className="px-4">
+        <h1 className="font-bold text-2xl text-gray-700 mt-8 text-center md:text-left">
+          サクラタワー
+        </h1>
         <div className="lg:flex block">
           <div className="flex text-justify">
             <p className="text-lg font-medium w-auto lg:h-auto md:p-5 pb-8 text-gray-500 max-w-4xl p-4">
@@ -78,21 +80,23 @@ const myanmar = () => {
           </div>
 
           {/* slider */}
-          <ImageGallery items={images} />
+          <div className="m-4">
+            <ImageGallery items={images} />
+          </div>
         </div>
       </div>
-      <div className="p-0">
+      <div className="px-4">
         <div class="text-3xl font-bold box-content w-auto p-8 border-0 bg-[#f6fafd] my-4 text-gray-700">
           設備
           <div className="block sm:flex">
-            <div className="font-normal text-base mt-8 sm:ml-5 block text-gray-500">
+            <div className="font-normal text-base mt-4 sm:ml-5 block text-gray-500">
               - 24時間フルバックアップの自家発電システム<br></br>-
               24時間体制の監視カメラと警備員による24時間保守警備<br></br>-
               OA機器用床下配線<br></br>- 高い国際基準に合わせて設計された耐震性
               <br></br>- 火災報知機、スプリンクラー、避難口を各階に設置<br></br>
               - 専用インターネットアクセス
             </div>
-            <div className="font-normal text-base mt-10 sm:ml-20 md:ml-64 block text-gray-500">
+            <div className="font-normal text-base mt-4 sm:ml-20 md:ml-64 block text-gray-500">
               - 4基のハイスピードエレベーター（日立製、三菱電機製）<br></br>-
               貨物専用エレベーター<br></br>-
               44台収容可能な機械式パーキングシステム<br></br>- IDD電話
@@ -101,8 +105,10 @@ const myanmar = () => {
           </div>
         </div>
       </div>
-      <div className="p-0">
-        <h1 className="font-bold text-2xl text-gray-700 text-center md:text-left py-2">サクラレジデンス</h1>
+      <div className="px-4">
+        <h1 className="font-bold text-2xl text-gray-700 text-center md:text-left py-2">
+          サクラレジデンス
+        </h1>
         <div className="lg:flex block">
           <div className="flex text-justify">
             <p className="text-lg font-medium w-auto lg:h-auto md:p-4 pt-4 text-gray-500 max-w-4xl p-4 pb-8">
@@ -127,11 +133,11 @@ const myanmar = () => {
             </p>
           </div>
 
-          <ImageGallery items={images}/>
+          <div className="p-4"><ImageGallery items={images} /></div>
         </div>
       </div>
 
-      <div className="p-0">
+      <div className="px-4">
         <div class="text-3xl font-bold box-content w-auto p-10 border-0 bg-[#f6fafd] my-4 text-gray-700">
           <div className="block sm:flex text-gray-500">
             <div>
