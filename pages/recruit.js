@@ -1,7 +1,6 @@
 import React from "react";
 import MainLayout from "../layout/MainLayout";
 import LazyLoad from "react-lazy-load";
-import Dropdown from "../components/dropdown";
 import { Fragment, useState } from "react";
 import {
   Accordion,
