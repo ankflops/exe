@@ -7,7 +7,7 @@ const sakuratower = () => {
   return (
     <MainLayout>
       <div
-        className="top-0 right-0 bottom-0 left-0 w-full h-full overflow-hidden text-center relative overflow-hidden bg-no-repeat bg-cover"
+        className="top-0 right-0 bottom-0 left-0 w-full h-full overflow-hidden text-center relative bg-no-repeat bg-cover"
         style={{
           backgroundImage: 'url("/assets/img/mv-sm.jpg")',
           backgroundColor: "rgba(0, 0, 0, 0)",
@@ -68,7 +68,7 @@ const sakuratower = () => {
                       <button
                         type="button"
                         className="inline-block px-6 py-2 border-2 border-gray-400 text-gray-800 font-light text-md leading-tight hover:text-blue-500 hover:border-blue-400 hover:bg-opacity-5 focus:outline-none focus:ring-0 transition duration-150 ease-in-out
-active:bg-white active:shadow-lg transition duration-150 ease-in-out"
+active:bg-white active:shadow-lg"
                         data-bs-toggle="modal"
                         data-bs-target="#exampleModal"
                       >
@@ -182,11 +182,9 @@ active:bg-white active:shadow-lg transition duration-150 ease-in-out"
                     </div>
                   </div>
                 </div> */}
-
-               
               </div>
             </div>
-           
+
             <div className="font-sans font-light m-4">
               <p>
                 <strong> Address: </strong> 339 Bogyoke Aung San Road, Kyauktada

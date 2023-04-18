@@ -81,7 +81,7 @@ export default function Navbar({ fixed }) {
                       </svg>
                     </button>
                     <ul
-                      className="dropdown-menu min-w-max absolute hidden bg-white text-base z-50 float-left py-2 list-none text-left shadow-lg mt-1 hidden bg-clip-padding border-none"
+                      className="dropdown-menu min-w-max absolute bg-white text-base z-50 float-left py-2 list-none text-left shadow-lg mt-1 hidden bg-clip-padding border-none"
                       aria-labelledby="dropdownMenuButton1tx"
                     >
                       <li>
