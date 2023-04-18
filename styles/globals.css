@@ -1,6 +1,7 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
 @import "~react-image-gallery/styles/css/image-gallery.css";
 
 .sticky {
@@ -18,6 +19,25 @@
   letter-spacing: 0.7px;
   writing-mode: vertical-rl;
   text-orientation: upright;
+  z-index: 50;
+}
+
+.sticky2 {
+  background: #1d054d;
+  border: 1px solid #fff;
+  position: fixed;
+  top: 1%;
+  right: 0;
+  border-radius: 2px 0 0 2px;
+  font-size: 13px;
+  font-weight: 400;
+  color: #fff;
+  margin-right: 10px;
+  padding: 6px 6px;
+  border-radius: 12px;
+  outline: none;
+  text-transform: uppercase;
+  letter-spacing: 0.7px;
   z-index: 50;
 }
 
@@ -46,3 +66,69 @@
   top: 160px;
   left: 100px;
 }
+
+.image-gallery-slide img {
+  width: 200%;
+  height: auto1;
+  max-height: 100vh;
+  object-fit: cover;
+  overflow: hidden;
+  object-position: center center;
+}
+
+.fullscreen .image-gallery-slide img {
+  max-height: 100vh;
+}
+
+.image-gallery-left-nav .image-gallery-svg,
+.image-gallery-right-nav .image-gallery-svg {
+  height: 60px;
+  width: 30px;
+}
+/* Extra small devices (phones, 600px and down) */
+@media only screen and (max-width: 300px) {
+  .image-gallery {
+    width: 100%;
+    height: auto;
+  }
+}
+@media only screen and (max-width: 600px) {
+  .image-gallery {
+    width: 100%;
+    height: auto;
+  }
+}
+
+/* Small devices (portrait tablets and large phones, 600px and up) */
+@media only screen and (min-width: 600px) {
+  .image-gallery {
+    width: 100%;
+    height: auto;
+  }
+}
+
+/* Medium devices (landscape tablets, 768px and up) */
+@media only screen and (min-width: 768px) {
+  .image-gallery {
+    width: 100%px;
+    height: auto;
+  }
+}
+
+/* Large devices (laptops/desktops, 992px and up) */
+@media only screen and (min-width: 992px) {
+  .image-gallery {
+    width: 460px;
+    height: auto;
+  }
+}
+
+/* Extra large devices (large laptops and desktops, 1200px and up) */
+@media only screen and (min-width: 1200px) {
+  .image-gallery {
+    width: 650px;
+    height: auto;
+  }
+}
+
+

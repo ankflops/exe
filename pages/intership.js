@@ -1,6 +1,7 @@
 import React from "react";
 import MainLayout from "../layout/MainLayout";
 import ImageGallery from "react-image-gallery";
+import  Carousel from "../components/carousel";
 
 const images = [
   {
@@ -18,6 +19,37 @@ const images = [
   {
     original: "../assets/img/21.jpg",
     thumbnail: "../assets/img/21.jpg",
+  },
+  {
+    original: "../assets/img/25.jpg",
+    thumbnail: "../assets/img/25.jpg",
+  },
+  {
+    original: "../assets/img/25.jpg",
+    thumbnail: "../assets/img/25.jpg",
+  },
+];
+
+const images2 = [
+  {
+    original: "../assets/img/slider1.jpg",
+    thumbnail: "../assets/img/slider1.jpg",
+  },
+  {
+    original: "../assets/img/27.jpg",
+    thumbnail: "../assets/img/27.jpg",
+  },
+  {
+    original: "../assets/img/22.jpg",
+    thumbnail: "../assets/img/22.jpg",
+  },
+  {
+    original: "../assets/img/21.jpg",
+    thumbnail: "../assets/img/21.jpg",
+  },
+  {
+    original: "../assets/img/25.jpg",
+    thumbnail: "../assets/img/25.jpg",
   },
   {
     original: "../assets/img/25.jpg",
@@ -78,7 +110,7 @@ const intership = () => {
               className="h-64 w-64 mx-auto border-solid border-2 border-[#92ACDD] rounded-full md:m-4"
               loading="lazy"
             />
-            <p className="p-4 text-gray-500">
+            <p className="p-4 text-gray-500 text-lg">
               S.Iさん　立命館アジア太平洋大学　国際経営学科<br></br>
               ▶国籍の異なる人との出会い
               ３か月という短い期間でしたが、国籍を問わない多くの人との出会いは、日本では得難く、とても刺激的で、価値観が変わるような経験でした。実際に社会で働く方々との交流の機会は大変貴重で、就職活動のアドバイスや海外で働くこと、女性が働くということについて多くの立場の方から意見を聞くことができました。
@@ -256,7 +288,7 @@ const intership = () => {
         <div className="grid grid-cols-1 md:grid-cols-2">
           <div className="flex col-sapn-1">
             <div className="grid md:ml-0 m-4">
-              <div className="divide-gray-600 grid grid-cols-5 divide-x-2 md:ml-5 border-t-2 border-r-3 border-l-3 bg-darkblue">
+              <div className="divide-gray-600 grid grid-cols-7 divide-x-2 md:ml-5 border-t-2 border-r-3 border-l-3 bg-darkblue">
                 <div className="text-center font-bold text-gray-400 m-3">
                   日目
                 </div>
@@ -264,7 +296,7 @@ const intership = () => {
                   内容
                 </div>
               </div>
-              <div className="items-center divide-gray-600 grid grid-cols-5 divide-x-2 md:ml-5 border-t-2 border-r-2 border-l-2">
+              <div className="items-center divide-gray-600 grid grid-cols-7 divide-x-2 md:ml-5 border-t-2 border-r-2 border-l-2">
                 <div className="text-center font-medium m-3">1</div>
                 <div className="p-2 col-span-3 font-medium text-gray-600 text-lg">
                   {" "}
@@ -272,79 +304,79 @@ const intership = () => {
                   ユニフォーム作成<br></br>サクラカフェ研修スタート
                 </div>
               </div>
-              <div className="divide-gray-600 grid grid-cols-5 divide-x-2 md:ml-5 border-t-2 border-r-2 border-l-2">
+              <div className="divide-gray-600 grid grid-cols-7 divide-x-2 md:ml-5 border-t-2 border-r-2 border-l-2">
                 <div className="text-center font-medium m-3">2</div>
                 <div className="p-2 col-span-3 font-medium text-gray-600 text-lg">
                   サクラカフェ研修
                 </div>
               </div>
-              <div className="divide-gray-600 grid grid-cols-5 divide-x-2  md:ml-5 border-t-2 border-r-2 border-l-2">
+              <div className="divide-gray-600 grid grid-cols-7 divide-x-2  md:ml-5 border-t-2 border-r-2 border-l-2">
                 <div className="text-center font-medium m-3">3</div>
                 <div className="p-2 col-span-3 font-medium text-gray-600 text-lg">
                   休暇
                 </div>
               </div>
-              <div className="items-center divide-gray-600 grid grid-cols-5 divide-x-2  md:ml-5 border-t-2 border-r-2 border-l-2">
+              <div className="items-center divide-gray-600 grid grid-cols-7 divide-x-2  md:ml-5 border-t-2 border-r-2 border-l-2">
                 <div className="text-center font-medium m-3">4</div>
                 <div className="p-2 col-span-3 font-medium text-gray-600 text-lg">
                   スカイビストロへ移動<br></br>レストラン研修
                 </div>
               </div>
-              <div className="divide-gray-600 grid grid-cols-5 divide-x-2  md:ml-5 border-t-2 border-r-2 border-l-2">
+              <div className="divide-gray-600 grid grid-cols-7 divide-x-2  md:ml-5 border-t-2 border-r-2 border-l-2">
                 <div className="text-center font-medium m-3">5</div>
                 <div className="p-2 col-span-3 font-medium text-gray-600 text-lg">
                   レストラン研修
                 </div>
               </div>
-              <div className="divide-gray-600 grid grid-cols-5 divide-x-2 md:ml-5 border-t-2 border-r-2 border-l-2">
+              <div className="divide-gray-600 grid grid-cols-7 divide-x-2 md:ml-5 border-t-2 border-r-2 border-l-2">
                 <div className="text-center font-medium m-3">6</div>
                 <div className="p-2 col-span-3 font-medium text-gray-600 text-lg">
                   休暇
                 </div>
               </div>
-              <div className="divide-gray-600 grid grid-cols-5 divide-x-2 md:ml-5 border-t-2 border-r-2 border-l-2">
+              <div className="divide-gray-600 grid grid-cols-7 divide-x-2 md:ml-5 border-t-2 border-r-2 border-l-2">
                 <div className="text-center font-medium m-3">7</div>
                 <div className="p-2 col-span-3 font-medium text-gray-600 text-lg">
                   レストラン研修
                 </div>
               </div>
-              <div className="divide-gray-600 grid grid-cols-5 divide-x-2 md:ml-5 border-t-2 border-r-2 border-l-2">
+              <div className="divide-gray-600 grid grid-cols-7 divide-x-2 md:ml-5 border-t-2 border-r-2 border-l-2">
                 <div className="text-center font-medium m-3">8</div>
                 <div className="p-2 col-span-3 font-medium text-gray-600 text-lg">
                   レストラン研修
                 </div>
               </div>
-              <div className="divide-gray-600 grid grid-cols-5 divide-x-2 md:ml-5 border-t-2 border-r-2 border-l-2">
+              <div className="divide-gray-600 grid grid-cols-7 divide-x-2 md:ml-5 border-t-2 border-r-2 border-l-2">
                 <div className="text-center font-medium m-3">9</div>
                 <div className="p-2 col-span-3 font-medium text-gray-600 text-lg">
                   休暇
                 </div>
               </div>
-              <div className="items-center divide-gray-600 grid grid-cols-5 divide-x-2 md:ml-5 border-t-2 border-r-2 border-l-2">
+              <div className="items-center divide-gray-600 grid grid-cols-7 divide-x-2 md:ml-5 border-t-2 border-r-2 border-l-2">
                 <div className="text-center font-medium m-3">10</div>
                 <div className="p-2 col-span-3 font-medium text-gray-600 text-lg">
                   ヤンゴンヤンゴンへ移動<br></br>バーにてレセプション業務
                 </div>
               </div>
-              <div className="divide-gray-600 grid grid-cols-5 divide-x-2 md:ml-5 border-t-2 border-r-2 border-l-2">
+              <div className="divide-gray-600 grid grid-cols-7 divide-x-2 md:ml-5 border-t-2 border-r-2 border-l-2">
                 <div className="text-center font-medium m-3">11</div>
                 <div className="p-2 col-span-3 font-medium text-gray-600 text-lg">
                   バー研修
                 </div>
               </div>
-              <div className="divide-gray-600 grid grid-cols-5 divide-x-2 md:ml-5 border-t-2 border-r-2 border-l-2">
+              <div className="divide-gray-600 grid grid-cols-7 divide-x-2 md:ml-5 border-t-2 border-r-2 border-l-2">
                 <div className="text-center font-medium m-3">12</div>
                 <div className="p-2 col-span-3 font-medium text-gray-600 text-lg">
                   バー研修
                 </div>
               </div>
-              <div className="divide-gray-600 grid grid-cols-5 divide-x-2 md:ml-5 border-t-2 border-r-2 border-l-2">
+              <div className="divide-gray-600 grid grid-cols-7 divide-x-2 md:ml-5 border-t-2 border-r-2 border-l-2">
                 <div className="text-center font-medium m-3">13</div>
                 <div className="p-2 col-span-3 font-medium text-gray-600 text-lg">
                   休暇
                 </div>
               </div>
-              <div className="divide-gray-600 grid grid-cols-5 divide-x-2 md:ml-5 border-2">
+              <div className="divide-gray-600 grid grid-cols-7 divide-x-2 md:ml-5 border-2">
                 <div className="text-center font-medium m-3">14</div>
                 <div className="p-2 col-span-3 font-medium text-gray-600 text-lg">
                   バー研修
@@ -376,7 +408,9 @@ const intership = () => {
                 </div>
               </div>
             </div>
-            <ImageGallery items={images} />
+            <div className="px-4">
+              <ImageGallery items={images} />
+            </div>
           </div>
         </div>
         <p className="mt-10 mb-10 m-6 font-medium text-xl text-gray-500">
@@ -384,131 +418,133 @@ const intership = () => {
           グローバルに活躍する企業や団体が入居しており、ヨーロッパ、アジアなどの海外からの駐在員や観光客が多く訪れています。
         </p>
         <h1 className="font-bold md:text-2xl text-gray-600 ml-8 mt-5 mb-2">
-          サクラレジデンス研修プログラム（例）
-        </h1>
-        <div className="grid grid-cols-1 md:grid-cols-2">
-          <div className="flex basis-1/3">
-            <div className="grid md:ml-0 p-4">
-              <div className="divide-gray-600 grid grid-cols-5 divide-x-2 md:ml-5 border-t-2 border-r-2 border-l-2 bg-darkblue">
-                <div className="text-center font-bold text-gray-400 m-3">
-                  日目
-                </div>
-                <div className="p-2 col-span-3 font-bold text-gray-400 text-lg text-center">
-                  内容
-                </div>
+        サクラレジデンス研修プログラム（例）
+      </h1>
+      <div className="grid grid-cols-1 md:grid-cols-2">
+        <div className="flex basis-1/3">
+          <div className="grid md:ml-0 p-4">
+            <div className="divide-gray-600 grid grid-cols-7 divide-x-2 md:ml-5 border-t-2 border-r-2 border-l-2 bg-darkblue">
+              <div className="text-center font-bold text-gray-400 m-3">
+                日目
               </div>
-              <div className="items-center divide-gray-600 grid grid-cols-5 divide-x-2 md:ml-5 border-t-2 border-r-2 border-l-2">
-                <div className="text-center font-medium m-3">1</div>
-                <div className="p-2 col-span-3 font-medium text-gray-600 text-lg">
-                  {" "}
-                  ヤンゴン到着<br></br>サクラレジデンスの説明<br></br>
-                  ハウスキーピング研修（パ<br></br>ブリックエリア）
-                </div>
-              </div>
-              <div className="items-center divide-gray-600 grid grid-cols-5 divide-x-2 md:ml-5 border-t-2 border-r-2 border-l-2">
-                <div className="text-center font-medium m-3">2</div>
-                <div className="p-2 col-span-3 font-medium text-gray-600 text-lg">
-                  ハウスキーピング研修（パ<br></br>ブリックエリア、ペストコ
-                  <br></br>ントロール）
-                </div>
-              </div>
-              <div className="divide-gray-600 grid grid-cols-5 divide-x-2  md:ml-5 border-t-2 border-r-2 border-l-2">
-                <div className="text-center font-medium m-3">3</div>
-                <div className="p-2 col-span-3 font-medium text-gray-600 text-lg">
-                  休暇
-                </div>
-              </div>
-              <div className="items-center divide-gray-600 grid grid-cols-5 divide-x-2  md:ml-5 border-t-2 border-r-2 border-l-2">
-                <div className="text-center font-medium m-3">4</div>
-                <div className="p-2 col-span-3 font-medium text-gray-600 text-lg">
-                  ハウスキーピング研修（ル<br></br>ームクリーニング）
-                </div>
-              </div>
-              <div className="divide-gray-600 grid grid-cols-5 divide-x-2  md:ml-5 border-t-2 border-r-2 border-l-2">
-                <div className="text-center font-medium m-3">5</div>
-                <div className="p-2 col-span-3 font-medium text-gray-600 text-lg">
-                  ハウスキーピング研修
-                </div>
-              </div>
-              <div className="divide-gray-600 grid grid-cols-5 divide-x-2 md:ml-5 border-t-2 border-r-2 border-l-2">
-                <div className="text-center font-medium m-3">6</div>
-                <div className="p-2 col-span-3 font-medium text-gray-600 text-lg">
-                  ハウスキーピング研修
-                </div>
-              </div>
-              <div className="divide-gray-600 grid grid-cols-5 divide-x-2 md:ml-5 border-t-2 border-r-2 border-l-2">
-                <div className="text-center font-medium m-3">7</div>
-                <div className="p-2 col-span-3 font-medium text-gray-600 text-lg">
-                  休暇
-                </div>
-              </div>
-              <div className="items-center divide-gray-600 grid grid-cols-5 divide-x-2 md:ml-5 border-t-2 border-r-2 border-l-2">
-                <div className="text-center font-medium m-3">8</div>
-                <div className="p-2 col-span-3 font-medium text-gray-600 text-lg">
-                  レセプション研修（ベルス<br></br>タッフ）
-                </div>
-              </div>
-              <div className="divide-gray-600 grid grid-cols-5 divide-x-2 md:ml-5 border-t-2 border-r-2 border-l-2">
-                <div className="text-center font-medium m-3">9</div>
-                <div className="p-2 col-span-3 font-medium text-gray-600 text-lg">
-                  レセプション研修（ジム）
-                </div>
-              </div>
-              <div className="items-center divide-gray-600 grid grid-cols-5 divide-x-2 md:ml-5 border-t-2 border-r-2 border-l-2">
-                <div className="text-center font-medium m-3">10</div>
-                <div className="p-2 col-span-3 font-medium text-gray-600 text-lg">
-                  休暇
-                </div>
-              </div>
-              <div className="items-center divide-gray-600 grid grid-cols-5 divide-x-2 md:ml-5 border-t-2 border-r-2 border-l-2">
-                <div className="text-center font-medium m-3">11</div>
-                <div className="p-2 col-span-3 font-medium text-gray-600 text-lg">
-                  レセプション研修（フロ<br></br>ント）
-                </div>
-              </div>
-              <div className="divide-gray-600 grid grid-cols-5 divide-x-2 md:ml-5 border-t-2 border-r-2 border-l-2">
-                <div className="text-center font-medium m-3">12</div>
-                <div className="p-2 col-span-3 font-medium text-gray-600 text-lg">
-                  レセプション研修
-                </div>
-              </div>
-              <div className="divide-gray-600 grid grid-cols-5 divide-x-2 md:ml-5 border-t-2 border-r-2 border-l-2">
-                <div className="text-center font-medium m-3">13</div>
-                <div className="p-2 col-span-3 font-medium text-gray-600 text-lg">
-                  休暇
-                </div>
-              </div>
-              <div className="divide-gray-600 grid grid-cols-5 divide-x-2 md:ml-5 border-2">
-                <div className="text-center font-medium m-3">14</div>
-                <div className="p-2 col-span-3 font-medium text-gray-600 text-lg">
-                  レセプション研修
-                </div>
+              <div className="p-2 col-span-3 font-bold text-gray-400 text-lg text-center">
+                内容
               </div>
             </div>
-          </div>
-          {/* small table 2 and slider */}
-          <div className="mt-5">
-            <div className="mb-5 p-4">
-              <div className="items-center divide-gray-600 grid grid-cols-3 divide-x-2 md:mr-5 border-t-2 border-r-2 border-l-2 border-gray-500">
-                <div className="text-center font-medium m-3">
-                  ハウスキーピング研修
-                </div>
-                <div className="p-2 font-medium text-gray-600 text-lg col-span-2">
-                  マグカップ等食器洗いや店内清掃、飲食店に欠かせない基本を学びます。専用マシーンを使ったコーヒーを淹れるバリスタ業務、フレッシュジュース等の作り方を学び、実践します。
-                </div>
-              </div>
-              <div className="items-center divide-gray-600 grid grid-cols-3 divide-x-2 md:mr-5 border-2 border-gray-500">
-                <div className="text-center font-medium m-3">
-                  レセプション研修
-                </div>
-                <div className="p-2 font-medium text-gray-600 text-lg col-span-2">
-                  備品や清掃確認、テーブル、バーのセッティングを行います。英語での接客、カクテルやデザートの作り方を学び、実践します。
-                </div>
+            <div className="items-center divide-gray-600 grid grid-cols-7 divide-x-2 md:ml-5 border-t-2 border-r-2 border-l-2">
+              <div className="text-center font-medium m-3">1</div>
+              <div className="p-2 col-span-3 font-medium text-gray-600 text-lg">
+                {" "}
+                ヤンゴン到着<br></br>サクラレジデンスの説明<br></br>
+                ハウスキーピング研修（パ<br></br>ブリックエリア）
               </div>
             </div>
-            <ImageGallery items={images} />
+            <div className="items-center divide-gray-600 grid grid-cols-7 divide-x-2 md:ml-5 border-t-2 border-r-2 border-l-2">
+              <div className="text-center font-medium m-3">2</div>
+              <div className="p-2 col-span-3 font-medium text-gray-600 text-lg">
+                ハウスキーピング研修（パ<br></br>ブリックエリア、ペストコ
+                <br></br>ントロール）
+              </div>
+            </div>
+            <div className="divide-gray-600 grid grid-cols-7 divide-x-2  md:ml-5 border-t-2 border-r-2 border-l-2">
+              <div className="text-center font-medium m-3">3</div>
+              <div className="p-2 col-span-3 font-medium text-gray-600 text-lg">
+                休暇
+              </div>
+            </div>
+            <div className="items-center divide-gray-600 grid grid-cols-7 divide-x-2  md:ml-5 border-t-2 border-r-2 border-l-2">
+              <div className="text-center font-medium m-3">4</div>
+              <div className="p-2 col-span-3 font-medium text-gray-600 text-lg">
+                ハウスキーピング研修（ル<br></br>ームクリーニング）
+              </div>
+            </div>
+            <div className="divide-gray-600 grid grid-cols-7 divide-x-2  md:ml-5 border-t-2 border-r-2 border-l-2">
+              <div className="text-center font-medium m-3">5</div>
+              <div className="p-2 col-span-3 font-medium text-gray-600 text-lg">
+                ハウスキーピング研修
+              </div>
+            </div>
+            <div className="divide-gray-600 grid grid-cols-7 divide-x-2 md:ml-5 border-t-2 border-r-2 border-l-2">
+              <div className="text-center font-medium m-3">6</div>
+              <div className="p-2 col-span-3 font-medium text-gray-600 text-lg">
+                ハウスキーピング研修
+              </div>
+            </div>
+            <div className="divide-gray-600 grid grid-cols-7 divide-x-2 md:ml-5 border-t-2 border-r-2 border-l-2">
+              <div className="text-center font-medium m-3">7</div>
+              <div className="p-2 col-span-3 font-medium text-gray-600 text-lg">
+                休暇
+              </div>
+            </div>
+            <div className="items-center divide-gray-600 grid grid-cols-7 divide-x-2 md:ml-5 border-t-2 border-r-2 border-l-2">
+              <div className="text-center font-medium m-3">8</div>
+              <div className="p-2 col-span-3 font-medium text-gray-600 text-lg">
+                レセプション研修（ベルス<br></br>タッフ）
+              </div>
+            </div>
+            <div className="divide-gray-600 grid grid-cols-7 divide-x-2 md:ml-5 border-t-2 border-r-2 border-l-2">
+              <div className="text-center font-medium m-3">9</div>
+              <div className="p-2 col-span-3 font-medium text-gray-600 text-lg">
+                レセプション研修（ジム）
+              </div>
+            </div>
+            <div className="items-center divide-gray-600 grid grid-cols-7 divide-x-2 md:ml-5 border-t-2 border-r-2 border-l-2">
+              <div className="text-center font-medium m-3">10</div>
+              <div className="p-2 col-span-3 font-medium text-gray-600 text-lg">
+                休暇
+              </div>
+            </div>
+            <div className="items-center divide-gray-600 grid grid-cols-7 divide-x-2 md:ml-5 border-t-2 border-r-2 border-l-2">
+              <div className="text-center font-medium m-3">11</div>
+              <div className="p-2 col-span-3 font-medium text-gray-600 text-lg">
+                レセプション研修（フロ<br></br>ント）
+              </div>
+            </div>
+            <div className="divide-gray-600 grid grid-cols-7 divide-x-2 md:ml-5 border-t-2 border-r-2 border-l-2">
+              <div className="text-center font-medium m-3">12</div>
+              <div className="p-2 col-span-3 font-medium text-gray-600 text-lg">
+                レセプション研修
+              </div>
+            </div>
+            <div className="divide-gray-600 grid grid-cols-7 divide-x-2 md:ml-5 border-t-2 border-r-2 border-l-2">
+              <div className="text-center font-medium m-3">13</div>
+              <div className="p-2 col-span-3 font-medium text-gray-600 text-lg">
+                休暇
+              </div>
+            </div>
+            <div className="divide-gray-600 grid grid-cols-7 divide-x-2 md:ml-5 border-2">
+              <div className="text-center font-medium m-3">14</div>
+              <div className="p-2 col-span-3 font-medium text-gray-600 text-lg">
+                レセプション研修
+              </div>
+            </div>
           </div>
         </div>
+        {/* small table 2 and slider */}
+        <div className="mt-5">
+          <div className="mb-5 p-4">
+            <div className="items-center divide-gray-600 grid grid-cols-3 divide-x-2 md:mr-5 border-t-2 border-r-2 border-l-2 border-gray-500">
+              <div className="text-center font-medium m-3">
+                ハウスキーピング研修
+              </div>
+              <div className="p-2 font-medium text-gray-600 text-lg col-span-2">
+                マグカップ等食器洗いや店内清掃、飲食店に欠かせない基本を学びます。専用マシーンを使ったコーヒーを淹れるバリスタ業務、フレッシュジュース等の作り方を学び、実践します。
+              </div>
+            </div>
+            <div className="items-center divide-gray-600 grid grid-cols-3 divide-x-2 md:mr-5 border-2 border-gray-500">
+              <div className="text-center font-medium m-3">
+                レセプション研修
+              </div>
+              <div className="p-2 font-medium text-gray-600 text-lg col-span-2">
+                備品や清掃確認、テーブル、バーのセッティングを行います。英語での接客、カクテルやデザートの作り方を学び、実践します。
+              </div>
+            </div>
+          </div>
+          <div className="px-4">
+            <ImageGallery items={images2} />
+          </div>
+        </div>
+      </div>
         <p className="mt-10 mb-10 m-6 font-medium text-xl text-gray-500">
           サクラレジデンスには日本人3割、その他ヨーロッパ・アジアの駐在員7割と海外からの駐在員が多く住んでいます。英語での接客が日常的に発生します。
         </p>

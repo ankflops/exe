@@ -9,16 +9,17 @@ import Recruitment from "../components/Recruitment";
 import Sharedhouse from "../components/Sharedhouse";
 import Slider from "../components/Slider";
 import Swiper from "../components/Swiper";
+import Navbar2 from "../components/Navbar2";
 
-
-const MainLayout = ({children}) => {
+const MainLayout = ({ children }) => {
   return (
     <>
-    <Navbar/>
-    {children}
-    <Footer/>
+      {/* <Navbar2 /> */}
+      <Navbar />
+      {children}
+      <Footer />
     </>
-  )
-}
+  );
+};
 
-export default MainLayout
+export default MainLayout;

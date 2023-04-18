@@ -11,9 +11,51 @@ const Footer = () => {
   return (
     <div className="bg-darkblue font-bold">
       <div className="sticky active:border-[3px] active:border-r-0 border-cyan-600 active:rounded my-[3px] hover:bg-rose-800 duration-150">
+        {/* Language */}
+        <div className="flex flex-grow fixed z-10 justify-end">
+          <div className="dropdown relative">
+            <ul
+              className="dropdown-menu min-w-max absolute bg-white text-base z-50 float-left py-2 list-none text-left
+    shadow-lg m-8 hidden bg-clip-padding border-none"
+              aria-labelledby="dropdownMenuButton1tx"
+            >
+              <li>
+                <Link href="/">
+                  <a className="dropdown-item px-2 md:px-12 text-sm py-2 font-normal block w-full whitespace-nowrap bg-transparent text-gray-700 hover:bg-gray-100">
+                    日本語
+                  </a>
+                </Link>
+              </li>
+              <li>
+                <Link href="/en">
+                  <a className="dropdown-item px-2 md:px-12 text-sm py-2 font-normal block w-full whitespace-nowrap bg-transparent text-gray-700 hover:bg-gray-100">
+                    ENGLISH
+                  </a>
+                </Link>
+              </li>
+              {/* {router.locales.map((l) => (
+                  <li key={l}>
+                    <Link href={router.asPath} locale={l}>
+                      <a className="dropdown-item px-2 md:px-12 text-sm py-2 font-normal block w-full whitespace-nowrap bg-transparent text-gray-700 hover:bg-gray-100">
+                        {l}
+                      </a>
+                    </Link>
+                  </li>
+                ))} */}
+            </ul>
+          </div>
+        </div>
+        {/* Language */}
+      </div>
+
+      <div className="sticky2 active:border-[3px] active:border-r-0 border-cyan-600 active:rounded my-[3px] hover:bg-rose-800 duration-150">
+        <Link href="/en"> 🌐 言語 </Link>
+      </div>
+
+      <div className="sticky active:border-[3px] active:border-r-0 border-cyan-600 active:rounded my-[3px] hover:bg-rose-800 duration-150">
         <Link href="/contact"> 問い合わせ </Link>
       </div>
-      <div className="bg-darkblue grid gap-1 sm:grid-cols-2 md:grid-cols-5 lg:grid-cols-10 bg-neutral-800 w-full p-4 md:p-12">
+      <div className="bg-darkblue grid gap-0.5 sm:grid-cols-2 md:grid-cols-5 lg:grid-cols-10 bg-neutral-800 w-full p-4 md:p-12 text-xs md:text-base">
         <div className="sm:col-span-1 md:col-span-3 lg:col-span-4 max-w-lg pl-4 mt-4 md:p-4">
           <h2 className="ml-4 underline text-white text-md mb-8">
             お問い合わせ
@@ -32,7 +74,8 @@ const Footer = () => {
                 <path d="M12 0c-4.198 0-8 3.403-8 7.602 0 4.198 3.469 9.21 8 16.398 4.531-7.188 8-12.2 8-16.398 0-4.199-3.801-7.602-8-7.602zm0 11c-1.657 0-3-1.343-3-3s1.343-3 3-3 3 1.343 3 3-1.343 3-3 3z" />
               </svg>
               <li className="font-bold">
-                〒102-0083 東京都千代田区麹町1-10-5 澤田麹町ビル6階
+                〒102-0083 東京都千代田区麹町1-10-5
+                <br /> 澤田麹町ビル6階
               </li>
             </div>
             <div className="flex mt-5">

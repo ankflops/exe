@@ -145,63 +145,56 @@ export default function Navbar({ fixed }) {
           </div>
 
           {/* Language */}
-          <div className="flex flex-grow justify-center items-center">
-            <div className="dropdown relative">
-              <button
-                className="dropdown-toggle text-left py-2 flex text-sm uppercase leading-snug text-white hover:text-sky-300"
-                type="button"
-                id="dropdownMenuButton1tx"
-                data-bs-toggle="dropdown"
-                aria-expanded="false"
-              >
-                LANGUAGE | 言語
+          <div className="relative" data-te-dropdown-ref>
+            <button
+              className="flex items-center bg-darkblue px-6 pt-2.5 pb-2 text-sm font-medium uppercase leading-normal text-white -mt-0.5"
+              type="button"
+              id="dropdownMenuButton1"
+              data-te-dropdown-toggle-ref
+              aria-expanded="false"
+              data-te-ripple-init
+              data-te-ripple-color="light"
+            >
+              言語 | LANGUAGE
+              <span className="ml-2 w-2">
                 <svg
-                  aria-hidden="true"
-                  focusable="false"
-                  data-prefix="fas"
-                  data-icon="caret-down"
-                  className="w-2 ml-2"
-                  role="img"
                   xmlns="http://www.w3.org/2000/svg"
-                  viewBox="0 0 320 512"
+                  viewBox="0 0 20 20"
+                  fill="currentColor"
+                  className="h-5 w-5"
                 >
                   <path
-                    fill="currentColor"
-                    d="M31.3 192h257.3c17.8 0 26.7 21.5 14.1 34.1L174.1 354.8c-7.8 7.8-20.5 7.8-28.3 0L17.2 226.1C4.6 213.5 13.5 192 31.3 192z"
+                    fillRule="evenodd"
+                    d="M5.23 7.21a.75.75 0 011.06.02L10 11.168l3.71-3.938a.75.75 0 111.08 1.04l-4.25 4.5a.75.75 0 01-1.08 0l-4.25-4.5a.75.75 0 01.02-1.06z"
+                    clipRule="evenodd"
                   />
                 </svg>
-              </button>
-
-              <ul
-                className="dropdown-menu min-w-max absolute hidden bg-white text-base z-50 float-left py-2 list-none text-left
-    shadow-lg m-8 hidden bg-clip-padding border-none"
-                aria-labelledby="dropdownMenuButton1tx"
-              >
-                <li>
-                  <Link href="/">
-                    <a className="dropdown-item px-2 md:px-12 text-sm py-2 font-normal block w-full whitespace-nowrap bg-transparent text-gray-700 hover:bg-gray-100">
-                      日本語
-                    </a>
-                  </Link>
-                </li>
-                <li>
-                  <Link href="/en">
-                    <a className="dropdown-item px-2 md:px-12 text-sm py-2 font-normal block w-full whitespace-nowrap bg-transparent text-gray-700 hover:bg-gray-100">
-                      ENGLISH
-                    </a>
-                  </Link>
-                </li>
-                {/* {router.locales.map((l) => (
-                  <li key={l}>
-                    <Link href={router.asPath} locale={l}>
-                      <a className="dropdown-item px-2 md:px-12 text-sm py-2 font-normal block w-full whitespace-nowrap bg-transparent text-gray-700 hover:bg-gray-100">
-                        {l}
-                      </a>
-                    </Link>
-                  </li>
-                ))} */}
-              </ul>
-            </div>
+              </span>
+            </button>
+            <ul
+              className="absolute z-[1000] float-left m-0 hidden min-w-max list-none overflow-hidden border-none bg-white text-left text-base shadow-lg [&[data-te-dropdown-show]]:block"
+              aria-labelledby="dropdownMenuButton1"
+              data-te-dropdown-menu-ref
+            >
+              <li>
+                <a
+                  className="block w-full bg-transparent py-1 px-4 text-sm bg-darkblue text-white border"
+                  href="/"
+                  data-te-dropdown-item-ref
+                >
+                  japan
+                </a>
+              </li>
+              <li>
+                <a
+                  className="block w-full bg-transparent py-1 px-4 text-sm bg-darkblue text-white border"
+                  href="/en"
+                  data-te-dropdown-item-ref
+                >
+                  english
+                </a>
+              </li>
+            </ul>
           </div>
         </div>
         {/* Language */}

@@ -1,7 +1,34 @@
 import React from "react";
 import Link from "next/link";
 import MainLayout from "../layout/MainLayout";
+import ImageGallery from "react-image-gallery";
 import LazyLoad from "react-lazy-load";
+const images = [
+  {
+    original: "../assets/img/slider1.jpg",
+    thumbnail: "../assets/img/slider1.jpg",
+  },
+  {
+    original: "../assets/img/27.jpg",
+    thumbnail: "../assets/img/27.jpg",
+  },
+  {
+    original: "../assets/img/22.jpg",
+    thumbnail: "../assets/img/22.jpg",
+  },
+  {
+    original: "../assets/img/21.jpg",
+    thumbnail: "../assets/img/21.jpg",
+  },
+  {
+    original: "../assets/img/25.jpg",
+    thumbnail: "../assets/img/25.jpg",
+  },
+  {
+    original: "../assets/img/25.jpg",
+    thumbnail: "../assets/img/25.jpg",
+  },
+];
 
 const mongolia = () => {
   return (
@@ -24,42 +51,33 @@ const mongolia = () => {
           </div>
         </div>
       </div>
-      <div className="text-center md:text-left md:px-4">
-        <div className="font-bold text-lg md:text-3xl mt-8 md:px-4 text-gray-700 ">
-          Olonlog EXE IT学校（オロンログ・エグゼ）
-        </div>
-      </div>
-      <div className="flex justify-center">
-        <div className="grid md:grid-cols-2">
-          <div className="p-4 md:p-8 text-justify">
-            <p className="text-xl font-medium text-gray-500 px-4">
+      <div className="px-4">
+        <h1 className="font-bold text-2xl text-gray-700 mt-8 text-center md:text-left">
+          Olonlog EXE IT学校（オロンログ・エグゼ）{" "}
+        </h1>
+        <div className="lg:flex block">
+          <div className="flex text-justify">
+            <p className="text-lg font-medium w-auto lg:h-auto md:p-5 pb-8 text-gray-500 max-w-4xl p-4">
               2010年からモンゴルの教育現場を支援し、総生徒数3,500人の校舎ビル建設プロジェクトを実行し、2018年にモンゴル初のITカリキュラムを小学生から教えるOlonlog
               EXE
               IT学校（オロンログ・エグゼ）を設立し現在運営をしています。小学校1年生から高校生まで500人近くの優秀な生徒が通い、デジタル時代のモンゴルのパワーになるために勤勉に勉強をしています。
-            </p>
-            <p className="my-8 text-xl font-medium text-gray-500 px-4">
+              <br></br>
+              <br></br>
               設立以来、IT、数学、英語の全国大会やウランバートル市の大会などで毎年数多くのメダルを獲得しており、教育機関からの全額奨学金を受け米国、カナダ、日本へ留学する生徒も輩出しています。本校の生徒たちは、モンゴルだけでなく、世界をリードする国際的にトップ・レベルのプロフェッショナルになれると信じています。
+              <br></br>
+              <br></br>
+              Sanaa EXE LLC <br></br>
+              <br></br>
+              EXE Plaza, Tumurchnii street 7/1, Chingeltei district, Ulaanbaatar
+              15171, Mongolia Myanmar<br></br>
+              Tel: (976) 11 325 552 / Fax: (976) 11 325 552 / E-mail:
+              info@exeplaza.mn<br></br>
             </p>
-            <p className="my-4 text-xl font-medium text-gray-500 px-4">
-              Sanaa EXE LLC<br></br> EXE Plaza, Tumurchnii street 7/1,
-              Chingeltei district, Ulaanbaatar 15171, Mongolia <br></br>Tel:
-              (976) 11 325 552 / Fax: (976) 11 325 552 / <br></br>{" "}
-              <a
-                href="mailto:info@exeplaza.mn"
-                className="font-bold hover:text-blue-500"
-              >
-                {" "}
-                mail:info@exeplaza.mn{" "}
-              </a>
-            </p>
-            <div className="flex justify-center lg:justify-start"></div>
           </div>
-          <div className="md:p-8">
-            <img
-              src="/assets/img/1659508110.jpg"
-              loading="lazy"
-              className="w-75% h-auto align-middle mx-auto bg-center bg-cover"
-            />
+
+          {/* slider */}
+          <div className="m-4">
+            <ImageGallery items={images} />
           </div>
         </div>
       </div>
@@ -85,7 +103,7 @@ const mongolia = () => {
             <img
               src="/assets/img/1659582198.jpg"
               loading="lazy"
-              className="w-75% h-auto align-middle mx-auto bg-center bg-cover"
+              className="w-100% h-auto align-middle mx-auto bg-center bg-cover"
             />
           </div>
         </div>

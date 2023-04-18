@@ -1,36 +1,36 @@
 .stiky {
-background: #f4336d;
-position: fixed;
-top: 35%;
-right: 0;
-border-radius: 2px 0 0 2px;
-font-size: 13px;
-font-weight: 400;
-color: #fff;
-padding: 18px 10px;
-outline: none;
-text-transform: uppercase;
-letter-spacing: 0.7px;
-writing-mode: vertical-rl;
-text-orientation: upright;
+  background: #f4336d;
+  position: fixed;
+  top: 35%;
+  right: 0;
+  border-radius: 2px 0 0 2px;
+  font-size: 13px;
+  font-weight: 400;
+  color: #fff;
+  padding: 18px 10px;
+  outline: none;
+  text-transform: uppercase;
+  letter-spacing: 0.7px;
+  writing-mode: vertical-rl;
+  text-orientation: upright;
 }
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+.sticky2 {
+  background: #7f15e2;
+  position: fixed;
+  top: 35%;
+  right: 0;
+  border-radius: 2px 0 0 2px;
+  font-size: 13px;
+  font-weight: 400;
+  color: #fff;
+  padding: 18px 10px;
+  outline: none;
+  text-transform: uppercase;
+  letter-spacing: 0.7px;
+  writing-mode: vertical-rl;
+  text-orientation: upright;
+}
 
 /* .container {
   padding: 0 2rem;

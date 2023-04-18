@@ -10,6 +10,7 @@ import Recruitment from "../components/Recruitment";
 import Sharedhouse from "../components/Sharedhouse";
 import Slider from "../components/Slider";
 import Swiper from "../components/Swiper";
+import Navbar2 from "../components/Navbar2";
 
 //Layout-ийг дуудаж байгаа хэсэг
 import MainLayout from "../layout/MainLayout";

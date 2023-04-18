@@ -15,7 +15,7 @@ const Sharedhouse = () => {
               2010年に日本初の投資事業会社Sanaa EXE
               LLCを設立し、不動産投資事業、金融事業、教育事業を展開しています。エクセプラザ、Olonglong」スクールを運営しています。
             </p>
-            <div className="flex justify-center lg:justify-start">
+            <div className="flex justify-center md:justify-start align-text-bottom">
               <Link href="/mongolia">
                 <button
                   className="bg-gray-200 px-14 py-3 bg-darkblue text-gray-400 font-extrabold text-base leading-snug uppercase"

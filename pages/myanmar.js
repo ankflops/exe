@@ -27,6 +27,10 @@ const images = [
     original: "../assets/img/25.jpg",
     thumbnail: "../assets/img/25.jpg",
   },
+  {
+    original: "../assets/img/25.jpg",
+    thumbnail: "../assets/img/25.jpg",
+  },
 ];
 
 const myanmar = () => {
@@ -80,7 +84,7 @@ const myanmar = () => {
           </div>
 
           {/* slider */}
-          <div className="m-4">
+          <div className="md:p-6 p-2">
             <ImageGallery items={images} />
           </div>
         </div>
@@ -133,7 +137,9 @@ const myanmar = () => {
             </p>
           </div>
 
-          <div className="p-4"><ImageGallery items={images} /></div>
+          <div className="md:p-6 p-2">
+            <ImageGallery items={images} />
+          </div>
         </div>
       </div>
 
