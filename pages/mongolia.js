@@ -27,16 +27,16 @@ const images = [
 ];
 const images2 = [
   {
-    original: "../assets/img/lol11.png",
-    thumbnail: "../assets/img/lol11.png",
+    original: "../assets/img/lol16.png",
+    thumbnail: "../assets/img/lol16.png",
   },
   {
-    original: "../assets/img/lol12.png",
-    thumbnail: "../assets/img/lol12.png",
+    original: "../assets/img/lol14.png",
+    thumbnail: "../assets/img/lol14.png",
   },
   {
-    original: "../assets/img/school03.jpg",
-    thumbnail: "../assets/img/school03.jpg",
+    original: "../assets/img/lol15.png",
+    thumbnail: "../assets/img/lol15.png",
   },
   {
     original: "../assets/img/school01.jpg",
