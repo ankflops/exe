@@ -81,36 +81,38 @@ const intership = () => {
       </div>
 
       <div className="flex flex-col mx-auto max-w-7xl">
-        <p className="font-sans font-light text-xl md:mt-8 mt-4 py-4 text-primary mx-5">
+        <p className="font-sans font-light text-lg md:mt-8 mt-4 py-4 text-primary mx-5">
           ビジネスインターンシップ制度は、「自ら変化を求める人材」「人と同じではなく自分なりの価値観を持っている人材」を支援するこ
           とが「最高の投資」と位置付け、単純なインターンとしてではなく、ビジネ
           スの長期的な実践研修の場として創設しました。
         </p>
-        <div className="mx-4">
-          <div className="border-solid border-2 border-[#a7adaf] rounded-[24px]">
-            <div className="grid grid-cols-4">
-              <div className="col-span-1">
+        <div className="px-4">
+          <div className="border-solid border-2 border-[#a7adaf] rounded-[24px] ">
+            <div className="flex flex-col md:flex-row justify-center">
+              <div className="">
                 <img
                   src="/assets/img/sad.jpeg"
                   className="h-64 w-auto mx-auto"
                   loading="lazy"
                 />
               </div>
-              <div className="col-span-2">
-                <div className="mx-auto">
-                  <div className="text-2xl font-bold text-gray-700">
+              <div>
+                <div className="md:text-2xl font-bold text-gray-700">
+                  <h2 className="text-center text-gray-700 font-semibold m-4">
+                    <a className="md:text-3xl">\ </a>{" "}
                     　留学するか迷っていませんか？　
-                  </div>
-                  <div className="text-gray-500 px-20 py-5 text-lg">
-                    ・留学費用が高い
-                    <br /> ・ゆっくりと語学を学びたい
-                    <br /> ・人と違った経験がしたい
-                    <br /> ・初めての海外で不安がある
-                    <br /> ・語学学校ではなく実務経験を積みたい
-                  </div>
+                    <a className="md:text-3xl">/ </a>
+                  </h2>
+                </div>
+                <div className="text-gray-600 px-20 py-5 text-lg">
+                  ・留学費用が高い
+                  <br /> ・ゆっくりと語学を学びたい
+                  <br /> ・人と違った経験がしたい
+                  <br /> ・初めての海外で不安がある
+                  <br /> ・語学学校ではなく実務経験を積みたい
                 </div>
               </div>
-              <div className="col-span-1">
+              <div className="">
                 <img
                   src="/assets/img/sad2.jpeg"
                   className="h-64 w-auto mx-auto"
@@ -118,8 +120,31 @@ const intership = () => {
                 />
               </div>
             </div>
+            <div className="text-center md:text-2xl text-gray-700 font-bold">
+              エクセのビジネスインターンシップ制度なら
+            </div>
+            <img
+              src="/assets/img/border.png"
+              className="h-12 w-[800px] mx-auto"
+              loading="lazy"
+            />
+
+            <img
+              src="/assets/img/text_box.png"
+              className="h-42  w-[800px] mx-auto p-2"
+              loading="lazy"
+            />
+            <div className="py-8">
+              <div className="text-center md:text-xl text-gray-500">
+                2000年よりインターンシップ受け入れを開始し、
+              </div>
+              <div className="text-center md:text-xl text-gray-500">
+                40名を超える学生・社会人に参加頂いています。
+              </div>
+            </div>
           </div>
         </div>
+
         <div className="max-w-10xl">
           <div className="text-gray-700 text-center p-10 font-bold md:text-2xl">
             ～インターンシップ体験者の声～
@@ -131,7 +156,7 @@ const intership = () => {
               className="h-64 w-64 mx-auto border-solid border-2 border-[#92ACDD] rounded-full md:m-4"
               loading="lazy"
             />
-            <p className="p-4 text-gray-500">
+            <p className="p-4 text-primary">
               S.Iさん　立命館アジア太平洋大学　国際経営学科<br></br>
               ▶国籍の異なる人との出会い
               ３か月という短い期間でしたが、国籍を問わない多くの人との出会いは、日本では得難く、とても刺激的で、価値観が変わるような経験でした。実際に社会で働く方々との交流の機会は大変貴重で、就職活動のアドバイスや海外で働くこと、女性が働くということについて多くの立場の方から意見を聞くことができました。
@@ -141,7 +166,7 @@ const intership = () => {
             </p>
           </div>
           <div className="flex flex-col-reverse md:flex-row">
-            <p className="p-4 text-gray-500">
+            <p className="p-4 text-primary">
               T.Mさん　東京外国語大学　ビルマ語学科<br></br>
               ▶現地スタッフとのコミュニケーション
               日本とは全く違うミャンマーで暮らすことに対する不安もありました。しかし毎日、ホテルのスタッフと触れ合う中ですぐにその不安も消えてしまいました。また、ビジネスを学ぶだけでなく、ホテルスタッフとの会話を通してビルマ語の習得もできたことが本当によかったです。
@@ -161,7 +186,7 @@ const intership = () => {
               className="h-64 w-64 mx-auto border-solid border-2 border-[#92ACDD] rounded-full md:m-4"
               loading="lazy"
             />
-            <p className="p-4 text-gray-500">
+            <p className="p-4 text-primary">
               E・Mさん　上智大学　教育学科<br></br>
               ▶今、ミャンマーいくということ
               インターンシップに参加して、まず驚いたことは、ミャンマーの治安の良さと人の温厚さです。ミャンマーは熱心な仏教徒の国で通信や流通が安定していないからこそ、情報が溢れておらず、人々の生活は穏やかで豊かであるように感じました。10年も経てばミャンマーも変わります。このタイミングで参加できたことにとても感謝しています。
@@ -172,14 +197,14 @@ const intership = () => {
           </div>
 
           <div className="bg-[#f6fafd] p-5">
-            <div className="text-3xl md:text-4xl text-gray-700 mt-10">
+            <div className="md:text-2xl text-gray-700 mt-10">
               インターン実績大学
             </div>
-            <p className="text-primary text-xl break-words p-10">
+            <p className="text-primary text-lg break-words p-10">
               早稲田大学、明治大学、上智大学、立命館アジア太平洋大学、明治学院大学、国士舘大学、静岡大学、調教外国語大学　など
             </p>
           </div>
-          <div className="break-word text-xl mt-5 text-primary p-5">
+          <div className="break-word text-lg mt-5 text-primary p-5">
             <p>
               海外でのインターンシップというと少々敷居が高いように感じ身構えてしまうかもしれません。ただ、この小さな一歩は、あなたの人生の大きな財産になることは間違いありません。
             </p>
@@ -192,7 +217,7 @@ const intership = () => {
         <div className=" border-collapse border border-1 border-slate-400 text-center bg-darkblue text-white p-4 mx-5">
           会社概要
         </div>
-        <table className="text-xl table-fixed border-collapse border border-1 border-slate-400 mx-5 ">
+        <table className="text-lg table-fixed border-collapse border border-1 border-slate-400 mx-5 ">
           <thead>
             <tr>
               <th className="border border-slate-300 font-normal">時期</th>
@@ -279,10 +304,10 @@ const intership = () => {
         </table>
 
         <div className="grid justify-center">
-          <p className="mt-6 text-gray-500 font-normal text-base md:text-xl ml-2">
+          <p className="mt-6 text-gray-500 font-normal text-base md:text-lg ml-2">
             ※ 応募書類は返却いたしません。
           </p>
-          <p className="text-gray-500 font-normal text-base md:text-xl ml-2">
+          <p className="text-gray-500 font-normal text-base md:text-lg ml-2">
             ※ ご不明な点がございましたら、お問い合わせください。
           </p>
         </div>
@@ -302,7 +327,7 @@ const intership = () => {
           <p className="text-primary text-center font-semibold mb-4">
             ～インターンシップの内容（例）～
           </p>
-          <p className="text-primary font-semibold text-center">
+          <p className="text-primary font-semibold text-start">
             サクラタワー研修プログラム（例）
           </p>
         </div>
@@ -313,13 +338,13 @@ const intership = () => {
                 <div className="text-center font-bold text-gray-400 m-3">
                   日目
                 </div>
-                <div className="p-2 col-span-3 font-bold text-gray-400 text-lg text-center">
+                <div className="p-2 col-span-5 font-bold text-gray-400 text-lg text-center">
                   内容
                 </div>
               </div>
               <div className="items-center divide-gray-600 grid grid-cols-7 divide-x-2 md:ml-5 border-t-2 border-r-2 border-l-2">
                 <div className="text-center font-medium m-3">1</div>
-                <div className="p-2 col-span-3 font-medium text-gray-600 text-lg">
+                <div className="p-2 col-span-5 font-medium text-gray-600 text-lg">
                   {" "}
                   ヤンゴン到着<br></br>オリエンテーション<br></br>
                   ユニフォーム作成<br></br>サクラカフェ研修スタート
@@ -327,79 +352,79 @@ const intership = () => {
               </div>
               <div className="divide-gray-600 grid grid-cols-7 divide-x-2 md:ml-5 border-t-2 border-r-2 border-l-2">
                 <div className="text-center font-medium m-3">2</div>
-                <div className="p-2 col-span-3 font-medium text-gray-600 text-lg">
+                <div className="p-2 col-span-5 font-medium text-gray-600 text-lg">
                   サクラカフェ研修
                 </div>
               </div>
               <div className="divide-gray-600 grid grid-cols-7 divide-x-2  md:ml-5 border-t-2 border-r-2 border-l-2">
                 <div className="text-center font-medium m-3">3</div>
-                <div className="p-2 col-span-3 font-medium text-gray-600 text-lg">
+                <div className="p-2 col-span-5 font-medium text-gray-600 text-lg">
                   休暇
                 </div>
               </div>
               <div className="items-center divide-gray-600 grid grid-cols-7 divide-x-2  md:ml-5 border-t-2 border-r-2 border-l-2">
                 <div className="text-center font-medium m-3">4</div>
-                <div className="p-2 col-span-3 font-medium text-gray-600 text-lg">
-                  スカイビストロへ移動<br></br>レストラン研修
+                <div className="p-2 col-span-5 font-medium text-gray-600 text-lg">
+                  スカイビストロへ移動レストラン研修
                 </div>
               </div>
               <div className="divide-gray-600 grid grid-cols-7 divide-x-2  md:ml-5 border-t-2 border-r-2 border-l-2">
                 <div className="text-center font-medium m-3">5</div>
-                <div className="p-2 col-span-3 font-medium text-gray-600 text-lg">
+                <div className="p-2 col-span-5 font-medium text-gray-600 text-lg">
                   レストラン研修
                 </div>
               </div>
               <div className="divide-gray-600 grid grid-cols-7 divide-x-2 md:ml-5 border-t-2 border-r-2 border-l-2">
                 <div className="text-center font-medium m-3">6</div>
-                <div className="p-2 col-span-3 font-medium text-gray-600 text-lg">
+                <div className="p-2 col-span-5 font-medium text-gray-600 text-lg">
                   休暇
                 </div>
               </div>
               <div className="divide-gray-600 grid grid-cols-7 divide-x-2 md:ml-5 border-t-2 border-r-2 border-l-2">
                 <div className="text-center font-medium m-3">7</div>
-                <div className="p-2 col-span-3 font-medium text-gray-600 text-lg">
+                <div className="p-2 col-span-5 font-medium text-gray-600 text-lg">
                   レストラン研修
                 </div>
               </div>
               <div className="divide-gray-600 grid grid-cols-7 divide-x-2 md:ml-5 border-t-2 border-r-2 border-l-2">
                 <div className="text-center font-medium m-3">8</div>
-                <div className="p-2 col-span-3 font-medium text-gray-600 text-lg">
+                <div className="p-2 col-span-5 font-medium text-gray-600 text-lg">
                   レストラン研修
                 </div>
               </div>
               <div className="divide-gray-600 grid grid-cols-7 divide-x-2 md:ml-5 border-t-2 border-r-2 border-l-2">
                 <div className="text-center font-medium m-3">9</div>
-                <div className="p-2 col-span-3 font-medium text-gray-600 text-lg">
+                <div className="p-2 col-span-5 font-medium text-gray-600 text-lg">
                   休暇
                 </div>
               </div>
               <div className="items-center divide-gray-600 grid grid-cols-7 divide-x-2 md:ml-5 border-t-2 border-r-2 border-l-2">
                 <div className="text-center font-medium m-3">10</div>
-                <div className="p-2 col-span-3 font-medium text-gray-600 text-lg">
+                <div className="p-2 col-span-5 font-medium text-gray-600 text-lg">
                   ヤンゴンヤンゴンへ移動<br></br>バーにてレセプション業務
                 </div>
               </div>
               <div className="divide-gray-600 grid grid-cols-7 divide-x-2 md:ml-5 border-t-2 border-r-2 border-l-2">
                 <div className="text-center font-medium m-3">11</div>
-                <div className="p-2 col-span-3 font-medium text-gray-600 text-lg">
+                <div className="p-2 col-span-5 font-medium text-gray-600 text-lg">
                   バー研修
                 </div>
               </div>
               <div className="divide-gray-600 grid grid-cols-7 divide-x-2 md:ml-5 border-t-2 border-r-2 border-l-2">
                 <div className="text-center font-medium m-3">12</div>
-                <div className="p-2 col-span-3 font-medium text-gray-600 text-lg">
+                <div className="p-2 col-span-5 font-medium text-gray-600 text-lg">
                   バー研修
                 </div>
               </div>
               <div className="divide-gray-600 grid grid-cols-7 divide-x-2 md:ml-5 border-t-2 border-r-2 border-l-2">
                 <div className="text-center font-medium m-3">13</div>
-                <div className="p-2 col-span-3 font-medium text-gray-600 text-lg">
+                <div className="p-2 col-span-5 font-medium text-gray-600 text-lg">
                   休暇
                 </div>
               </div>
               <div className="divide-gray-600 grid grid-cols-7 divide-x-2 md:ml-5 border-2">
                 <div className="text-center font-medium m-3">14</div>
-                <div className="p-2 col-span-3 font-medium text-gray-600 text-lg">
+                <div className="p-2 col-span-5 font-medium text-gray-600 text-lg">
                   バー研修
                 </div>
               </div>
@@ -434,7 +459,7 @@ const intership = () => {
             </div>
           </div>
         </div>
-        <p className="mt-10 mb-10 m-6 font-medium text-xl text-gray-500">
+        <p className="mt-10 mb-10 m-6 font-medium text-lg text-gray-500">
           ヤンゴンのランドマークとなったサクラタワーにはICA、三菱商事、日経、NHK等、
           グローバルに活躍する企業や団体が入居しており、ヨーロッパ、アジアなどの海外からの駐在員や観光客が多く訪れています。
         </p>
@@ -448,94 +473,93 @@ const intership = () => {
                 <div className="text-center font-bold text-gray-400 m-3">
                   日目
                 </div>
-                <div className="p-2 col-span-3 font-bold text-gray-400 text-lg text-center">
+                <div className="p-2 col-span-5 font-bold text-gray-400 text-lg text-center">
                   内容
                 </div>
               </div>
               <div className="items-center divide-gray-600 grid grid-cols-7 divide-x-2 md:ml-5 border-t-2 border-r-2 border-l-2">
                 <div className="text-center font-medium m-3">1</div>
-                <div className="p-2 col-span-3 font-medium text-gray-600 text-lg">
+                <div className="p-2 col-span-5 font-medium text-gray-600 text-lg">
                   {" "}
                   ヤンゴン到着<br></br>サクラレジデンスの説明<br></br>
-                  ハウスキーピング研修（パ<br></br>ブリックエリア）
+                  ハウスキーピング研修（パブリックエリア）
                 </div>
               </div>
               <div className="items-center divide-gray-600 grid grid-cols-7 divide-x-2 md:ml-5 border-t-2 border-r-2 border-l-2">
                 <div className="text-center font-medium m-3">2</div>
-                <div className="p-2 col-span-3 font-medium text-gray-600 text-lg">
-                  ハウスキーピング研修（パ<br></br>ブリックエリア、ペストコ
-                  <br></br>ントロール）
+                <div className="p-2 col-span-5 font-medium text-gray-600 text-lg">
+                  ハウスキーピング研修（パブリックエリア、ペストコ ントロール）
                 </div>
               </div>
               <div className="divide-gray-600 grid grid-cols-7 divide-x-2  md:ml-5 border-t-2 border-r-2 border-l-2">
                 <div className="text-center font-medium m-3">3</div>
-                <div className="p-2 col-span-3 font-medium text-gray-600 text-lg">
+                <div className="p-2 col-span-5 font-medium text-gray-600 text-lg">
                   休暇
                 </div>
               </div>
               <div className="items-center divide-gray-600 grid grid-cols-7 divide-x-2  md:ml-5 border-t-2 border-r-2 border-l-2">
                 <div className="text-center font-medium m-3">4</div>
-                <div className="p-2 col-span-3 font-medium text-gray-600 text-lg">
-                  ハウスキーピング研修（ル<br></br>ームクリーニング）
+                <div className="p-2 col-span-5 font-medium text-gray-600 text-lg">
+                  ハウスキーピング研修（ルームクリーニング）
                 </div>
               </div>
               <div className="divide-gray-600 grid grid-cols-7 divide-x-2  md:ml-5 border-t-2 border-r-2 border-l-2">
                 <div className="text-center font-medium m-3">5</div>
-                <div className="p-2 col-span-3 font-medium text-gray-600 text-lg">
+                <div className="p-2 col-span-5 font-medium text-gray-600 text-lg">
                   ハウスキーピング研修
                 </div>
               </div>
               <div className="divide-gray-600 grid grid-cols-7 divide-x-2 md:ml-5 border-t-2 border-r-2 border-l-2">
                 <div className="text-center font-medium m-3">6</div>
-                <div className="p-2 col-span-3 font-medium text-gray-600 text-lg">
+                <div className="p-2 col-span-5 font-medium text-gray-600 text-lg">
                   ハウスキーピング研修
                 </div>
               </div>
               <div className="divide-gray-600 grid grid-cols-7 divide-x-2 md:ml-5 border-t-2 border-r-2 border-l-2">
                 <div className="text-center font-medium m-3">7</div>
-                <div className="p-2 col-span-3 font-medium text-gray-600 text-lg">
+                <div className="p-2 col-span-5 font-medium text-gray-600 text-lg">
                   休暇
                 </div>
               </div>
               <div className="items-center divide-gray-600 grid grid-cols-7 divide-x-2 md:ml-5 border-t-2 border-r-2 border-l-2">
                 <div className="text-center font-medium m-3">8</div>
-                <div className="p-2 col-span-3 font-medium text-gray-600 text-lg">
-                  レセプション研修（ベルス<br></br>タッフ）
+                <div className="p-2 col-span-5 font-medium text-gray-600 text-lg">
+                  レセプション研修（ベルスタッフ）
                 </div>
               </div>
               <div className="divide-gray-600 grid grid-cols-7 divide-x-2 md:ml-5 border-t-2 border-r-2 border-l-2">
                 <div className="text-center font-medium m-3">9</div>
-                <div className="p-2 col-span-3 font-medium text-gray-600 text-lg">
+                <div className="p-2 col-span-5 font-medium text-gray-600 text-lg">
                   レセプション研修（ジム）
                 </div>
               </div>
               <div className="items-center divide-gray-600 grid grid-cols-7 divide-x-2 md:ml-5 border-t-2 border-r-2 border-l-2">
                 <div className="text-center font-medium m-3">10</div>
-                <div className="p-2 col-span-3 font-medium text-gray-600 text-lg">
+                <div className="p-2 col-span-5 font-medium text-gray-600 text-lg">
                   休暇
                 </div>
               </div>
               <div className="items-center divide-gray-600 grid grid-cols-7 divide-x-2 md:ml-5 border-t-2 border-r-2 border-l-2">
                 <div className="text-center font-medium m-3">11</div>
-                <div className="p-2 col-span-3 font-medium text-gray-600 text-lg">
-                  レセプション研修（フロ<br></br>ント）
+                <div className="p-2 col-span-5 font-medium text-gray-600 text-lg">
+                  レセプション研修（フロント）
                 </div>
               </div>
               <div className="divide-gray-600 grid grid-cols-7 divide-x-2 md:ml-5 border-t-2 border-r-2 border-l-2">
                 <div className="text-center font-medium m-3">12</div>
-                <div className="p-2 col-span-3 font-medium text-gray-600 text-lg">
+                <div className="p-2 col-span-5 font-medium text-gray-600 text-lg">
                   レセプション研修
                 </div>
               </div>
               <div className="divide-gray-600 grid grid-cols-7 divide-x-2 md:ml-5 border-t-2 border-r-2 border-l-2">
                 <div className="text-center font-medium m-3">13</div>
-                <div className="p-2 col-span-3 font-medium text-gray-600 text-lg">
+                <div className="p-2 col-span-5 font-medium text-gray-600 text-lg">
                   休暇
                 </div>
               </div>
               <div className="divide-gray-600 grid grid-cols-7 divide-x-2 md:ml-5 border-2">
                 <div className="text-center font-medium m-3">14</div>
-                <div className="p-2 col-span-3 font-medium text-gray-600 text-lg">
+                <div className="p-2 col-span-5 font-medium text-gray-600 text-lg">
                   レセプション研修
                 </div>
               </div>
@@ -566,7 +590,7 @@ const intership = () => {
             </div>
           </div>
         </div>
-        <p className="mt-10 mb-10 m-6 font-medium text-xl text-gray-500">
+        <p className="mt-10 mb-10 m-6 font-medium text-lg text-gray-500">
           サクラレジデンスには日本人3割、その他ヨーロッパ・アジアの駐在員7割と海外からの駐在員が多く住んでいます。英語での接客が日常的に発生します。
         </p>
         <div className="mx-4">
