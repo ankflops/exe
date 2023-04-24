@@ -9,57 +9,47 @@ import {
 
 const images = [
   {
-    original: "../assets/img/slider1.jpg",
-    thumbnail: "../assets/img/slider1.jpg",
+    original: "../assets/img/lol10.jpg",
+    thumbnail: "../assets/img/lol10.jpg",
   },
   {
-    original: "../assets/img/27.jpg",
-    thumbnail: "../assets/img/27.jpg",
+    original: "../assets/img/lol6.jpg",
+    thumbnail: "../assets/img/lol6.jpg",
   },
   {
-    original: "../assets/img/22.jpg",
-    thumbnail: "../assets/img/22.jpg",
+    original: "../assets/img/lol7.jpg",
+    thumbnail: "../assets/img/lol7.jpg",
   },
   {
-    original: "../assets/img/21.jpg",
-    thumbnail: "../assets/img/21.jpg",
+    original: "../assets/img/lol8.jpg",
+    thumbnail: "../assets/img/lol8.jpg",
   },
   {
-    original: "../assets/img/25.jpg",
-    thumbnail: "../assets/img/25.jpg",
-  },
-  {
-    original: "../assets/img/25.jpg",
-    thumbnail: "../assets/img/25.jpg",
+    original: "../assets/img/lol9.jpg",
+    thumbnail: "../assets/img/lol9.jpg",
   },
 ];
-
 const images2 = [
   {
-    original: "../assets/img/slider1.jpg",
-    thumbnail: "../assets/img/slider1.jpg",
+    original: "../assets/img/lol5.jpg",
+    thumbnail: "../assets/img/lol5.jpg",
   },
   {
-    original: "../assets/img/27.jpg",
-    thumbnail: "../assets/img/27.jpg",
+    original: "../assets/img/lol4.jpg",
+    thumbnail: "../assets/img/lol4.jpg",
   },
   {
-    original: "../assets/img/22.jpg",
-    thumbnail: "../assets/img/22.jpg",
+    original: "../assets/img/lol3.jpg",
+    thumbnail: "../assets/img/lol3.jpg",
   },
   {
-    original: "../assets/img/21.jpg",
-    thumbnail: "../assets/img/21.jpg",
+    original: "../assets/img/lol1.jpg",
+    thumbnail: "../assets/img/lol1.jpg",
   },
   {
-    original: "../assets/img/25.jpg",
-    thumbnail: "../assets/img/25.jpg",
+    original: "../assets/img/lol2.jpg",
+    thumbnail: "../assets/img/lol2.jpg",
   },
-  {
-    original: "../assets/img/25.jpg",
-    thumbnail: "../assets/img/25.jpg",
-  },
-  
 ];
 
 const intership = () => {

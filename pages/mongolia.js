@@ -5,28 +5,46 @@ import ImageGallery from "react-image-gallery";
 import LazyLoad from "react-lazy-load";
 const images = [
   {
-    original: "../assets/img/slider1.jpg",
-    thumbnail: "../assets/img/slider1.jpg",
+    original: "../assets/img/lol11.png",
+    thumbnail: "../assets/img/lol11.png",
   },
   {
-    original: "../assets/img/27.jpg",
-    thumbnail: "../assets/img/27.jpg",
+    original: "../assets/img/lol12.png",
+    thumbnail: "../assets/img/lol12.png",
   },
   {
-    original: "../assets/img/22.jpg",
-    thumbnail: "../assets/img/22.jpg",
+    original: "../assets/img/school03.jpg",
+    thumbnail: "../assets/img/school03.jpg",
   },
   {
-    original: "../assets/img/21.jpg",
-    thumbnail: "../assets/img/21.jpg",
+    original: "../assets/img/school01.jpg",
+    thumbnail: "../assets/img/school01.jpg",
   },
   {
-    original: "../assets/img/25.jpg",
-    thumbnail: "../assets/img/25.jpg",
+    original: "../assets/img/school02.jpg",
+    thumbnail: "../assets/img/school02.jpg",
+  },
+];
+const images2 = [
+  {
+    original: "../assets/img/lol11.png",
+    thumbnail: "../assets/img/lol11.png",
   },
   {
-    original: "../assets/img/25.jpg",
-    thumbnail: "../assets/img/25.jpg",
+    original: "../assets/img/lol12.png",
+    thumbnail: "../assets/img/lol12.png",
+  },
+  {
+    original: "../assets/img/school03.jpg",
+    thumbnail: "../assets/img/school03.jpg",
+  },
+  {
+    original: "../assets/img/school01.jpg",
+    thumbnail: "../assets/img/school01.jpg",
+  },
+  {
+    original: "../assets/img/school02.jpg",
+    thumbnail: "../assets/img/school02.jpg",
   },
 ];
 
@@ -76,35 +94,34 @@ const mongolia = () => {
           </div>
 
           {/* slider */}
-          <div className="m-4">
+          <div className="p-6">
             <ImageGallery items={images} />
           </div>
         </div>
       </div>
-      <div className="font-bold text-lg md:text-3xl px-4 md:px-8 mt-8 text-gray-700 text-center md:text-left">
-        ターコイズ・ファイナンス
-      </div>
-      <div className="flex justify-center mb-10 pl-4">
-        <div className="grid md:grid-cols-2">
-          <div className="md:p-8 p-4 text-justify">
-            <p className="text-xl font-medium text-gray-500">
+      <div className="px-4">
+        <h1 className="font-bold text-2xl text-gray-700 mt-8 text-center md:text-left">
+          ターコイズ・ファイナンス
+        </h1>
+        <div className="lg:flex block">
+          <div className="flex text-justify">
+            <p className="text-lg font-medium w-auto lg:h-auto md:p-5 pb-8 text-gray-500 max-w-4xl p-4">
               株式会社エクセは、モンゴル最大手証券会社であるBDSec
               JSCの機関投資家大株主の一つであり、役員会に取締役も務めています。
+              <br></br>
+              <br></br>
+              モンゴル金融庁の免許を受けた金融サービス会社である現地法人子会社であるターコイズ・ファイナンスを通じて、モンゴル証券取引所や店頭市場における株式・債券の引受を行うなど、BDSecと共にモンゴルの金融市場で事業を行っています。。
+              <br></br>
+              <br></br>
+              引受業務以外に、ターコイズ・ファイナンスは現地の事業法人に直接ローンを発行し、非銀行部門の金融市場のマーケット・メーカーとしての役割も果たしています。{" "}
+              <br></br>
+              <br></br>
             </p>
-            <p className="my-8 text-xl font-medium text-gray-500">
-              モンゴル金融庁の免許を受けた金融サービス会社である現地法人子会社であるターコイズ・ファイナンスを通じて、モンゴル証券取引所や店頭市場における株式・債券の引受を行うなど、BDSecと共にモンゴルの金融市場で事業を行っています。
-            </p>
-            <p className="my-8 text-xl font-medium text-gray-500">
-              引受業務以外に、ターコイズ・ファイナンスは現地の事業法人に直接ローンを発行し、非銀行部門の金融市場のマーケット・メーカーとしての役割も果たしています。
-            </p>
-            <div className="flex justify-center lg:justify-start"></div>
           </div>
-          <div className="md:p-10">
-            <img
-              src="/assets/img/1659582198.jpg"
-              loading="lazy"
-              className="w-100% h-auto align-middle mx-auto bg-center bg-cover"
-            />
+
+          {/* slider */}
+          <div className="p-6">
+            <ImageGallery items={images2} />
           </div>
         </div>
       </div>
