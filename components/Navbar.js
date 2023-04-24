@@ -88,13 +88,13 @@ export default function Navbar({ fixed }) {
 
               <li className="nav-item">
                 <div className="flex justify-center">
-                  <div>
-                    <div className="relative" data-te-dropdown-ref>
+                  {/* <div>
+                    <div className="relative" data-te-dropdown>
                       <button
                         className="flex items-center bg-darkblue px-6 pt-2.5 pb-2 text-sm font-medium uppercase leading-normal text-white -mt-0.5"
                         type="button"
                         id="dropdownMenuButton1"
-                        data-te-dropdown-toggle-ref
+                        data-te-dropdown-toggle
                         aria-expanded="false"
                         data-te-ripple-init
                         data-te-ripple-color="light"
@@ -116,15 +116,13 @@ export default function Navbar({ fixed }) {
                         </span>
                       </button>
                       <ul
-                        className="absolute z-[1000] float-left m-0 hidden min-w-max list-none overflow-hidden border-none bg-white text-left text-base shadow-lg [&[data-te-dropdown-show]]:block"
+                        className="absolute z-[1000] float-left m-0 hidden min-w-max list-none overflow-hidden border-none bg-white text-left text-base shadow-lg [data-te-dropdown-show]"
                         aria-labelledby="dropdownMenuButton1"
-                        data-te-dropdown-menu-ref
                       >
                         <li>
                           <a
                             className="block w-full bg-transparent py-1 px-4 text-sm bg-darkblue text-white border"
                             href="/myanmar"
-                            data-te-dropdown-item-ref
                           >
                             ミャンマー
                           </a>
@@ -133,23 +131,38 @@ export default function Navbar({ fixed }) {
                           <a
                             className="block w-full bg-transparent py-1 px-4 text-sm bg-darkblue text-white border"
                             href="/mongolia"
-                            data-te-dropdown-item-ref
                           >
                             モンゴル
                           </a>
                         </li>
                       </ul>
                     </div>
-                  </div>
+                  </div> */}
+                  <li className="nav-item">
+                    <div className="flex justify-center">
+                      <div className="dropdown text-white">
+                        <span className="flex items-center bg-darkblue px-6 pt-2.5 pb-2 text-sm font-medium uppercase leading-normal text-white -mt-0.5">
+                          海外プロジェクト
+                        </span>
+                        <div className="dropdown-content">
+                          <a
+                            className="block w-full bg-transparent py-1 px-4 text-sm bg-darkblue text-white border"
+                            href="/myanmar"
+                          >
+                            ミャンマー
+                          </a>
+                          <a
+                            className="block w-full bg-transparent py-1 px-4 text-sm bg-darkblue text-white border"
+                            href="/mongolia"
+                          >
+                            モンゴル
+                          </a>
+                        </div>
+                      </div>
+                    </div>
+                  </li>
                 </div>
               </li>
-              {/* <li className="nav-item">
-                <Link href="/overseas">
-                  <a className="px-2 py-2 flex items-center text-sm uppercase leading-snug text-white hover:text-sky-300">
-                    <span className="ml-2">海外プロジェクト</span>
-                  </a>
-                </Link>
-              </li> */}
               <li className="nav-item">
                 <Link href="/domestic">
                   <a className="px-2 py-2 flex items-center text-sm uppercase leading-snug text-white hover:text-sky-300">
@@ -159,7 +172,7 @@ export default function Navbar({ fixed }) {
               </li>
               <li className="nav-item">
                 <div className="flex justify-center">
-                  <div>
+                  {/* <div>
                     <div className="relative" data-te-dropdown-ref>
                       <button
                         className="flex items-center bg-darkblue px-6 pt-2.5 pb-2 text-sm font-medium uppercase leading-normal text-white -mt-0.5"
@@ -211,16 +224,35 @@ export default function Navbar({ fixed }) {
                         </li>
                       </ul>
                     </div>
-                  </div>
+                  </div> */}
+                  <li className="nav-item">
+                    <div className="flex justify-center">
+                      <div className="dropdown text-white">
+                        <span className="flex items-center bg-darkblue px-6 pt-2.5 pb-2 text-sm font-medium uppercase leading-normal text-white -mt-0.5">
+                          インターンシップ・採用
+                        </span>
+                        <div className="dropdown-content">
+                          <a
+                            className="block w-full bg-transparent py-1 px-4 text-sm bg-darkblue text-white border"
+                            href="/intership"
+                            data-te-dropdown-item-ref
+                          >
+                            インターンシップ
+                          </a>
+                          <a
+                            className="block w-full bg-transparent py-1 px-4 text-sm bg-darkblue text-white border"
+                            href="/recruit"
+                            data-te-dropdown-item-ref
+                          >
+                            リクルート
+                          </a>
+                        </div>
+                      </div>
+                    </div>
+                  </li>
                 </div>
               </li>
-              {/* <li className="nav-item">
-                <Link href="/recruit">
-                  <a className="px-2 py-2 flex items-center text-sm uppercase leading-snug text-white hover:text-sky-300">
-                    <span className="ml-2">リクルート</span>
-                  </a>
-                </Link>
-              </li> */}
+
               <li className="nav-item">
                 <Link href="/contact">
                   <a className="px-2 py-2 flex items-center text-sm uppercase leading-snug text-white hover:text-sky-300">

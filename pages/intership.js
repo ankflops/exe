@@ -1,6 +1,11 @@
 import React from "react";
 import MainLayout from "../layout/MainLayout";
 import ImageGallery from "react-image-gallery";
+import {
+  Accordion,
+  AccordionHeader,
+  AccordionBody,
+} from "@material-tailwind/react";
 
 const images = [
   {
@@ -54,7 +59,9 @@ const images2 = [
     original: "../assets/img/25.jpg",
     thumbnail: "../assets/img/25.jpg",
   },
+  
 ];
+
 const intership = () => {
   return (
     <MainLayout>
@@ -91,11 +98,36 @@ const intership = () => {
         </p>
         <div className="mx-4">
           <div className="border-solid border-2 border-[#a7adaf] rounded-[24px]">
-            <img
-              src="/assets/img/intern.png"
-              className="mx-auto w-[1000px]"
-              loading="lazy"
-            />
+            <div className="grid grid-cols-4">
+              <div className="col-span-1">
+                <img
+                  src="/assets/img/sad.jpeg"
+                  className="h-64 w-auto mx-auto"
+                  loading="lazy"
+                />
+              </div>
+              <div className="col-span-2">
+                <div className="mx-auto">
+                  <div className="text-2xl font-bold text-gray-700">
+                    　留学するか迷っていませんか？　
+                  </div>
+                  <div className="text-gray-500 px-20 py-5 text-lg">
+                    ・留学費用が高い
+                    <br /> ・ゆっくりと語学を学びたい
+                    <br /> ・人と違った経験がしたい
+                    <br /> ・初めての海外で不安がある
+                    <br /> ・語学学校ではなく実務経験を積みたい
+                  </div>
+                </div>
+              </div>
+              <div className="col-span-1">
+                <img
+                  src="/assets/img/sad2.jpeg"
+                  className="h-64 w-auto mx-auto"
+                  loading="lazy"
+                />
+              </div>
+            </div>
           </div>
         </div>
         <div className="max-w-10xl">
@@ -109,7 +141,7 @@ const intership = () => {
               className="h-64 w-64 mx-auto border-solid border-2 border-[#92ACDD] rounded-full md:m-4"
               loading="lazy"
             />
-            <p className="p-4 text-gray-500 text-lg">
+            <p className="p-4 text-gray-500">
               S.Iさん　立命館アジア太平洋大学　国際経営学科<br></br>
               ▶国籍の異なる人との出会い
               ３か月という短い期間でしたが、国籍を問わない多くの人との出会いは、日本では得難く、とても刺激的で、価値観が変わるような経験でした。実際に社会で働く方々との交流の機会は大変貴重で、就職活動のアドバイスや海外で働くこと、女性が働くということについて多くの立場の方から意見を聞くことができました。
@@ -806,149 +838,62 @@ const intership = () => {
           </div>
         </div>
         <div>
-          <h2 className="font-bold text-2xl text-gray-600 text-center m-1 mb-5">
+          {/* <h2 className="font-bold text-2xl text-gray-600 text-center m-1 mb-5">
             <a className="text-3xl">\ </a>よくある質問{" "}
             <a className="text-3xl">/ </a>
-          </h2>
-          <div className="grid justify-center">
-            <div className="relative" data-te-dropdown-ref>
-              <button
-                className="flex items-center px-6 text-lg md:text-2xl underline font-medium uppercase leading-normal text-gray-600 -mt-0.5 mb-5"
-                type="button"
-                id="dropdownMenuButton1"
-                data-te-dropdown-toggle-ref
-                aria-expanded="false"
-                data-te-ripple-init
-                data-te-ripple-color="light"
-              >
-                Q.ミャンマーってどんな国ですか？
-              </button>
-              <ul
-                className="absolute z-[500] hidden overflow-hidden rounded-lg bg-clip-padding [&[data-te-dropdown-show]]:block"
-                aria-labelledby="dropdownMenuButton1"
-                data-te-dropdown-menu-ref
-              >
-                <li>
-                  <div
-                    className="block whitespace-nowrap bg-green-400 p-2 bg-[#a2d2f6]"
-                    data-te-dropdown-item-ref
-                  >
-                    『アジア最後のフロンティア』と呼ばれるミャンマー。
-                    <br></br>人口は5380万人、135の民族による多民族国 家であり、
-                    <br></br>
-                    イギリスの旧植民地でビルマ語と英語を利用します。
-                    <br></br>国民の約9割が仏教徒で街中には仏塔
-                    （パゴダ）が並びます。<br></br>
-                    素朴で穏やかな優しい人が多く、<br></br>
-                    気質は日本人に似ているとも言われます。
-                  </div>
-                </li>
-              </ul>
-            </div>
-
-            <div className="relative" data-te-dropdown-ref>
-              <button
-                className="flex items-center px-6 text-lg md:text-2xl underline font-medium uppercase leading-normal text-gray-600 -mt-0.5 mb-5"
-                type="button"
-                id="dropdownMenuButton1"
-                data-te-dropdown-toggle-ref
-                aria-expanded="false"
-                data-te-ripple-init
-                data-te-ripple-color="light"
-              >
-                Q.英語はどれくらい利用しますか？
-              </button>
-              <ul
-                className="absolute z-[500] hidden overflow-hidden rounded-lg bg-clip-padding [&[data-te-dropdown-show]]:block"
-                aria-labelledby="dropdownMenuButton1"
-                data-te-dropdown-menu-ref
-              >
-                <li>
-                  <div
-                    className="block whitespace-nowrap bg-green-400 p-2 bg-[#a2d2f6]"
-                    data-te-dropdown-item-ref
-                  >
-                    英語は海外駐在員やローカルスタッフとの接客
-                    <br></br>
-                    やコミュニケーションで利用します。
-                    <br></br>ローカルスタッ フとはビルマ語を話す機会もあります。
-                  </div>
-                </li>
-              </ul>
-            </div>
-
-            <div className="relative" data-te-dropdown-ref>
-              <button
-                className="flex items-center px-6 text-lg md:text-2xl underline font-medium uppercase leading-normal text-gray-600 -mt-0.5 mb-5"
-                type="button"
-                id="dropdownMenuButton1"
-                data-te-dropdown-toggle-ref
-                aria-expanded="false"
-                data-te-ripple-init
-                data-te-ripple-color="light"
-              >
-                Q. TOEICなど応募条件はありますか？
-              </button>
-              <ul
-                className="absolute z-[500] hidden overflow-hidden rounded-lg bg-clip-padding [&[data-te-dropdown-show]]:block"
-                aria-labelledby="dropdownMenuButton1"
-                data-te-dropdown-menu-ref
-              >
-                <li>
-                  <div
-                    className="block whitespace-nowrap bg-green-400 p-2 bg-[#a2d2f6]"
-                    data-te-dropdown-item-ref
-                  >
-                    3ヶ月以内の短期留学の場合、目安としてTOEIC800
-                    <br></br>
-                    点程度の英語力があると幅広い業務への挑戦機会
-                    <br></br>
-                    が提供できると考えています。<br></br>
-                    6カ月など長期留学の場合はインターン当初<br></br>
-                    の英語力は求めませんが、
-                    <br></br>
-                    TOEIC600点はあることが望ましいです。
-                  </div>
-                </li>
-              </ul>
-            </div>
-
-            <div className="relative" data-te-dropdown-ref>
-              <button
-                className="flex items-center px-6 text-lg md:text-2xl underline font-medium uppercase leading-normal text-gray-600 -mt-0.5 mb-5"
-                type="button"
-                id="dropdownMenuButton1"
-                data-te-dropdown-toggle-ref
-                aria-expanded="false"
-                data-te-ripple-init
-                data-te-ripple-color="light"
-              >
-                Q.治安や衛生面に心配はないのでしょうか？
-              </button>
-              <ul
-                className="absolute z-[500] hidden overflow-hidden rounded-lg bg-clip-padding [&[data-te-dropdown-show]]:block"
-                aria-labelledby="dropdownMenuButton1"
-                data-te-dropdown-menu-ref
-              >
-                <li>
-                  <div
-                    className="block whitespace-nowrap bg-green-400 p-2 bg-[#a2d2f6]"
-                    data-te-dropdown-item-ref
-                  >
-                    2021年以降の軍事政権下で治安が心配されていますが、
-                    <br></br>
-                    駐在員のルールを守り活動いただければ問題なく、
-                    <br></br>
-                    過去40名以上のインターン受け入れにおいてトラブル・事故
-                    <br></br>
-                    が発生したことはございません。<br></br>
-                    衛生面においては外出時の飲食では注意が必<br></br>
-                    要ですので駐在員の指示に従っていただきます。
-                  </div>
-                </li>
-              </ul>
-            </div>
-          </div>
+          </h2> */}
+          {/* <div className="md:px-20 px-4">
+            <Fragment>
+              <Accordion open={open === 1}>
+                <AccordionHeader onClick={() => handleOpen(1)}>
+                  ミャンマーってどんな国ですか？
+                </AccordionHeader>
+                <AccordionBody>
+                  『アジア最後のフロンティア』と呼ばれるミャンマー。人口は5380万人、135の民族による多民族国家であり、イギリスの旧植民地でビルマ語と英語を利用します。国民の約9割が仏教徒で街中には仏塔（パゴダ）が並びます。素朴で穏やかな優しい人が多く、気質は日本人に似ているとも言われます。
+                </AccordionBody>
+              </Accordion>
+              <Accordion open={open === 2}>
+                <AccordionHeader onClick={() => handleOpen(2)}>
+                  英語はどれくらい利用しますか？
+                </AccordionHeader>
+                <AccordionBody>
+                  英語は海外駐在員やローカルスタッフとの接客やコミュニケーションで利用します。ローカルスタッフとはビルマ語を話す機会もあります。
+                </AccordionBody>
+              </Accordion>
+              <Accordion open={open === 3}>
+                <AccordionHeader onClick={() => handleOpen(3)}>
+                  TOEICなど応募条件はありますか？
+                </AccordionHeader>
+                <AccordionBody>
+                  3ヶ月以内の短期留学の場合、目安としてTOEIC800点程度の英語力があると幅広い業務への挑戦機会が提供できると考えています。6カ月など長期留学の場合はインターン当初の英語力は求めませんが、TOEIC600点はあることが望ましいです。
+                </AccordionBody>
+              </Accordion>
+              <Accordion open={open === 4}>
+                <AccordionHeader onClick={() => handleOpen(4)}>
+                  治安や衛生面は心配はないのでしょうか？
+                </AccordionHeader>
+                <AccordionBody>
+                  2021年以降の軍事政権下で治安が心配されていますが、駐在員のルールを守り活動いただければ問題なく、過去40名以上のインターン受け入れにおいてトラブル・事故が発生したことはございません。衛生面においては外出時の飲食では注意が必要ですので駐在員の指示に従っていただきます。
+                </AccordionBody>
+              </Accordion>
+              <Accordion open={open === 5}>
+                <AccordionHeader onClick={() => handleOpen(5)}>
+                  駐在先はどちらになるのでしょうか？
+                </AccordionHeader>
+                <AccordionBody>
+                  エクセが所有するサクラレジデンスに駐在いただきます。日本人駐在員も常駐しておりますので、困りごとがあればすぐに対応できる体制となっております。
+                </AccordionBody>
+              </Accordion>
+              <Accordion open={open === 6}>
+                <AccordionHeader onClick={() => handleOpen(6)}>
+                  インターン参加は必須でしょうか？
+                </AccordionHeader>
+                <AccordionBody>
+                  旅行と異なり、ミャンマー現地に駐在する場合、生活習慣や文化、慣習などへの適用が大切です。インターン参加は必須ではありませんが、インターンに参加した後に本採用エントリーをすることをオススメしております。
+                </AccordionBody>
+              </Accordion>
+            </Fragment>
+          </div> */}
           <div className="items-center text-center">
             <a href="https://docs.google.com/forms/d/e/1FAIpQLSddgYtieThncUj6lXwjolR6aRRCVLUjdG63GqD7Teo7uwjXvA/viewform?usp=send_form">
               <button

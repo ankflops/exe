@@ -40,6 +40,23 @@
   letter-spacing: 0.7px;
   z-index: 50;
 }
+.dropdown {
+  position: relative;
+  display: inline-block;
+}
+
+.dropdown-content {
+  display: none;
+  position: absolute;
+  background-color: #f9f9f9;
+  min-width: 160px;
+  padding: 1px 1px;
+  z-index: 1;
+}
+
+.dropdown:hover .dropdown-content {
+  display: block;
+}
 
 .to-top-button.show {
   opacity: 1;
