@@ -98,13 +98,13 @@ const intership = () => {
               </div>
               <div>
                 <div className="md:text-2xl font-bold text-gray-700">
-                  <h2 className="text-center text-gray-700 font-semibold m-4">
+                  <h2 className="text-center text-gray-700 font-semibold md:m-4 m-2">
                     <a className="md:text-3xl">\ </a>{" "}
                     　留学するか迷っていませんか？　
                     <a className="md:text-3xl">/ </a>
                   </h2>
                 </div>
-                <div className="text-gray-600 px-20 py-5 text-lg">
+                <div className="text-gray-600 md:px-20 px-4 py-5 md:text-lg text-sm">
                   ・留学費用が高い
                   <br /> ・ゆっくりと語学を学びたい
                   <br /> ・人と違った経験がしたい
