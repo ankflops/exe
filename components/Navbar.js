@@ -1,9 +1,9 @@
 import React from "react";
 import Link from "next/link";
-import LazyLoad from "react-lazy-load";
+
 import useTranslation from "next-translate/useTranslation";
 import { useRouter } from "next/router";
-import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
+
 
 export default function Navbar({ fixed }) {
   let { t } = useTranslation();

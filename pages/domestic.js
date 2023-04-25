@@ -1,11 +1,6 @@
 import React from "react";
-import Aboutexe from "../components/Aboutexe";
-import Announcements from "../components/Announcements";
-import Domesticprojects from "../components/Domesticprojects";
-import Sharedhouse from "../components/Sharedhouse";
+
 import MainLayout from "../layout/MainLayout";
-import Link from "next/link";
-import LazyLoad from "react-lazy-load";
 
 const domestic = () => {
   return (
@@ -42,7 +37,7 @@ const domestic = () => {
               </div>
               <div className="px-4 py-0">
                 <div className="w-full md:mx-8 py-4">
-                  <h2 className="font-serif text-xl text-gray-700 font-bold">
+                  <h2 className="font-serif text-2xl text-gray-700 font-bold">
                     {/* ▶不動産流動化事業 */}
                     不動産流動化事業
                   </h2>
@@ -51,7 +46,7 @@ const domestic = () => {
                   </p>
                 </div>
                 <div className="w-full md:mx-8 py-4">
-                  <h2 className="font-serif text-xl text-gray-700 font-bold ">
+                  <h2 className="font-serif text-2xl text-gray-700 font-bold ">
                     不動産賃貸事業
                   </h2>
                   <p className="font-light mt-6 font-sans text-gray-500">
@@ -59,7 +54,7 @@ const domestic = () => {
                   </p>
                 </div>
                 <div className="w-full md:mx-8 py-4">
-                  <h2 className="font-serif text-xl text-gray-700 font-bold ">
+                  <h2 className="font-serif text-2xl text-gray-700 font-bold ">
                     不動産投資事業
                   </h2>
                   <p className="font-light mt-6 font-sans text-gray-500">
@@ -71,7 +66,7 @@ const domestic = () => {
           </div>
         </div>
         <div className="px-4">
-          <div className="text-xl md:text-3xl font-bold box-content h-32 w-auto p-10 border-0 bg-[#f6fafd] mb-4">
+          <div className="text-xl md:text-2xl font-bold box-content h-32 w-auto p-10 border-0 bg-[#f6fafd] mb-4">
             プロジェクト例{" "}
             <div className="font-normal text-base mt-4 md:ml-5">
               -べルサージュ目白<br></br>
@@ -79,16 +74,16 @@ const domestic = () => {
             </div>
           </div>
           <div className="pt-2">
-            <div className="text-center text-3xl font-bold my-4 mt-4">
+            <div className="text-center text-2xl font-bold my-4 mt-4">
               その他投資事業
             </div>
-            <p className="text-xl py-2">
+            <p className=" py-2">
               不動産投資事業の他に、ユニークな投資対象として教育、アート、投資家向けサービスなどにも力を入れています。いずれも、お客様のニーズを丹念にお聞きし、十分に相談した上でお一人お一人に合った形でご提案をさせて頂きます。
             </p>
           </div>
         </div>
         <div className="p-4">
-          <div className="text-xl md:text-3xl font-bold box-content lg:h-32 w-auto p-10 border-0 bg-[#f6fafd]">
+          <div className="text-xl md:text-2xl font-bold box-content lg:h-32 w-auto p-10 border-0 bg-[#f6fafd]">
             プロジェクト例{" "}
             <div className="font-normal text-base mt-5 md:ml-5">
               -金融事業
@@ -96,9 +91,6 @@ const domestic = () => {
               -教育事業<br></br>
               -アート投資事業（マン・レイ写真コレクション　北斎富嶽三十六　など）
             </div>
-          </div>
-          <div>
-            <div className="text-center text-3xl font-bold mb-5"></div>
           </div>
         </div>
       </div>

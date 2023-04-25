@@ -1,8 +1,8 @@
 import React from "react";
-import Link from "next/link";
+
 import MainLayout from "../layout/MainLayout";
 import ImageGallery from "react-image-gallery";
-import LazyLoad from "react-lazy-load";
+
 const images = [
   {
     original: "../assets/img/lol12.png",

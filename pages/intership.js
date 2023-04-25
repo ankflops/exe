@@ -1,6 +1,7 @@
 import React from "react";
 import MainLayout from "../layout/MainLayout";
 import ImageGallery from "react-image-gallery";
+import { Fragment, useState } from "react";
 import {
   Accordion,
   AccordionHeader,
@@ -52,7 +53,13 @@ const images2 = [
   },
 ];
 
-const intership = () => {
+// jdfjlgdflgkdfsngklndf
+export default function intership() {
+  const [open, setOpen] = useState(1);
+
+  const handleOpen = (value) => {
+    setOpen(open === value ? 0 : value);
+  };
   return (
     <MainLayout>
       <div
@@ -331,26 +338,27 @@ const intership = () => {
             サクラタワー研修プログラム（例）
           </p>
         </div>
+
         <div className="grid grid-cols-1 md:grid-cols-2">
-          <div className="flex col-sapn-1">
-            <div className="grid md:ml-0 m-4">
-              <div className="divide-gray-600 grid grid-cols-7 divide-x-2 md:ml-5 border-t-2 border-r-3 border-l-3 bg-darkblue">
+          <div className="flex basis-1/3">
+            <div className="grid md:ml-0 p-4">
+              <div className="divide-gray-600 grid grid-cols-7 divide-x-2 md:ml-5 border-t-2 border-r-2 border-l-2 bg-darkblue">
                 <div className="text-center font-bold text-gray-400 m-3">
                   日目
                 </div>
-                <div className="p-2 col-span-5 font-bold text-gray-400 text-lg text-center">
+                <div className="p-2 col-span-6 font-bold text-gray-400 text-lg text-center">
                   内容
                 </div>
               </div>
               <div className="items-center divide-gray-600 grid grid-cols-7 divide-x-2 md:ml-5 border-t-2 border-r-2 border-l-2">
                 <div className="text-center font-medium m-3">1</div>
-                <div className="p-2 col-span-5 font-medium text-gray-600 text-lg">
-                  {" "}
-                  ヤンゴン到着<br></br>オリエンテーション<br></br>
-                  ユニフォーム作成<br></br>サクラカフェ研修スタート
+                <div className="p-2 col-span-2 font-medium text-gray-600 text-lg">
+                  ヤンゴン到着 <br></br>オリエンテーション<br></br>
+                  ユニフォーム作成<br></br>
+                  サクラカフェ研修スタート
                 </div>
               </div>
-              <div className="divide-gray-600 grid grid-cols-7 divide-x-2 md:ml-5 border-t-2 border-r-2 border-l-2">
+              <div className="items-center divide-gray-600 grid grid-cols-7 divide-x-2 md:ml-5 border-t-2 border-r-2 border-l-2">
                 <div className="text-center font-medium m-3">2</div>
                 <div className="p-2 col-span-5 font-medium text-gray-600 text-lg">
                   サクラカフェ研修
@@ -365,7 +373,8 @@ const intership = () => {
               <div className="items-center divide-gray-600 grid grid-cols-7 divide-x-2  md:ml-5 border-t-2 border-r-2 border-l-2">
                 <div className="text-center font-medium m-3">4</div>
                 <div className="p-2 col-span-5 font-medium text-gray-600 text-lg">
-                  スカイビストロへ移動レストラン研修
+                  スカイビストロへ移動<br></br>
+                  レストラン研修
                 </div>
               </div>
               <div className="divide-gray-600 grid grid-cols-7 divide-x-2  md:ml-5 border-t-2 border-r-2 border-l-2">
@@ -386,7 +395,7 @@ const intership = () => {
                   レストラン研修
                 </div>
               </div>
-              <div className="divide-gray-600 grid grid-cols-7 divide-x-2 md:ml-5 border-t-2 border-r-2 border-l-2">
+              <div className="items-center divide-gray-600 grid grid-cols-7 divide-x-2 md:ml-5 border-t-2 border-r-2 border-l-2">
                 <div className="text-center font-medium m-3">8</div>
                 <div className="p-2 col-span-5 font-medium text-gray-600 text-lg">
                   レストラン研修
@@ -401,10 +410,11 @@ const intership = () => {
               <div className="items-center divide-gray-600 grid grid-cols-7 divide-x-2 md:ml-5 border-t-2 border-r-2 border-l-2">
                 <div className="text-center font-medium m-3">10</div>
                 <div className="p-2 col-span-5 font-medium text-gray-600 text-lg">
-                  ヤンゴンヤンゴンへ移動<br></br>バーにてレセプション業務
+                  ヤンゴンヤンゴンへ移動<br></br>
+                  バーにてレセプション業務
                 </div>
               </div>
-              <div className="divide-gray-600 grid grid-cols-7 divide-x-2 md:ml-5 border-t-2 border-r-2 border-l-2">
+              <div className="items-center divide-gray-600 grid grid-cols-7 divide-x-2 md:ml-5 border-t-2 border-r-2 border-l-2">
                 <div className="text-center font-medium m-3">11</div>
                 <div className="p-2 col-span-5 font-medium text-gray-600 text-lg">
                   バー研修
@@ -431,15 +441,15 @@ const intership = () => {
             </div>
           </div>
           {/* small table 2 and slider */}
-          <div className="mt-8 col-span-1">
-            <div className="m-4">
+          <div className="mt-5">
+            <div className="mb-5 p-4">
               <div className="items-center divide-gray-600 grid grid-cols-3 divide-x-2 md:mr-5 border-t-2 border-r-2 border-l-2 border-gray-500">
                 <div className="text-center font-medium m-3">カフェ研修</div>
                 <div className="p-2 font-medium text-gray-600 text-lg col-span-2">
                   マグカップ等食器洗いや店内清掃、飲食店に欠かせない基本を学びます。専用マシーンを使ったコーヒーを淹れるバリスタ業務、フレッシュジュース等の作り方を学び、実践します。
                 </div>
               </div>
-              <div className="items-center divide-gray-600 grid grid-cols-3 divide-x-2 md:mr-5 border-t-2 border-r-2 border-l-2 border-gray-500">
+              <div className="items-center divide-gray-600 grid grid-cols-3 divide-x-2 md:mr-5 border-2 border-gray-500">
                 <div className="text-center font-medium m-3">
                   レストラン研修
                 </div>
@@ -455,10 +465,11 @@ const intership = () => {
               </div>
             </div>
             <div className="px-4">
-              <ImageGallery items={images} />
+              <ImageGallery items={images2} />
             </div>
           </div>
         </div>
+
         <p className="mt-10 mb-10 m-6 font-medium text-lg text-gray-500">
           ヤンゴンのランドマークとなったサクラタワーにはICA、三菱商事、日経、NHK等、
           グローバルに活躍する企業や団体が入居しており、ヨーロッパ、アジアなどの海外からの駐在員や観光客が多く訪れています。
@@ -852,11 +863,11 @@ const intership = () => {
           </div>
         </div>
         <div>
-          {/* <h2 className="font-bold text-2xl text-gray-600 text-center m-1 mb-5">
+          <h2 className="font-bold text-2xl text-gray-600 text-center m-1 mb-5">
             <a className="text-3xl">\ </a>よくある質問{" "}
             <a className="text-3xl">/ </a>
-          </h2> */}
-          {/* <div className="md:px-20 px-4">
+          </h2>
+          <div className="md:px-20 px-4">
             <Fragment>
               <Accordion open={open === 1}>
                 <AccordionHeader onClick={() => handleOpen(1)}>
@@ -890,24 +901,8 @@ const intership = () => {
                   2021年以降の軍事政権下で治安が心配されていますが、駐在員のルールを守り活動いただければ問題なく、過去40名以上のインターン受け入れにおいてトラブル・事故が発生したことはございません。衛生面においては外出時の飲食では注意が必要ですので駐在員の指示に従っていただきます。
                 </AccordionBody>
               </Accordion>
-              <Accordion open={open === 5}>
-                <AccordionHeader onClick={() => handleOpen(5)}>
-                  駐在先はどちらになるのでしょうか？
-                </AccordionHeader>
-                <AccordionBody>
-                  エクセが所有するサクラレジデンスに駐在いただきます。日本人駐在員も常駐しておりますので、困りごとがあればすぐに対応できる体制となっております。
-                </AccordionBody>
-              </Accordion>
-              <Accordion open={open === 6}>
-                <AccordionHeader onClick={() => handleOpen(6)}>
-                  インターン参加は必須でしょうか？
-                </AccordionHeader>
-                <AccordionBody>
-                  旅行と異なり、ミャンマー現地に駐在する場合、生活習慣や文化、慣習などへの適用が大切です。インターン参加は必須ではありませんが、インターンに参加した後に本採用エントリーをすることをオススメしております。
-                </AccordionBody>
-              </Accordion>
             </Fragment>
-          </div> */}
+          </div>
           <div className="items-center text-center">
             <a href="https://docs.google.com/forms/d/e/1FAIpQLSddgYtieThncUj6lXwjolR6aRRCVLUjdG63GqD7Teo7uwjXvA/viewform?usp=send_form">
               <button
@@ -924,6 +919,6 @@ const intership = () => {
       </div>
     </MainLayout>
   );
-};
+}
 
-export default intership;
+// fdhfhsoihgpiepgfhipsfhgpies

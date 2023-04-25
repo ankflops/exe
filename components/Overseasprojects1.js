@@ -1,11 +1,9 @@
 import React from "react";
 import ImageGallery from "react-image-gallery";
 
-import Projects from "../components/Projects";
+
 import MainLayout from "../layout/MainLayout";
-import Link from "next/link";
-import LazyLoad from "react-lazy-load";
-import Overseasprojects from "./Overseasprojects";
+
 
 const images = [
   {

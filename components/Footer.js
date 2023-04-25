@@ -49,7 +49,7 @@ const Footer = () => {
       </div>
 
       <div className="sticky2 active:border-[3px] active:border-r-0 border-cyan-600 active:rounded my-[3px] hover:bg-rose-800 duration-150">
-        <Link href="/en"> 🌐 言語 </Link>
+        <Link href="#"> 🌐 言語 </Link>
       </div>
 
       <div className="sticky active:border-[3px] active:border-r-0 border-cyan-600 active:rounded my-[3px] hover:bg-rose-800 duration-150">
