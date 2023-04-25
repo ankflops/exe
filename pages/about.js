@@ -23,7 +23,7 @@ const about = () => {
           </div>
         </div>
       </div>
-      <div className="mx-4 md:mx-20">
+      <div className="max-w-[1400px] mx-auto">
         <p className="text-center text-lg font-medium text-gray-500 mt-4">
           私ども、株式会社エクセは1991年8月6日に生まれました。 <br></br>
           それから20年、20世紀の最後の10年と21世紀の最初の10年の激動の中をブティックの投資事業会社として、

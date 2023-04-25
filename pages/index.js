@@ -22,7 +22,7 @@ export default function Home() {
       <Slider />
       <Aboutexe />
       <Recruitment />
-      <Overseasprojects />
+      {/* <Overseasprojects /> */}
       <Domesticprojects />
       <Sharedhouse />
       <Projects />

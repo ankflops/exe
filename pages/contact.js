@@ -30,8 +30,8 @@ const contact = () => {
           <div className="container my-12 px-6 mx-auto">
             {/* Section: Design Block */}
             <section className="mb-32 text-center text-gray-800">
-              <div className="max-w-[400px] mx-auto px-3">
-                <div className="flex mt-4 justify-left">
+              <div className="max-w-[800px] mx-auto px-3">
+                <div className="flex mt-4 justify-center">
                   <svg
                     width="24"
                     height="24"
@@ -44,7 +44,7 @@ const contact = () => {
                   </svg>
                   <li className="font-bold">(81) 3-3288-2371</li>
                 </div>
-                <div className="flex mt-4 justify-left">
+                <div className="flex mt-4 justify-center">
                   <svg
                     width="24"
                     height="24"
@@ -66,9 +66,7 @@ const contact = () => {
                     </a>
                   </li>
                 </div>
-                {/* <p className="text-xl md:text-2xl font-bold font-serif md:text-left my-4 pt-4">
-                  お問い合わせください。
-                </p> */}
+              
                 <h2 className="text-xl md:text-3xl font-bold m-8">
                   お問い合わせ
                 </h2>
