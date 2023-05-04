@@ -10,7 +10,7 @@ import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 const Footer = () => {
   return (
     <div className="bg-darkblue font-bold">
-      <div className="sticky active:border-[3px] active:border-r-0 border-cyan-600 active:rounded my-[3px] hover:bg-rose-800 duration-150">
+      <div className="sticky active:border-[3px] active:border-r-0 border-cyan-600 active:rounded my-[3px]">
         {/* Language */}
         <div className="flex flex-grow fixed z-10 justify-end">
           <div className="dropdown relative">
@@ -48,14 +48,14 @@ const Footer = () => {
         {/* Language */}
       </div>
 
-      <div className="sticky2 active:border-[3px] active:border-r-0 border-cyan-600 active:rounded my-[3px] hover:bg-rose-800 duration-150">
+      <div className="sticky2 active:border-[3px] active:border-r-0 border-cyan-600 active:rounded my-[3px]">
         <Link href="#"> 🌐 言語 </Link>
       </div>
 
       <div className="sticky active:border-[3px] active:border-r-0 border-cyan-600 active:rounded my-[3px] hover:bg-rose-800 duration-150">
         <Link href="/contact"> 問い合わせ </Link>
       </div>
-      <div className="bg-darkblue grid gap-0.5 sm:grid-cols-2 md:grid-cols-5 lg:grid-cols-10 bg-neutral-800 w-full p-4 md:p-12 text-xs md:text-base">
+      <div className="bg-darkblue grid gap-0.5 sm:grid-cols-2 md:grid-cols-5 lg:grid-cols-10 w-full p-4 md:p-12 text-xs md:text-base">
         <div className="sm:col-span-1 md:col-span-3 lg:col-span-4 max-w-lg pl-4 mt-4 md:p-4">
           <h2 className="ml-4 underline text-white text-md mb-8">
             お問い合わせ
@@ -190,7 +190,7 @@ const Footer = () => {
       </div>
 
       <a
-        className="to-top-button show px-3 py-2 mb-16 mr-8 border text-[12px] bg-gray-300 rounded-lg duration-300 bg-white"
+        className="to-top-button show px-3 py-2 mb-16 mr-8 border text-[12px] rounded-lg duration-300 bg-white"
         href="#"
       >
         <i className="fa-sharp fa-solid fa-arrow-up"></i>
@@ -201,7 +201,7 @@ const Footer = () => {
       <FontAwesomeIcon icon=" fa-arrow-up" /> */}
       </a>
 
-      <div className="text-center text-sm font-bold bg-zinc-900 text-gray-300 p-2">
+      <div className="text-center text-sm font-bold bg-darkblue text-gray-300 p-2">
         Copyright © 2022 株式会社エクセ All Rights Reserved.
       </div>
     </div>

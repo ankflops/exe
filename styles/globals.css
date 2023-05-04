@@ -48,8 +48,9 @@
 .dropdown-content {
   display: none;
   position: absolute;
-  background-color: #f9f9f9;
-  min-width: 160px;
+  left: 35px;
+  background-color: #0e1449;
+  min-width: 120px;
   padding: 1px 1px;
   z-index: 1;
 }

@@ -27,16 +27,6 @@ const Projects = () => {
               <p className="font-light mt-6 font-sans text-gray-600 max-w-2xl">
                 ミャンマーを中心に医療、診断保険活動を行っている特定非営利活動法人ジャパンハートを継続的に支援しております。ジャパンハートの活動の詳細についてはWEBサイト．．．
               </p>
-              <Link href="/bellsarge">
-                <a
-                  className="inline-block px-7 py-4 my-4 bg-sky-500 text-white font-light text-sm leading-snug uppercase rounded hover:bg-sky-400 focus:outline-none focus:ring-0 transition duration-150 ease-in-out"
-                  role="button"
-                  data-mdb-ripple="true"
-                  data-mdb-ripple-color="light"
-                >
-                  もっと詳しく知る
-                </a>
-              </Link>
             </div>
           </div>
         </div>
@@ -60,16 +50,6 @@ const Projects = () => {
             <p className="font-light mt-2 font-sans text-gray-600 max-w-xl ">
               ミャンマーを中心に医療、診断保険活動を行っている特定非営利活動法人ジャパンハートを継続的に支援しております。ジャパンハートの活動の詳細についてはWEBサイト．．．
             </p>
-            <Link href="/bellsarge">
-              <a
-                className="inline-block px-7 py-4 my-4 bg-sky-500 text-white font-light text-sm leading-snug uppercase rounded hover:bg-sky-400 focus:outline-none focus:ring-0 transition duration-150 ease-in-out"
-                role="button"
-                data-mdb-ripple="true"
-                data-mdb-ripple-color="light"
-              >
-                もっと詳しく知る
-              </a>
-            </Link>
           </div>
         </div>
       </div>

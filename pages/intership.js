@@ -163,7 +163,7 @@ export default function intership() {
               className="h-64 w-64 mx-auto border-solid border-2 border-[#92ACDD] rounded-full md:m-4"
               loading="lazy"
             />
-            <p className="p-4 text-primary">
+            <p className="p-4 text-primary items-center">
               S.Iさん　立命館アジア太平洋大学　国際経営学科<br></br>
               ▶国籍の異なる人との出会い
               ３か月という短い期間でしたが、国籍を問わない多くの人との出会いは、日本では得難く、とても刺激的で、価値観が変わるような経験でした。実際に社会で働く方々との交流の機会は大変貴重で、就職活動のアドバイスや海外で働くこと、女性が働くということについて多くの立場の方から意見を聞くことができました。

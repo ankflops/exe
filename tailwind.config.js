@@ -6,18 +6,16 @@ module.exports = {
     "./src/**/*.{html,js}', './node_modules/tw-elements/dist/js/**/*.js",
   ],
   theme: {
-    colors: {
-      // ...
-      darkblue: "#0e1448",
-      primary: "#4e5152",
-      green: "#4e5",
-    },
-
     fontFamily: {
       sans: ["Inter", "sans"],
       serif: ["Merriweather", "serif"],
     },
     extend: {
+      colors: {
+        darkblue: "#0e1448",
+        primary: "#4e5152",
+        green: "#4e5",
+      },
       spacing: {
         128: "32rem",
         144: "36rem",

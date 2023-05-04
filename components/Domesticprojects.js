@@ -25,7 +25,7 @@ const Domesticprojects = () => {
             <div className="flex justify-center lg:justify-end">
               <Link href="/myanmar">
                 <button
-                  className="bg-gray-200 px-14 py-3 bg-darkblue text-gray-400 font-extrabold text-base leading-snug uppercase"
+                  className="px-14 py-3 bg-darkblue text-gray-400 font-extrabold text-base leading-snug uppercase"
                   role="button"
                   data-mdb-ripple="true"
                   data-mdb-ripple-color="light"

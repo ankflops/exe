@@ -4,7 +4,6 @@ import Link from "next/link";
 import useTranslation from "next-translate/useTranslation";
 import { useRouter } from "next/router";
 
-
 export default function Navbar({ fixed }) {
   let { t } = useTranslation();
   let router = useRouter();
@@ -62,12 +61,12 @@ export default function Navbar({ fixed }) {
                       </a>
                     </Link>
                     <ul
-                      className="dropdown-menu min-w-max absolute bg-white text-base z-50 float-left py-2 list-none text-left shadow-lg mt-1 hidden bg-clip-padding border-none"
+                      className="dropdown-menu min-w-max absolute bg-darkblue text-base z-50 float-left py-2 list-none text-left shadow-lg mt-1 hidden bg-clip-padding border-none"
                       aria-labelledby="dropdownMenuButton1tx"
                     >
                       <li>
                         <Link href="/greetings">
-                          <a className="dropdown-item px-12 text-sm py-2 font-normal block w-full whitespace-nowrap bg-transparent text-gray-700 hover:bg-gray-100">
+                          <a className="dropdown-item px-12 text-sm py-2 font-normal block w-full whitespace-nowrap bg-transparent text-gray-700 bg-darkblue">
                             社長メッセージ
                           </a>
                         </Link>
@@ -89,19 +88,19 @@ export default function Navbar({ fixed }) {
               <div className="flex justify-center">
                 <li className="nav-item">
                   <div className="flex justify-center">
-                    <div className="dropdown text-white">
-                      <span className="flex items-center bg-darkblue px-6 pt-2.5 pb-2 text-sm font-medium uppercase leading-normal text-white -mt-0.5">
+                    <div className="dropdown">
+                      <span className="flex items-center px-6 pt-2.5 pb-2 text-sm font-medium uppercase leading-normal text-white -mt-0.5">
                         海外プロジェクト
                       </span>
-                      <div className="dropdown-content">
+                      <div className="dropdown-content text-center">
                         <a
-                          className="block w-full bg-transparent py-1 px-4 text-sm bg-darkblue text-white border"
+                          className="block w-full bg-transparent py-1 px-4 text-sm  text-white border"
                           href="/myanmar"
                         >
                           ミャンマー
                         </a>
                         <a
-                          className="block w-full bg-transparent py-1 px-4 text-sm bg-darkblue text-white border"
+                          className="block w-full bg-transparent py-1 px-4 text-sm text-white border"
                           href="/mongolia"
                         >
                           モンゴル
@@ -127,16 +126,16 @@ export default function Navbar({ fixed }) {
                       <span className="flex items-center bg-darkblue px-6 pt-2.5 pb-2 text-sm font-medium uppercase leading-normal text-white -mt-0.5">
                         インターンシップ・採用
                       </span>
-                      <div className="dropdown-content">
+                      <div className="dropdown-content text-center">
                         <a
-                          className="block w-full bg-transparent py-1 px-4 text-sm bg-darkblue text-white border"
+                          className="block w-full bg-transparent py-1 px-4 text-sm text-white border"
                           href="/intership"
                           data-te-dropdown-item-ref
                         >
                           インターンシップ
                         </a>
                         <a
-                          className="block w-full bg-transparent py-1 px-4 text-sm bg-darkblue text-white border"
+                          className="block w-full bg-transparent py-1 px-4 text-sm text-white border"
                           href="/recruit"
                           data-te-dropdown-item-ref
                         >
