@@ -25,6 +25,14 @@ const images = [
     original: "../assets/img/school03.jpg",
     thumbnail: "../assets/img/school03.jpg",
   },
+  {
+    original: "../assets/img/new-photo.png",
+    thumbnail: "../assets/img/new-photo.png",
+  },
+  {
+    original: "../assets/img/new-photo.png",
+    thumbnail: "../assets/img/new-photo.png",
+  },
 ];
 const images2 = [
   {
@@ -42,6 +50,18 @@ const images2 = [
   {
     original: "../assets/img/lol19.png",
     thumbnail: "../assets/img/lol19.png",
+  },
+  {
+    original: "../assets/img/new-photo.png",
+    thumbnail: "../assets/img/new-photo.png",
+  },
+  {
+    original: "../assets/img/new-photo.png",
+    thumbnail: "../assets/img/new-photo.png",
+  },
+  {
+    original: "../assets/img/new-photo.png",
+    thumbnail: "../assets/img/new-photo.png",
   },
 ];
 
@@ -94,7 +114,7 @@ const mongolia = () => {
             </div>
 
             {/* slider */}
-            <div className="p-6">
+            <div className="md:pl-16 md:pr-8 p-2">
               <ImageGallery items={images} />
             </div>
           </div>
@@ -121,7 +141,7 @@ const mongolia = () => {
             </div>
 
             {/* slider */}
-            <div className="p-6">
+            <div className="md:pl-16 md:pr-8 p-2">
               <ImageGallery items={images2} />
             </div>
           </div>

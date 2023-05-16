@@ -116,7 +116,6 @@
     height: auto;
   }
 }
-
 /* Small devices (portrait tablets and large phones, 600px and up) */
 @media only screen and (min-width: 600px) {
   .image-gallery {
@@ -124,15 +123,13 @@
     height: auto;
   }
 }
-
 /* Medium devices (landscape tablets, 768px and up) */
 @media only screen and (min-width: 768px) {
   .image-gallery {
-    width: 100%px;
+    width: 100%;
     height: auto;
   }
 }
-
 /* Large devices (laptops/desktops, 992px and up) */
 @media only screen and (min-width: 992px) {
   .image-gallery {
@@ -140,11 +137,18 @@
     height: auto;
   }
 }
-
 /* Extra large devices (large laptops and desktops, 1200px and up) */
 @media only screen and (min-width: 1200px) {
   .image-gallery {
     width: 650px;
     height: auto;
+  }
+}
+
+/* 2023-05-16 */
+@media only screen and (min-width: 500px) and (max-width: 1200px) {
+  .about-text {
+    padding-right: 3rem;
+    padding-left: 3rem;
   }
 }

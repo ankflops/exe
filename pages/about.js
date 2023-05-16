@@ -24,7 +24,7 @@ const about = () => {
         </div>
       </div>
       <div className="max-w-[1400px] mx-auto">
-        <div className="px-6">
+        <div className="px-6 about-text">
           <p className="text-center text-lg font-medium text-gray-500 mt-4">
             私ども、株式会社エクセは1991年8月6日に生まれました。 <br></br>
             それから20年、20世紀の最後の10年と21世紀の最初の10年の激動の中をブティックの投資事業会社として、
@@ -67,7 +67,7 @@ const about = () => {
           </p>
         </div>
         {/* table1 */}
-        <div className="grid justify-center">
+        <div className="grid justify-center about-text">
           <div className="md:mt-20 border-2 border-black bg-darkblue h-14">
             <p className="text-center text-lg font-medium text-gray-400 mt-3">
               会社概要
@@ -138,7 +138,7 @@ const about = () => {
           </div>
         </div>
         {/* table2 */}
-        <div className="grid justify-center mt-10 mb-10">
+        <div className="grid justify-center mt-10 mb-10 about-text">
           <div className="md:mt-20 border-2 border-black bg-darkblue h-14">
             <p className="text-center text-lg font-medium text-gray-400 mt-3">
               沿革

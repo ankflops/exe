@@ -29,6 +29,14 @@ const images = [
     original: "../assets/img/lol9.jpg",
     thumbnail: "../assets/img/lol9.jpg",
   },
+  {
+    original: "../assets/img/new-photo.png",
+    thumbnail: "../assets/img/new-photo.png",
+  },
+  {
+    original: "../assets/img/new-photo.png",
+    thumbnail: "../assets/img/new-photo.png",
+  },
 ];
 const images2 = [
   {
@@ -50,6 +58,14 @@ const images2 = [
   {
     original: "../assets/img/lol2.jpg",
     thumbnail: "../assets/img/lol2.jpg",
+  },
+  {
+    original: "../assets/img/new-photo.png",
+    thumbnail: "../assets/img/new-photo.png",
+  },
+  {
+    original: "../assets/img/new-photo.png",
+    thumbnail: "../assets/img/new-photo.png",
   },
 ];
 
@@ -87,7 +103,7 @@ export default function intership() {
         </div>
       </div>
 
-      <div className="flex flex-col mx-auto max-w-7xl">
+      <div className="flex flex-col mx-auto max-w-6xl">
         <p className="font-sans font-light text-lg md:mt-8 mt-4 py-4 text-primary mx-5">
           ビジネスインターンシップ制度は、「自ら変化を求める人材」「人と同じではなく自分なりの価値観を持っている人材」を支援するこ
           とが「最高の投資」と位置付け、単純なインターンとしてではなく、ビジネ
@@ -152,7 +168,7 @@ export default function intership() {
           </div>
         </div>
 
-        <div className="max-w-10xl">
+        <div className="max-w-6xl px-10">
           <div className="text-gray-700 text-center p-10 font-bold md:text-2xl">
             ～インターンシップ体験者の声～
           </div>
@@ -160,7 +176,7 @@ export default function intership() {
           <div className="flex flex-col md:flex-row">
             <img
               src="/assets/img/woman1.jpeg"
-              className="h-64 w-64 mx-auto border-solid border-2 border-[#92ACDD] rounded-full md:m-4"
+              className="h-56 w-56 mx-auto border-solid border-2 border-[#92ACDD] rounded-full md:p-4"
               loading="lazy"
             />
             <p className="p-4 text-primary items-center">
@@ -183,14 +199,14 @@ export default function intership() {
             </p>
             <img
               src="/assets/img/guy1.jpg"
-              className="h-64 w-64 mx-auto border-solid border-2 border-[#92ACDD] rounded-full md:m-4"
+              className="h-56 w-56 mx-auto border-solid border-2 border-[#92ACDD] rounded-full md:p-4"
               loading="lazy"
             />
           </div>
           <div className="flex flex-col md:flex-row">
             <img
               src="/assets/img/woman2.jpeg"
-              className="h-64 w-64 mx-auto border-solid border-2 border-[#92ACDD] rounded-full md:m-4"
+              className="h-56 w-56 mx-auto border-solid border-2 border-[#92ACDD] rounded-full md:p-4"
               loading="lazy"
             />
             <p className="p-4 text-primary">
@@ -220,11 +236,11 @@ export default function intership() {
             </p>
           </div>
         </div>
-
-        <div className=" border-collapse border border-1 border-slate-400 text-center bg-darkblue text-white p-4 mx-5">
+        
+        <div className=" border-collapse border border-1 border-slate-400 text-center bg-darkblue text-white p-4 mx-5 px-4">
           会社概要
         </div>
-        <table className="text-lg table-fixed border-collapse border border-1 border-slate-400 mx-5 ">
+        <table className="text-lg table-fixed border-collapse border border-1 border-slate-400 mx-5">
           <thead>
             <tr>
               <th className="border border-slate-300 font-normal">時期</th>

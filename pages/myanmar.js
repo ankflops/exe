@@ -27,6 +27,14 @@ const images = [
     original: "../assets/img/lol9.jpg",
     thumbnail: "../assets/img/lol9.jpg",
   },
+  {
+    original: "../assets/img/new-photo.png",
+    thumbnail: "../assets/img/new-photo.png",
+  },
+  {
+    original: "../assets/img/new-photo.png",
+    thumbnail: "../assets/img/new-photo.png",
+  },
 ];
 const images2 = [
   {
@@ -49,8 +57,15 @@ const images2 = [
     original: "../assets/img/lol2.jpg",
     thumbnail: "../assets/img/lol2.jpg",
   },
+  {
+    original: "../assets/img/new-photo.png",
+    thumbnail: "../assets/img/new-photo.png",
+  },
+  {
+    original: "../assets/img/new-photo.png",
+    thumbnail: "../assets/img/new-photo.png",
+  },
 ];
-
 const myanmar = () => {
   return (
     <MainLayout>
@@ -102,14 +117,13 @@ const myanmar = () => {
                 </a>
               </div>
             </div>
-
             {/* slider */}
-            <div className="md:p-6 p-2">
+            <div className="md:pl-16 md:pr-8 p-2">
               <ImageGallery items={images} />
             </div>
           </div>
         </div>
-        <div className="px-4">
+        <div className="px-10">
           <div class="text-3xl font-bold box-content w-auto p-8 border-0 bg-[#f6fafd] my-4 text-gray-700">
             設備
             <div className="block sm:flex">
@@ -160,14 +174,12 @@ const myanmar = () => {
                 </a>
               </div>
             </div>
-
-            <div className="md:p-6 p-2">
+            <div className="md:pl-16 md:pr-8 p-2">
               <ImageGallery items={images2} />
             </div>
           </div>
         </div>
-
-        <div className="px-4">
+        <div className="px-10">
           <div class="text-3xl font-bold box-content w-auto p-10 border-0 bg-[#f6fafd] my-4 text-gray-700">
             <div className="block sm:flex text-gray-500">
               <div>
