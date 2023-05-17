@@ -23,7 +23,7 @@ const about = () => {
           </div>
         </div>
       </div>
-      <div className="max-w-[1400px] mx-auto">
+      <div className="max-w-[1200px] mx-auto">
         <div className="px-6 about-text">
           <p className="text-center text-lg font-medium text-gray-500 mt-4">
             私ども、株式会社エクセは1991年8月6日に生まれました。 <br></br>

@@ -41,7 +41,7 @@ export default function recruit() {
             </div>
           </div>
         </div>
-        <div className="max-w-[1400px] mx-auto">
+        <div className="max-w-[1200px] mx-auto">
           <div className="mx-auto text-left text-lg p-4 md:px-24 text-gray-500">
             <p className="mt-4">
               当社が常に掲げてきた信念は、「変化こそチャンスである」ということです。時代の変化にたじろぐことなく、不安定化をむしろビジネスチャンスと捉えていくのが当社のスピリットです。

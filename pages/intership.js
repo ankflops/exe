@@ -33,10 +33,7 @@ const images = [
     original: "../assets/img/new-photo.png",
     thumbnail: "../assets/img/new-photo.png",
   },
-  {
-    original: "../assets/img/new-photo.png",
-    thumbnail: "../assets/img/new-photo.png",
-  },
+ 
 ];
 const images2 = [
   {
@@ -58,6 +55,10 @@ const images2 = [
   {
     original: "../assets/img/lol2.jpg",
     thumbnail: "../assets/img/lol2.jpg",
+  },
+  {
+    original: "../assets/img/new-photo.png",
+    thumbnail: "../assets/img/new-photo.png",
   },
 ];
 

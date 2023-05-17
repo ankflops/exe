@@ -23,7 +23,7 @@ const domestic = () => {
           </div>
         </div>
       </div>
-      <div className="max-w-[1400px] mx-auto">
+      <div className="max-w-[1200px] mx-auto">
         <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-2 bg-white md:py-16 md:pr-6">
           <div className="flex justify-center pt-4 col-span-2">
             <div className="sm:grid grid-cols-1 md:grid-cols-2 lg:grid-cols-2 -mt-4">
@@ -41,7 +41,7 @@ const domestic = () => {
                     {/* ▶不動産流動化事業 */}
                     不動産流動化事業
                   </h2>
-                  <p className="font-light mt-4 font-sans text-gray-500">
+                  <p className="font-light mt-4 font-sans text-gray-500 text-justify">
                     主に都心エリアを対象に、エリアマーケットやニーズに合わせてバリューアップを行うことで、その不動産の価値を最大限まで引き上げる事業を行っています。取得から、リノベーション、リーシング、プロパティマネジメント、売却までをトータルに行います。
                   </p>
                 </div>
@@ -49,7 +49,7 @@ const domestic = () => {
                   <h2 className="font-serif text-2xl text-gray-700 font-bold ">
                     不動産賃貸事業
                   </h2>
-                  <p className="font-light mt-6 font-sans text-gray-500">
+                  <p className="font-light mt-6 font-sans text-gray-500 text-justify">
                     都心を中心にレジデンスビル、商業ビル、パーキングなどを保有し、様々なノウハウで高稼働を維持しながら賃貸を行うことで、安定的な収益をあげています。また、デザイン性に優れたリノベーションを行ったシェアハウス、ゲストハウス事業にも力を入れており、国内外の学生、単身者向けに新たなライフスタイルの空間提供を行っています。
                   </p>
                 </div>
@@ -57,7 +57,7 @@ const domestic = () => {
                   <h2 className="font-serif text-2xl text-gray-700 font-bold ">
                     不動産投資事業
                   </h2>
-                  <p className="font-light mt-6 font-sans text-gray-500">
+                  <p className="font-light mt-6 font-sans text-gray-500 text-justify">
                     不動産担保付債券の取得や不動産保有会社のM&Aなどを行っています。マーケットの変化を見逃すことなく、不動産と金融を融合させた新たな投資事業にも積極的に取り組んでいます。
                   </p>
                 </div>

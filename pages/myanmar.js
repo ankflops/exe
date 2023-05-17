@@ -80,7 +80,7 @@ const myanmar = () => {
         </div>
       </div>
       {/* DIV ZASAKH */}
-      <div className="max-w-[1400px] mx-auto">
+      <div className="max-w-[1200px] mx-auto">
         <div className="grid grid-cols-1 md:grid-cols-2 gap-4">
           <div className="px-4 md:pl-10 col-span-1">
             <h1 className="font-bold text-2xl text-gray-700 mt-8 text-center md:text-left">
@@ -119,8 +119,8 @@ const myanmar = () => {
         <div className="px-10">
           <div class="text-3xl font-bold box-content w-auto p-8 border-0 bg-[#f6fafd] my-4 text-gray-700">
             設備
-            <div className="block sm:flex">
-              <div className="font-normal text-base mt-4 sm:ml-5 block text-gray-500">
+            <div className="grid grid-cols-1 md:grid-cols-2">
+              <div className="font-normal text-base mt-4 text-gray-500 col-span-1">
                 - 24時間フルバックアップの自家発電システム<br></br>-
                 24時間体制の監視カメラと警備員による24時間保守警備<br></br>-
                 OA機器用床下配線<br></br>-
@@ -128,7 +128,7 @@ const myanmar = () => {
                 <br></br>- 火災報知機、スプリンクラー、避難口を各階に設置
                 <br></br>- 専用インターネットアクセス
               </div>
-              <div className="font-normal text-base mt-4 sm:ml-20 md:ml-64 block text-gray-500">
+              <div className="font-normal text-base mt-4 text-gray-500 col-span-1">
                 - 4基のハイスピードエレベーター（日立製、三菱電機製）<br></br>-
                 貨物専用エレベーター<br></br>-
                 44台収容可能な機械式パーキングシステム<br></br>- IDD電話
@@ -176,8 +176,8 @@ const myanmar = () => {
         </div>
         <div className="px-10">
           <div class="text-3xl font-bold box-content w-auto p-10 border-0 bg-[#f6fafd] my-4 text-gray-700">
-            <div className="block sm:flex text-gray-500">
-              <div>
+            <div className=" text-gray-500 grid grid-cols-1 md:grid-cols-2">
+              <div className="col-span-1">
                 設備
                 <div className="font-normal text-base mt-8 sm:ml-5 block">
                   24時間体制のセキュリティとメンテナンス<br></br>-
@@ -192,7 +192,7 @@ const myanmar = () => {
                   コンビニエンスストア
                 </div>
               </div>
-              <div className="sm:ml-20 md:ml-64 block mt-4 md:mt-0">
+              <div className="col-span-1">
                 調度品
                 <div className="font-normal text-base mt-8">
                   - 個別操作可能な空調設備<br></br>- IDD電話<br></br>-

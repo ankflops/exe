@@ -5,7 +5,7 @@ import MainLayout from "../layout/MainLayout";
 const overseas = () => {
   return (
     <MainLayout>
-      <div className="my-4 max-w-[1400px] mx-auto">
+      <div className="my-4 max-w-[1200px] mx-auto">
         {/* <h2 className="font-serif text-3xl text-gray-700 text-center mb-8 font-semibold">
           海外プロジェクト
         </h2> */}

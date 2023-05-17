@@ -4,7 +4,7 @@ import LazyLoad from "react-lazy-load";
 
 const Domesticprojects = () => {
   return (
-    <div className="pt-4 max-w-[1400px] mx-auto">
+    <div className="pt-4 max-w-[1200px] mx-auto">
       <div className="flex justify-center">
         <div className="grid md:grid-cols-2">
           <div className="md:p-8">

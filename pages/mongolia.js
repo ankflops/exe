@@ -51,6 +51,10 @@ const images2 = [
     original: "../assets/img/finance.png",
     thumbnail: "../assets/img/finance.png",
   },
+  {
+    original: "../assets/img/value.png",
+    thumbnail: "../assets/img/value.png",
+  },
 ];
 
 const mongolia = () => {
@@ -74,7 +78,7 @@ const mongolia = () => {
           </div>
         </div>
       </div>
-      <div className="max-w-[1400px] mx-auto">
+      <div className="max-w-[1200px] mx-auto">
         <div className="px-4">
           <h1 className="font-bold text-2xl text-gray-700 mt-8 text-center md:text-left md:pl-4">
             Olonlog EXE IT学校（オロンログ・エグゼ）{" "}

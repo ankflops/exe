@@ -4,7 +4,7 @@ import LazyLoad from "react-lazy-load";
 
 const Sharedhouse = () => {
   return (
-    <div className="py-8 max-w-[1400px] mx-auto">
+    <div className="py-8 max-w-[1200px] mx-auto">
       <div className="flex justify-center">
         <div className="grid md:grid-cols-2">
           <div className="p-4 md:px-8">
