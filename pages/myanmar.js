@@ -31,10 +31,6 @@ const images = [
     original: "../assets/img/new-photo.png",
     thumbnail: "../assets/img/new-photo.png",
   },
-  {
-    original: "../assets/img/new-photo.png",
-    thumbnail: "../assets/img/new-photo.png",
-  },
 ];
 const images2 = [
   {
@@ -56,10 +52,6 @@ const images2 = [
   {
     original: "../assets/img/lol2.jpg",
     thumbnail: "../assets/img/lol2.jpg",
-  },
-  {
-    original: "../assets/img/new-photo.png",
-    thumbnail: "../assets/img/new-photo.png",
   },
   {
     original: "../assets/img/new-photo.png",
@@ -89,38 +81,39 @@ const myanmar = () => {
       </div>
       {/* DIV ZASAKH */}
       <div className="max-w-[1400px] mx-auto">
-        <div className="px-4 md:pl-8">
-          <h1 className="font-bold text-2xl text-gray-700 mt-8 text-center md:text-left">
-            サクラタワー
-          </h1>
-          <div className="lg:flex block">
-            <div className="flex text-justify">
-              <div className="text-lg font-medium w-auto lg:h-auto md:py-4 pb-8 text-gray-500 max-w-4xl py-4 indent-4">
-                <p>
-                  サクラタワーは（株）日本設計、（株）鴻池組と、日本企業の手で1999年に完成しました。ヤンゴンのビジネス及び政治のまさに中心地区に位置し、総貸室面積12,425㎡、高さは地上約100mの20階建て耐震設計オフィスビルです。
-                </p>
-                <br></br>
-                <p>
-                  地上1階～3階は総貸室面積1,183㎡の小売業エリアと
-                  なっており、主要航空会社のチケットオフィスや旅行代理店、歯医者、ショールームなどが入居しています
-                </p>
-                <br></br>
-                5階から19階にはJICA、三菱商事、日経、NHK等、グローバルに活躍する企業や団体が入居しています。
-                <br></br>
-                <br></br>
-                Address: 339 Bogyoke Aung San Road, Kyauktada Township, Yangon,
-                Myanmar<br></br>
-                Tel: (95 1) 255 255<br></br>
-                E-mail: stowersales@myanmar.com.mm<br></br> Website:
-                <a href="http://www.sakura-tower-yangon.com">
-                  http://www.sakura-tower-yangon.com
-                </a>
+        <div className="grid grid-cols-1 md:grid-cols-2 gap-4">
+          <div className="px-4 md:pl-10 col-span-1">
+            <h1 className="font-bold text-2xl text-gray-700 mt-8 text-center md:text-left">
+              サクラタワー
+            </h1>
+            <div className="lg:flex block">
+              <div className="flex text-justify">
+                <div className="text-lg font-medium w-auto lg:h-auto md:py-4 pb-8 text-gray-500 max-w-4xl py-4 indent-4">
+                  <p>
+                    サクラタワーは（株）日本設計、（株）鴻池組と、日本企業の手で1999年に完成しました。ヤンゴンのビジネス及び政治のまさに中心地区に位置し、総貸室面積12,425㎡、高さは地上約100mの20階建て耐震設計オフィスビルです。
+                  </p>
+                  <br></br>
+                  <p>
+                    地上1階～3階は総貸室面積1,183㎡の小売業エリアと
+                    なっており、主要航空会社のチケットオフィスや旅行代理店、歯医者、ショールームなどが入居しています
+                  </p>
+                  <br></br>
+                  5階から19階にはJICA、三菱商事、日経、NHK等、グローバルに活躍する企業や団体が入居しています。
+                  <br></br>
+                  <br></br>
+                  Address: 339 Bogyoke Aung San Road, Kyauktada Township,
+                  Yangon, Myanmar<br></br>
+                  Tel: (95 1) 255 255<br></br>
+                  E-mail: stowersales@myanmar.com.mm<br></br> Website:
+                  <a href="http://www.sakura-tower-yangon.com">
+                    http://www.sakura-tower-yangon.com
+                  </a>
+                </div>
               </div>
             </div>
-            {/* slider */}
-            <div className="md:pl-16 md:pr-8 p-2">
-              <ImageGallery items={images} />
-            </div>
+          </div>
+          <div className="col-span-1 md:mt-12 md:p-8 p-4">
+            <ImageGallery items={images} />
           </div>
         </div>
         <div className="px-10">
@@ -145,38 +138,40 @@ const myanmar = () => {
             </div>
           </div>
         </div>
-        <div className="px-4 md:pl-8">
-          <h1 className="font-bold text-2xl text-gray-700 text-center md:text-left py-2">
-            サクラレジデンス
-          </h1>
-          <div className="lg:flex block">
-            <div className="flex text-justify">
-              <div className="text-lg font-medium w-auto lg:h-auto md:py-4 text-gray-500 max-w-4xl py-4 pb-8 indent-4">
-                サクラレジデンスは、1998年にヤンゴンで最初に作られた海外駐在員向けの世界水準のサービスを備えた高級サービスアパートメントであり、1泊からもご利用いただける高級ホテルでもあります。閑静な住宅地やインヤ通りのヤシ並木に程近い場所に位置し、ヤンゴン国際空港やビジネス街からほんの数分という好立地にあります。
-                <br></br>
-                <br></br>
-                レジデンス内からは、黄金に輝くシュエダゴンパゴダの素晴らしい景色をご覧頂けます。
-                <br></br>
-                <br></br>
-                <p>
-                  サクラレジデンスは、お客様が訪れた瞬間から「我が家」と呼ぶに相応しい、ワンルームから広々とした3ベッドルームまでの261室の家具付きのお部屋、広く開放的な庭園やプール、美味しい料理をいつでも味わうことのできるレストラン「カフェ・ティリピセヤ」等、リラックスして快適にお過ごしいただける各種サービスをご用意しています。。
-                </p>
-                <br></br>
-                Address: 9 Inya Road, Block 10, Kamaryut Township, Yangon,
-                Myanmar
-                <br></br>
-                Tel: (95 1) 525 001<br></br>
-                E-mail:<br></br>rsvn@sakuraresidence.com.mm,
-                sales@sakuraresidence.com.mm
-                <br></br> Website:
-                <a href="http://www.sakura-residence-yangon.com/">
-                  http://www.sakura-residence-yangon.com/
-                </a>
+        <div className="grid grid-cols-1 md:grid-cols-2">
+          <div className="px-4 md:pl-10 col-span-1">
+            <h1 className="font-bold text-2xl text-gray-700 text-center md:text-left py-2">
+              サクラレジデンス
+            </h1>
+            <div className="lg:flex block">
+              <div className="flex text-justify">
+                <div className="text-lg font-medium w-auto lg:h-auto md:py-4 text-gray-500 max-w-4xl py-4 pb-8 indent-4">
+                  サクラレジデンスは、1998年にヤンゴンで最初に作られた海外駐在員向けの世界水準のサービスを備えた高級サービスアパートメントであり、1泊からもご利用いただける高級ホテルでもあります。閑静な住宅地やインヤ通りのヤシ並木に程近い場所に位置し、ヤンゴン国際空港やビジネス街からほんの数分という好立地にあります。
+                  <br></br>
+                  <br></br>
+                  レジデンス内からは、黄金に輝くシュエダゴンパゴダの素晴らしい景色をご覧頂けます。
+                  <br></br>
+                  <br></br>
+                  <p>
+                    サクラレジデンスは、お客様が訪れた瞬間から「我が家」と呼ぶに相応しい、ワンルームから広々とした3ベッドルームまでの261室の家具付きのお部屋、広く開放的な庭園やプール、美味しい料理をいつでも味わうことのできるレストラン「カフェ・ティリピセヤ」等、リラックスして快適にお過ごしいただける各種サービスをご用意しています。。
+                  </p>
+                  <br></br>
+                  Address: 9 Inya Road, Block 10, Kamaryut Township, Yangon,
+                  Myanmar
+                  <br></br>
+                  Tel: (95 1) 525 001<br></br>
+                  E-mail:<br></br>rsvn@sakuraresidence.com.mm,
+                  sales@sakuraresidence.com.mm
+                  <br></br> Website:
+                  <a href="http://www.sakura-residence-yangon.com/">
+                    http://www.sakura-residence-yangon.com/
+                  </a>
+                </div>
               </div>
             </div>
-            <div className="md:pl-16 md:pr-8 p-2">
-              <ImageGallery items={images2} />
-            </div>
+          </div>
+          <div className="col-span-1 md:mt-12 md:p-8 p-4">
+            <ImageGallery items={images2} />
           </div>
         </div>
         <div className="px-10">

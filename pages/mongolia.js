@@ -26,12 +26,8 @@ const images = [
     thumbnail: "../assets/img/school03.jpg",
   },
   {
-    original: "../assets/img/new-photo.png",
-    thumbnail: "../assets/img/new-photo.png",
-  },
-  {
-    original: "../assets/img/new-photo.png",
-    thumbnail: "../assets/img/new-photo.png",
+    original: "../assets/img/exe-school.png",
+    thumbnail: "../assets/img/exe-school.png",
   },
 ];
 const images2 = [
@@ -52,16 +48,8 @@ const images2 = [
     thumbnail: "../assets/img/lol19.png",
   },
   {
-    original: "../assets/img/new-photo.png",
-    thumbnail: "../assets/img/new-photo.png",
-  },
-  {
-    original: "../assets/img/new-photo.png",
-    thumbnail: "../assets/img/new-photo.png",
-  },
-  {
-    original: "../assets/img/new-photo.png",
-    thumbnail: "../assets/img/new-photo.png",
+    original: "../assets/img/finance.png",
+    thumbnail: "../assets/img/finance.png",
   },
 ];
 
@@ -88,11 +76,11 @@ const mongolia = () => {
       </div>
       <div className="max-w-[1400px] mx-auto">
         <div className="px-4">
-          <h1 className="font-bold text-2xl text-gray-700 mt-8 text-center md:text-left">
+          <h1 className="font-bold text-2xl text-gray-700 mt-8 text-center md:text-left md:pl-4">
             Olonlog EXE IT学校（オロンログ・エグゼ）{" "}
           </h1>
           <div className="lg:flex block">
-            <div className="flex text-justify">
+            <div className="flex text-justify md:pl-4">
               <div className="text-lg font-medium w-auto lg:h-auto md:py-4 pb-8 text-gray-500 max-w-4xl py-4 indent-4">
                 2010
                 年からモンゴルの教育現場を支援し、総生徒数3,500人の校舎ビル建設プロジェクトを実行し、2018年にモンゴル初のITカリキュラムを小学生から教えるOlonlog
@@ -120,11 +108,11 @@ const mongolia = () => {
           </div>
         </div>
         <div className="px-4">
-          <h1 className="font-bold text-2xl text-gray-700 mt-8 text-center md:text-left">
+          <h1 className="font-bold text-2xl text-gray-700 mt-8 text-center md:text-left md:pl-4">
             ターコイズ・ファイナンス
           </h1>
           <div className="lg:flex block">
-            <div className="flex text-justify">
+            <div className="flex text-justify md:pl-4">
               <div className="text-lg font-medium w-auto lg:h-auto md:py-4 pb-8 text-gray-500 max-w-4xl indent-4">
                 株式会社エクセは、モンゴル最大手証券会社であるBDSec
                 JSCの機関投資家大株主の一つであり、役員会に取締役も務めています。

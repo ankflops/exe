@@ -59,14 +59,6 @@ const images2 = [
     original: "../assets/img/lol2.jpg",
     thumbnail: "../assets/img/lol2.jpg",
   },
-  {
-    original: "../assets/img/new-photo.png",
-    thumbnail: "../assets/img/new-photo.png",
-  },
-  {
-    original: "../assets/img/new-photo.png",
-    thumbnail: "../assets/img/new-photo.png",
-  },
 ];
 
 // jdfjlgdflgkdfsngklndf
@@ -498,7 +490,7 @@ export default function intership() {
               </div>
             </div>
             <div className="md:pl-4 md:p-8">
-              <ImageGallery items={images2} />
+              <ImageGallery items={images} />
             </div>
           </div>
         </div>
