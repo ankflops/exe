@@ -33,7 +33,7 @@ export default function recruit() {
                 リクルート
               </h1>
             </div>
-            <div class="pl-8 md:pl-16 text-sm md:text-xl font-bold justify-start text-white">
+            <div class="text-sm pl-8 md:pl-16 md:text-2xl lg:text-3xl lg:mt-16 font-bold justify-start text-white">
               <h3>変化こそチャンスである。</h3>
               <h3 className="ml-4">
                 人と同じではなく自分なりの価値観を信じよう。

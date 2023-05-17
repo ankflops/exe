@@ -94,7 +94,7 @@ export default function intership() {
               ビジネスインターンシップ
             </h1>
           </div>
-          <div className="text-sm pl-8 md:pl-16 md:text-2xl font-bold justify-start text-white">
+          <div className="text-sm pl-8 md:pl-16 md:text-2xl lg:text-3xl lg:mt-16 font-bold justify-start text-white">
             <h3>変化こそチャンスである。</h3>
             <h3 className="ml-4">
               人と同じではなく自分なりの価値観を信じよう。
@@ -179,7 +179,7 @@ export default function intership() {
               className="h-56 w-56 mx-auto border-solid border-2 border-[#92ACDD] rounded-full md:p-4"
               loading="lazy"
             />
-            <p className="p-4 text-primary items-center">
+            <p className="md:pl-4 text-primary items-center">
               S.Iさん　立命館アジア太平洋大学　国際経営学科<br></br>
               ▶国籍の異なる人との出会い
               ３か月という短い期間でしたが、国籍を問わない多くの人との出会いは、日本では得難く、とても刺激的で、価値観が変わるような経験でした。実際に社会で働く方々との交流の機会は大変貴重で、就職活動のアドバイスや海外で働くこと、女性が働くということについて多くの立場の方から意見を聞くことができました。
@@ -209,7 +209,7 @@ export default function intership() {
               className="h-56 w-56 mx-auto border-solid border-2 border-[#92ACDD] rounded-full md:p-4"
               loading="lazy"
             />
-            <p className="p-4 text-primary">
+            <p className="md:pl-4 md:pb-8 text-primary">
               E・Mさん　上智大学　教育学科<br></br>
               ▶今、ミャンマーいくということ
               インターンシップに参加して、まず驚いたことは、ミャンマーの治安の良さと人の温厚さです。ミャンマーは熱心な仏教徒の国で通信や流通が安定していないからこそ、情報が溢れておらず、人々の生活は穏やかで豊かであるように感じました。10年も経てばミャンマーも変わります。このタイミングで参加できたことにとても感謝しています。
@@ -219,7 +219,7 @@ export default function intership() {
             </p>
           </div>
 
-          <div className="bg-[#f6fafd] p-5">
+          <div className="bg-[#f6fafd] p-4">
             <div className="md:text-2xl text-gray-700 mt-10">
               インターン実績大学
             </div>
@@ -236,96 +236,113 @@ export default function intership() {
             </p>
           </div>
         </div>
-        
-        <div className=" border-collapse border border-1 border-slate-400 text-center bg-darkblue text-white p-4 mx-5 px-4">
-          会社概要
+        <br />
+        <div className="row md:px-10 ">
+          <div className=" border-collapse border border-1 border-slate-400 text-center bg-darkblue text-white p-4">
+            会社概要
+          </div>
+          <table className="text-lg table-auto border-slate-400 w-[100%]">
+            <thead>
+              <tr>
+                <th className="border border-slate-300 font-normal">時期</th>
+                <th className="text-left border border-slate-300 p-5 font-normal">
+                  随時
+                </th>
+              </tr>
+            </thead>
+            <tbody>
+              <tr>
+                <td className="text-center border border-slate-300">
+                  参加対象
+                </td>
+                <td className="border border-slate-300 p-5">
+                  年齢・職歴問わず、学生歓迎。
+                </td>
+              </tr>
+              <tr>
+                <td className="text-center border border-slate-300">
+                  応募資格
+                </td>
+                <td className="border border-slate-300 p-5">
+                  1．アジアに興味がある、アジアが大好きな方。<br></br>
+                  2．ホテル運営に興味があるなど好奇心を持ち、また向上心をもった元気のある方。
+                  <br></br>3.
+                  リゾートホテルにおけるサービス、国際的な感覚、英語力等を身につけたい方
+                  <br></br>4．自分の英語力、その他の言語力を試したい方。
+                  <br></br>
+                  5．旅行ではなく、人とは違った海外経験をしたい方。
+                </td>
+              </tr>
+              <tr>
+                <td className="text-center border border-slate-300">
+                  実施場所
+                </td>
+                <td className="border border-slate-300 p-5">
+                  <a href="http://sakura-tower-yangon.com/">
+                    サクラタワー http://sakura-tower-yangon.com/
+                  </a>
+                  <br></br>
+                  <a href="http://sakura-residence-yangon.com/">
+                    サクラレジデンスー http://sakura-residence-yangon.com/
+                  </a>
+                  <br></br>（ミャンマー：ヤンゴン）<br></br>
+                  ※日本人が常に駐在しています。
+                </td>
+              </tr>
+              <tr>
+                <td className="text-center border border-slate-300">職種</td>
+                <td className="border border-slate-300 p-5">
+                  ウェイター・ウェイトレス、ハウスキーピング、お土産販売　など
+                </td>
+              </tr>
+              <tr>
+                <td className="text-center border border-slate-300">
+                  研修期間
+                </td>
+                <td className="border border-slate-300 p-5">
+                  1ヶ月～（要相談）
+                </td>
+              </tr>
+              <tr>
+                <td className="text-center border border-slate-300">
+                  自己負担
+                </td>
+                <td className="border border-slate-300 p-5">
+                  1．ビザ・航空券・保険等費用<br></br>
+                  ※ビザ申請は約1カ月程度かかります。<br></br>
+                  （日本－ヤンゴン航空券代、ヤンゴン－バガン移動費用、海外旅行保険料等）
+                  <br></br>2．食費を含む生活費用<br></br>
+                  ※研修は現地集合（ヤンゴン）となります。
+                </td>
+              </tr>
+              <tr>
+                <td className="text-center border border-slate-300">
+                  企業負担
+                </td>
+                <td className="border border-slate-300 p-5">
+                  宿泊・食事等費用、通勤送迎費の一部または全額補助
+                </td>
+              </tr>
+              <tr>
+                <td className="text-center border border-slate-300">
+                  その他補足
+                </td>
+                <td className="p-5 border border-slate-300">
+                  1．給与等の支給はございません。<br></br>
+                  2．インターンシップは本採用を前提としたものではありません。
+                  <br></br>　
+                  本採用を希望される方は別途選考を受けて頂く必要があります。
+                  <br></br>　 ※インターン生から本採用の実績あり。<br></br>
+                  3．渡航前にB型肝炎の検査、海外保険の加入をお願します。
+                  <br></br>
+                  4．インターンの参加には誓約書へ同意いただく必要があります。
+                  <br></br>
+                  5．渡航時は最低限の所持金として約1000ドルをご用意いただきます。
+                </td>
+              </tr>
+            </tbody>
+          </table>
         </div>
-        <table className="text-lg table-fixed border-collapse border border-1 border-slate-400 mx-5">
-          <thead>
-            <tr>
-              <th className="border border-slate-300 font-normal">時期</th>
-              <th className="text-left border border-slate-300 p-5 font-normal">
-                随時
-              </th>
-            </tr>
-          </thead>
-          <tbody>
-            <tr>
-              <td className="text-center border border-slate-300">参加対象</td>
-              <td className="border border-slate-300 p-5">
-                年齢・職歴問わず、学生歓迎。
-              </td>
-            </tr>
-            <tr>
-              <td className="text-center border border-slate-300">応募資格</td>
-              <td className="border border-slate-300 p-5">
-                1．アジアに興味がある、アジアが大好きな方。<br></br>
-                2．ホテル運営に興味があるなど好奇心を持ち、また向上心をもった元気のある方。
-                <br></br>3.
-                リゾートホテルにおけるサービス、国際的な感覚、英語力等を身につけたい方
-                <br></br>4．自分の英語力、その他の言語力を試したい方。<br></br>
-                5．旅行ではなく、人とは違った海外経験をしたい方。
-              </td>
-            </tr>
-            <tr>
-              <td className="text-center border border-slate-300">実施場所</td>
-              <td className="border border-slate-300 p-5">
-                <a href="http://sakura-tower-yangon.com/">
-                  サクラタワー http://sakura-tower-yangon.com/
-                </a>
-                <br></br>
-                <a href="http://sakura-residence-yangon.com/">
-                  サクラレジデンスー http://sakura-residence-yangon.com/
-                </a>
-                <br></br>（ミャンマー：ヤンゴン）<br></br>
-                ※日本人が常に駐在しています。
-              </td>
-            </tr>
-            <tr>
-              <td className="text-center border border-slate-300">職種</td>
-              <td className="border border-slate-300 p-5">
-                ウェイター・ウェイトレス、ハウスキーピング、お土産販売　など
-              </td>
-            </tr>
-            <tr>
-              <td className="text-center border border-slate-300">研修期間</td>
-              <td className="border border-slate-300 p-5">1ヶ月～（要相談）</td>
-            </tr>
-            <tr>
-              <td className="text-center border border-slate-300">自己負担</td>
-              <td className="border border-slate-300 p-5">
-                1．ビザ・航空券・保険等費用<br></br>
-                ※ビザ申請は約1カ月程度かかります。<br></br>
-                （日本－ヤンゴン航空券代、ヤンゴン－バガン移動費用、海外旅行保険料等）
-                <br></br>2．食費を含む生活費用<br></br>
-                ※研修は現地集合（ヤンゴン）となります。
-              </td>
-            </tr>
-            <tr>
-              <td className="text-center border border-slate-300">企業負担</td>
-              <td className="border border-slate-300 p-5">
-                宿泊・食事等費用、通勤送迎費の一部または全額補助
-              </td>
-            </tr>
-            <tr>
-              <td className="text-center border border-slate-300">
-                その他補足
-              </td>
-              <td className="p-5 border border-slate-300">
-                1．給与等の支給はございません。<br></br>
-                2．インターンシップは本採用を前提としたものではありません。
-                <br></br>　
-                本採用を希望される方は別途選考を受けて頂く必要があります。
-                <br></br>　 ※インターン生から本採用の実績あり。<br></br>
-                3．渡航前にB型肝炎の検査、海外保険の加入をお願します。<br></br>
-                4．インターンの参加には誓約書へ同意いただく必要があります。
-                <br></br>
-                5．渡航時は最低限の所持金として約1000ドルをご用意いただきます。
-              </td>
-            </tr>
-          </tbody>
-        </table>
-
         <div className="grid justify-center">
           <p className="mt-6 text-gray-500 font-normal text-base md:text-lg ml-2">
             ※ 応募書類は返却いたしません。
@@ -456,7 +473,7 @@ export default function intership() {
               </div>
             </div>
           </div>
-          {/* small table 2 and slider */}
+
           <div className="mt-5">
             <div className="mb-5 p-4">
               <div className="items-center divide-gray-600 grid grid-cols-3 divide-x-2 md:mr-5 border-t-2 border-r-2 border-l-2 border-gray-500">
@@ -480,11 +497,63 @@ export default function intership() {
                 </div>
               </div>
             </div>
-            <div className="px-4">
+            <div className="md:pl-4 md:p-8">
               <ImageGallery items={images2} />
             </div>
           </div>
         </div>
+        {/* <div className="grid grid-cols-1 md:grid-cols-2 gap-4">
+          <div className="col">
+            <table className="table-auto w-[100%] bg-black">
+              <thead>
+                <tr>
+                  <th>Song</th>
+                  <th>Artist</th>
+                </tr>
+              </thead>
+              <tbody>
+                <tr>
+                  <td>The Sliding Mr. Bones (Next Stop, Pottersville)</td>
+                  <td>Malcolm Lockyer</td>
+                </tr>
+                <tr>
+                  <td>Witchy Woman</td>
+                  <td>The Eagles</td>
+                </tr>
+                <tr>
+                  <td>Shining Star</td>
+                  <td>Earth, Wind, and Fire</td>
+                </tr>
+              </tbody>
+            </table>
+          </div>
+          <div className="col">
+            <table className="table-auto w-[100%] border border-1 bg-slate-700">
+              <thead>
+                <tr>
+                  <th>Song</th>
+                  <th>Artist</th>
+                </tr>
+              </thead>
+              <tbody>
+                <tr>
+                  <td>The Sliding Mr. Bones (Next Stop, Pottersville)</td>
+                  <td>Malcolm Lockyer</td>
+                </tr>
+                <tr>
+                  <td>Witchy Woman</td>
+                  <td>The Eagles</td>
+                </tr>
+                <tr>
+                  <td>Shining Star</td>
+                  <td>Earth, Wind, and Fire</td>
+                </tr>
+              </tbody>
+            </table>
+            <ImageGallery items={images2} />
+            Slider text
+          </div>
+        </div> */}
 
         <p className="mt-10 mb-10 m-6 font-medium text-lg text-gray-500">
           ヤンゴンのランドマークとなったサクラタワーにはICA、三菱商事、日経、NHK等、
@@ -592,7 +661,7 @@ export default function intership() {
               </div>
             </div>
           </div>
-          {/* small table 2 and slider */}
+
           <div className="mt-5">
             <div className="mb-5 p-4">
               <div className="items-center divide-gray-600 grid grid-cols-3 divide-x-2 md:mr-5 border-t-2 border-r-2 border-l-2 border-gray-500">
@@ -612,7 +681,7 @@ export default function intership() {
                 </div>
               </div>
             </div>
-            <div className="px-4">
+            <div className="md:pl-4 md:p-8">
               <ImageGallery items={images2} />
             </div>
           </div>
@@ -643,10 +712,10 @@ export default function intership() {
             <div className="md:flex grid grid-cols-1 md:grid-cols-2">
               <img
                 src="/assets/img/7.jpg"
-                className="w-[100%] md:w-[40%] h-auto mx-auto md:p-4 "
+                className="w-[100%] md:w-[50%] h-auto mx-auto md:px-10"
                 loading="lazy"
               />
-              <p className="m-6 font-medium text-lg text-gray-500">
+              <p className="md:pr-10 p-2 text-justify font-medium text-lg text-gray-500">
                 エクセが運営するサクラレジデンスに宿泊いただきます。日本人スタッフも常駐しているので安心です。ジム、プールなどのファシリティーも充実しており、ミニマートでは日本の食品なども購入可能で、レストランは日本食も対応しており休日もゆっくりとお過ごし頂けるアパートです。
               </p>
             </div>
@@ -706,7 +775,7 @@ export default function intership() {
             </div>
           </div>
         </div>
-        <div>
+        <div className="md:px-6">
           <div>
             <h2 className="font-bold md:text-2xl text-gray-700 text-center my-6">
               ミャンマーで活躍する社員紹介
@@ -746,7 +815,7 @@ export default function intership() {
                 Cherry Aung　<br></br>General Manager
               </h3>
               <p className="text-gray-500 text-justify mx-4 my-2">
-                ミャンマー人でありながら、セールスエグゼクティブからゼネラルマネージャーになるまでキャリア開発を得る絶好の機会がありました。
+                ミャンマー人でありながら、セールスエグゼクティブからゼネラルマネージャーになるまでキャリア開発を得る絶好の機会がありました。ロイヤルティ、組織のためにベストを尽くす姿勢、日々の業務改善が将来のキャリアアップの鍵になると断言します。
               </p>
             </div>
           </div>
@@ -798,7 +867,7 @@ export default function intership() {
                 Phyoe Wai Moe　<br></br>YangonYangon Bar Manager
               </h3>
               <p className="text-gray-500 text-justify mx-4 my-2">
-                ヤンゴンの最も高いルーフトップバーであるヤンゴンヤンゴンで、素晴らしい経営陣・協力的な同僚と一緒に日々楽しく仕事をしています。
+                ヤンゴンの最も高いルーフトップバーであるヤンゴンヤンゴンで、素晴らしい経営陣・協力的な同僚と一緒に日々楽しく仕事をしています。家族のようなチームメンバーに囲まれ、毎日疲れを感じることなく働ける職場です。
               </p>
             </div>
           </div>

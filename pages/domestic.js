@@ -24,7 +24,7 @@ const domestic = () => {
         </div>
       </div>
       <div className="max-w-[1400px] mx-auto">
-        <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-2 bg-white md:py-16">
+        <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-2 bg-white md:py-16 md:pr-6">
           <div className="flex justify-center pt-4 col-span-2">
             <div className="sm:grid grid-cols-1 md:grid-cols-2 lg:grid-cols-2 -mt-4">
               <div>
@@ -35,7 +35,7 @@ const domestic = () => {
                   alt="1"
                 />
               </div>
-              <div className="md:px-10">
+              <div className="md:px-10 px-8">
                 <div className="w-full md:mx-8 py-4">
                   <h2 className="font-serif text-2xl text-gray-700 font-bold">
                     {/* ▶不動産流動化事業 */}
@@ -65,7 +65,7 @@ const domestic = () => {
             </div>
           </div>
         </div>
-        <div className="px-10">
+        <div className="px-8">
           <div className="text-xl md:text-2xl font-bold box-content h-32 w-auto p-10 border-0 bg-[#f6fafd] mb-4">
             プロジェクト例{" "}
             <div className="font-normal text-base mt-4 md:ml-5">
@@ -82,7 +82,7 @@ const domestic = () => {
             </p>
           </div>
         </div>
-        <div className="px-10 py-6">
+        <div className="px-8 py-6">
           <div className="text-xl md:text-2xl font-bold box-content lg:h-32 w-auto p-10 border-0 bg-[#f6fafd]">
             プロジェクト例{" "}
             <div className="font-normal text-base mt-5 md:ml-5">
