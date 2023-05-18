@@ -6,7 +6,7 @@ import LazyLoad from 'react-lazy-load';
 const education = () => {
   return (
     <MainLayoutEn>
-      <div className="top-0 right-0 bottom-0 left-0 w-full h-full overflow-hidden text-center relative overflow-hidden bg-no-repeat bg-cover"
+      <div className="top-0 right-0 bottom-0 left-0 w-full h-full text-center relative overflow-hidden bg-no-repeat bg-cover"
         style={{backgroundImage: 'url("/assets/img/mv-sm.jpg")', backgroundColor: "rgba(0, 0, 0, 0)", height: 450,}}>
         <div className="flex justify-center items-center h-full">
           <div> <h2 className="font-bold text-4xl font-sans text-white uppercase"> Education </h2> </div> 

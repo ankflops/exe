@@ -48,15 +48,15 @@ const Footer = () => {
         {/* Language */}
       </div>
 
-      <div className="sticky2 active:border-[3px] active:border-r-0 border-cyan-600 active:rounded my-[3px]">
+      <div className="sticky2 active:border-[3px] active:border-r-0 border-cyan-600 active:rounded my-[3px] hidden lg:block">
         <Link href="#"> 🌐 言語 </Link>
       </div>
 
-      <div className="sticky active:border-[3px] active:border-r-0 border-cyan-600 active:rounded my-[3px] hover:bg-rose-800 duration-150">
+      <div className="sticky active:border-[3px] active:border-r-0 border-cyan-600 active:rounded my-[3px] duration-150 ">
         <Link href="/contact"> 問い合わせ </Link>
       </div>
-      <div className="bg-darkblue grid gap-0.5 sm:grid-cols-2 md:grid-cols-5 lg:grid-cols-10 w-full p-4 md:p-12 text-xs md:text-base">
-        <div className="sm:col-span-1 md:col-span-3 lg:col-span-4 max-w-lg pl-4 mt-4 md:p-4">
+      <div className="bg-darkblue grid gap-0 sm:grid-cols-2 md:grid-cols-7 lg:grid-cols-10 w-full p-4 md:p-12 text-xs md:text-base">
+        <div className="sm:col-span-1 md:col-span-3 lg:col-span-4 max-w-lg md:pl-4 mt-4 md:p-4">
           <h2 className="ml-4 underline text-white text-md mb-8">
             お問い合わせ
           </h2>
@@ -116,72 +116,68 @@ const Footer = () => {
           </ul>
         </div>
 
-        <div className="font-bold max-w-lg mt-8 sm:col-span-1 md:col-span-2 lg:col-span-2">
-          <h2 className="ml-9 mb-5 text-white text-md underline">
-            エクセについて
-          </h2>
-          <ul className="text-gray-300 font-light pl-6 list-none">
+        <div className="font-bold max-w-lg mt-8 md:col-span-2 lg:col-span-2 pl-4">
+          <h2 className="mb-5 text-white text-md underline">エクセについて</h2>
+          <ul className="text-gray-300 font-light list-none">
             <li className="nav-item">
               <Link href="/about">
-                <a className="font-bold px-2 py-2 flex items-center text-md text-white hover:text-sky-300">
-                  <span className="ml-2">会社概要</span>
+                <a className="font-bold py-2 flex items-center text-md text-white hover:text-sky-300">
+                  <span className="">会社概要</span>
                 </a>
               </Link>
             </li>
           </ul>
         </div>
 
-        <div className="font-bold max-w-lg pl-4 pb-4 mt-4 md:p-4 md:-ml-4 sm:col-span-1 md:col-span-2 lg:col-span-2 -ml-3 ">
-          <h2 className="ml-9 underline mb-5 text-white text-md ">
-            プロジェクト
-          </h2>
-          <ul className="text-gray-300 font-light pl-6 list-none">
+        <div className="font-bold max-w-lg pl-4 pb-4 mt-4 md:p-4 md:col-span-2 lg:col-span-2">
+          <h2 className="underline mb-5 text-white text-md ">プロジェクト</h2>
+          <ul className="text-gray-300 font-light list-none">
             <li className="nav-item">
               <Link href="/overseas">
-                <a className="font-bold px-2 py-2 flex items-center text-md text-white hover:text-sky-300">
-                  <span className="ml-2">海外プロジェクト</span>
+                <a className="font-bold py-2 flex items-center text-md text-white hover:text-sky-300">
+                  <span className="">海外プロジェクト</span>
                 </a>
               </Link>
             </li>
             <li className="nav-item">
               <Link href="/myanmar">
-                <a className="font-bold px-2 py-2 flex items-center text-md text-white hover:text-sky-300">
-                  <span className="ml-2">- ミャンマー</span>
+                <a className="font-bold py-2 flex items-center text-md text-white hover:text-sky-300">
+                  <span className="">- ミャンマー</span>
                 </a>
               </Link>
             </li>
             <li className="nav-item">
               <Link href="/mongolia">
-                <a className="font-bold px-2 py-2 flex items-center text-md text-white hover:text-sky-300">
-                  <span className="ml-2">- モンゴル</span>
+                <a className="font-bold py-2 flex items-center text-md text-white hover:text-sky-300">
+                  <span className="">- モンゴル</span>
                 </a>
               </Link>
             </li>
             <li className="nav-item">
               <Link href="/domestic">
-                <a className="font-bold px-2 py-2 flex items-center text-md text-white hover:text-sky-300">
-                  <span className="ml-2">国内プロジェクト</span>
+                <a className="font-bold py-2 flex items-center text-md text-white hover:text-sky-300">
+                  <span className="">国内プロジェクト</span>
                 </a>
               </Link>
             </li>
           </ul>
         </div>
-        <div className="font-bold max-w-lg pl-4 mt-4 md:p-4 md:ml-4 sm:col-span-1 md:col-span-2 lg:col-span-2 -ml-3">
-          <h2 className="ml-9 mb-5 text-white text-md underline ">
+        <div className="font-bold max-w-lg pl-4 mt-4 md:p-4 md:ml-2 sm:col-span-1 md:col-span-3 lg:col-span-2">
+          <h2 className="mb-5 text-white text-md underline ">
             インターンシップ・採用
           </h2>
-          <ul className="text-gray-300 font-light pl-6 list-none">
+          <ul className="text-gray-300 font-light list-none">
             <li className="nav-item">
               <Link href="/intership">
-                <a className="font-bold px-2 py-2 flex items-center text-md text-white hover:text-sky-300">
-                  <span className="ml-2 ">インターンシップ</span>
+                <a className="font-bold py-2 flex items-center text-md text-white hover:text-sky-300">
+                  <span className=" ">インターンシップ</span>
                 </a>
               </Link>
             </li>
             <li className="nav-item">
               <Link href="/recruit">
-                <a className="font-bold px-2 py-2 flex items-center text-md text-white hover:text-sky-300">
-                  <span className="ml-2">新卒・中途採用</span>
+                <a className="font-bold py-2 flex items-center text-md text-white hover:text-sky-300">
+                  <span className="">新卒・中途採用</span>
                 </a>
               </Link>
             </li>

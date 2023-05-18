@@ -25,7 +25,7 @@ const about = () => {
       </div>
       <div className="max-w-[1200px] mx-auto">
         <div className="px-6 about-text">
-          <p className="text-center text-lg font-medium text-gray-500 mt-4">
+          <p className="text-center text-lg font-medium text-gray-500 pt-6">
             私ども、株式会社エクセは1991年8月6日に生まれました。 <br></br>
             それから20年、20世紀の最後の10年と21世紀の最初の10年の激動の中をブティックの投資事業会社として、
             <br></br>時代の流れとともに前へ前へと進んでまいりました。
@@ -67,9 +67,9 @@ const about = () => {
           </p>
         </div>
         {/* table1 */}
-        <div className="grid justify-center about-text">
+        <div className="grid justify-center about-text text-gray-500">
           <div className="md:mt-20 border-2 border-black bg-darkblue h-14">
-            <p className="text-center text-lg font-medium text-gray-400 mt-3">
+            <p className="text-center text-lg font-medium mt-3 text-gray-300">
               会社概要
             </p>
           </div>
@@ -138,9 +138,9 @@ const about = () => {
           </div>
         </div>
         {/* table2 */}
-        <div className="grid justify-center mt-10 mb-10 about-text">
+        <div className="grid justify-center mt-10 mb-10 about-text text-gray-500">
           <div className="md:mt-20 border-2 border-black bg-darkblue h-14">
-            <p className="text-center text-lg font-medium text-gray-400 mt-3">
+            <p className="text-center text-lg font-medium text-gray-300 mt-3">
               沿革
             </p>
           </div>
