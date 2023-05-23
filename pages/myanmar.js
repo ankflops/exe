@@ -27,10 +27,6 @@ const images = [
     original: "../assets/img/lol9.jpg",
     thumbnail: "../assets/img/lol9.jpg",
   },
-  {
-    original: "../assets/img/new-photo.png",
-    thumbnail: "../assets/img/new-photo.png",
-  },
 ];
 const images2 = [
   {
@@ -52,10 +48,6 @@ const images2 = [
   {
     original: "../assets/img/lol2.jpg",
     thumbnail: "../assets/img/lol2.jpg",
-  },
-  {
-    original: "../assets/img/new-photo.png",
-    thumbnail: "../assets/img/new-photo.png",
   },
 ];
 const myanmar = () => {
@@ -153,7 +145,7 @@ const myanmar = () => {
                   <br></br>
                   <br></br>
                   <p>
-                    サクラレジデンスは、お客様が訪れた瞬間から「我が家」と呼ぶに相応しい、ワンルームから広々とした3ベッドルームまでの261室の家具付きのお部屋、広く開放的な庭園やプール、美味しい料理をいつでも味わうことのできるレストラン「カフェ・ティリピセヤ」等、リラックスして快適にお過ごしいただける各種サービスをご用意しています。。
+                    サクラレジデンスは、お客様が訪れた瞬間から「我が家」と呼ぶに相応しい、ワンルームから広々とした3ベッドルームまでの261室の家具付きのお部屋、広く開放的な庭園やプール、美味しい料理をいつでも味わうことのできるレストラン「カフェ・ティリピセヤ」等、リラックスして快適にお過ごしいただける各種サービスをご用意しています。
                   </p>
                   <br></br>
                   Address: 9 Inya Road, Block 10, Kamaryut Township, Yangon,

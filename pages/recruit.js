@@ -198,7 +198,7 @@ export default function recruit() {
             </div>
             <div className="flex justify-center">
               <div>
-                <h2 className="font-bold text-2xl text-gray-700 text-center  md:m-5">
+                <h2 className="font-bold text-2xl text-gray-700 text-center  md:m-4">
                   よくある質問
                 </h2>
 

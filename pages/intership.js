@@ -10,8 +10,8 @@ import {
 
 const images = [
   {
-    original: "../assets/img/lol10.jpg",
-    thumbnail: "../assets/img/lol10.jpg",
+    original: "../assets/img/myanmar_1.png",
+    thumbnail: "../assets/img/myanmar_1.png",
   },
   {
     original: "../assets/img/lol6.jpg",
@@ -22,20 +22,19 @@ const images = [
     thumbnail: "../assets/img/lol7.jpg",
   },
   {
-    original: "../assets/img/lol8.jpg",
-    thumbnail: "../assets/img/lol8.jpg",
+    original: "../assets/img/lol10.jpg",
+    thumbnail: "../assets/img/lol10.jpg",
   },
   {
     original: "../assets/img/lol9.jpg",
     thumbnail: "../assets/img/lol9.jpg",
   },
-  {
-    original: "../assets/img/new-photo.png",
-    thumbnail: "../assets/img/new-photo.png",
-  },
- 
 ];
 const images2 = [
+  {
+    original: "../assets/img/lol3.jpg",
+    thumbnail: "../assets/img/lol3.jpg",
+  },
   {
     original: "../assets/img/lol5.jpg",
     thumbnail: "../assets/img/lol5.jpg",
@@ -44,10 +43,7 @@ const images2 = [
     original: "../assets/img/lol4.jpg",
     thumbnail: "../assets/img/lol4.jpg",
   },
-  {
-    original: "../assets/img/lol3.jpg",
-    thumbnail: "../assets/img/lol3.jpg",
-  },
+
   {
     original: "../assets/img/lol1.jpg",
     thumbnail: "../assets/img/lol1.jpg",
@@ -55,10 +51,6 @@ const images2 = [
   {
     original: "../assets/img/lol2.jpg",
     thumbnail: "../assets/img/lol2.jpg",
-  },
-  {
-    original: "../assets/img/new-photo.png",
-    thumbnail: "../assets/img/new-photo.png",
   },
 ];
 
@@ -172,7 +164,7 @@ export default function intership() {
               className="h-56 w-56 mx-auto border-solid border-2 border-[#92ACDD] rounded-full md:p-4"
               loading="lazy"
             />
-            <p className="md:pl-4 text-primary items-center">
+            <p className="md:pl-4 text-primary items-center py-4">
               S.Iさん　立命館アジア太平洋大学　国際経営学科<br></br>
               ▶国籍の異なる人との出会い
               ３か月という短い期間でしたが、国籍を問わない多くの人との出会いは、日本では得難く、とても刺激的で、価値観が変わるような経験でした。実際に社会で働く方々との交流の機会は大変貴重で、就職活動のアドバイスや海外で働くこと、女性が働くということについて多くの立場の方から意見を聞くことができました。
@@ -182,7 +174,7 @@ export default function intership() {
             </p>
           </div>
           <div className="flex flex-col-reverse md:flex-row">
-            <p className="p-4 text-primary">
+            <p className="p-4 text-primary ">
               T.Mさん　東京外国語大学　ビルマ語学科<br></br>
               ▶現地スタッフとのコミュニケーション
               日本とは全く違うミャンマーで暮らすことに対する不安もありました。しかし毎日、ホテルのスタッフと触れ合う中ですぐにその不安も消えてしまいました。また、ビジネスを学ぶだけでなく、ホテルスタッフとの会話を通してビルマ語の習得もできたことが本当によかったです。
@@ -202,7 +194,7 @@ export default function intership() {
               className="h-56 w-56 mx-auto border-solid border-2 border-[#92ACDD] rounded-full md:p-4"
               loading="lazy"
             />
-            <p className="md:pl-4 md:pb-8 text-primary">
+            <p className="md:pl-4 md:pb-8 text-primary py-4">
               E・Mさん　上智大学　教育学科<br></br>
               ▶今、ミャンマーいくということ
               インターンシップに参加して、まず驚いたことは、ミャンマーの治安の良さと人の温厚さです。ミャンマーは熱心な仏教徒の国で通信や流通が安定していないからこそ、情報が溢れておらず、人々の生活は穏やかで豊かであるように感じました。10年も経てばミャンマーも変わります。このタイミングで参加できたことにとても感謝しています。
@@ -495,58 +487,7 @@ export default function intership() {
             </div>
           </div>
         </div>
-        {/* <div className="grid grid-cols-1 md:grid-cols-2 gap-4">
-          <div className="col">
-            <table className="table-auto w-[100%] bg-black">
-              <thead>
-                <tr>
-                  <th>Song</th>
-                  <th>Artist</th>
-                </tr>
-              </thead>
-              <tbody>
-                <tr>
-                  <td>The Sliding Mr. Bones (Next Stop, Pottersville)</td>
-                  <td>Malcolm Lockyer</td>
-                </tr>
-                <tr>
-                  <td>Witchy Woman</td>
-                  <td>The Eagles</td>
-                </tr>
-                <tr>
-                  <td>Shining Star</td>
-                  <td>Earth, Wind, and Fire</td>
-                </tr>
-              </tbody>
-            </table>
-          </div>
-          <div className="col">
-            <table className="table-auto w-[100%] border border-1 bg-slate-700">
-              <thead>
-                <tr>
-                  <th>Song</th>
-                  <th>Artist</th>
-                </tr>
-              </thead>
-              <tbody>
-                <tr>
-                  <td>The Sliding Mr. Bones (Next Stop, Pottersville)</td>
-                  <td>Malcolm Lockyer</td>
-                </tr>
-                <tr>
-                  <td>Witchy Woman</td>
-                  <td>The Eagles</td>
-                </tr>
-                <tr>
-                  <td>Shining Star</td>
-                  <td>Earth, Wind, and Fire</td>
-                </tr>
-              </tbody>
-            </table>
-            <ImageGallery items={images2} />
-            Slider text
-          </div>
-        </div> */}
+       
 
         <p className="mt-10 mb-10 m-6 font-medium text-lg text-gray-500">
           ヤンゴンのランドマークとなったサクラタワーにはICA、三菱商事、日経、NHK等、
@@ -941,11 +882,11 @@ export default function intership() {
           </div>
         </div>
         <div>
-          <h2 className="font-bold text-2xl text-gray-600 text-center m-1 mb-5">
+          <h2 className="font-bold text-2xl text-gray-700 text-center my-4">
             <a className="text-3xl">\ </a>よくある質問{" "}
             <a className="text-3xl">/ </a>
           </h2>
-          <div className="md:px-20 px-4">
+          <div className="md:px-12 px-4">
             <Fragment>
               <Accordion open={open === 1}>
                 <AccordionHeader onClick={() => handleOpen(1)}>
