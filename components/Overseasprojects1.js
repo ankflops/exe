@@ -76,7 +76,7 @@ const Overseasprojects1 = () => {
         </div>
       </div>
       <div className="p-10">
-        <div class="text-3xl font-bold box-content h-128 lg:h-64 w-auto p-10 border-0 bg-[#f6fafd] m-7">
+        <div className="text-3xl font-bold box-content h-128 lg:h-64 w-auto p-10 border-0 bg-[#f6fafd] m-7">
           設備
           <div className="block sm:flex">
             <div className="font-normal text-base mt-8 sm:ml-5 block">

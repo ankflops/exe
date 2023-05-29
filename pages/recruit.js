@@ -33,7 +33,7 @@ export default function recruit() {
                 リクルート
               </h1>
             </div>
-            <div class="text-sm pl-8 md:pl-16 md:text-2xl lg:text-3xl lg:mt-16 font-bold justify-start text-white">
+            <div className="text-sm pl-8 md:pl-16 md:text-2xl lg:text-3xl lg:mt-16 font-bold justify-start text-white">
               <h3>変化こそチャンスである。</h3>
               <h3 className="ml-4">
                 人と同じではなく自分なりの価値観を信じよう。
@@ -56,7 +56,7 @@ export default function recruit() {
 
           {/* table */}
           <div className="md:py-4 p-4">
-            <div className="md:mt-4 md:mx-20 border-2 border-darkblue bg-darkblue h-14">
+            <div className="md:mt-4 md:mx-20 border-2 border-gray-600 bg-darkblue h-14">
               <p className=" text-center text-lg font-medium text-gray-400 mt-3">
                 求人票
               </p>
@@ -83,11 +83,11 @@ export default function recruit() {
                 ヤンゴン最大の規模を誇る長期滞在者向けのアパートメント
               </div>
             </div>
-            <div className="divide-darkblue grid grid-cols-3 divide-x md:mr-20 md:ml-20 border-t-2 border-r-2 border-l-2 border-t-darkblue border-r-darkblue border-l-darkblue items-center">
+            <div className="divide-darkblue grid grid-cols-3 divide-x md:mr-20 md:ml-20 border-t-2 border-r-2 border-l-2 border-gray-600 items-center">
               <div className="text-center font-medium m-3">雇用形態</div>
               <div className="p-2 col-span-2">正社員</div>
             </div>
-            <div className="divide-darkblue grid grid-cols-3 divide-x md:mr-20 md:ml-20 border-t-2 border-r-2 border-l-2 border-t-darkblue border-r-darkblue border-l-darkblue items-center">
+            <div className="divide-darkblue grid grid-cols-3 divide-x md:mr-20 md:ml-20 border-t-2 border-r-2 border-l-2 border-gray-600 items-center">
               <div className="text-center font-medium mt-8 md:m-6">
                 エントリー/採用方法
               </div>
@@ -96,7 +96,7 @@ export default function recruit() {
                 1週間のヤンゴンでのインターンシップ研修により最終判断
               </div>
             </div>
-            <div className="divide-darkblue grid grid-cols-3 divide-x md:mr-20 md:ml-20 border-t-2 border-r-2 border-l-2 border-t-darkblue border-r-darkblue border-l-darkblue items-center">
+            <div className="divide-darkblue grid grid-cols-3 divide-x md:mr-20 md:ml-20 border-t-2 border-r-2 border-l-2 border-gray-600 items-center">
               <div className="text-center font-medium mt-10 md:m-6">
                 選考方法・重視点
               </div>
@@ -105,7 +105,7 @@ export default function recruit() {
                 度胸と愛嬌のある方。ミャンマー語に興味ある方歓迎。
               </div>
             </div>
-            <div className="divide-darkblue grid grid-cols-3 divide-x md:mr-20 md:ml-20 border-t-2 border-r-2 border-l-2 border-t-darkblue border-r-darkblue border-l-darkblue items-center">
+            <div className="divide-darkblue grid grid-cols-3 divide-x md:mr-20 md:ml-20 border-t-2 border-r-2 border-l-2 border-gray-600 items-center">
               <div className="text-center font-medium m-3">
                 提出書類・その他選考
               </div>
@@ -113,23 +113,23 @@ export default function recruit() {
                 履歴書　※中途の方は職務経歴書もご提出ください。
               </div>
             </div>
-            <div className="divide-darkblue grid grid-cols-3 divide-x md:mr-20 md:ml-20 border-t-2 border-r-2 border-l-2 border-t-darkblue border-r-darkblue border-l-darkblue items-center">
+            <div className="divide-darkblue grid grid-cols-3 divide-x md:mr-20 md:ml-20 border-t-2 border-r-2 border-l-2 border-gray-600 items-center">
               <div className="text-center font-medium m-6 md:m-3">想定年収</div>
               <div className="p-2 col-span-2">
                 年収：280万~500万　※詳細は初回面接時にご説明します。
               </div>
             </div>
-            <div className="divide-darkblue grid grid-cols-3 divide-x md:mr-20 md:ml-20 border-t-2 border-r-2 border-l-2 border-t-darkblue border-r-darkblue border-l-darkblue items-center">
+            <div className="divide-darkblue grid grid-cols-3 divide-x md:mr-20 md:ml-20 border-t-2 border-r-2 border-l-2 border-gray-600 items-center">
               <div className="text-center font-medium m-3">
                 昇給・賞与・諸手当
               </div>
               <div className="p-2 col-span-2">昇給あり、賞与あり</div>
             </div>
-            <div className="divide-darkblue grid grid-cols-3 divide-x md:mr-20 md:ml-20 border-t-2 border-r-2 border-l-2 border-t-darkblue border-r-darkblue border-l-darkblue items-center">
+            <div className="divide-darkblue grid grid-cols-3 divide-x md:mr-20 md:ml-20 border-t-2 border-r-2 border-l-2 border-gray-600 items-center">
               <div className="text-center font-medium m-3">勤務地</div>
               <div className="p-2 col-span-2">ミャンマー（ヤンゴン）</div>
             </div>
-            <div className="divide-darkblue grid grid-cols-3 divide-x md:mr-20 md:ml-20 border-t-2 border-r-2 border-l-2 border-t-darkblue border-r-darkblue border-l-darkblue items-center">
+            <div className="divide-darkblue grid grid-cols-3 divide-x md:mr-20 md:ml-20 border-t-2 border-r-2 border-l-2 border-gray-600 items-center">
               <div className="text-center font-medium mt-7 md:m-3">
                 勤務時間
               </div>
@@ -137,7 +137,7 @@ export default function recruit() {
                 サクラタワー8:30~17:30　ホテル・レジデンス・レストラン・バー5:30~23:00（シフト制）
               </div>
             </div>
-            <div className="divide-darkblue grid grid-cols-3 divide-x md:mr-20 md:ml-20 border-t-2 border-r-2 border-l-2 border-t-darkblue border-r-darkblue border-l-darkblue items-center">
+            <div className="divide-darkblue grid grid-cols-3 divide-x md:mr-20 md:ml-20 border-t-2 border-r-2 border-l-2 border-gray-600 items-center">
               <div className="text-center font-medium mt-6 md:m-3">
                 福利厚生
               </div>
@@ -145,11 +145,11 @@ export default function recruit() {
                 勤務年数報酬制度あり、社宅あり、送迎あり、食事手当
               </div>
             </div>
-            <div className="divide-darkblue grid grid-cols-3 divide-x md:mr-20 md:ml-20 border-t-2 border-r-2 border-l-2 border-t-darkblue border-r-darkblue border-l-darkblue items-center">
+            <div className="divide-darkblue grid grid-cols-3 divide-x md:mr-20 md:ml-20 border-t-2 border-r-2 border-l-2 border-gray-600 items-center">
               <div className="text-center font-medium m-3">社会保険</div>
               <div className="p-2 col-span-2">加入</div>
             </div>
-            <div className="divide-darkblue grid grid-cols-3 divide-x md:mr-20 md:ml-20 border-t-2 border-r-2 border-l-2 border-t-darkblue border-r-darkblue border-l-darkblue items-center">
+            <div className="divide-darkblue grid grid-cols-3 divide-x md:mr-20 md:ml-20 border-t-2 border-r-2 border-l-2 border-gray-600 items-center">
               <div className="text-center font-medium mt-8 md:m-7">
                 休日休暇
               </div>
@@ -158,7 +158,7 @@ export default function recruit() {
                 ※担当業務やイベント時期により変動、ミャンマー暦に準ずる
               </div>
             </div>
-            <div className="divide-darkblue grid grid-cols-3 divide-x md:mb-12 md:mx-20 border-2 border-t-darkblue border-r-darkblue border-l-darkblue items-center">
+            <div className="divide-darkblue grid grid-cols-3 divide-x md:mb-12 md:mx-20 border-2 border-gray-600 items-center">
               <div className="text-center font-medium m-3">教育研修</div>
               <div className="p-2 col-span-2">必要に応じ支援制度あり</div>
             </div>

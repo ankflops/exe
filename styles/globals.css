@@ -86,14 +86,17 @@
 }
 
 .image-gallery-slide img {
-  width: 200%;
-  height: auto1;
+  width: 100%;
+  height: auto;
   max-height: 100vh;
   object-fit: cover;
   overflow: hidden;
   object-position: center center;
 }
 
+.image-gallery-thumbnail {
+  width: 20% !important;
+}
 .fullscreen .image-gallery-slide img {
   max-height: 100vh;
 }

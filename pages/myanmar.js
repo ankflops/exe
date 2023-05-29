@@ -71,7 +71,7 @@ const myanmar = () => {
           </div>
         </div>
       </div>
-      {/* DIV ZASAKH */}
+
       <div className="max-w-[1200px] mx-auto">
         <div className="grid grid-cols-1 md:grid-cols-2 gap-4">
           <div className="px-4 md:pl-10 col-span-1">
@@ -105,11 +105,11 @@ const myanmar = () => {
             </div>
           </div>
           <div className="col-span-1 md:mt-12 md:p-8 p-4">
-            <ImageGallery items={images} />
+            <ImageGallery items={images} className="gallery-thumb" />
           </div>
         </div>
         <div className="px-10">
-          <div class="text-3xl font-bold box-content w-auto p-8 border-0 bg-[#f6fafd] my-4 text-gray-700">
+          <div className="text-3xl font-bold box-content w-auto p-8 border-0 bg-[#f6fafd] my-4 text-gray-700">
             設備
             <div className="grid grid-cols-1 md:grid-cols-2">
               <div className="font-normal text-base mt-4 text-gray-500 col-span-1">
@@ -167,7 +167,7 @@ const myanmar = () => {
           </div>
         </div>
         <div className="px-10">
-          <div class="text-3xl font-bold box-content w-auto p-10 border-0 bg-[#f6fafd] my-4 text-gray-700">
+          <div className="text-3xl font-bold box-content w-auto p-10 border-0 bg-[#f6fafd] my-4 text-gray-700">
             <div className=" text-gray-500 grid grid-cols-1 md:grid-cols-2">
               <div className="col-span-1">
                 設備

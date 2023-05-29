@@ -223,32 +223,28 @@ export default function intership() {
         </div>
         <br />
         <div className="row md:px-10 ">
-          <div className=" border-collapse border border-1 border-slate-400 text-center bg-darkblue text-white p-4">
+          <div className=" border-collapse border border-1 border-gray-600 text-center bg-darkblue text-white p-4">
             会社概要
           </div>
-          <table className="text-lg table-auto border-slate-400 w-[100%]">
+          <table className="text-lg table-auto border-gray-600 w-[100%]">
             <thead>
               <tr>
-                <th className="border border-slate-300 font-normal">時期</th>
-                <th className="text-left border border-slate-300 p-5 font-normal">
+                <th className="border font-normal border-gray-600">時期</th>
+                <th className="text-left border border-gray-600 p-5 font-normal">
                   随時
                 </th>
               </tr>
             </thead>
             <tbody>
               <tr>
-                <td className="text-center border border-slate-300">
-                  参加対象
-                </td>
-                <td className="border border-slate-300 p-5">
+                <td className="text-center border border-gray-600">参加対象</td>
+                <td className="border border-gray-600 p-5">
                   年齢・職歴問わず、学生歓迎。
                 </td>
               </tr>
               <tr>
-                <td className="text-center border border-slate-300">
-                  応募資格
-                </td>
-                <td className="border border-slate-300 p-5">
+                <td className="text-center border border-gray-600">応募資格</td>
+                <td className="border border-gray-600 p-5">
                   1．アジアに興味がある、アジアが大好きな方。<br></br>
                   2．ホテル運営に興味があるなど好奇心を持ち、また向上心をもった元気のある方。
                   <br></br>3.
@@ -259,10 +255,8 @@ export default function intership() {
                 </td>
               </tr>
               <tr>
-                <td className="text-center border border-slate-300">
-                  実施場所
-                </td>
-                <td className="border border-slate-300 p-5">
+                <td className="text-center border border-gray-600">実施場所</td>
+                <td className="border border-gray-600 p-5">
                   <a href="http://sakura-tower-yangon.com/">
                     サクラタワー http://sakura-tower-yangon.com/
                   </a>
@@ -275,24 +269,20 @@ export default function intership() {
                 </td>
               </tr>
               <tr>
-                <td className="text-center border border-slate-300">職種</td>
-                <td className="border border-slate-300 p-5">
+                <td className="text-center border border-gray-600">職種</td>
+                <td className="border border-gray-600 p-5">
                   ウェイター・ウェイトレス、ハウスキーピング、お土産販売　など
                 </td>
               </tr>
               <tr>
-                <td className="text-center border border-slate-300">
-                  研修期間
-                </td>
-                <td className="border border-slate-300 p-5">
+                <td className="text-center border border-gray-600">研修期間</td>
+                <td className="border border-gray-600 p-5">
                   1ヶ月～（要相談）
                 </td>
               </tr>
               <tr>
-                <td className="text-center border border-slate-300">
-                  自己負担
-                </td>
-                <td className="border border-slate-300 p-5">
+                <td className="text-center border border-gray-600">自己負担</td>
+                <td className="border border-gray-600 p-5">
                   1．ビザ・航空券・保険等費用<br></br>
                   ※ビザ申請は約1カ月程度かかります。<br></br>
                   （日本－ヤンゴン航空券代、ヤンゴン－バガン移動費用、海外旅行保険料等）
@@ -301,18 +291,16 @@ export default function intership() {
                 </td>
               </tr>
               <tr>
-                <td className="text-center border border-slate-300">
-                  企業負担
-                </td>
-                <td className="border border-slate-300 p-5">
+                <td className="text-center border border-gray-600">企業負担</td>
+                <td className="border border-gray-600 p-5">
                   宿泊・食事等費用、通勤送迎費の一部または全額補助
                 </td>
               </tr>
               <tr>
-                <td className="text-center border border-slate-300">
+                <td className="text-center border border-gray-600">
                   その他補足
                 </td>
-                <td className="p-5 border border-slate-300">
+                <td className="p-5 border border-gray-600">
                   1．給与等の支給はございません。<br></br>
                   2．インターンシップは本採用を前提としたものではありません。
                   <br></br>　
@@ -359,8 +347,8 @@ export default function intership() {
 
         <div className="grid grid-cols-1 md:grid-cols-2">
           <div className="flex basis-1/3">
-            <div className="grid md:ml-0 p-4">
-              <div className="divide-gray-600 grid grid-cols-7 divide-x-2 md:ml-5 border-t-2 border-r-2 border-l-2 bg-darkblue">
+            <div className="grid md:ml-0 p-4 ">
+              <div className="divide-gray-600 grid grid-cols-7 divide-x-2 md:ml-5 border-t-2 border-r-2 border-l-2 bg-darkblue border-gray-600">
                 <div className="text-center font-bold text-gray-400 m-3">
                   日目
                 </div>
@@ -368,7 +356,7 @@ export default function intership() {
                   内容
                 </div>
               </div>
-              <div className="items-center divide-gray-600 grid grid-cols-7 divide-x-2 md:ml-5 border-t-2 border-r-2 border-l-2">
+              <div className="items-center divide-gray-600 grid grid-cols-7 divide-x-2 md:ml-5 border-t-2 border-r-2 border-l-2 border-gray-600">
                 <div className="text-center font-medium m-3">1</div>
                 <div className="p-2 col-span-2 font-medium text-gray-600 text-lg">
                   ヤンゴン到着 <br></br>オリエンテーション<br></br>
@@ -376,81 +364,81 @@ export default function intership() {
                   サクラカフェ研修スタート
                 </div>
               </div>
-              <div className="items-center divide-gray-600 grid grid-cols-7 divide-x-2 md:ml-5 border-t-2 border-r-2 border-l-2">
+              <div className="items-center divide-gray-600 grid grid-cols-7 divide-x-2 md:ml-5 border-t-2 border-r-2 border-l-2 border-gray-600">
                 <div className="text-center font-medium m-3">2</div>
                 <div className="p-2 col-span-5 font-medium text-gray-600 text-lg">
                   サクラカフェ研修
                 </div>
               </div>
-              <div className="divide-gray-600 grid grid-cols-7 divide-x-2  md:ml-5 border-t-2 border-r-2 border-l-2">
+              <div className="divide-gray-600 grid grid-cols-7 divide-x-2  md:ml-5 border-t-2 border-r-2 border-l-2 border-gray-600">
                 <div className="text-center font-medium m-3">3</div>
                 <div className="p-2 col-span-5 font-medium text-gray-600 text-lg">
                   休暇
                 </div>
               </div>
-              <div className="items-center divide-gray-600 grid grid-cols-7 divide-x-2  md:ml-5 border-t-2 border-r-2 border-l-2">
+              <div className="items-center divide-gray-600 grid grid-cols-7 divide-x-2  md:ml-5 border-t-2 border-r-2 border-l-2 border-gray-600">
                 <div className="text-center font-medium m-3">4</div>
                 <div className="p-2 col-span-5 font-medium text-gray-600 text-lg">
                   スカイビストロへ移動<br></br>
                   レストラン研修
                 </div>
               </div>
-              <div className="divide-gray-600 grid grid-cols-7 divide-x-2  md:ml-5 border-t-2 border-r-2 border-l-2">
+              <div className="divide-gray-600 grid grid-cols-7 divide-x-2  md:ml-5 border-t-2 border-r-2 border-l-2 border-gray-600">
                 <div className="text-center font-medium m-3">5</div>
                 <div className="p-2 col-span-5 font-medium text-gray-600 text-lg">
                   レストラン研修
                 </div>
               </div>
-              <div className="divide-gray-600 grid grid-cols-7 divide-x-2 md:ml-5 border-t-2 border-r-2 border-l-2">
+              <div className="divide-gray-600 grid grid-cols-7 divide-x-2 md:ml-5 border-t-2 border-r-2 border-l-2 border-gray-600">
                 <div className="text-center font-medium m-3">6</div>
                 <div className="p-2 col-span-5 font-medium text-gray-600 text-lg">
                   休暇
                 </div>
               </div>
-              <div className="divide-gray-600 grid grid-cols-7 divide-x-2 md:ml-5 border-t-2 border-r-2 border-l-2">
+              <div className="divide-gray-600 grid grid-cols-7 divide-x-2 md:ml-5 border-t-2 border-r-2 border-l-2 border-gray-600">
                 <div className="text-center font-medium m-3">7</div>
                 <div className="p-2 col-span-5 font-medium text-gray-600 text-lg">
                   レストラン研修
                 </div>
               </div>
-              <div className="items-center divide-gray-600 grid grid-cols-7 divide-x-2 md:ml-5 border-t-2 border-r-2 border-l-2">
+              <div className="items-center divide-gray-600 grid grid-cols-7 divide-x-2 md:ml-5 border-t-2 border-r-2 border-l-2 border-gray-600">
                 <div className="text-center font-medium m-3">8</div>
                 <div className="p-2 col-span-5 font-medium text-gray-600 text-lg">
                   レストラン研修
                 </div>
               </div>
-              <div className="divide-gray-600 grid grid-cols-7 divide-x-2 md:ml-5 border-t-2 border-r-2 border-l-2">
+              <div className="divide-gray-600 grid grid-cols-7 divide-x-2 md:ml-5 border-t-2 border-r-2 border-l-2 border-gray-600">
                 <div className="text-center font-medium m-3">9</div>
                 <div className="p-2 col-span-5 font-medium text-gray-600 text-lg">
                   休暇
                 </div>
               </div>
-              <div className="items-center divide-gray-600 grid grid-cols-7 divide-x-2 md:ml-5 border-t-2 border-r-2 border-l-2">
+              <div className="items-center divide-gray-600 grid grid-cols-7 divide-x-2 md:ml-5 border-t-2 border-r-2 border-l-2 border-gray-600">
                 <div className="text-center font-medium m-3">10</div>
                 <div className="p-2 col-span-5 font-medium text-gray-600 text-lg">
                   ヤンゴンヤンゴンへ移動<br></br>
                   バーにてレセプション業務
                 </div>
               </div>
-              <div className="items-center divide-gray-600 grid grid-cols-7 divide-x-2 md:ml-5 border-t-2 border-r-2 border-l-2">
+              <div className="items-center divide-gray-600 grid grid-cols-7 divide-x-2 md:ml-5 border-t-2 border-r-2 border-l-2 border-gray-600">
                 <div className="text-center font-medium m-3">11</div>
                 <div className="p-2 col-span-5 font-medium text-gray-600 text-lg">
                   バー研修
                 </div>
               </div>
-              <div className="divide-gray-600 grid grid-cols-7 divide-x-2 md:ml-5 border-t-2 border-r-2 border-l-2">
+              <div className="divide-gray-600 grid grid-cols-7 divide-x-2 md:ml-5 border-t-2 border-r-2 border-l-2 border-gray-600">
                 <div className="text-center font-medium m-3">12</div>
                 <div className="p-2 col-span-5 font-medium text-gray-600 text-lg">
                   バー研修
                 </div>
               </div>
-              <div className="divide-gray-600 grid grid-cols-7 divide-x-2 md:ml-5 border-t-2 border-r-2 border-l-2">
+              <div className="divide-gray-600 grid grid-cols-7 divide-x-2 md:ml-5 border-t-2 border-r-2 border-l-2 border-gray-600">
                 <div className="text-center font-medium m-3">13</div>
                 <div className="p-2 col-span-5 font-medium text-gray-600 text-lg">
                   休暇
                 </div>
               </div>
-              <div className="divide-gray-600 grid grid-cols-7 divide-x-2 md:ml-5 border-2">
+              <div className="divide-gray-600 grid grid-cols-7 divide-x-2 md:ml-5 border-2 border-gray-600">
                 <div className="text-center font-medium m-3">14</div>
                 <div className="p-2 col-span-5 font-medium text-gray-600 text-lg">
                   バー研修
@@ -461,13 +449,13 @@ export default function intership() {
 
           <div className="mt-5">
             <div className="mb-5 p-4">
-              <div className="items-center divide-gray-600 grid grid-cols-3 divide-x-2 md:mr-5 border-t-2 border-r-2 border-l-2 border-gray-500">
+              <div className="items-center divide-gray-600 grid grid-cols-3 divide-x-2 md:mr-5 border-t-2 border-r-2 border-l-2 border-gray-600">
                 <div className="text-center font-medium m-3">カフェ研修</div>
                 <div className="p-2 font-medium text-gray-600 text-lg col-span-2">
                   マグカップ等食器洗いや店内清掃、飲食店に欠かせない基本を学びます。専用マシーンを使ったコーヒーを淹れるバリスタ業務、フレッシュジュース等の作り方を学び、実践します。
                 </div>
               </div>
-              <div className="items-center divide-gray-600 grid grid-cols-3 divide-x-2 md:mr-5 border-2 border-gray-500">
+              <div className="items-center divide-gray-600 grid grid-cols-3 divide-x-2 md:mr-5 border-2 border-gray-600">
                 <div className="text-center font-medium m-3">
                   レストラン研修
                 </div>
@@ -475,7 +463,7 @@ export default function intership() {
                   備品や清掃確認、テーブル、バーのセッティングを行います。英語での接客、カクテルやデザートの作り方を学び、実践します。
                 </div>
               </div>
-              <div className="items-center divide-gray-600 grid grid-cols-3 divide-x-2 md:mr-5 border-2 border-gray-500">
+              <div className="items-center divide-gray-600 grid grid-cols-3 divide-x-2 md:mr-5 border-2 border-gray-600">
                 <div className="text-center font-medium m-3">バー研修</div>
                 <div className="p-2 font-medium text-gray-600 text-lg col-span-2">
                   入場チケットの販売管理、備品や清掃確認をします。テーブル、バーのセッティングを行います。英語での接客業務を行います。
@@ -487,7 +475,6 @@ export default function intership() {
             </div>
           </div>
         </div>
-       
 
         <p className="mt-10 mb-10 m-6 font-medium text-lg text-gray-500">
           ヤンゴンのランドマークとなったサクラタワーにはICA、三菱商事、日経、NHK等、
@@ -499,7 +486,7 @@ export default function intership() {
         <div className="grid grid-cols-1 md:grid-cols-2">
           <div className="flex basis-1/3">
             <div className="grid md:ml-0 p-4">
-              <div className="divide-gray-600 grid grid-cols-7 divide-x-2 md:ml-5 border-t-2 border-r-2 border-l-2 bg-darkblue">
+              <div className="divide-gray-600 grid grid-cols-7 divide-x-2 md:ml-5 border-t-2 border-r-2 border-l-2 bg-darkblue border-gray-600">
                 <div className="text-center font-bold text-gray-400 m-3">
                   日目
                 </div>
@@ -507,7 +494,7 @@ export default function intership() {
                   内容
                 </div>
               </div>
-              <div className="items-center divide-gray-600 grid grid-cols-7 divide-x-2 md:ml-5 border-t-2 border-r-2 border-l-2">
+              <div className="items-center divide-gray-600 grid grid-cols-7 divide-x-2 md:ml-5 border-t-2 border-r-2 border-l-2 border-gray-600">
                 <div className="text-center font-medium m-3">1</div>
                 <div className="p-2 col-span-5 font-medium text-gray-600 text-lg">
                   {" "}
@@ -515,79 +502,79 @@ export default function intership() {
                   ハウスキーピング研修（パブリックエリア）
                 </div>
               </div>
-              <div className="items-center divide-gray-600 grid grid-cols-7 divide-x-2 md:ml-5 border-t-2 border-r-2 border-l-2">
+              <div className="items-center divide-gray-600 grid grid-cols-7 divide-x-2 md:ml-5 border-t-2 border-r-2 border-l-2 border-gray-600">
                 <div className="text-center font-medium m-3">2</div>
                 <div className="p-2 col-span-5 font-medium text-gray-600 text-lg">
                   ハウスキーピング研修（パブリックエリア、ペストコ ントロール）
                 </div>
               </div>
-              <div className="divide-gray-600 grid grid-cols-7 divide-x-2  md:ml-5 border-t-2 border-r-2 border-l-2">
+              <div className="divide-gray-600 grid grid-cols-7 divide-x-2  md:ml-5 border-t-2 border-r-2 border-l-2 border-gray-600">
                 <div className="text-center font-medium m-3">3</div>
                 <div className="p-2 col-span-5 font-medium text-gray-600 text-lg">
                   休暇
                 </div>
               </div>
-              <div className="items-center divide-gray-600 grid grid-cols-7 divide-x-2  md:ml-5 border-t-2 border-r-2 border-l-2">
+              <div className="items-center divide-gray-600 grid grid-cols-7 divide-x-2  md:ml-5 border-t-2 border-r-2 border-l-2 border-gray-600">
                 <div className="text-center font-medium m-3">4</div>
                 <div className="p-2 col-span-5 font-medium text-gray-600 text-lg">
                   ハウスキーピング研修（ルームクリーニング）
                 </div>
               </div>
-              <div className="divide-gray-600 grid grid-cols-7 divide-x-2  md:ml-5 border-t-2 border-r-2 border-l-2">
+              <div className="divide-gray-600 grid grid-cols-7 divide-x-2  md:ml-5 border-t-2 border-r-2 border-l-2 border-gray-600">
                 <div className="text-center font-medium m-3">5</div>
                 <div className="p-2 col-span-5 font-medium text-gray-600 text-lg">
                   ハウスキーピング研修
                 </div>
               </div>
-              <div className="divide-gray-600 grid grid-cols-7 divide-x-2 md:ml-5 border-t-2 border-r-2 border-l-2">
+              <div className="divide-gray-600 grid grid-cols-7 divide-x-2 md:ml-5 border-t-2 border-r-2 border-l-2 border-gray-600">
                 <div className="text-center font-medium m-3">6</div>
                 <div className="p-2 col-span-5 font-medium text-gray-600 text-lg">
                   ハウスキーピング研修
                 </div>
               </div>
-              <div className="divide-gray-600 grid grid-cols-7 divide-x-2 md:ml-5 border-t-2 border-r-2 border-l-2">
+              <div className="divide-gray-600 grid grid-cols-7 divide-x-2 md:ml-5 border-t-2 border-r-2 border-l-2 border-gray-600">
                 <div className="text-center font-medium m-3">7</div>
                 <div className="p-2 col-span-5 font-medium text-gray-600 text-lg">
                   休暇
                 </div>
               </div>
-              <div className="items-center divide-gray-600 grid grid-cols-7 divide-x-2 md:ml-5 border-t-2 border-r-2 border-l-2">
+              <div className="items-center divide-gray-600 grid grid-cols-7 divide-x-2 md:ml-5 border-t-2 border-r-2 border-l-2 border-gray-600">
                 <div className="text-center font-medium m-3">8</div>
                 <div className="p-2 col-span-5 font-medium text-gray-600 text-lg">
                   レセプション研修（ベルスタッフ）
                 </div>
               </div>
-              <div className="divide-gray-600 grid grid-cols-7 divide-x-2 md:ml-5 border-t-2 border-r-2 border-l-2">
+              <div className="divide-gray-600 grid grid-cols-7 divide-x-2 md:ml-5 border-t-2 border-r-2 border-l-2 border-gray-600">
                 <div className="text-center font-medium m-3">9</div>
                 <div className="p-2 col-span-5 font-medium text-gray-600 text-lg">
                   レセプション研修（ジム）
                 </div>
               </div>
-              <div className="items-center divide-gray-600 grid grid-cols-7 divide-x-2 md:ml-5 border-t-2 border-r-2 border-l-2">
+              <div className="items-center divide-gray-600 grid grid-cols-7 divide-x-2 md:ml-5 border-t-2 border-r-2 border-l-2 border-gray-600">
                 <div className="text-center font-medium m-3">10</div>
                 <div className="p-2 col-span-5 font-medium text-gray-600 text-lg">
                   休暇
                 </div>
               </div>
-              <div className="items-center divide-gray-600 grid grid-cols-7 divide-x-2 md:ml-5 border-t-2 border-r-2 border-l-2">
+              <div className="items-center divide-gray-600 grid grid-cols-7 divide-x-2 md:ml-5 border-t-2 border-r-2 border-l-2 border-gray-600">
                 <div className="text-center font-medium m-3">11</div>
                 <div className="p-2 col-span-5 font-medium text-gray-600 text-lg">
                   レセプション研修（フロント）
                 </div>
               </div>
-              <div className="divide-gray-600 grid grid-cols-7 divide-x-2 md:ml-5 border-t-2 border-r-2 border-l-2">
+              <div className="divide-gray-600 grid grid-cols-7 divide-x-2 md:ml-5 border-t-2 border-r-2 border-l-2 border-gray-600">
                 <div className="text-center font-medium m-3">12</div>
                 <div className="p-2 col-span-5 font-medium text-gray-600 text-lg">
                   レセプション研修
                 </div>
               </div>
-              <div className="divide-gray-600 grid grid-cols-7 divide-x-2 md:ml-5 border-t-2 border-r-2 border-l-2">
+              <div className="divide-gray-600 grid grid-cols-7 divide-x-2 md:ml-5 border-t-2 border-r-2 border-l-2 border-gray-600">
                 <div className="text-center font-medium m-3">13</div>
                 <div className="p-2 col-span-5 font-medium text-gray-600 text-lg">
                   休暇
                 </div>
               </div>
-              <div className="divide-gray-600 grid grid-cols-7 divide-x-2 md:ml-5 border-2">
+              <div className="divide-gray-600 grid grid-cols-7 divide-x-2 md:ml-5 border-2 border-gray-600">
                 <div className="text-center font-medium m-3">14</div>
                 <div className="p-2 col-span-5 font-medium text-gray-600 text-lg">
                   レセプション研修
@@ -598,7 +585,7 @@ export default function intership() {
 
           <div className="mt-5">
             <div className="mb-5 p-4">
-              <div className="items-center divide-gray-600 grid grid-cols-3 divide-x-2 md:mr-5 border-t-2 border-r-2 border-l-2 border-gray-500">
+              <div className="items-center divide-gray-600 grid grid-cols-3 divide-x-2 md:mr-5 border-t-2 border-r-2 border-l-2 border-gray-600">
                 <div className="text-center font-medium m-3">
                   ハウスキーピング研修
                 </div>
@@ -606,7 +593,7 @@ export default function intership() {
                   マグカップ等食器洗いや店内清掃、飲食店に欠かせない基本を学びます。専用マシーンを使ったコーヒーを淹れるバリスタ業務、フレッシュジュース等の作り方を学び、実践します。
                 </div>
               </div>
-              <div className="items-center divide-gray-600 grid grid-cols-3 divide-x-2 md:mr-5 border-2 border-gray-500">
+              <div className="items-center divide-gray-600 grid grid-cols-3 divide-x-2 md:mr-5 border-2 border-gray-600">
                 <div className="text-center font-medium m-3">
                   レセプション研修
                 </div>
@@ -695,16 +682,13 @@ export default function intership() {
                   C64,12.99,63.57,12.55,63.03,12.55z M62.06,49.51H1.94V14.49h60.12V49.51z"
                 />
               </svg>
-              <p className="flex-1 text-gray-700 font-bold text-sm md:text-lg m-6">
-                通貨はドルとチャット（MMK)、1ヶ月の食費は約〇〇円　
+              <p className="text-gray-700 font-bold text-sm md:text-lg p-5">
+                通貨はドルとチャット（MMK)、1ヶ月の食費は約30,000円　※時期により変動します。
               </p>
             </div>
-            <p className="text-right font-medium text-lg text-gray-500 md:mr-80 md:-mt-10 mb-6">
-              ※時期により変動します。
-            </p>
             <div>
-              <p className="text-center font-medium md:text-lg text-gray-500 m-4">
-                1886年にイギリスの植民地なったことから通貨はドルとチャットが利用できます。
+              <p className="text-center font-medium md:text-lg text-gray-500 mx-4 -mt-8">
+                1886年にイギリスの植民地になったことから通貨はドルとチャットが利用できます。
               </p>
             </div>
           </div>
