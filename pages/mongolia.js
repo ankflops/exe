@@ -97,12 +97,11 @@ const mongolia = () => {
                     設立以来、IT、数学、英語の全国大会やウランバートル市の大会などで毎年数多くのメダルを獲得しており、教育機関からの全額奨学金を受け米国、カナダ、日本へ留学する生徒も輩出しています。本校の生徒たちは、モンゴルだけでなく、世界をリードする国際的にトップ・レベルのプロフェッショナルになれると信じています。
                   </p>
                   <br></br>
-                  Sanaa EXE LLC <br></br>
+                  Olonlog EXE School of Ulaanbaatar<br></br>
                   <br></br>
-                  EXE Plaza, Tumurchnii street 7/1, Chingeltei district,
-                  Ulaanbaatar 15171, Mongolia Myanmar<br></br>
-                  Tel: (976) 11 325 552 / Fax: (976) 11 325 552 / E-mail:
-                  info@exeplaza.mn<br></br>
+                  Tumurchin Avenue 7/1, Chingeltei district, Ulaanbaatar 15171,
+                  Mongolia<br></br>
+                  Tel: (976) 9999 8306 / E-mail: info@exe.edu.mn<br></br>
                 </div>
               </div>
             </div>
