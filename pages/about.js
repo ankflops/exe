@@ -90,19 +90,15 @@ const about = () => {
           <div className="items-center divide-black grid grid-cols-3 divide-x border-t-2 border-r-2 border-l-2 border-t-black border-r-black border-l-black">
             <div className="text-center font-medium">海外事業所</div>
             <div className="col-span-2 p-4">
-              ヤンゴン・オフィス（ミャンマー）<br></br>#0505 Sakura Tower, 339
-              Bogyoke Aung San Road, Kyauktada Township, Yangon, Myanmar
-              <br></br>
-              <a className="text-xs md:text-base">
-                Tel: (951) 255 255 / Fax: (951) 255 258 /
-              </a>
-              <br></br>E-mail:{" "}
-              <a className="text-xs md:text-base">stowersales@myanmar.com.mm</a>
-              <br></br>ウランバートル・オフィス～サナ・エクセ内～（モンゴル）
-              <br></br>EXE Plaza, Tumurchnii Sreet 7/1, Chingeltei District,
-              Ulaanbaatar 15171 Mongolia
-              <br></br>Tel (976) 11 325552 / Fax (976) 11 325552 / E-mail
-              info@exeplaza.mn
+              ヤンゴン・オフィス（ミャンマー）<br></br>
+              #0505 Sakura Tower, 339 Bogyoke Aung San Road, Kyauktada Township,
+              Yangon, Myanmar<br></br>
+              Tel: (951) 255 255 / Fax: (951) 255 258 /<br></br>
+              E-mail: stowersales@myanmar.com.mm<br></br>
+              ウランバートル・オフィス（モンゴル）<br></br>
+              Tumurchin Avenue 7/1, Chingeltei District, Ulaanbaatar 15171
+              Mongolia<br></br>
+              Tel (976) 9999 8306 / E-mail info@exe.edu.mn
             </div>
           </div>
           <div className="items-center divide-black grid grid-cols-3 divide-x border-t-2 border-r-2 border-l-2 border-t-black border-r-black border-l-black">
@@ -126,14 +122,16 @@ const about = () => {
             <div className="col-span-2 p-4">
               EXE Sakura
               tower(シンガポール）：ミャンマー（ヤンゴン）におけるサクラタワーの経営
-              <br></br>EXE Sakura
+              <br></br>
+              EXE Sakura
               Residence(シンガポール）：ミャンマー（ヤンゴン）におけるサクラレジデンスの経営
-              <br></br>Sakura
+              <br></br>
+              Sakura
               Thiripyitsaya（シンガポール）：ミャンマー（バガン）におけるティリピセヤ・サンクチュアリ・リゾートの経営
-              <br></br>Sanaa EXE
-              LLC（モンゴル）：モンゴル（ウランバートル）におけるエクセショッピングプラザの運営
-              <br></br>Turquoise Financce（モンゴル）：ノンバンク
-              <br></br>Olonlog EXE（モンゴル）：ITスクール
+              <br></br>
+              Sanaa EXE LLC（モンゴル）：ウランバートルにおける投資会社<br></br>
+              Turquoise Financce（モンゴル）：ノンバンク<br></br>
+              Olonlog EXE（モンゴル）：ITスクール<br></br>
             </div>
           </div>
         </div>
@@ -178,7 +176,8 @@ const about = () => {
           <div className="items-center divide-black grid grid-cols-3 divide-x border-t-2 border-r-2 border-l-2 border-t-black border-b-2 border-b-black border-r-black border-l-black">
             <div className="text-center font-medium">2016年</div>
             <div className="col-span-2 p-4">
-              モンゴルにて教育事業会社Olonlog EXEを設立金融事業へと展開を広げる
+              モンゴルにて教育事業会社Olonlog
+              EXEを設立、教育事業へと展開を広げる
             </div>
           </div>
         </div>
