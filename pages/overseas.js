@@ -48,7 +48,7 @@ const overseas = () => {
               </h2>
               <p className="my-4 text-lg font-medium text-gray-500 text-justify">
                 2010年に日本初の投資事業会社Sanaa EXE
-                LLCを設立し、不動産投資事業、金融事業、教育事業を展開しています。エクセプラザ、Olonglog」スクールを運営しています。
+                LLCを設立し、不動産投資事業、金融事業、教育事業を展開しています。エクセプラザ、Olonlog」スクールを運営しています。
               </p>
               <div className="flex justify-center lg:justify-start">
                 <Link href="/mongolia">

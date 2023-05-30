@@ -33,7 +33,7 @@ export default function Navbar({ fixed }) {
               type="button"
               onClick={() => setNavbarOpen(!navbarOpen)}
             >
-              <i className="fas fa-bars"></i>
+              <i className="fas fa-bars mr-8 lg:mr-0"></i>
             </button>
           </div>
           <div
@@ -88,7 +88,7 @@ export default function Navbar({ fixed }) {
               <div className="flex justify-center">
                 <li className="nav-item">
                   <div className="flex justify-center">
-                    <div className="dropdown">
+                    <div className="dropdown -ml-8 md:ml-0">
                       <span className="flex items-center md:px-6 pt-2.5 pb-2 text-sm font-medium uppercase leading-normal text-white -mt-0.5">
                         海外プロジェクト
                       </span>
@@ -120,10 +120,10 @@ export default function Navbar({ fixed }) {
               </li>
 
               <div className="flex justify-center">
-                <li className="nav-item">
+                <li className="nav-item1">
                   <div className="flex justify-center">
                     <div className="dropdown text-white">
-                      <span className="flex items-center bg-darkblue lg:px-6 pt-2.5 pb-2 text-sm font-medium uppercase leading-normal text-white -mt-0.5">
+                      <span className="flex items-center bg-darkblue lg:px-6 px-4 pt-2.5 pb-2 text-sm font-medium uppercase leading-normal text-white -mt-0.5">
                         インターンシップ・採用
                       </span>
                       <div className="dropdown-content text-center">

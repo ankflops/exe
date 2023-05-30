@@ -10,7 +10,7 @@ const Slider = () => {
       }}
     >
       <div
-        className="absolute top-20 right-0 bottom-0 left-20 h-full w-full overflow-hidden bg-fixed"
+        className="absolute top-6 sm:top-20 right-0 bottom-0 left-6 sm:left-20 h-full w-full overflow-hidden bg-fixed"
         style={{ backgroundColor: "rgba(0, 0, 0, 0)" }}
       >
         <div className="text-sm sm:text-2xl md:text-4xl xl:text-5xl md:mb-0 md:pb-4 md:max-w-3xl text-[#0E1447] font-bold">

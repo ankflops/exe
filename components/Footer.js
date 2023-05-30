@@ -57,7 +57,7 @@ const Footer = () => {
       </div>
       <div className="bg-darkblue grid gap-0 sm:grid-cols-2 md:grid-cols-7 lg:grid-cols-10 w-full p-4 md:p-12 text-xs md:text-base">
         <div className="sm:col-span-1 md:col-span-3 lg:col-span-4 max-w-lg md:pl-4 mt-4 md:p-4">
-          <h2 className="ml-4 underline text-white text-md mb-8">
+          <h2 className="ml-4 underline text-white text-base mb-8">
             お問い合わせ
           </h2>
 
