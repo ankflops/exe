@@ -94,7 +94,7 @@ const about = () => {
               #0505 Sakura Tower, 339 Bogyoke Aung San Road, Kyauktada Township,
               Yangon, Myanmar<br></br>
               Tel: (951) 255 255 / Fax: (951) 255 258 /<br></br>
-              E-mail: stowersales@myanmar.com.mm<br></br>
+              E-mail:<br></br><a className="text-sm">stowersales@myanmar.com.mm</a><br></br>
               ウランバートル・オフィス（モンゴル）<br></br>
               Tumurchin Avenue 7/1, Chingeltei District, Ulaanbaatar 15171
               Mongolia<br></br>
