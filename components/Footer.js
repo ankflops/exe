@@ -61,7 +61,7 @@ const Footer = () => {
             お問い合わせ
           </h2>
 
-          <ul className="text-gray-300 font-light pl-4 list-none w-full">
+          <ul className="text-gray-300 pl-4 list-none w-full">
             <div className="flex">
               <svg
                 xmlns="http://www.w3.org/2000/svg"
@@ -73,7 +73,7 @@ const Footer = () => {
               >
                 <path d="M12 0c-4.198 0-8 3.403-8 7.602 0 4.198 3.469 9.21 8 16.398 4.531-7.188 8-12.2 8-16.398 0-4.199-3.801-7.602-8-7.602zm0 11c-1.657 0-3-1.343-3-3s1.343-3 3-3 3 1.343 3 3-1.343 3-3 3z" />
               </svg>
-              <li className="font-bold">
+              <li className="font-bold text-base">
                 〒102-0083 東京都千代田区麹町1-10-5
                 <br /> 澤田麹町ビル6階
               </li>
@@ -89,7 +89,7 @@ const Footer = () => {
               >
                 <path d="M8.26 1.289l-1.564.772c-5.793 3.02 2.798 20.944 9.31 20.944.46 0 .904-.094 1.317-.284l1.542-.755-2.898-5.594-1.54.754c-.181.087-.384.134-.597.134-2.561 0-6.841-8.204-4.241-9.596l1.546-.763-2.875-5.612zm7.746 22.711c-5.68 0-12.221-11.114-12.221-17.832 0-2.419.833-4.146 2.457-4.992l2.382-1.176 3.857 7.347-2.437 1.201c-1.439.772 2.409 8.424 3.956 7.68l2.399-1.179 3.816 7.36s-2.36 1.162-2.476 1.215c-.547.251-1.129.376-1.733.376" />
               </svg>
-              <li className="font-bold">(81) 3-3288-2371</li>
+              <li className="font-bold text-base">(81) 3-3288-2371</li>
             </div>
             <div className="flex mt-8">
               <svg
@@ -106,7 +106,7 @@ const Footer = () => {
                 {" "}
                 <a
                   href="mailto:info@exegroup.co.jp"
-                  className="font-bold hover:text-blue-500"
+                  className="font-bold hover:text-blue-500 text-base"
                 >
                   {" "}
                   info@exegroup.co.jp{" "}
@@ -117,11 +117,13 @@ const Footer = () => {
         </div>
 
         <div className="font-bold max-w-lg mt-8 md:col-span-2 lg:col-span-2 pl-4">
-          <h2 className="mb-5 text-white text-md underline">エクセについて</h2>
+          <h2 className="mb-5 text-white text-base underline">
+            エクセについて
+          </h2>
           <ul className="text-gray-300 font-light list-none">
             <li className="nav-item">
               <Link href="/about">
-                <a className="font-bold py-2 flex items-center text-md text-white hover:text-sky-300">
+                <a className="font-bold py-2 flex items-center text-base text-white hover:text-sky-300">
                   <span className="">会社概要</span>
                 </a>
               </Link>
@@ -134,28 +136,28 @@ const Footer = () => {
           <ul className="text-gray-300 font-light list-none">
             <li className="nav-item">
               <Link href="/overseas">
-                <a className="font-bold py-2 flex items-center text-md text-white hover:text-sky-300">
+                <a className="font-bold py-2 flex items-center text-base text-white hover:text-sky-300">
                   <span className="">海外プロジェクト</span>
                 </a>
               </Link>
             </li>
             <li className="nav-item">
               <Link href="/myanmar">
-                <a className="font-bold py-2 flex items-center text-md text-white hover:text-sky-300">
+                <a className="font-bold py-2 flex items-center text-base text-white hover:text-sky-300">
                   <span className="">- ミャンマー</span>
                 </a>
               </Link>
             </li>
             <li className="nav-item">
               <Link href="/mongolia">
-                <a className="font-bold py-2 flex items-center text-md text-white hover:text-sky-300">
+                <a className="font-bold py-2 flex items-center text-base text-white hover:text-sky-300">
                   <span className="">- モンゴル</span>
                 </a>
               </Link>
             </li>
             <li className="nav-item">
               <Link href="/domestic">
-                <a className="font-bold py-2 flex items-center text-md text-white hover:text-sky-300">
+                <a className="font-bold py-2 flex items-center text-base text-white hover:text-sky-300">
                   <span className="">国内プロジェクト</span>
                 </a>
               </Link>
@@ -163,20 +165,20 @@ const Footer = () => {
           </ul>
         </div>
         <div className="font-bold max-w-lg pl-4 mt-4 md:p-4 md:ml-2 sm:col-span-1 md:col-span-3 lg:col-span-2">
-          <h2 className="mb-5 text-white text-md underline ">
+          <h2 className="mb-5 text-white text-base underline ">
             インターンシップ・採用
           </h2>
           <ul className="text-gray-300 font-light list-none">
             <li className="nav-item">
               <Link href="/intership">
-                <a className="font-bold py-2 flex items-center text-md text-white hover:text-sky-300">
+                <a className="font-bold py-2 flex items-center text-base text-white hover:text-sky-300">
                   <span className=" ">インターンシップ</span>
                 </a>
               </Link>
             </li>
             <li className="nav-item">
               <Link href="/recruit">
-                <a className="font-bold py-2 flex items-center text-md text-white hover:text-sky-300">
+                <a className="font-bold py-2 flex items-center text-base text-white hover:text-sky-300">
                   <span className="">新卒・中途採用</span>
                 </a>
               </Link>
@@ -190,11 +192,6 @@ const Footer = () => {
         href="#"
       >
         <i className="fa-sharp fa-solid fa-arrow-up"></i>
-        {/* <FontAwesomeIcon
-        icon={faAmbulance}
-        style={{ fontSize: 100, color: "orange" }}
-      />
-      <FontAwesomeIcon icon=" fa-arrow-up" /> */}
       </a>
 
       <div className="text-center text-sm font-bold bg-darkblue text-gray-300 p-2">

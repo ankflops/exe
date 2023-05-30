@@ -46,7 +46,7 @@ export default function Navbar({ fixed }) {
             <ul className="flex flex-col lg:flex-row list-none lg:ml-auto justify-start">
               <li className="nav-item">
                 <Link href="/">
-                  <a className="px-2 py-2 flex items-center text-sm uppercase leading-snug text-white hover:text-sky-300">
+                  <a className="px-3 py-2 flex items-center text-sm uppercase leading-snug text-white hover:text-sky-300">
                     <span className="ml-2">ホーム</span>
                   </a>
                 </Link>
@@ -56,7 +56,7 @@ export default function Navbar({ fixed }) {
                 <div>
                   <div className="dropdown relative">
                     <Link href="/about">
-                      <a className="px-0 py-2 flex items-center text-sm uppercase leading-snug text-white hover:text-sky-300">
+                      <a className="px-1 py-2 flex items-center text-sm uppercase leading-snug text-white hover:text-sky-300">
                         <span className="ml-2">エクセについて</span>
                       </a>
                     </Link>
@@ -89,7 +89,7 @@ export default function Navbar({ fixed }) {
                 <li className="nav-item">
                   <div className="flex justify-center">
                     <div className="dropdown">
-                      <span className="flex items-center px-6 pt-2.5 pb-2 text-sm font-medium uppercase leading-normal text-white -mt-0.5">
+                      <span className="flex items-center md:px-6 pt-2.5 pb-2 text-sm font-medium uppercase leading-normal text-white -mt-0.5">
                         海外プロジェクト
                       </span>
                       <div className="dropdown-content text-center">
@@ -113,7 +113,7 @@ export default function Navbar({ fixed }) {
 
               <li className="nav-item">
                 <Link href="/domestic">
-                  <a className="px-2 py-2 flex items-center text-sm uppercase leading-snug text-white hover:text-sky-300">
+                  <a className="px-3 py-2 flex items-center text-sm uppercase leading-snug text-white hover:text-sky-300">
                     <span className="ml-2">国内プロジェクト</span>
                   </a>
                 </Link>
@@ -123,7 +123,7 @@ export default function Navbar({ fixed }) {
                 <li className="nav-item">
                   <div className="flex justify-center">
                     <div className="dropdown text-white">
-                      <span className="flex items-center bg-darkblue px-6 pt-2.5 pb-2 text-sm font-medium uppercase leading-normal text-white -mt-0.5">
+                      <span className="flex items-center bg-darkblue lg:px-6 pt-2.5 pb-2 text-sm font-medium uppercase leading-normal text-white -mt-0.5">
                         インターンシップ・採用
                       </span>
                       <div className="dropdown-content text-center">

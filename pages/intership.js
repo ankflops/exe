@@ -97,13 +97,6 @@ export default function intership() {
         <div className="px-4">
           <div className="border-solid border-2 border-[#a7adaf] rounded-[24px] ">
             <div className="flex flex-col md:flex-row justify-center">
-              <div className="">
-                <img
-                  src="/assets/img/sad.jpeg"
-                  className="h-64 w-auto mx-auto"
-                  loading="lazy"
-                />
-              </div>
               <div>
                 <div className="md:text-2xl font-bold text-gray-700">
                   <h2 className="text-center text-gray-700 font-semibold md:m-4 m-2">
@@ -112,15 +105,32 @@ export default function intership() {
                     <a className="md:text-3xl">/ </a>
                   </h2>
                 </div>
-                <div className="text-gray-600 md:px-20 px-4 py-5 md:text-lg text-sm">
-                  ・留学費用が高い
-                  <br /> ・ゆっくりと語学を学びたい
-                  <br /> ・人と違った経験がしたい
-                  <br /> ・初めての海外で不安がある
-                  <br /> ・語学学校ではなく実務経験を積みたい
+                <div className="flex">
+                  <img
+                    src="/assets/img/sad.jpeg"
+                    className="h-64 w-auto mx-auto hidden md:block"
+                    loading="lazy"
+                  />
+                  <div className="text-gray-600 md:px-20 px-4 py-5 md:text-lg text-sm">
+                    ・留学費用が高い
+                    <br /> ・ゆっくりと語学を学びたい
+                    <br /> ・人と違った経験がしたい
+                    <br /> ・初めての海外で不安がある
+                    <br /> ・語学学校ではなく実務経験を積みたい
+                  </div>
+                  <img
+                    src="/assets/img/sad2.jpeg"
+                    className="h-64 w-auto mx-auto hidden md:block"
+                    loading="lazy"
+                  />
                 </div>
               </div>
-              <div className="">
+              <div className="flex md:hidden">
+                <img
+                  src="/assets/img/sad.jpeg"
+                  className="h-64 w-auto mx-auto"
+                  loading="lazy"
+                />
                 <img
                   src="/assets/img/sad2.jpeg"
                   className="h-64 w-auto mx-auto"
@@ -222,7 +232,7 @@ export default function intership() {
           </div>
         </div>
         <br />
-        <div className="row md:px-10 ">
+        <div className="row md:px-10 px-4">
           <div className=" border-collapse border border-1 border-gray-600 text-center bg-darkblue text-white p-4">
             会社概要
           </div>
@@ -470,7 +480,7 @@ export default function intership() {
                 </div>
               </div>
             </div>
-            <div className="md:pl-4 md:p-8">
+            <div className="md:pl-4 md:p-8 px-4">
               <ImageGallery items={images} />
             </div>
           </div>
@@ -602,7 +612,7 @@ export default function intership() {
                 </div>
               </div>
             </div>
-            <div className="md:pl-4 md:p-8">
+            <div className="md:pl-4 md:p-8 px-4">
               <ImageGallery items={images2} />
             </div>
           </div>
@@ -630,15 +640,15 @@ export default function intership() {
                 宿泊費用は無料、負担は渡航費（保険含む）と食費・生活費のみ
               </p>
             </div>
-            <div className="md:flex grid grid-cols-1 md:grid-cols-2">
-              <img
-                src="/assets/img/7.jpg"
-                className="w-[100%] md:w-[50%] h-auto mx-auto md:px-10"
-                loading="lazy"
-              />
-              <p className="md:pr-10 p-2 text-justify font-medium text-lg text-gray-500">
+            <div className="md:flex md:flex-row-reverse grid grid-cols-1 md:grid-cols-2">
+              <p className="md:pr-10 p-2 text-justify font-medium text-lg text-gray-500 ">
                 エクセが運営するサクラレジデンスに宿泊いただきます。日本人スタッフも常駐しているので安心です。ジム、プールなどのファシリティーも充実しており、ミニマートでは日本の食品なども購入可能で、レストランは日本食も対応しており休日もゆっくりとお過ごし頂けるアパートです。
               </p>
+              <img
+                src="/assets/img/7.jpg"
+                className="w-[100%] md:w-[50%] h-auto mx-auto md:px-10 px-4"
+                loading="lazy"
+              />
             </div>
             <div className="flex">
               <img
@@ -651,7 +661,7 @@ export default function intership() {
               </p>
             </div>
             <div>
-              <p className="text-center text-gray-700 font-bold text-sm md:text-lg">
+              <p className="text-center text-gray-700 font-bold text-sm md:text-lg px-4">
                 NRT（成田空港）⇒BKK（タイ・バンコク経由）⇒RGN（ヤンゴン国際空港）
               </p>
               <p className="text-center m-4 font-medium text-lg text-gray-500">
