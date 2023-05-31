@@ -1,7 +1,6 @@
 import React from "react";
 import MainLayout from "../layout/MainLayout";
 import Link from "next/link";
-import LazyLoad from "react-lazy-load";
 
 const myanmar = () => {
   return (

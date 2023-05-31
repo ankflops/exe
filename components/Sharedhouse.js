@@ -1,6 +1,5 @@
 import React from "react";
 import Link from "next/link";
-import LazyLoad from "react-lazy-load";
 
 const Sharedhouse = () => {
   return (

@@ -1,7 +1,4 @@
 import MainLayout from "../layout/MainLayout";
-import Head from "next/head";
-import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
-import LazyLoad from "react-lazy-load";
 
 const contact = () => {
   return (
@@ -66,7 +63,7 @@ const contact = () => {
                     </a>
                   </li>
                 </div>
-              
+
                 <h2 className="text-xl md:text-3xl font-bold m-8">
                   お問い合わせ
                 </h2>

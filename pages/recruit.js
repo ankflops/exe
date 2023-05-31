@@ -1,6 +1,5 @@
 import React from "react";
 import MainLayout from "../layout/MainLayout";
-
 import { Fragment, useState } from "react";
 import {
   Accordion,
